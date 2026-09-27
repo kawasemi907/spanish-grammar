@@ -1,0 +1,119 @@
+{
+  "id": 18,
+  "title": "未来形・tú肯定命令",
+  "explain": {
+    "sections": [
+      {
+        "title": "未来形",
+        "body": "<p><b>不定詞</b>にそのまま語尾をつける（-ar・-er・-ir 共通）：<b>-é, -ás, -á, -emos, -éis, -án</b></p><p><span class='es'>hablaré, comerás, vivirá, iremos…</span></p><p>語幹が不規則なもの：</p><table><tr><td>tener → <b>tendr</b>é</td><td>venir → <b>vendr</b>é</td><td>poner → <b>pondr</b>é</td><td>salir → <b>saldr</b>é</td></tr><tr><td>poder → <b>podr</b>é</td><td>saber → <b>sabr</b>é</td><td>querer → <b>querr</b>é</td><td>haber → <b>habr</b>é</td></tr><tr><td>hacer → <b>har</b>é</td><td>decir → <b>dir</b>é</td><td colspan='2'></td></tr></table>"
+      },
+      {
+        "title": "未来形の使い方",
+        "body": "<ul><li><b>未来の予測・意志</b>：<span class='es'>Mañana lloverá.</span> <span class='es'>El año que viene viviré en México.</span></li><li><b>現在の推量</b>「〜だろう」：<span class='es'>¿Dónde está Diego? —Estará en el bar.</span> <span class='es'>Serán las diez.</span></li></ul><p>会話の近い予定は <span class='es'>ir a + 不定詞</span> を使うことが多い。</p>"
+      },
+      {
+        "title": "tú の肯定命令",
+        "body": "<p>ふつうは<b>直説法現在の3人称単数</b>と同じ形：<span class='es'>habla, come, escribe, cierra, duerme</span></p><p>不規則は8つ：</p><table><tr><td>decir → <b>di</b></td><td>hacer → <b>haz</b></td><td>ir → <b>ve</b></td><td>poner → <b>pon</b></td></tr><tr><td>salir → <b>sal</b></td><td>ser → <b>sé</b></td><td>tener → <b>ten</b></td><td>venir → <b>ven</b></td></tr></table><p>代名詞は<b>後ろにつなげる</b>（強勢の位置にアクセント記号）：<span class='es'>Cómelo. Dímelo. Siéntate.</span></p><p>※ 否定命令と usted の命令はユニット23。</p>"
+      }
+    ],
+    "french": "<ul><li>未来形は仏語の単純未来と同じ作り（不定詞＋語尾）：<span class='es'>hablaré</span> ＝ je parlerai。</li><li>不規則な語幹もよく似ている：<span class='es'>tendré</span>（tiendrai）、<span class='es'>vendré</span>（viendrai）、<span class='es'>podré</span>（pourrai）、<span class='es'>sabré</span>（saurai）、<span class='es'>haré</span>（ferai）。</li><li>現在の推量：仏語は <b>devoir</b> を使うことが多い：<span class='es'>Estará en el bar.</span>（Il doit être au bar.）</li><li>tú の命令：仏語の <b>parle</b>（-er 動詞は s を取る）に対し西語は <span class='es'>habla</span>。代名詞を後ろにつなげるのも同じ：<span class='es'>Dímelo.</span>（Dis-le-moi.）ただし西語は1語で書き、ハイフンを使わない。</li></ul>",
+    "examples": [
+      { "es": "Mañana lloverá en Madrid.", "en": "It will rain in Madrid tomorrow.", "fr": "Demain, il pleuvra à Madrid." },
+      { "es": "El año que viene viviré en México.", "en": "Next year I'll live in Mexico.", "fr": "L'année prochaine, je vivrai au Mexique." },
+      { "es": "¿Dónde está Diego? —Estará en el bar.", "en": "Where's Diego? —He's probably at the bar.", "fr": "Où est Diego ? — Il doit être au bar." },
+      { "es": "Te lo diré mañana.", "en": "I'll tell you tomorrow.", "fr": "Je te le dirai demain." },
+      { "es": "Habla más despacio, por favor.", "en": "Speak more slowly, please.", "fr": "Parle plus lentement, s'il te plaît." },
+      { "es": "Ven aquí y siéntate.", "en": "Come here and sit down.", "fr": "Viens ici et assieds-toi." },
+      { "es": "Haz los deberes y después sal con tus amigos.", "en": "Do your homework and then go out with your friends.", "fr": "Fais tes devoirs et ensuite sors avec tes amis." },
+      { "es": "¿La tortilla? Cómela, está riquísima.", "en": "The tortilla? Eat it, it's delicious.", "fr": "La tortilla ? Mange-la, elle est délicieuse." }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "conj", "verb": "hablar", "person": "yo", "tense": "未来", "sentence": "Mañana ___ con el profesor.", "answer": ["hablaré"], "explain": "不定詞 ＋ <b>é</b>：hablaré。" },
+    { "id": "q02", "type": "conj", "verb": "comer", "person": "tú", "tense": "未来", "sentence": "¿Qué ___ esta noche?", "answer": ["comerás"], "explain": "不定詞 ＋ <b>ás</b>：comerás。" },
+    { "id": "q03", "type": "conj", "verb": "tener", "person": "él", "tense": "未来", "sentence": "Diego ___ un examen el lunes.", "answer": ["tendrá"], "explain": "tener の未来語幹は <b>tendr-</b>。" },
+    { "id": "q04", "type": "conj", "verb": "hacer", "person": "nosotros", "tense": "未来", "sentence": "___ una fiesta en casa.", "answer": ["Haremos"], "explain": "hacer の未来語幹は <b>har-</b>。" },
+    { "id": "q05", "type": "conj", "verb": "venir", "person": "ellos", "tense": "未来", "sentence": "Mis padres ___ en agosto.", "answer": ["vendrán"], "explain": "venir の未来語幹は <b>vendr-</b>。" },
+    { "id": "q06", "type": "conj", "verb": "salir", "person": "vosotros", "tense": "未来", "sentence": "¿A qué hora ___?", "answer": ["saldréis"], "explain": "salir の未来語幹は <b>saldr-</b>。" },
+    { "id": "q07", "type": "conj", "verb": "decir", "person": "yo", "tense": "未来", "sentence": "Te lo ___ mañana.", "answer": ["diré"], "explain": "decir の未来語幹は <b>dir-</b>。" },
+    { "id": "q08", "type": "conj", "verb": "poder", "person": "usted", "tense": "未来", "sentence": "¿___ usted venir mañana?", "answer": ["Podrá"], "explain": "poder の未来語幹は <b>podr-</b>。" },
+    { "id": "q09", "type": "fill", "prompt": "tú の肯定命令にしよう（hablar）", "sentence": "___ más despacio, por favor.", "answer": ["Habla"], "explain": "tú の肯定命令＝直説法現在3人称単数：<b>habla</b>。" },
+    { "id": "q10", "type": "fill", "prompt": "tú の肯定命令にしよう（venir）", "sentence": "___ aquí, Churro.", "answer": ["Ven"], "explain": "venir の tú の命令は不規則：<b>ven</b>。" },
+    { "id": "q11", "type": "fill", "prompt": "tú の肯定命令にしよう（hacer）", "sentence": "___ los deberes.", "answer": ["Haz"], "explain": "hacer の tú の命令は不規則：<b>haz</b>。" },
+    { "id": "q12", "type": "fill", "prompt": "tú の肯定命令にしよう（poner）", "sentence": "___ la mesa, por favor.", "answer": ["Pon"], "explain": "poner の tú の命令は不規則：<b>pon</b>。" },
+    { "id": "q13", "type": "choice", "prompt": "「それを私に言って」", "sentence": "¿Qué pasa? ___.", "options": ["Dímelo", "Dime lo", "Me lo di"], "answer": "Dímelo", "explain": "肯定命令は代名詞を<b>後ろに1語でつなげる</b>：di ＋ me ＋ lo → <b>dímelo</b>（アクセント記号つき）。" },
+    { "id": "q14", "type": "choice", "prompt": "現在の推量「10時ごろだろう」", "sentence": "No sé la hora. ___ las diez.", "options": ["Serán", "Son", "Fueron"], "answer": "Serán", "explain": "未来形で<b>現在の推量</b>：serán。" },
+    { "id": "q15", "type": "choice", "prompt": "sentarse の tú の肯定命令", "sentence": "Estás cansada. ___ aquí.", "options": ["Siéntate", "Te sienta", "Sientas"], "answer": "Siéntate", "explain": "sienta ＋ te → <b>siéntate</b>。" },
+    { "id": "q16", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Mañana", "lloverá", "en", "Madrid"], "answer": ["Mañana lloverá en Madrid", "En Madrid lloverá mañana"], "en": "It will rain in Madrid tomorrow.", "fr": "Demain, il pleuvra à Madrid.", "explain": "llover の未来3人称単数 <b>lloverá</b>。" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Ven", "aquí", "y", "siéntate"], "answer": ["Ven aquí y siéntate"], "en": "Come here and sit down.", "fr": "Viens ici et assieds-toi.", "explain": "ven（不規則）と siéntate（代名詞つき）。" },
+    { "id": "q18", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["El", "año", "que", "viene", "viviré", "en", "México"], "answer": ["El año que viene viviré en México", "Viviré en México el año que viene"], "en": "Next year I'll live in Mexico.", "fr": "L'année prochaine, je vivrai au Mexique.", "explain": "<span class='es'>el año que viene</span>＝来年。" }
+  ],
+  "reading": {
+    "title": "Lucía y las estrellas",
+    "sentences": [
+      { "p": true, "es": "Lucía lee el horóscopo todas las mañanas.", "en": "Lucía reads her horoscope every morning.", "fr": "Lucía lit son horoscope tous les matins." },
+      { "es": "—Escuchad: «Géminis. Este mes tendrás mucha suerte. Conocerás a una persona especial y harás un viaje largo».", "en": "\"Listen: 'Gemini. This month you'll have lots of luck. You'll meet a special person and you'll go on a long trip.'\"", "fr": "« Écoutez : “Gémeaux. Ce mois-ci, tu auras beaucoup de chance. Tu rencontreras une personne spéciale et tu feras un long voyage.” »" },
+      { "es": "—¿Y el mío? —pregunta Diego—. Soy Leo.", "en": "\"And mine?\" asks Diego. \"I'm a Leo.\"", "fr": "« Et le mien ? demande Diego. Je suis Lion. »" },
+      { "es": "—«Leo. Comerás demasiado y dormirás poco».", "en": "\"'Leo. You'll eat too much and sleep too little.'\"", "fr": "« “Lion. Tu mangeras trop et tu dormiras peu.” »" },
+      { "es": "—Eso no es el futuro —dice Yuki—. ¡Es el presente!", "en": "\"That's not the future,\" says Yuki. \"That's the present!\"", "fr": "« Ce n'est pas l'avenir, dit Yuki. C'est le présent ! »" },
+      { "p": true, "es": "La abuela Carmen no cree en las estrellas. Ella tiene sus propios consejos.", "en": "Grandma Carmen doesn't believe in the stars. She has her own advice.", "fr": "Grand-mère Carmen ne croit pas aux étoiles. Elle a ses propres conseils." },
+      { "es": "—Lucía, sal menos y duerme más.", "en": "\"Lucía, go out less and sleep more.\"", "fr": "« Lucía, sors moins et dors plus." },
+      { "es": "Diego, come verdura, no solo tacos.", "en": "\"Diego, eat vegetables, not just tacos.\"", "fr": "Diego, mange des légumes, pas seulement des tacos." },
+      { "es": "Yuki, habla más y ten paciencia con los verbos.", "en": "\"Yuki, talk more and be patient with the verbs.\"", "fr": "Yuki, parle davantage et sois patiente avec les verbes. »" },
+      { "p": true, "es": "—¿Y yo? —parece preguntar Churro con sus ojos grandes.", "en": "\"And me?\" Churro seems to ask with his big eyes.", "fr": "« Et moi ? » semble demander Churro avec ses grands yeux." },
+      { "es": "—Tú, Churro, ven aquí y siéntate conmigo.", "en": "\"You, Churro, come here and sit with me.\"", "fr": "« Toi, Churro, viens ici et assieds-toi avec moi." },
+      { "es": "Tu futuro es muy fácil: mañana dormirás en el sofá, como hoy y como siempre.", "en": "\"Your future is very easy: tomorrow you'll sleep on the sofa, like today and like always.\"", "fr": "Ton avenir est très simple : demain, tu dormiras sur le canapé, comme aujourd'hui et comme toujours. »" }
+    ],
+    "glossary": {
+      "estrellas": { "lemma": "estrella", "en": "star", "fr": "étoile", "note": "複数形" },
+      "lee": { "lemma": "leer", "en": "to read", "fr": "lire", "note": "3人称単数・現在" },
+      "horóscopo": { "lemma": "horóscopo", "en": "horoscope", "fr": "horoscope" },
+      "mañanas": { "lemma": "mañana", "en": "morning", "fr": "matin", "note": "複数形。todas las mañanas = 毎朝" },
+      "escuchad": { "lemma": "escuchar", "en": "to listen", "fr": "écouter", "note": "vosotros の肯定命令（不定詞の r → d）" },
+      "géminis": { "lemma": "Géminis", "en": "Gemini", "fr": "Gémeaux" },
+      "mes": { "lemma": "mes", "en": "month", "fr": "mois" },
+      "tendrás": { "lemma": "tener", "en": "to have", "fr": "avoir", "note": "2人称単数・未来" },
+      "suerte": { "lemma": "suerte", "en": "luck", "fr": "chance" },
+      "conocerás": { "lemma": "conocer", "en": "to meet, to get to know", "fr": "rencontrer", "note": "2人称単数・未来" },
+      "persona": { "lemma": "persona", "en": "person", "fr": "personne" },
+      "especial": { "lemma": "especial", "en": "special", "fr": "spécial" },
+      "harás": { "lemma": "hacer", "en": "to do, to make", "fr": "faire", "note": "2人称単数・未来" },
+      "viaje": { "lemma": "viaje", "en": "trip, journey", "fr": "voyage" },
+      "largo": { "lemma": "largo", "en": "long", "fr": "long", "note": "「大きい」ではないので注意" },
+      "mío": { "lemma": "mío", "en": "mine", "fr": "le mien", "note": "所有代名詞（el mío）" },
+      "leo": { "lemma": "Leo", "en": "Leo", "fr": "Lion" },
+      "comerás": { "lemma": "comer", "en": "to eat", "fr": "manger", "note": "2人称単数・未来" },
+      "demasiado": { "lemma": "demasiado", "en": "too much", "fr": "trop" },
+      "dormirás": { "lemma": "dormir", "en": "to sleep", "fr": "dormir", "note": "2人称単数・未来" },
+      "futuro": { "lemma": "futuro", "en": "future", "fr": "avenir, futur" },
+      "presente": { "lemma": "presente", "en": "present", "fr": "présent" },
+      "cree": { "lemma": "creer", "en": "to believe", "fr": "croire", "note": "3人称単数・現在。creer en = 〜を信じる" },
+      "propios": { "lemma": "propio", "en": "own", "fr": "propre", "note": "男性複数" },
+      "consejos": { "lemma": "consejo", "en": "advice", "fr": "conseil", "note": "複数形" },
+      "sal": { "lemma": "salir", "en": "to go out", "fr": "sortir", "note": "tú の肯定命令（不規則）" },
+      "duerme": { "lemma": "dormir", "en": "to sleep", "fr": "dormir", "note": "tú の肯定命令" },
+      "come": { "lemma": "comer", "en": "to eat", "fr": "manger", "note": "tú の肯定命令" },
+      "verdura": { "lemma": "verdura", "en": "vegetables", "fr": "légumes" },
+      "solo": { "lemma": "solo", "en": "only", "fr": "seulement" },
+      "tacos": { "lemma": "taco", "en": "taco", "fr": "taco", "note": "複数形" },
+      "habla": { "lemma": "hablar", "en": "to speak", "fr": "parler", "note": "tú の肯定命令" },
+      "ten": { "lemma": "tener", "en": "to have", "fr": "avoir", "note": "tú の肯定命令（不規則）。ten paciencia = 我慢して" },
+      "paciencia": { "lemma": "paciencia", "en": "patience", "fr": "patience" },
+      "verbos": { "lemma": "verbo", "en": "verb", "fr": "verbe", "note": "複数形" },
+      "parece": { "lemma": "parecer", "en": "to seem", "fr": "sembler", "note": "3人称単数・現在" },
+      "preguntar": { "lemma": "preguntar", "en": "to ask", "fr": "demander" },
+      "ojos": { "lemma": "ojo", "en": "eye", "fr": "œil", "note": "複数形" },
+      "grandes": { "lemma": "grande", "en": "big", "fr": "grand", "note": "複数形" },
+      "ven": { "lemma": "venir", "en": "to come", "fr": "venir", "note": "tú の肯定命令（不規則）" },
+      "siéntate": { "lemma": "sentarse", "en": "to sit down", "fr": "s'asseoir", "note": "tú の肯定命令 sienta ＋ te" },
+      "conmigo": { "lemma": "conmigo", "en": "with me", "fr": "avec moi", "note": "con ＋ mí は conmigo になる" },
+      "fácil": { "lemma": "fácil", "en": "easy", "fr": "facile" },
+      "sofá": { "lemma": "sofá", "en": "sofa", "fr": "canapé" }
+    },
+    "quiz": [
+      { "q": "Según el horóscopo, ¿qué hará Lucía este mes?", "options": ["Un viaje largo", "Un examen", "Una tortilla"], "answer": "Un viaje largo" },
+      { "q": "¿Qué consejo le da la abuela a Diego?", "options": ["Come verdura", "Sal menos", "Ten paciencia"], "answer": "Come verdura" },
+      { "q": "¿Dónde dormirá Churro mañana?", "options": ["En el sofá", "En la cama de Yuki", "En el balcón"], "answer": "En el sofá" }
+    ]
+  }
+}

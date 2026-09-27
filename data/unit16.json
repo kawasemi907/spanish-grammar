@@ -1,0 +1,123 @@
+{
+  "id": 16,
+  "title": "点過去（不規則）",
+  "explain": {
+    "sections": [
+      {
+        "title": "語幹が変わる動詞（強変化）",
+        "body": "<p>特別な語幹 ＋ 共通の語尾 <b>-e, -iste, -o, -imos, -isteis, -ieron</b>。yo と él に<b>アクセント記号がない</b>のが特徴。</p><table><tr><td>tener → <b>tuv</b>e</td><td>estar → <b>estuv</b>e</td><td>poder → <b>pud</b>e</td></tr><tr><td>poner → <b>pus</b>e</td><td>saber → <b>sup</b>e</td><td>querer → <b>quis</b>e</td></tr><tr><td>venir → <b>vin</b>e</td><td>hacer → <b>hic</b>e（él <b>hizo</b>）</td><td>andar → <b>anduv</b>e</td></tr></table><p>語幹が <b>j</b> で終わるものは ellos が <b>-eron</b>：decir → dije … <b>dijeron</b>、traer → traje … <b>trajeron</b>、conducir → conduje … <b>condujeron</b></p>"
+      },
+      {
+        "title": "ser / ir、dar / ver",
+        "body": "<table><tr><th></th><th>ser / ir</th><th>dar</th><th>ver</th></tr><tr><td>yo</td><td>fui</td><td>di</td><td>vi</td></tr><tr><td>tú</td><td>fuiste</td><td>diste</td><td>viste</td></tr><tr><td>él</td><td>fue</td><td>dio</td><td>vio</td></tr><tr><td>nosotros</td><td>fuimos</td><td>dimos</td><td>vimos</td></tr><tr><td>vosotros</td><td>fuisteis</td><td>disteis</td><td>visteis</td></tr><tr><td>ellos</td><td>fueron</td><td>dieron</td><td>vieron</td></tr></table><p>ser と ir は<b>同じ形</b>。どちらかは文脈で判断：<span class='es'>Fue médico.</span>（医者だった）／<span class='es'>Fue a Toledo.</span>（トレドへ行った）。1音節なのでアクセント記号はつけない。</p>"
+      },
+      {
+        "title": "-ir の語幹母音変化動詞",
+        "body": "<p>3人称（él・ellos）だけ <b>e → i</b>、<b>o → u</b>。</p><ul><li>pedir：pedí, pediste, <b>pidió</b>, pedimos, pedisteis, <b>pidieron</b></li><li>dormir：dormí, dormiste, <b>durmió</b>, dormimos, dormisteis, <b>durmieron</b></li><li>同様：sentir（sintió）, repetir（repitió）, preferir（prefirió）, morir（murió）</li></ul>"
+      }
+    ],
+    "french": "<ul><li>仏語の単純過去にも不規則な語幹がある：<span class='es'>hizo</span>（il fit）、<span class='es'>vino</span>（il vint）、<span class='es'>dijo</span>（il dit）、<span class='es'>pudo</span>（il put）、<span class='es'>tuvo</span>（il eut）。語幹の母音が変わる発想は同じ。</li><li><span class='es'>fue</span> は ser（il fut）と ir（il alla）の<b>両方</b>の点過去。</li><li>会話での訳は複合過去になる：<span class='es'>Ayer tuve un examen.</span>（Hier, j'ai eu un examen.）</li></ul>",
+    "examples": [
+      { "es": "Ayer tuve un examen muy difícil.", "en": "Yesterday I had a very difficult exam.", "fr": "Hier, j'ai eu un examen très difficile." },
+      { "es": "¿Dónde estuviste el fin de semana?", "en": "Where were you at the weekend?", "fr": "Où étais-tu ce week-end ?" },
+      { "es": "Fuimos a la playa en agosto.", "en": "We went to the beach in August.", "fr": "Nous sommes allés à la plage en août." },
+      { "es": "¿Qué hiciste anoche? —No hice nada.", "en": "What did you do last night? —I didn't do anything.", "fr": "Qu'est-ce que tu as fait hier soir ? — Je n'ai rien fait." },
+      { "es": "Diego vino a la fiesta y trajo tacos.", "en": "Diego came to the party and brought tacos.", "fr": "Diego est venu à la fête et a apporté des tacos." },
+      { "es": "Lucía me dijo la verdad.", "en": "Lucía told me the truth.", "fr": "Lucía m'a dit la vérité." },
+      { "es": "Churro durmió toda la tarde.", "en": "Churro slept all afternoon.", "fr": "Churro a dormi tout l'après-midi." },
+      { "es": "No pude dormir por el ruido.", "en": "I couldn't sleep because of the noise.", "fr": "Je n'ai pas pu dormir à cause du bruit." }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "conj", "verb": "tener", "person": "yo", "tense": "点過去", "sentence": "Ayer ___ un examen.", "answer": ["tuve"], "explain": "tener → <b>tuv</b>-：tuve（アクセント記号なし）。" },
+    { "id": "q02", "type": "conj", "verb": "estar", "person": "tú", "tense": "点過去", "sentence": "¿Dónde ___ ayer?", "answer": ["estuviste"], "explain": "estar → <b>estuv</b>-：estuviste。" },
+    { "id": "q03", "type": "conj", "verb": "hacer", "person": "él", "tense": "点過去", "sentence": "¿Qué ___ Diego el domingo?", "answer": ["hizo"], "explain": "hacer の él は <b>hizo</b>（c → z）。" },
+    { "id": "q04", "type": "conj", "verb": "ir", "person": "nosotros", "tense": "点過去", "sentence": "___ a la playa en agosto.", "answer": ["Fuimos"], "explain": "ir（＝ser）：fui, fuiste, fue, <b>fuimos</b>, fuisteis, fueron" },
+    { "id": "q05", "type": "conj", "verb": "decir", "person": "ellos", "tense": "点過去", "sentence": "Ellos no ___ nada.", "answer": ["dijeron"], "explain": "j 語幹の ellos は <b>-eron</b>：dijeron（×dijieron）。" },
+    { "id": "q06", "type": "conj", "verb": "venir", "person": "vosotros", "tense": "点過去", "sentence": "¿Por qué no ___ a la fiesta?", "answer": ["vinisteis"], "explain": "venir → <b>vin</b>-：vinisteis。" },
+    { "id": "q07", "type": "conj", "verb": "poder", "person": "yo", "tense": "点過去", "sentence": "No ___ dormir.", "answer": ["pude"], "explain": "poder → <b>pud</b>-：pude。" },
+    { "id": "q08", "type": "conj", "verb": "pedir", "person": "él", "tense": "点過去", "sentence": "Diego ___ tacos.", "answer": ["pidió"], "explain": "-ir の語幹母音変化動詞は3人称で e → i：<b>pidió</b>。" },
+    { "id": "q09", "type": "conj", "verb": "dormir", "person": "ellos", "tense": "点過去", "sentence": "Los niños ___ diez horas.", "answer": ["durmieron"], "explain": "3人称で o → u：<b>durmieron</b>。" },
+    { "id": "q10", "type": "conj", "verb": "traer", "person": "usted", "tense": "点過去", "sentence": "¿Qué ___ usted?", "answer": ["trajo"], "explain": "traer → <b>traj</b>-：trajo。" },
+    { "id": "q11", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Mi abuelo ___ médico toda su vida.", "options": ["fue", "estuvo", "hizo"], "answer": "fue", "explain": "職業は ser → 点過去 <b>fue</b>。" },
+    { "id": "q12", "type": "choice", "prompt": "ver（nosotros）の点過去", "sentence": "Anoche ___ una película muy buena.", "options": ["vimos", "veímos", "víamos"], "answer": "vimos", "explain": "ver：vi, viste, vio, <b>vimos</b>, visteis, vieron" },
+    { "id": "q13", "type": "choice", "prompt": "正しい綴りを選ぼう", "sentence": "Lucía me ___ un regalo.", "options": ["dio", "dió", "dío"], "answer": "dio", "explain": "1音節なので<b>アクセント記号なし</b>：dio, vio, fue, fui。" },
+    { "id": "q14", "type": "choice", "prompt": "saber の点過去", "sentence": "Así ___ Yuki la verdad.", "options": ["supo", "sabió", "supió"], "answer": "supo", "explain": "saber → <b>sup</b>-：supo（点過去では「知った」の意味）。" },
+    { "id": "q15", "type": "fill", "prompt": "poner（tú）の点過去を入れよう", "sentence": "¿Dónde ___ las llaves?", "answer": ["pusiste"], "explain": "poner → <b>pus</b>-：pusiste。" },
+    { "id": "q16", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Ayer", "fui", "al", "cine", "con", "Diego"], "answer": ["Ayer fui al cine con Diego", "Fui al cine con Diego ayer"], "en": "Yesterday I went to the cinema with Diego.", "fr": "Hier, je suis allé au cinéma avec Diego.", "explain": "ir の点過去 <b>fui</b>。" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて疑問文を作ろう", "words": ["qué", "hiciste", "el", "fin", "de", "semana"], "answer": ["¿Qué hiciste el fin de semana?"], "en": "What did you do at the weekend?", "fr": "Qu'est-ce que tu as fait ce week-end ?", "explain": "hacer の tú：<b>hiciste</b>。" },
+    { "id": "q18", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Churro", "durmió", "toda", "la", "tarde"], "answer": ["Churro durmió toda la tarde"], "en": "Churro slept all afternoon.", "fr": "Churro a dormi tout l'après-midi.", "explain": "dormir の él：<b>durmió</b>。" }
+  ],
+  "reading": {
+    "title": "Las doce uvas",
+    "sentences": [
+      { "p": true, "es": "El 31 de diciembre, los amigos fueron a la Puerta del Sol.", "en": "On 31 December, the friends went to the Puerta del Sol.", "fr": "Le 31 décembre, les amis sont allés à la Puerta del Sol." },
+      { "es": "Allí estuvieron dos horas entre miles de personas.", "en": "They spent two hours there among thousands of people.", "fr": "Ils y sont restés deux heures parmi des milliers de personnes." },
+      { "es": "La abuela Carmen no vino: vio las campanadas en la tele, en el sofá, con Churro.", "en": "Grandma Carmen didn't come: she watched the chimes on TV, on the sofa, with Churro.", "fr": "Grand-mère Carmen n'est pas venue : elle a regardé les douze coups à la télé, sur le canapé, avec Churro." },
+      { "p": true, "es": "Lucía trajo las uvas: doce para cada persona.", "en": "Lucía brought the grapes: twelve for each person.", "fr": "Lucía a apporté les raisins : douze pour chaque personne." },
+      { "es": "—Es la tradición —dijo—. Con cada campanada, una uva. Si comes las doce, vas a tener suerte todo el año.", "en": "\"It's the tradition,\" she said. \"One grape with each chime. If you eat all twelve, you'll have luck all year.\"", "fr": "« C'est la tradition, a-t-elle dit. Un raisin à chaque coup. Si tu manges les douze, tu vas avoir de la chance toute l'année. »" },
+      { "p": true, "es": "A las doce en punto empezaron las campanadas.", "en": "At twelve o'clock sharp the chimes began.", "fr": "À minuit pile, les coups ont commencé." },
+      { "es": "Lucía y Diego comieron las uvas sin problema.", "en": "Lucía and Diego ate the grapes without any problem.", "fr": "Lucía et Diego ont mangé les raisins sans problème." },
+      { "es": "Yuki no pudo: después de la quinta uva, tuvo la boca llena y empezó a reír.", "en": "Yuki couldn't: after the fifth grape, her mouth was full and she started laughing.", "fr": "Yuki n'a pas pu : après le cinquième raisin, elle avait la bouche pleine et s'est mise à rire." },
+      { "es": "—¡Feliz año! —gritaron todos, y se dieron muchos abrazos.", "en": "\"Happy New Year!\" everyone shouted, and they hugged each other a lot.", "fr": "« Bonne année ! » ont-ils tous crié, et ils se sont serrés dans les bras." },
+      { "es": "—¿Y ahora no voy a tener suerte? —preguntó Yuki.", "en": "\"So now I'm not going to have any luck?\" asked Yuki.", "fr": "« Alors je ne vais pas avoir de chance ? » a demandé Yuki." },
+      { "p": true, "es": "En el metro, vieron un mensaje de la abuela: «Yo comí mis doce uvas. Churro durmió toda la noche. ¡Feliz año!».", "en": "On the metro, they saw a message from Grandma: \"I ate my twelve grapes. Churro slept all night. Happy New Year!\"", "fr": "Dans le métro, ils ont vu un message de la grand-mère : « J'ai mangé mes douze raisins. Churro a dormi toute la nuit. Bonne année ! »" },
+      { "es": "—¿Ves? —dijo Lucía—. La abuela tuvo suerte por las dos.", "en": "\"See?\" said Lucía. \"Grandma got lucky for both of you.\"", "fr": "« Tu vois ? a dit Lucía. La grand-mère a eu de la chance pour vous deux. »" }
+    ],
+    "glossary": {
+      "doce": { "lemma": "doce", "en": "twelve", "fr": "douze", "note": "las doce = 12時（ここでは真夜中）" },
+      "uvas": { "lemma": "uva", "en": "grape", "fr": "raisin", "note": "複数形。大晦日に鐘に合わせて12粒食べる習慣" },
+      "diciembre": { "lemma": "diciembre", "en": "December", "fr": "décembre" },
+      "fueron": { "lemma": "ir", "en": "to go", "fr": "aller", "note": "3人称複数・点過去（ser と同形）" },
+      "puerta": { "lemma": "puerta", "en": "door, gate", "fr": "porte" },
+      "sol": { "lemma": "sol", "en": "sun", "fr": "soleil", "note": "Puerta del Sol = マドリードの中心広場。時計台の鐘で新年を迎える" },
+      "allí": { "lemma": "allí", "en": "there", "fr": "là" },
+      "estuvieron": { "lemma": "estar", "en": "to be", "fr": "être", "note": "3人称複数・点過去" },
+      "horas": { "lemma": "hora", "en": "hour", "fr": "heure", "note": "複数形" },
+      "miles": { "lemma": "mil", "en": "thousands", "fr": "milliers", "note": "miles de ... = 何千もの〜" },
+      "personas": { "lemma": "persona", "en": "person", "fr": "personne", "note": "複数形" },
+      "vino": { "lemma": "venir", "en": "to come", "fr": "venir", "note": "3人称単数・点過去（名詞 vino = ワインと同じ綴り）" },
+      "vio": { "lemma": "ver", "en": "to see, to watch", "fr": "voir, regarder", "note": "3人称単数・点過去" },
+      "campanadas": { "lemma": "campanada", "en": "chime (of a bell)", "fr": "coup de cloche", "note": "複数形" },
+      "tele": { "lemma": "tele", "en": "TV", "fr": "télé" },
+      "trajo": { "lemma": "traer", "en": "to bring", "fr": "apporter", "note": "3人称単数・点過去" },
+      "cada": { "lemma": "cada", "en": "each", "fr": "chaque", "note": "形が変わらない" },
+      "persona": { "lemma": "persona", "en": "person", "fr": "personne" },
+      "tradición": { "lemma": "tradición", "en": "tradition", "fr": "tradition" },
+      "dijo": { "lemma": "decir", "en": "to say", "fr": "dire", "note": "3人称単数・点過去" },
+      "campanada": { "lemma": "campanada", "en": "chime", "fr": "coup de cloche" },
+      "uva": { "lemma": "uva", "en": "grape", "fr": "raisin" },
+      "comes": { "lemma": "comer", "en": "to eat", "fr": "manger", "note": "2人称単数・現在" },
+      "tener": { "lemma": "tener", "en": "to have", "fr": "avoir" },
+      "suerte": { "lemma": "suerte", "en": "luck", "fr": "chance" },
+      "año": { "lemma": "año", "en": "year", "fr": "année" },
+      "punto": { "lemma": "punto", "en": "point", "fr": "point", "note": "en punto = ちょうど" },
+      "empezaron": { "lemma": "empezar", "en": "to begin", "fr": "commencer", "note": "3人称複数・点過去" },
+      "comieron": { "lemma": "comer", "en": "to eat", "fr": "manger", "note": "3人称複数・点過去" },
+      "problema": { "lemma": "problema", "en": "problem", "fr": "problème" },
+      "pudo": { "lemma": "poder", "en": "can, to be able to", "fr": "pouvoir", "note": "3人称単数・点過去" },
+      "quinta": { "lemma": "quinto", "en": "fifth", "fr": "cinquième", "note": "女性形" },
+      "tuvo": { "lemma": "tener", "en": "to have", "fr": "avoir", "note": "3人称単数・点過去" },
+      "boca": { "lemma": "boca", "en": "mouth", "fr": "bouche" },
+      "llena": { "lemma": "lleno", "en": "full", "fr": "plein", "note": "女性形" },
+      "empezó": { "lemma": "empezar", "en": "to begin", "fr": "commencer", "note": "3人称単数・点過去。empezar a + 不定詞 = 〜し始める" },
+      "reír": { "lemma": "reír", "en": "to laugh", "fr": "rire" },
+      "feliz": { "lemma": "feliz", "en": "happy", "fr": "heureux", "note": "¡Feliz año! = 新年おめでとう" },
+      "gritaron": { "lemma": "gritar", "en": "to shout", "fr": "crier", "note": "3人称複数・点過去" },
+      "dieron": { "lemma": "dar", "en": "to give", "fr": "donner", "note": "3人称複数・点過去。darse abrazos = 抱き合う" },
+      "abrazos": { "lemma": "abrazo", "en": "hug", "fr": "accolade, câlin", "note": "複数形" },
+      "preguntó": { "lemma": "preguntar", "en": "to ask", "fr": "demander", "note": "3人称単数・点過去" },
+      "metro": { "lemma": "metro", "en": "metro, underground", "fr": "métro" },
+      "vieron": { "lemma": "ver", "en": "to see", "fr": "voir", "note": "3人称複数・点過去" },
+      "mensaje": { "lemma": "mensaje", "en": "message", "fr": "message" },
+      "comí": { "lemma": "comer", "en": "to eat", "fr": "manger", "note": "1人称単数・点過去" },
+      "durmió": { "lemma": "dormir", "en": "to sleep", "fr": "dormir", "note": "3人称単数・点過去（o → u）" },
+      "ves": { "lemma": "ver", "en": "to see", "fr": "voir", "note": "2人称単数・現在。¿Ves? = ほらね" }
+    },
+    "quiz": [
+      { "q": "¿Dónde vio la abuela las campanadas?", "options": ["En la tele, en casa", "En la Puerta del Sol", "En casa de Diego"], "answer": "En la tele, en casa" },
+      { "q": "¿Cuántas uvas hay para cada persona?", "options": ["Doce", "Cinco", "Diez"], "answer": "Doce" },
+      { "q": "¿Pudo Yuki comer las doce uvas?", "options": ["No, no pudo", "Sí, sin problema", "Sí, pero muy tarde"], "answer": "No, no pudo" }
+    ]
+  }
+}

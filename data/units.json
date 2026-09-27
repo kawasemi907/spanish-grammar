@@ -78,27 +78,27 @@
   {
    "id": 16,
    "title": "点過去（不規則）",
-   "available": false
+   "available": true
   },
   {
    "id": 17,
    "title": "線過去と点過去の使い分け",
-   "available": false
+   "available": true
   },
   {
    "id": 18,
    "title": "未来形・tú肯定命令",
-   "available": false
+   "available": true
   },
   {
    "id": 19,
    "title": "過去完了",
-   "available": false
+   "available": true
   },
   {
    "id": 20,
    "title": "未来完了・過去未来",
-   "available": false
+   "available": true
   },
   {
    "id": 21,

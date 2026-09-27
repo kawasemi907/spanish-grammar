@@ -1,0 +1,132 @@
+{
+  "id": 17,
+  "title": "線過去と点過去の使い分け",
+  "explain": {
+    "sections": [
+      {
+        "title": "線過去の形",
+        "body": "<table><tr><th></th><th>hablar</th><th>comer / vivir</th></tr><tr><td>yo</td><td>habl<b>aba</b></td><td>com<b>ía</b></td></tr><tr><td>tú</td><td>habl<b>abas</b></td><td>com<b>ías</b></td></tr><tr><td>él / usted</td><td>habl<b>aba</b></td><td>com<b>ía</b></td></tr><tr><td>nosotros</td><td>habl<b>ábamos</b></td><td>com<b>íamos</b></td></tr><tr><td>vosotros</td><td>habl<b>abais</b></td><td>com<b>íais</b></td></tr><tr><td>ellos / ustedes</td><td>habl<b>aban</b></td><td>com<b>ían</b></td></tr></table><p>不規則は<b>3つだけ</b>：ser → <b>era</b>, eras…／ ir → <b>iba</b>, ibas…／ ver → <b>veía</b>, veías…</p>"
+      },
+      {
+        "title": "線過去の使い方",
+        "body": "<ul><li><b>過去の習慣</b>「よく〜していた」：<span class='es'>De niña, jugaba en la calle.</span></li><li><b>背景・状況・描写</b>：<span class='es'>Hacía sol. Estaba cansada. La casa era pequeña.</span></li><li><b>その時進行中だった動作</b>：<span class='es'>Mientras cocinaba, escuchaba la radio.</span></li><li>過去の<b>時刻・年齢</b>：<span class='es'>Eran las diez. Tenía veinte años.</span></li></ul>"
+      },
+      {
+        "title": "点過去との使い分け",
+        "body": "<p><b>点過去＝出来事</b>（何が起きたか）、<b>線過去＝背景</b>（どんな状況だったか）。</p><p><span class='es'><b>Leía</b> un libro cuando <b>sonó</b> el teléfono.</span><br>（本を読んでいた［背景］ときに、電話が鳴った［出来事］）</p><table><tr><th>線過去と相性がよい</th><th>点過去と相性がよい</th></tr><tr><td>antes, siempre, todos los días, de niño, mientras</td><td>ayer, una vez, de repente, el año pasado, en 2020</td></tr></table>"
+      }
+    ],
+    "french": "<ul><li>線過去は仏語の<b>半過去</b>（imparfait）とほぼ完全に対応：<span class='es'>hablaba</span> ＝ je parlais、<span class='es'>era</span> ＝ j'étais。</li><li>使い分けも同じ：<span class='es'>Leía cuando sonó el teléfono.</span> ＝ <b>Je lisais quand le téléphone a sonné.</b></li><li>語尾も似ている：<span class='es'>-aba / -ía</span> ↔ <b>-ais / -ait</b>。</li><li>仏語の半過去は不規則がほぼないが、西語も <span class='es'>ser, ir, ver</span> の3つだけ。</li></ul>",
+    "examples": [
+      { "es": "Cuando era niña, vivía en Osaka.", "en": "When I was a child, I lived in Osaka.", "fr": "Quand j'étais petite, j'habitais à Osaka." },
+      { "es": "Antes Diego jugaba al fútbol todos los días.", "en": "Diego used to play football every day.", "fr": "Avant, Diego jouait au foot tous les jours." },
+      { "es": "Hacía sol y la playa estaba llena de gente.", "en": "It was sunny and the beach was full of people.", "fr": "Il faisait beau et la plage était pleine de monde." },
+      { "es": "Leía un libro cuando sonó el teléfono.", "en": "I was reading a book when the phone rang.", "fr": "Je lisais un livre quand le téléphone a sonné." },
+      { "es": "Eran las once cuando llegamos.", "en": "It was eleven when we arrived.", "fr": "Il était onze heures quand nous sommes arrivés." },
+      { "es": "Mientras Lucía cocinaba, Yuki ponía la mesa.", "en": "While Lucía was cooking, Yuki was setting the table.", "fr": "Pendant que Lucía cuisinait, Yuki mettait la table." },
+      { "es": "Mi abuelo tenía un bar en Lavapiés.", "en": "My grandfather had a bar in Lavapiés.", "fr": "Mon grand-père avait un bar à Lavapiés." },
+      { "es": "Ayer no fui a clase porque estaba enferma.", "en": "Yesterday I didn't go to class because I was ill.", "fr": "Hier, je ne suis pas allée en cours parce que j'étais malade." }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "conj", "verb": "hablar", "person": "yo", "tense": "線過去", "sentence": "Antes ___ muy poco español.", "answer": ["hablaba"], "explain": "-ar の線過去：habl<b>aba</b>。" },
+    { "id": "q02", "type": "conj", "verb": "comer", "person": "tú", "tense": "線過去", "sentence": "¿Qué ___ de niño?", "answer": ["comías"], "explain": "-er の線過去：com<b>ías</b>。" },
+    { "id": "q03", "type": "conj", "verb": "vivir", "person": "nosotros", "tense": "線過去", "sentence": "___ en un piso pequeño.", "answer": ["Vivíamos"], "explain": "-ir の線過去：viv<b>íamos</b>。" },
+    { "id": "q04", "type": "conj", "verb": "ser", "person": "ella", "tense": "線過去", "sentence": "De joven, Carmen ___ muy guapa.", "answer": ["era"], "explain": "ser の線過去は不規則：<b>era</b>。" },
+    { "id": "q05", "type": "conj", "verb": "ir", "person": "ellos", "tense": "線過去", "sentence": "Siempre ___ a la playa en agosto.", "answer": ["iban"], "explain": "ir の線過去は不規則：<b>iban</b>。siempre（習慣）→ 線過去。" },
+    { "id": "q06", "type": "conj", "verb": "ver", "person": "vosotros", "tense": "線過去", "sentence": "¿___ mucho la tele de niños?", "answer": ["Veíais"], "explain": "ver の線過去は不規則：<b>veíais</b>。" },
+    { "id": "q07", "type": "conj", "verb": "tener", "person": "él", "tense": "線過去", "sentence": "Mi abuelo ___ un bar.", "answer": ["tenía"], "explain": "tener の線過去は規則的：<b>tenía</b>。" },
+    { "id": "q08", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Cuando ___ niña, vivía en Osaka.", "options": ["era", "fui", "estaba"], "answer": "era", "explain": "子どもの頃という<b>背景</b> → 線過去 <b>era</b>。" },
+    { "id": "q09", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Leía un libro cuando ___ el teléfono.", "options": ["sonó", "sonaba", "ha sonado"], "answer": "sonó", "explain": "読書中に起きた<b>出来事</b> → 点過去 <b>sonó</b>。" },
+    { "id": "q10", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "___ las diez cuando llegamos.", "options": ["Eran", "Fueron", "Estaban"], "answer": "Eran", "explain": "過去の時刻は線過去 <b>eran</b>。" },
+    { "id": "q11", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Ayer ___ al médico porque me dolía la cabeza.", "options": ["fui", "iba", "voy"], "answer": "fui", "explain": "昨日の1回の出来事 → 点過去 <b>fui</b>。理由（頭が痛かった）は背景なので線過去。" },
+    { "id": "q12", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "De niño, Diego ___ al fútbol todos los días.", "options": ["jugaba", "jugó", "juega"], "answer": "jugaba", "explain": "<span class='es'>todos los días</span>（過去の習慣）→ 線過去 <b>jugaba</b>。" },
+    { "id": "q13", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "De repente, Churro ___ a la mesa.", "options": ["saltó", "saltaba"], "answer": "saltó", "explain": "<span class='es'>de repente</span>（突然の出来事）→ 点過去 <b>saltó</b>。" },
+    { "id": "q14", "type": "fill", "prompt": "hacer を正しい形にしよう（背景）", "sentence": "Cuando salimos de casa, ___ mucho frío.", "answer": ["hacía"], "explain": "出来事の<b>背景の天気</b> → 線過去 <b>hacía</b>。" },
+    { "id": "q15", "type": "fill", "prompt": "estar を正しい形にしよう（理由・状態）", "sentence": "Yuki no fue a clase porque ___ enferma.", "answer": ["estaba"], "explain": "その時の状態 → 線過去 <b>estaba</b>。" },
+    { "id": "q16", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Cuando", "era", "niña", "vivía", "en", "Osaka"], "answer": ["Cuando era niña vivía en Osaka", "Vivía en Osaka cuando era niña"], "en": "When I was a child, I lived in Osaka.", "fr": "Quand j'étais petite, j'habitais à Osaka.", "explain": "背景 ＋ 習慣的な状態 → どちらも線過去。" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Mientras", "Lucía", "cocinaba", "Yuki", "ponía", "la", "mesa"], "answer": ["Mientras Lucía cocinaba Yuki ponía la mesa", "Yuki ponía la mesa mientras Lucía cocinaba"], "en": "While Lucía was cooking, Yuki was setting the table.", "fr": "Pendant que Lucía cuisinait, Yuki mettait la table.", "explain": "同時に進行していた2つの動作 → 両方とも線過去。" },
+    { "id": "q18", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Eran", "las", "once", "cuando", "llegamos"], "answer": ["Eran las once cuando llegamos", "Cuando llegamos eran las once"], "en": "It was eleven when we arrived.", "fr": "Il était onze heures quand nous sommes arrivés.", "explain": "時刻（背景）は線過去、到着（出来事）は点過去。" }
+  ],
+  "reading": {
+    "title": "Cuando la abuela era joven",
+    "sentences": [
+      { "p": true, "es": "Una tarde de lluvia, Yuki y la abuela Carmen miraban fotos antiguas.", "en": "One rainy afternoon, Yuki and Grandma Carmen were looking at old photos.", "fr": "Un après-midi de pluie, Yuki et grand-mère Carmen regardaient de vieilles photos." },
+      { "es": "—¿Quién es esta chica tan guapa? —preguntó Yuki.", "en": "\"Who's this pretty girl?\" asked Yuki.", "fr": "« Qui est cette jolie fille ? » a demandé Yuki." },
+      { "es": "—Soy yo, en 1965. Tenía dieciocho años y vivía en Lavapiés, en esta misma calle.", "en": "\"It's me, in 1965. I was eighteen and I lived in Lavapiés, on this very street.\"", "fr": "« C'est moi, en 1965. J'avais dix-huit ans et j'habitais à Lavapiés, dans cette même rue. »" },
+      { "p": true, "es": "Entonces todo era diferente.", "en": "Back then everything was different.", "fr": "À l'époque, tout était différent." },
+      { "es": "No teníamos tele y los niños jugaban en la calle hasta la noche.", "en": "We didn't have TV and children played in the street until night.", "fr": "Nous n'avions pas la télé et les enfants jouaient dans la rue jusqu'à la nuit." },
+      { "es": "En verano, la gente sacaba las sillas a la puerta y hablaba con los vecinos.", "en": "In summer, people took their chairs out to the door and chatted with the neighbors.", "fr": "L'été, les gens sortaient les chaises devant la porte et parlaient avec les voisins." },
+      { "p": true, "es": "—¿Y cómo conociste al abuelo Paco?", "en": "\"And how did you meet Grandpa Paco?\"", "fr": "« Et comment as-tu rencontré grand-père Paco ? »" },
+      { "es": "—Fue en una verbena, en agosto. Hacía mucho calor y la orquesta tocaba un chotis.", "en": "\"It was at a street party, in August. It was very hot and the band was playing a chotis.\"", "fr": "« C'était à une fête de quartier, en août. Il faisait très chaud et l'orchestre jouait un chotis. »" },
+      { "es": "Yo bailaba con mis amigas cuando, de repente, un chico muy alto me pisó el pie.", "en": "\"I was dancing with my friends when, suddenly, a very tall boy stepped on my foot.\"", "fr": "« Je dansais avec mes amies quand, soudain, un garçon très grand m'a marché sur le pied. »" },
+      { "es": "—¡Qué romántico! —rió Yuki.", "en": "\"How romantic!\" laughed Yuki.", "fr": "« Comme c'est romantique ! » a ri Yuki." },
+      { "es": "—Sí. Me pidió perdón y me invitó a una limonada.", "en": "\"Yes. He apologized and bought me a lemonade.\"", "fr": "« Oui. Il m'a demandé pardon et m'a offert une limonade. »" },
+      { "es": "Y cincuenta años después, todavía me pisaba cuando bailábamos.", "en": "\"And fifty years later, he still stepped on my feet when we danced.\"", "fr": "« Et cinquante ans plus tard, il me marchait encore sur les pieds quand nous dansions. »" }
+    ],
+    "glossary": {
+      "abuela": { "lemma": "abuela", "en": "grandmother", "fr": "grand-mère" },
+      "era": { "lemma": "ser", "en": "to be", "fr": "être", "note": "3人称単数・線過去（不規則）" },
+      "joven": { "lemma": "joven", "en": "young", "fr": "jeune" },
+      "tarde": { "lemma": "tarde", "en": "afternoon", "fr": "après-midi" },
+      "lluvia": { "lemma": "lluvia", "en": "rain", "fr": "pluie" },
+      "miraban": { "lemma": "mirar", "en": "to look at", "fr": "regarder", "note": "3人称複数・線過去（進行中の動作）" },
+      "antiguas": { "lemma": "antiguo", "en": "old", "fr": "ancien, vieux", "note": "女性複数" },
+      "chica": { "lemma": "chica", "en": "girl", "fr": "fille" },
+      "tan": { "lemma": "tan", "en": "so", "fr": "si" },
+      "guapa": { "lemma": "guapo", "en": "pretty", "fr": "jolie", "note": "女性形" },
+      "preguntó": { "lemma": "preguntar", "en": "to ask", "fr": "demander", "note": "3人称単数・点過去" },
+      "tenía": { "lemma": "tener", "en": "to have", "fr": "avoir", "note": "1・3人称単数・線過去。年齢は線過去" },
+      "dieciocho": { "lemma": "dieciocho", "en": "eighteen", "fr": "dix-huit" },
+      "vivía": { "lemma": "vivir", "en": "to live", "fr": "habiter", "note": "1人称単数・線過去" },
+      "lavapiés": { "lemma": "Lavapiés", "en": "Lavapiés", "fr": "Lavapiés" },
+      "misma": { "lemma": "mismo", "en": "same, very", "fr": "même", "note": "女性形" },
+      "calle": { "lemma": "calle", "en": "street", "fr": "rue" },
+      "entonces": { "lemma": "entonces", "en": "then, at that time", "fr": "à l'époque, alors" },
+      "diferente": { "lemma": "diferente", "en": "different", "fr": "différent" },
+      "teníamos": { "lemma": "tener", "en": "to have", "fr": "avoir", "note": "1人称複数・線過去" },
+      "tele": { "lemma": "tele", "en": "TV", "fr": "télé" },
+      "niños": { "lemma": "niño", "en": "child", "fr": "enfant", "note": "複数形" },
+      "jugaban": { "lemma": "jugar", "en": "to play", "fr": "jouer", "note": "3人称複数・線過去（習慣）" },
+      "verano": { "lemma": "verano", "en": "summer", "fr": "été" },
+      "gente": { "lemma": "gente", "en": "people", "fr": "gens" },
+      "sacaba": { "lemma": "sacar", "en": "to take out", "fr": "sortir", "note": "3人称単数・線過去" },
+      "sillas": { "lemma": "silla", "en": "chair", "fr": "chaise", "note": "複数形" },
+      "hablaba": { "lemma": "hablar", "en": "to talk", "fr": "parler", "note": "3人称単数・線過去" },
+      "vecinos": { "lemma": "vecino", "en": "neighbor", "fr": "voisin", "note": "複数形" },
+      "conociste": { "lemma": "conocer", "en": "to meet (for the first time)", "fr": "rencontrer", "note": "2人称単数・点過去。点過去の conocer は「知り合った」" },
+      "abuelo": { "lemma": "abuelo", "en": "grandfather", "fr": "grand-père" },
+      "paco": { "lemma": "Paco", "en": "Paco", "fr": "Paco", "note": "Carmen の亡き夫" },
+      "fue": { "lemma": "ser", "en": "to be", "fr": "être", "note": "3人称単数・点過去" },
+      "verbena": { "lemma": "verbena", "en": "street party, fair", "fr": "fête de quartier", "note": "夏の夜の下町の祭り" },
+      "agosto": { "lemma": "agosto", "en": "August", "fr": "août" },
+      "hacía": { "lemma": "hacer", "en": "to do, to make", "fr": "faire", "note": "3人称単数・線過去。hacía calor = 暑かった" },
+      "calor": { "lemma": "calor", "en": "heat", "fr": "chaleur" },
+      "orquesta": { "lemma": "orquesta", "en": "band, orchestra", "fr": "orchestre" },
+      "tocaba": { "lemma": "tocar", "en": "to play (an instrument)", "fr": "jouer (de la musique)", "note": "3人称単数・線過去" },
+      "chotis": { "lemma": "chotis", "en": "chotis (Madrid dance)", "fr": "chotis (danse madrilène)", "note": "マドリードの伝統的なダンス" },
+      "bailaba": { "lemma": "bailar", "en": "to dance", "fr": "danser", "note": "1人称単数・線過去（進行中）" },
+      "amigas": { "lemma": "amigo", "en": "friend", "fr": "amie", "note": "女性複数" },
+      "repente": { "lemma": "de repente", "en": "suddenly", "fr": "soudain" },
+      "chico": { "lemma": "chico", "en": "boy", "fr": "garçon" },
+      "alto": { "lemma": "alto", "en": "tall", "fr": "grand" },
+      "pisó": { "lemma": "pisar", "en": "to step on", "fr": "marcher sur", "note": "3人称単数・点過去（出来事）" },
+      "pie": { "lemma": "pie", "en": "foot", "fr": "pied" },
+      "romántico": { "lemma": "romántico", "en": "romantic", "fr": "romantique" },
+      "rió": { "lemma": "reír", "en": "to laugh", "fr": "rire", "note": "3人称単数・点過去" },
+      "pidió": { "lemma": "pedir", "en": "to ask for", "fr": "demander", "note": "3人称単数・点過去。pedir perdón = 謝る" },
+      "perdón": { "lemma": "perdón", "en": "forgiveness, sorry", "fr": "pardon" },
+      "invitó": { "lemma": "invitar", "en": "to treat, to invite", "fr": "offrir, inviter", "note": "3人称単数・点過去" },
+      "limonada": { "lemma": "limonada", "en": "lemonade", "fr": "limonade" },
+      "cincuenta": { "lemma": "cincuenta", "en": "fifty", "fr": "cinquante" },
+      "todavía": { "lemma": "todavía", "en": "still", "fr": "encore" },
+      "pisaba": { "lemma": "pisar", "en": "to step on", "fr": "marcher sur", "note": "3人称単数・線過去（習慣）" },
+      "bailábamos": { "lemma": "bailar", "en": "to dance", "fr": "danser", "note": "1人称複数・線過去" }
+    },
+    "quiz": [
+      { "q": "¿Cuántos años tenía Carmen en la foto?", "options": ["Dieciocho", "Cincuenta", "Sesenta y cinco"], "answer": "Dieciocho" },
+      { "q": "¿Dónde conoció Carmen a Paco?", "options": ["En una verbena", "En la escuela", "En el Rastro"], "answer": "En una verbena" },
+      { "q": "¿Qué hizo Paco cuando conoció a Carmen?", "options": ["Le pisó el pie", "Le cantó una canción", "Le regaló flores"], "answer": "Le pisó el pie" }
+    ]
+  }
+}

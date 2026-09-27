@@ -1,0 +1,126 @@
+{
+  "id": 20,
+  "title": "未来完了・過去未来",
+  "explain": {
+    "sections": [
+      {
+        "title": "過去未来（condicional）の形",
+        "body": "<p><b>不定詞</b> ＋ <b>-ía, -ías, -ía, -íamos, -íais, -ían</b>（-ar・-er・-ir 共通）</p><p><span class='es'>hablaría, comerías, viviría…</span></p><p>語幹の不規則は<b>未来形と同じ</b>：<span class='es'>tendría, vendría, pondría, saldría, podría, sabría, querría, habría, haría, diría</span></p>"
+      },
+      {
+        "title": "過去未来の使い方",
+        "body": "<ul><li><b>丁寧な依頼・希望</b>：<span class='es'>¿Podría ayudarme? Me gustaría ir a México.</span></li><li><b>助言</b>：<span class='es'>Yo que tú, iría al médico.</span>（私があなたなら〜する）、<span class='es'>Deberías descansar.</span></li><li><b>過去から見た未来</b>：<span class='es'>Diego dijo que vendría.</span>（来ると言った）</li><li><b>過去の推量</b>：<span class='es'>Serían las tres cuando volvimos.</span>（3時ごろだっただろう）</li></ul>"
+      },
+      {
+        "title": "未来完了",
+        "body": "<p><b>habré, habrás, habrá, habremos, habréis, habrán</b> ＋ 過去分詞</p><ul><li><b>未来のある時点までに完了</b>：<span class='es'>Para junio habré terminado el curso.</span></li><li><b>完了したことの推量</b>「もう〜しただろう」：<span class='es'>Ya habrá llegado a casa.</span></li></ul>"
+      }
+    ],
+    "french": "<ul><li>過去未来は仏語の<b>条件法現在</b>そのもの：<span class='es'>hablaría</span> ＝ je parlerais。不定詞＋語尾で、語幹の不規則も未来形と共通という点も同じ（<span class='es'>podría</span> / pourrais、<span class='es'>haría</span> / ferais）。</li><li>丁寧表現：<span class='es'>Me gustaría…</span> ＝ <b>J'aimerais…</b>、<span class='es'>¿Podría…?</span> ＝ <b>Pourriez-vous… ?</b></li><li><span class='es'>Yo que tú</span> ＝ <b>À ta place</b>、<span class='es'>deberías</span> ＝ <b>tu devrais</b>。</li><li>未来完了は仏語の<b>前未来</b>（futur antérieur）：<span class='es'>habré terminado</span> ＝ j'aurai terminé。推量の用法も共通：<span class='es'>Se habrá dormido.</span>（Il se sera endormi.）</li></ul>",
+    "examples": [
+      { "es": "¿Podría ayudarme, por favor?", "en": "Could you help me, please?", "fr": "Pourriez-vous m'aider, s'il vous plaît ?" },
+      { "es": "Me gustaría visitar Guadalajara algún día.", "en": "I'd like to visit Guadalajara one day.", "fr": "J'aimerais visiter Guadalajara un jour." },
+      { "es": "Yo que tú, iría a Andalucía en primavera.", "en": "If I were you, I'd go to Andalusia in spring.", "fr": "À ta place, j'irais en Andalousie au printemps." },
+      { "es": "Diego dijo que vendría a las ocho.", "en": "Diego said he would come at eight.", "fr": "Diego a dit qu'il viendrait à huit heures." },
+      { "es": "Serían las tres cuando volvimos a casa.", "en": "It must have been three when we got home.", "fr": "Il devait être trois heures quand nous sommes rentrés." },
+      { "es": "Para junio habré terminado el curso.", "en": "By June I'll have finished the course.", "fr": "D'ici juin, j'aurai terminé le cours." },
+      { "es": "Lucía no contesta. Se habrá dormido.", "en": "Lucía isn't answering. She must have fallen asleep.", "fr": "Lucía ne répond pas. Elle se sera endormie." },
+      { "es": "Deberías descansar un poco.", "en": "You should rest a little.", "fr": "Tu devrais te reposer un peu." }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "conj", "verb": "poder", "person": "usted", "tense": "過去未来", "sentence": "¿___ ayudarme, por favor?", "answer": ["Podría"], "explain": "poder の語幹 <b>podr-</b> ＋ ía。丁寧な依頼。" },
+    { "id": "q02", "type": "conj", "verb": "querer", "person": "yo", "tense": "過去未来", "sentence": "___ un café con leche, por favor.", "answer": ["Querría"], "explain": "querer の語幹 <b>querr-</b> ＋ ía。丁寧な注文。" },
+    { "id": "q03", "type": "conj", "verb": "hacer", "person": "tú", "tense": "過去未来", "sentence": "¿Qué ___ tú en mi lugar?", "answer": ["harías"], "explain": "hacer の語幹 <b>har-</b> ＋ ías。" },
+    { "id": "q04", "type": "conj", "verb": "ir", "person": "yo", "tense": "過去未来", "sentence": "Yo que tú, ___ al médico.", "answer": ["iría"], "explain": "ir は規則的：<b>iría</b>。<span class='es'>Yo que tú</span> で助言。" },
+    { "id": "q05", "type": "conj", "verb": "venir", "person": "él", "tense": "過去未来", "sentence": "Diego dijo que ___ a las ocho.", "answer": ["vendría"], "explain": "過去から見た未来。venir の語幹 <b>vendr-</b>。" },
+    { "id": "q06", "type": "conj", "verb": "tener", "person": "nosotros", "tense": "過去未来", "sentence": "Sin Churro, ___ más jamón.", "answer": ["tendríamos"], "explain": "tener の語幹 <b>tendr-</b> ＋ íamos。" },
+    { "id": "q07", "type": "conj", "verb": "terminar", "person": "yo", "tense": "未来完了", "sentence": "Para junio ___ el curso.", "answer": ["habré terminado"], "explain": "未来のある時点までの完了：<b>habré</b> ＋ terminado。" },
+    { "id": "q08", "type": "conj", "verb": "llegar", "person": "ellos", "tense": "未来完了", "sentence": "Ya ___ a Guadalajara.", "answer": ["habrán llegado"], "explain": "「もう着いただろう」（完了の推量）：<b>habrán</b> llegado。" },
+    { "id": "q09", "type": "fill", "prompt": "gustar を過去未来にしよう", "sentence": "Me ___ visitar México.", "answer": ["gustaría"], "explain": "<b>me gustaría</b>＝〜したいのですが（丁寧な希望）。" },
+    { "id": "q10", "type": "fill", "prompt": "deber（tú）を過去未来にしよう", "sentence": "___ descansar un poco.", "answer": ["Deberías"], "explain": "<b>deberías</b>＝〜したほうがいい（助言）。" },
+    { "id": "q11", "type": "fill", "prompt": "decir を過去未来にしよう", "sentence": "Lucía me prometió que me lo ___ mañana.", "answer": ["diría"], "explain": "decir の語幹 <b>dir-</b> ＋ ía。" },
+    { "id": "q12", "type": "choice", "prompt": "最も丁寧な言い方は？", "sentence": "¿___ usted abrir la ventana?", "options": ["Podría", "Puede", "Podrá"], "answer": "Podría", "explain": "過去未来で<b>丁寧さ</b>が増す：<span class='es'>¿Podría…?</span>" },
+    { "id": "q13", "type": "choice", "prompt": "過去未来を選ぼう", "sentence": "Yuki dijo que ___ temprano.", "options": ["llegaría", "llegó", "llegaba"], "answer": "llegaría", "explain": "過去の発言から見た未来 → <b>llegaría</b>。" },
+    { "id": "q14", "type": "choice", "prompt": "過去の推量「3時ごろだっただろう」", "sentence": "___ las tres cuando volvimos.", "options": ["Serían", "Serán", "Eran"], "answer": "Serían", "explain": "過去未来で<b>過去の推量</b>。" },
+    { "id": "q15", "type": "choice", "prompt": "未来完了を選ぼう", "sentence": "Para las diez ya ___ la cena.", "options": ["habremos preparado", "habríamos preparado", "hemos preparado"], "answer": "habremos preparado", "explain": "「10時までには〜し終えているだろう」→ 未来完了。" },
+    { "id": "q16", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Me", "gustaría", "visitar", "México"], "answer": ["Me gustaría visitar México"], "en": "I'd like to visit Mexico.", "fr": "J'aimerais visiter le Mexique.", "explain": "<span class='es'>me gustaría</span> ＋ 不定詞。" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Yo", "que", "tú", "iría", "al", "médico"], "answer": ["Yo que tú iría al médico"], "en": "If I were you, I'd go to the doctor.", "fr": "À ta place, j'irais chez le médecin.", "explain": "<span class='es'>Yo que tú</span> ＋ 過去未来で助言。" },
+    { "id": "q18", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Para", "junio", "habré", "terminado", "el", "curso"], "answer": ["Para junio habré terminado el curso", "Habré terminado el curso para junio"], "en": "By June I'll have finished the course.", "fr": "D'ici juin, j'aurai terminé le cours.", "explain": "<span class='es'>para</span> ＋ 時点＝〜までに。" }
+  ],
+  "reading": {
+    "title": "¿Qué harías tú?",
+    "sentences": [
+      { "p": true, "es": "Queda un mes para el final del curso.", "en": "There's one month left until the end of the course.", "fr": "Il reste un mois avant la fin du cours." },
+      { "es": "—Para julio habré terminado el nivel B1 —dice Yuki—. Y después... no sé.", "en": "\"By July I'll have finished level B1,\" says Yuki. \"And after that... I don't know.\"", "fr": "« D'ici juillet, j'aurai terminé le niveau B1, dit Yuki. Et après... je ne sais pas. »" },
+      { "es": "—Yo que tú, me quedaría un año más en Madrid —dice Lucía—. Buscaríamos un piso más grande, con terraza.", "en": "\"If I were you, I'd stay another year in Madrid,\" says Lucía. \"We'd look for a bigger flat, with a terrace.\"", "fr": "« À ta place, je resterais un an de plus à Madrid, dit Lucía. On chercherait un appartement plus grand, avec une terrasse. »" },
+      { "es": "—Yo iría a México —dice Diego—. Mi madre dijo que te prepararía mole y que te llevaría a ver a los mariachis.", "en": "\"I'd go to Mexico,\" says Diego. \"My mom said she'd make you mole and take you to see the mariachis.\"", "fr": "« Moi, j'irais au Mexique, dit Diego. Ma mère a dit qu'elle te préparerait du mole et qu'elle t'emmènerait voir les mariachis. »" },
+      { "p": true, "es": "Yuki piensa en su familia.", "en": "Yuki thinks about her family.", "fr": "Yuki pense à sa famille." },
+      { "es": "En enero, sus padres le dijeron que la esperarían en Osaka en agosto.", "en": "In January, her parents told her they would be waiting for her in Osaka in August.", "fr": "En janvier, ses parents lui ont dit qu'ils l'attendraient à Osaka en août." },
+      { "es": "Ahora estarán durmiendo: allí son las cuatro de la mañana.", "en": "They'll be asleep now: it's four in the morning there.", "fr": "En ce moment, ils doivent dormir : là-bas, il est quatre heures du matin." },
+      { "p": true, "es": "—¿Y tú qué harías, abuela?", "en": "\"And what would you do, Grandma?\"", "fr": "« Et toi, qu'est-ce que tu ferais, mamie ? »" },
+      { "es": "La abuela sonríe.", "en": "Grandma smiles.", "fr": "La grand-mère sourit." },
+      { "es": "—A tu edad, yo viajaría por todo el mundo. Pero antes, llamaría a mis padres.", "en": "\"At your age, I'd travel all over the world. But first, I'd call my parents.\"", "fr": "« À ton âge, je voyagerais dans le monde entier. Mais d'abord, j'appellerais mes parents. »" },
+      { "p": true, "es": "En ese momento, Churro salta dentro de la vieja maleta de Yuki.", "en": "At that moment, Churro jumps into Yuki's old suitcase.", "fr": "À ce moment-là, Churro saute dans la vieille valise de Yuki." },
+      { "es": "Parece decir: «Yo iría contigo a cualquier sitio».", "en": "He seems to say: \"I'd go anywhere with you.\"", "fr": "Il semble dire : « Moi, j'irais n'importe où avec toi. »" }
+    ],
+    "glossary": {
+      "harías": { "lemma": "hacer", "en": "to do", "fr": "faire", "note": "2人称単数・過去未来" },
+      "queda": { "lemma": "quedar", "en": "to remain, to be left", "fr": "rester", "note": "3人称単数・現在" },
+      "mes": { "lemma": "mes", "en": "month", "fr": "mois" },
+      "final": { "lemma": "final", "en": "end", "fr": "fin" },
+      "curso": { "lemma": "curso", "en": "course, school year", "fr": "cours, année scolaire" },
+      "julio": { "lemma": "julio", "en": "July", "fr": "juillet" },
+      "habré": { "lemma": "haber", "en": "will have (auxiliary)", "fr": "aurai (auxiliaire)", "note": "1人称単数・未来。未来完了の助動詞" },
+      "terminado": { "lemma": "terminar", "en": "finished", "fr": "terminé", "note": "過去分詞" },
+      "nivel": { "lemma": "nivel", "en": "level", "fr": "niveau" },
+      "b": { "lemma": "B1", "en": "B1 (level)", "fr": "B1 (niveau)", "note": "ヨーロッパ言語共通参照枠の中級レベル" },
+      "sé": { "lemma": "saber", "en": "to know", "fr": "savoir", "note": "1人称単数・現在" },
+      "quedaría": { "lemma": "quedarse", "en": "to stay", "fr": "rester", "note": "1人称単数・過去未来" },
+      "año": { "lemma": "año", "en": "year", "fr": "an" },
+      "buscaríamos": { "lemma": "buscar", "en": "to look for", "fr": "chercher", "note": "1人称複数・過去未来" },
+      "grande": { "lemma": "grande", "en": "big", "fr": "grand" },
+      "terraza": { "lemma": "terraza", "en": "terrace", "fr": "terrasse" },
+      "iría": { "lemma": "ir", "en": "to go", "fr": "aller", "note": "1・3人称単数・過去未来" },
+      "madre": { "lemma": "madre", "en": "mother", "fr": "mère" },
+      "dijo": { "lemma": "decir", "en": "to say", "fr": "dire", "note": "3人称単数・点過去" },
+      "prepararía": { "lemma": "preparar", "en": "to prepare, to make", "fr": "préparer", "note": "3人称単数・過去未来（過去から見た未来）" },
+      "mole": { "lemma": "mole", "en": "mole (Mexican sauce)", "fr": "mole (sauce mexicaine)", "note": "チョコレートや唐辛子を使うメキシコの煮込みソース" },
+      "llevaría": { "lemma": "llevar", "en": "to take", "fr": "emmener", "note": "3人称単数・過去未来" },
+      "ver": { "lemma": "ver", "en": "to see", "fr": "voir" },
+      "mariachis": { "lemma": "mariachi", "en": "mariachi", "fr": "mariachi", "note": "複数形" },
+      "piensa": { "lemma": "pensar", "en": "to think", "fr": "penser", "note": "pensar en = 〜のことを考える" },
+      "familia": { "lemma": "familia", "en": "family", "fr": "famille" },
+      "enero": { "lemma": "enero", "en": "January", "fr": "janvier" },
+      "padres": { "lemma": "padre", "en": "parents", "fr": "parents", "note": "複数形で「両親」" },
+      "dijeron": { "lemma": "decir", "en": "to say", "fr": "dire", "note": "3人称複数・点過去" },
+      "esperarían": { "lemma": "esperar", "en": "to wait for", "fr": "attendre", "note": "3人称複数・過去未来" },
+      "osaka": { "lemma": "Osaka", "en": "Osaka", "fr": "Osaka" },
+      "agosto": { "lemma": "agosto", "en": "August", "fr": "août" },
+      "estarán": { "lemma": "estar", "en": "to be", "fr": "être", "note": "3人称複数・未来（現在の推量）" },
+      "durmiendo": { "lemma": "dormir", "en": "sleeping", "fr": "dormant", "note": "現在分詞" },
+      "allí": { "lemma": "allí", "en": "there", "fr": "là-bas" },
+      "sonríe": { "lemma": "sonreír", "en": "to smile", "fr": "sourire", "note": "3人称単数・現在" },
+      "edad": { "lemma": "edad", "en": "age", "fr": "âge" },
+      "viajaría": { "lemma": "viajar", "en": "to travel", "fr": "voyager", "note": "1人称単数・過去未来" },
+      "mundo": { "lemma": "mundo", "en": "world", "fr": "monde" },
+      "antes": { "lemma": "antes", "en": "before, first", "fr": "avant, d'abord" },
+      "llamaría": { "lemma": "llamar", "en": "to call", "fr": "appeler", "note": "1人称単数・過去未来" },
+      "momento": { "lemma": "momento", "en": "moment", "fr": "moment" },
+      "salta": { "lemma": "saltar", "en": "to jump", "fr": "sauter", "note": "3人称単数・現在" },
+      "dentro": { "lemma": "dentro", "en": "inside (dentro de)", "fr": "dans, dedans" },
+      "vieja": { "lemma": "viejo", "en": "old", "fr": "vieux", "note": "女性形" },
+      "maleta": { "lemma": "maleta", "en": "suitcase", "fr": "valise", "note": "ユニット1で Yuki が持ってきたスーツケース" },
+      "parece": { "lemma": "parecer", "en": "to seem", "fr": "sembler" },
+      "decir": { "lemma": "decir", "en": "to say", "fr": "dire" },
+      "contigo": { "lemma": "contigo", "en": "with you", "fr": "avec toi", "note": "con ＋ ti は contigo になる" },
+      "cualquier": { "lemma": "cualquiera", "en": "any", "fr": "n'importe quel" },
+      "sitio": { "lemma": "sitio", "en": "place", "fr": "endroit" }
+    },
+    "quiz": [
+      { "q": "¿Qué le aconseja Lucía a Yuki?", "options": ["Quedarse un año más en Madrid", "Ir a México", "Volver a Osaka"], "answer": "Quedarse un año más en Madrid" },
+      { "q": "¿Qué dijo la madre de Diego?", "options": ["Que le prepararía mole a Yuki", "Que vendría a Madrid", "Que llamaría a los padres de Yuki"], "answer": "Que le prepararía mole a Yuki" },
+      { "q": "¿Qué haría la abuela antes de viajar?", "options": ["Llamaría a sus padres", "Compraría una maleta", "Haría una tortilla"], "answer": "Llamaría a sus padres" }
+    ]
+  }
+}

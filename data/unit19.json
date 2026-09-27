@@ -1,0 +1,122 @@
+{
+  "id": 19,
+  "title": "過去完了",
+  "explain": {
+    "sections": [
+      {
+        "title": "形：haber の線過去 ＋ 過去分詞",
+        "body": "<table><tr><td>yo</td><td><b>había</b> comido</td><td>nosotros</td><td><b>habíamos</b> comido</td></tr><tr><td>tú</td><td><b>habías</b> comido</td><td>vosotros</td><td><b>habíais</b> comido</td></tr><tr><td>él / usted</td><td><b>había</b> comido</td><td>ellos / ustedes</td><td><b>habían</b> comido</td></tr></table><p>過去分詞は現在完了と同じ（不規則形：hecho, dicho, visto, puesto, vuelto, escrito, abierto, roto…）。</p>"
+      },
+      {
+        "title": "使い方：過去より前の過去",
+        "body": "<p>過去のある時点で、<b>それより前にすでに完了していたこと</b>を表す。</p><p><span class='es'>Cuando llegué a la estación, el tren ya <b>había salido</b>.</span><br>（駅に着いた［過去］とき、電車はもう出ていた［それより前］）</p><ul><li><span class='es'>ya</span>（すでに）, <span class='es'>todavía no</span>（まだ〜ない）, <span class='es'>nunca … antes</span>（それまで一度も）とよく使う</li><li>過去の発言の中で：<span class='es'>Me dijo que <b>había visto</b> a Diego.</span>（ディエゴに会ったと言った）</li></ul>"
+      },
+      {
+        "title": "語順",
+        "body": "<p>現在完了と同じく、haber と過去分詞は離さない。代名詞・再帰代名詞・no は haber の前：<span class='es'>No lo había visto. Ya se habían ido.</span></p>"
+      }
+    ],
+    "french": "<ul><li>仏語の<b>大過去</b>（plus-que-parfait）と同じ：<span class='es'>había comido</span> ＝ j'avais mangé。</li><li>ただし助動詞はいつも haber：<span class='es'>había salido</span>（j'<b>étais</b> parti）、<span class='es'>se habían ido</span>（ils s'<b>étaient</b> en allés）。</li><li>過去分詞は一致しない：<span class='es'>Las había visto.</span>（Je les avais vues.）</li><li>使い方は仏語と同じ：<span class='es'>Quand je suis arrivé, le train était déjà parti.</span> の関係そのまま。</li></ul>",
+    "examples": [
+      { "es": "Cuando llegué a la estación, el tren ya había salido.", "en": "When I got to the station, the train had already left.", "fr": "Quand je suis arrivé à la gare, le train était déjà parti." },
+      { "es": "Nunca había visto la nieve antes de venir a Madrid.", "en": "I had never seen snow before coming to Madrid.", "fr": "Je n'avais jamais vu la neige avant de venir à Madrid." },
+      { "es": "Lucía no sabía que Diego había vuelto.", "en": "Lucía didn't know that Diego had come back.", "fr": "Lucía ne savait pas que Diego était revenu." },
+      { "es": "Ya habíamos cenado cuando llamaste.", "en": "We had already had dinner when you called.", "fr": "Nous avions déjà dîné quand tu as appelé." },
+      { "es": "La abuela me dijo que había hecho una tarta.", "en": "Grandma told me she had made a cake.", "fr": "La grand-mère m'a dit qu'elle avait fait un gâteau." },
+      { "es": "¿Habías estado antes en Sevilla?", "en": "Had you been to Seville before?", "fr": "Tu étais déjà allé à Séville ?" },
+      { "es": "Churro estaba contento porque había comido mucho.", "en": "Churro was happy because he had eaten a lot.", "fr": "Churro était content parce qu'il avait beaucoup mangé." },
+      { "es": "Cuando se despertó, todos se habían ido.", "en": "When he woke up, everyone had left.", "fr": "Quand il s'est réveillé, tout le monde était parti." }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "conj", "verb": "salir", "person": "él", "tense": "過去完了", "sentence": "Cuando llegué, el tren ya ___.", "answer": ["había salido"], "explain": "<b>había</b> ＋ salido。" },
+    { "id": "q02", "type": "conj", "verb": "ver", "person": "yo", "tense": "過去完了", "sentence": "Nunca ___ la nieve.", "answer": ["había visto"], "explain": "ver の過去分詞は <b>visto</b>。" },
+    { "id": "q03", "type": "conj", "verb": "cenar", "person": "nosotros", "tense": "過去完了", "sentence": "Ya ___ cuando llamaste.", "answer": ["habíamos cenado"], "explain": "<b>habíamos</b> ＋ cenado。" },
+    { "id": "q04", "type": "conj", "verb": "hacer", "person": "ella", "tense": "過去完了", "sentence": "La abuela ___ una tarta.", "answer": ["había hecho"], "explain": "hacer の過去分詞は <b>hecho</b>。" },
+    { "id": "q05", "type": "conj", "verb": "estar", "person": "tú", "tense": "過去完了", "sentence": "¿___ antes en Sevilla?", "answer": ["Habías estado"], "explain": "<b>habías</b> ＋ estado。" },
+    { "id": "q06", "type": "conj", "verb": "volver", "person": "ellos", "tense": "過去完了", "sentence": "No sabía que ___.", "answer": ["habían vuelto"], "explain": "volver の過去分詞は <b>vuelto</b>。" },
+    { "id": "q07", "type": "conj", "verb": "decir", "person": "vosotros", "tense": "過去完了", "sentence": "¿Qué le ___?", "answer": ["habíais dicho"], "explain": "decir の過去分詞は <b>dicho</b>。" },
+    { "id": "q08", "type": "conj", "verb": "comer", "person": "él", "tense": "過去完了", "sentence": "Churro estaba contento porque ___ mucho.", "answer": ["había comido"], "explain": "満足していた（過去）より前に食べていた → <b>había comido</b>。" },
+    { "id": "q09", "type": "fill", "prompt": "過去分詞にしよう（romper）", "sentence": "Alguien había ___ la ventana.", "answer": ["roto"], "explain": "romper → <b>roto</b>（不規則）。" },
+    { "id": "q10", "type": "fill", "prompt": "過去分詞にしよう（escribir）", "sentence": "Yuki ya había ___ la carta.", "answer": ["escrito"], "explain": "escribir → <b>escrito</b>（不規則）。" },
+    { "id": "q11", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Cuando llegamos al cine, la película ya ___.", "options": ["había empezado", "ha empezado", "empieza"], "answer": "había empezado", "explain": "到着（過去）より前に始まっていた → 過去完了。" },
+    { "id": "q12", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Lucía no sabía que Diego ___ a Madrid.", "options": ["había vuelto", "ha vuelto", "vuelve"], "answer": "había vuelto", "explain": "「知らなかった」（過去）の時点より前の出来事 → 過去完了。" },
+    { "id": "q13", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Antes de venir a España, nunca ___ paella.", "options": ["había comido", "comí", "he comido"], "answer": "había comido", "explain": "過去のある時点までの経験 → 過去完了。" },
+    { "id": "q14", "type": "choice", "prompt": "代名詞を選ぼう", "sentence": "¿La carta? Ya ___ había escrito.", "options": ["la", "lo", "le"], "answer": "la", "explain": "<span class='es'>la carta</span> → <b>la</b>。haber の前に置く。" },
+    { "id": "q15", "type": "choice", "prompt": "haber の正しい形を選ぼう", "sentence": "Cuando sonó el teléfono, ya ___ terminado.", "options": ["habíamos", "habíais", "hemos"], "answer": "habíamos", "explain": "nosotros の過去完了：<b>habíamos</b> terminado。" },
+    { "id": "q16", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["El", "tren", "ya", "había", "salido"], "answer": ["El tren ya había salido", "Ya había salido el tren"], "en": "The train had already left.", "fr": "Le train était déjà parti.", "explain": "ya は haber の前。haber と分詞は離さない。" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Nunca", "había", "visto", "el", "mar"], "answer": ["Nunca había visto el mar"], "en": "I had never seen the sea.", "fr": "Je n'avais jamais vu la mer.", "explain": "nunca ＋ 過去完了。" },
+    { "id": "q18", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Cuando", "llegué", "todos", "se", "habían", "ido"], "answer": ["Cuando llegué todos se habían ido", "Todos se habían ido cuando llegué"], "en": "When I arrived, everyone had left.", "fr": "Quand je suis arrivé, tout le monde était parti.", "explain": "再帰代名詞 se は haber の前。" }
+  ],
+  "reading": {
+    "title": "El misterio del jamón",
+    "sentences": [
+      { "p": true, "es": "El domingo por la mañana, Lucía abrió la puerta de la cocina y gritó.", "en": "On Sunday morning, Lucía opened the kitchen door and screamed.", "fr": "Dimanche matin, Lucía a ouvert la porte de la cuisine et a crié." },
+      { "es": "El jamón ya no estaba en la mesa. Alguien lo había cortado... y alguien se lo había comido.", "en": "The ham was no longer on the table. Someone had cut it... and someone had eaten it.", "fr": "Le jambon n'était plus sur la table. Quelqu'un l'avait coupé... et quelqu'un l'avait mangé." },
+      { "es": "Era un jamón ibérico: la abuela Carmen lo había comprado para una fiesta especial.", "en": "It was an Iberian ham: Grandma Carmen had bought it for a special party.", "fr": "C'était un jambon ibérique : grand-mère Carmen l'avait acheté pour une fête spéciale." },
+      { "p": true, "es": "Lucía, como una detective, llamó a todos a la cocina.", "en": "Lucía, like a detective, called everyone into the kitchen.", "fr": "Lucía, comme une détective, a appelé tout le monde dans la cuisine." },
+      { "es": "—Yuki, ¿qué hiciste anoche?", "en": "\"Yuki, what did you do last night?\"", "fr": "« Yuki, qu'est-ce que tu as fait hier soir ? »" },
+      { "es": "—Había salido con mis compañeros de clase. Volví a la una.", "en": "\"I had gone out with my classmates. I came back at one.\"", "fr": "« J'étais sortie avec mes camarades de classe. Je suis rentrée à une heure. »" },
+      { "es": "—¿Y tú, Diego? —Yo me había dormido en el sofá después del partido. ¡No vi nada!", "en": "\"And you, Diego?\" \"I had fallen asleep on the sofa after the match. I didn't see anything!\"", "fr": "« Et toi, Diego ? — Je m'étais endormi sur le canapé après le match. Je n'ai rien vu ! »" },
+      { "p": true, "es": "Entonces Yuki vio algo debajo de la mesa: un plato vacío y unos pelos naranjas.", "en": "Then Yuki saw something under the table: an empty plate and some orange hairs.", "fr": "Alors Yuki a vu quelque chose sous la table : une assiette vide et quelques poils roux." },
+      { "es": "Todos miraron a Churro. Estaba en su silla, muy tranquilo.", "en": "Everyone looked at Churro. He was on his chair, very calm.", "fr": "Tout le monde a regardé Churro. Il était sur sa chaise, très calme." },
+      { "es": "Pero un gato no puede cortar un jamón...", "en": "But a cat can't cut a ham...", "fr": "Mais un chat ne peut pas couper un jambon..." },
+      { "es": "En ese momento sonó el móvil de Lucía. Era la abuela.", "en": "At that moment Lucía's phone rang. It was Grandma.", "fr": "À ce moment-là, le portable de Lucía a sonné. C'était la grand-mère." },
+      { "es": "—Hija, anoche pasé por tu casa. Había preparado unos bocadillos para mañana... ¡y le di un poquito a Churro!", "en": "\"Dear, I dropped by your place last night. I had made some sandwiches for tomorrow... and I gave Churro a little bit!\"", "fr": "« Ma chérie, je suis passée chez toi hier soir. J'avais préparé des sandwichs pour demain... et j'en ai donné un petit peu à Churro ! »" }
+    ],
+    "glossary": {
+      "misterio": { "lemma": "misterio", "en": "mystery", "fr": "mystère" },
+      "jamón": { "lemma": "jamón", "en": "ham", "fr": "jambon" },
+      "domingo": { "lemma": "domingo", "en": "Sunday", "fr": "dimanche" },
+      "abrió": { "lemma": "abrir", "en": "to open", "fr": "ouvrir", "note": "3人称単数・点過去" },
+      "gritó": { "lemma": "gritar", "en": "to shout, to scream", "fr": "crier", "note": "3人称単数・点過去" },
+      "estaba": { "lemma": "estar", "en": "to be", "fr": "être", "note": "3人称単数・線過去" },
+      "alguien": { "lemma": "alguien", "en": "someone", "fr": "quelqu'un" },
+      "había": { "lemma": "haber", "en": "had (auxiliary)", "fr": "avait (auxiliaire)", "note": "1・3人称単数・線過去。過去完了の助動詞" },
+      "cortado": { "lemma": "cortar", "en": "cut", "fr": "coupé", "note": "過去分詞" },
+      "comido": { "lemma": "comer", "en": "eaten", "fr": "mangé", "note": "過去分詞" },
+      "era": { "lemma": "ser", "en": "to be", "fr": "être", "note": "3人称単数・線過去" },
+      "ibérico": { "lemma": "ibérico", "en": "Iberian", "fr": "ibérique", "note": "jamón ibérico = イベリコ豚の高級生ハム" },
+      "comprado": { "lemma": "comprar", "en": "bought", "fr": "acheté", "note": "過去分詞" },
+      "fiesta": { "lemma": "fiesta", "en": "party", "fr": "fête" },
+      "especial": { "lemma": "especial", "en": "special", "fr": "spécial" },
+      "detective": { "lemma": "detective", "en": "detective", "fr": "détective", "note": "男女同形" },
+      "llamó": { "lemma": "llamar", "en": "to call", "fr": "appeler", "note": "3人称単数・点過去" },
+      "hiciste": { "lemma": "hacer", "en": "to do", "fr": "faire", "note": "2人称単数・点過去" },
+      "anoche": { "lemma": "anoche", "en": "last night", "fr": "hier soir" },
+      "salido": { "lemma": "salir", "en": "gone out", "fr": "sorti", "note": "過去分詞" },
+      "compañeros": { "lemma": "compañero", "en": "mate, classmate", "fr": "camarade", "note": "複数形" },
+      "clase": { "lemma": "clase", "en": "class", "fr": "classe" },
+      "volví": { "lemma": "volver", "en": "to come back", "fr": "rentrer", "note": "1人称単数・点過去" },
+      "dormido": { "lemma": "dormirse", "en": "fallen asleep", "fr": "endormi", "note": "過去分詞" },
+      "partido": { "lemma": "partido", "en": "match", "fr": "match" },
+      "vi": { "lemma": "ver", "en": "to see", "fr": "voir", "note": "1人称単数・点過去" },
+      "entonces": { "lemma": "entonces", "en": "then", "fr": "alors" },
+      "vio": { "lemma": "ver", "en": "to see", "fr": "voir", "note": "3人称単数・点過去" },
+      "algo": { "lemma": "algo", "en": "something", "fr": "quelque chose" },
+      "plato": { "lemma": "plato", "en": "plate", "fr": "assiette" },
+      "vacío": { "lemma": "vacío", "en": "empty", "fr": "vide" },
+      "pelos": { "lemma": "pelo", "en": "hair", "fr": "poil, cheveu", "note": "複数形" },
+      "naranjas": { "lemma": "naranja", "en": "orange", "fr": "orange, roux", "note": "色の名前" },
+      "miraron": { "lemma": "mirar", "en": "to look at", "fr": "regarder", "note": "3人称複数・点過去" },
+      "silla": { "lemma": "silla", "en": "chair", "fr": "chaise" },
+      "tranquilo": { "lemma": "tranquilo", "en": "calm", "fr": "calme" },
+      "cortar": { "lemma": "cortar", "en": "to cut", "fr": "couper" },
+      "momento": { "lemma": "momento", "en": "moment", "fr": "moment" },
+      "sonó": { "lemma": "sonar", "en": "to ring", "fr": "sonner", "note": "3人称単数・点過去" },
+      "móvil": { "lemma": "móvil", "en": "mobile phone", "fr": "portable" },
+      "hija": { "lemma": "hija", "en": "daughter; dear", "fr": "fille ; ma chérie", "note": "親しい呼びかけ" },
+      "pasé": { "lemma": "pasar", "en": "to pass, to drop by", "fr": "passer", "note": "1人称単数・点過去。pasar por = 〜に立ち寄る" },
+      "tu": { "lemma": "tu", "en": "your", "fr": "ton, ta" },
+      "preparado": { "lemma": "preparar", "en": "prepared", "fr": "préparé", "note": "過去分詞" },
+      "bocadillos": { "lemma": "bocadillo", "en": "sandwich (baguette)", "fr": "sandwich", "note": "複数形。バゲットのサンドイッチ" },
+      "di": { "lemma": "dar", "en": "to give", "fr": "donner", "note": "1人称単数・点過去" },
+      "poquito": { "lemma": "poco", "en": "a little bit", "fr": "un petit peu", "note": "poco ＋ 縮小辞 -ito" }
+    },
+    "quiz": [
+      { "q": "¿Quién había comprado el jamón?", "options": ["La abuela Carmen", "Diego", "Lucía"], "answer": "La abuela Carmen" },
+      { "q": "¿Qué había hecho Diego después del partido?", "options": ["Se había dormido en el sofá", "Había salido con sus compañeros", "Había cortado el jamón"], "answer": "Se había dormido en el sofá" },
+      { "q": "¿Quién cortó el jamón?", "options": ["La abuela", "Churro", "Yuki"], "answer": "La abuela" }
+    ]
+  }
+}
