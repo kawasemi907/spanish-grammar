@@ -1,0 +1,128 @@
+{
+  "id": 1,
+  "title": "名詞の性数と冠詞",
+  "explain": {
+    "sections": [
+      {
+        "title": "名詞には性がある",
+        "body": "<p>スペイン語の名詞はすべて<b>男性</b>か<b>女性</b>。語尾でだいたい見分けられる。</p><ul><li><b>-o</b> で終わる → 男性：<span class='es'>el libro</span>（本）</li><li><b>-a</b> で終わる → 女性：<span class='es'>la casa</span>（家）</li><li><b>-ción, -sión, -dad, -tad</b> → 女性：<span class='es'>la canción, la ciudad</span></li><li>例外：<span class='es'>el día, el mapa, el problema</span>（男性）／<span class='es'>la mano, la foto, la radio</span>（女性）</li></ul><p>人を表す語は性で形が変わる：<span class='es'>el chico / la chica</span>、<span class='es'>el profesor / la profesora</span>。<span class='es'>estudiante</span> は冠詞だけで区別（<span class='es'>el / la estudiante</span>）。</p>"
+      },
+      {
+        "title": "複数形の作り方",
+        "body": "<ul><li>母音で終わる → <b>-s</b>：<span class='es'>libro → libros</span></li><li>子音で終わる → <b>-es</b>：<span class='es'>ciudad → ciudades</span></li><li><b>-z → -ces</b>：<span class='es'>lápiz → lápices</span></li></ul><p>アクセント記号に注意：<span class='es'>canción → canciones</span>（記号が消える）、<span class='es'>joven → jóvenes</span>（記号がつく）。強く読む位置を変えないための調整。</p>"
+      },
+      {
+        "title": "冠詞",
+        "body": "<table><tr><th></th><th>男単</th><th>女単</th><th>男複</th><th>女複</th></tr><tr><th>定冠詞</th><td>el</td><td>la</td><td>los</td><td>las</td></tr><tr><th>不定冠詞</th><td>un</td><td>una</td><td>unos</td><td>unas</td></tr></table><ul><li>定冠詞は「その・例の」、不定冠詞は「ある・ひとつの」。<span class='es'>unos / unas</span> は「いくつかの」</li><li><b>a + el → al</b>、<b>de + el → del</b>（必ず縮約）</li><li><span class='es'>hay</span>（〜がある）の後は不定冠詞か無冠詞：<span class='es'>Hay un gato.</span></li></ul>"
+      }
+    ],
+    "french": "<ul><li>複数の定冠詞は仏語では <b>les</b> 1つだが、西語は <span class='es'>los / las</span> と性で分かれる。</li><li>仏語の <b>des</b> に当たるのが <span class='es'>unos / unas</span>。</li><li>縮約は仏語 <b>au, du, aux, des</b> に対し、西語は <span class='es'>al, del</span> の2つだけ（複数は縮約しない：<span class='es'>de los</span>）。</li><li>エリジオン（l'）はない：<span class='es'>el hotel</span>（l'hôtel）、<span class='es'>la amiga</span>（l'amie）。</li><li>性が逆の語に注意：<span class='es'>la leche</span>（le lait）、<span class='es'>el mar</span>（la mer）、<span class='es'>el color</span>（la couleur）、<span class='es'>la nariz</span>（le nez）。</li><li>複数の -s は仏語と違って<b>発音する</b>。部分冠詞はなく、無冠詞で表す：<span class='es'>Quiero pan.</span>（Je veux du pain.）</li></ul>",
+    "examples": [
+      { "es": "Es un gato.", "en": "It's a cat.", "fr": "C'est un chat." },
+      { "es": "Los chicos y las chicas.", "en": "The boys and the girls.", "fr": "Les garçons et les filles." },
+      { "es": "Hay unos libros en la mesa.", "en": "There are some books on the table.", "fr": "Il y a des livres sur la table." },
+      { "es": "El día es largo y la noche es corta.", "en": "The day is long and the night is short.", "fr": "Le jour est long et la nuit est courte." },
+      { "es": "La mano de la abuela.", "en": "The grandmother's hand.", "fr": "La main de la grand-mère." },
+      { "es": "Los lápices del profesor.", "en": "The teacher's pencils.", "fr": "Les crayons du professeur." },
+      { "es": "El mapa de la ciudad.", "en": "The map of the city.", "fr": "Le plan de la ville." },
+      { "es": "Un café y dos churros, por favor.", "en": "A coffee and two churros, please.", "fr": "Un café et deux churros, s'il vous plaît." }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "fill", "prompt": "定冠詞を入れよう", "sentence": "___ libro", "answer": ["el"], "explain": "<span class='es'>libro</span> は -o で終わる男性名詞 → <b>el</b>。" },
+    { "id": "q02", "type": "fill", "prompt": "定冠詞を入れよう", "sentence": "___ ciudad", "answer": ["la"], "explain": "-dad で終わる名詞は女性 → <b>la</b>。" },
+    { "id": "q03", "type": "fill", "prompt": "定冠詞を入れよう", "sentence": "___ problema", "answer": ["el"], "explain": "-a で終わるが男性名詞の例外 → <b>el problema</b>。<span class='es'>el tema, el sistema</span> も同じ。" },
+    { "id": "q04", "type": "fill", "prompt": "定冠詞を入れよう", "sentence": "___ mano", "answer": ["la"], "explain": "-o で終わるが女性名詞の例外 → <b>la mano</b>。" },
+    { "id": "q05", "type": "fill", "prompt": "複数形にしよう（el lápiz → ?）", "sentence": "los ___", "answer": ["lápices"], "explain": "-z で終わる語は <b>-z → -ces</b>：<span class='es'>lápiz → lápices</span>。アクセント記号は残る。" },
+    { "id": "q06", "type": "fill", "prompt": "複数形にしよう（la canción → ?）", "sentence": "las ___", "answer": ["canciones"], "explain": "子音で終わる語は -es。<span class='es'>canción → canciones</span> ではアクセント記号が<b>消える</b>。" },
+    { "id": "q07", "type": "fill", "prompt": "複数形にしよう（el joven → ?）", "sentence": "los ___", "answer": ["jóvenes"], "explain": "<span class='es'>joven → jóvenes</span>。音節が増えるので、強勢の位置を示すためにアクセント記号が<b>つく</b>。" },
+    { "id": "q08", "type": "fill", "prompt": "不定冠詞を入れよう", "sentence": "Hay ___ flores en la mesa.", "answer": ["unas"], "explain": "<span class='es'>flor</span> は女性名詞。複数形 <span class='es'>flores</span> なので <b>unas</b>（いくつかの）。" },
+    { "id": "q09", "type": "choice", "prompt": "正しい冠詞を選ぼう", "sentence": "Hay ___ gato en la casa.", "options": ["un", "una", "unos", "unas"], "answer": "un", "explain": "<span class='es'>gato</span> は男性単数 → <b>un</b>。<span class='es'>hay</span> の後には不定冠詞が来る。" },
+    { "id": "q10", "type": "choice", "prompt": "正しい冠詞を選ぼう", "sentence": "___ día", "options": ["el", "la"], "answer": "el", "explain": "<span class='es'>día</span> は -a で終わるが<b>男性名詞</b>：<span class='es'>el día</span>。" },
+    { "id": "q11", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Es el libro ___ profesor.", "options": ["de el", "del", "de la", "al"], "answer": "del", "explain": "<b>de + el → del</b> は必ず縮約する。" },
+    { "id": "q12", "type": "choice", "prompt": "正しい冠詞を選ぼう", "sentence": "___ fotos de Yuki", "options": ["Los", "Las", "Unos", "El"], "answer": "Las", "explain": "<span class='es'>foto</span> は <span class='es'>fotografía</span> の短縮形なので<b>女性名詞</b>：<span class='es'>las fotos</span>。" },
+    { "id": "q13", "type": "choice", "prompt": "「el mapa」の複数形は？", "options": ["los mapas", "las mapas", "los mapes"], "answer": "los mapas", "explain": "<span class='es'>mapa</span> は男性名詞の例外。母音で終わるので -s をつける：<b>los mapas</b>。" },
+    { "id": "q14", "type": "choice", "prompt": "正しい冠詞を選ぼう", "sentence": "un chico y ___ chica", "options": ["un", "una", "la", "unas"], "answer": "una", "explain": "<span class='es'>chica</span> は女性単数 → <b>una</b>。" },
+    { "id": "q15", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["los", "libros", "de", "la", "chica"], "answer": ["los libros de la chica"], "en": "the girl's books", "fr": "les livres de la fille", "explain": "所有は <b>名詞 + de + 持ち主</b>：<span class='es'>los libros de la chica</span>。" },
+    { "id": "q16", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Hay", "unas", "flores", "en", "la", "mesa"], "answer": ["Hay unas flores en la mesa"], "en": "There are some flowers on the table.", "fr": "Il y a des fleurs sur la table.", "explain": "<span class='es'>hay</span> ＋ 不定冠詞 ＋ 名詞 ＋ 場所。" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["el", "mapa", "de", "la", "ciudad"], "answer": ["el mapa de la ciudad"], "en": "the map of the city", "fr": "le plan de la ville", "explain": "<span class='es'>mapa</span> は男性（el）、<span class='es'>ciudad</span> は女性（la）。" },
+    { "id": "q18", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Es", "el", "gato", "del", "profesor"], "answer": ["Es el gato del profesor"], "en": "It's the teacher's cat.", "fr": "C'est le chat du professeur.", "explain": "<b>de + el → del</b>：<span class='es'>el gato del profesor</span>。" }
+  ],
+  "reading": {
+    "title": "Una maleta enorme",
+    "sentences": [
+      { "p": true, "es": "Madrid, un lunes de septiembre.", "en": "Madrid, a Monday in September.", "fr": "Madrid, un lundi de septembre." },
+      { "es": "Yuki es una estudiante de Japón.", "en": "Yuki is a student from Japan.", "fr": "Yuki est une étudiante du Japon." },
+      { "es": "En la puerta del piso hay una chica con una maleta enorme.", "en": "At the door of the flat there is a girl with a huge suitcase.", "fr": "À la porte de l'appartement, il y a une fille avec une valise énorme." },
+      { "es": "—¡Hola, Yuki! ¡Bienvenida a Madrid! —dice Lucía, la compañera de piso.", "en": "\"Hi, Yuki! Welcome to Madrid!\" says Lucía, the flatmate.", "fr": "« Salut, Yuki ! Bienvenue à Madrid ! » dit Lucía, la colocataire." },
+      { "p": true, "es": "En la maleta hay de todo: unos libros, dos diccionarios, tres paraguas, una tetera y cuarenta paquetes de té verde.", "en": "In the suitcase there is everything: some books, two dictionaries, three umbrellas, a teapot and forty packets of green tea.", "fr": "Dans la valise, il y a de tout : des livres, deux dictionnaires, trois parapluies, une théière et quarante paquets de thé vert." },
+      { "es": "—¿Tres paraguas? En Madrid no llueve mucho —dice Lucía.", "en": "\"Three umbrellas? It doesn't rain much in Madrid,\" says Lucía.", "fr": "« Trois parapluies ? À Madrid, il ne pleut pas beaucoup », dit Lucía." },
+      { "es": "También hay unas fotos de la familia, un mapa de la ciudad y unos lápices de colores.", "en": "There are also some photos of the family, a map of the city and some colored pencils.", "fr": "Il y a aussi des photos de la famille, un plan de la ville et des crayons de couleur." },
+      { "p": true, "es": "De repente, hay un ruido en la maleta.", "en": "Suddenly, there is a noise in the suitcase.", "fr": "Soudain, il y a un bruit dans la valise." },
+      { "es": "—¿Un ratón? —pregunta Yuki.", "en": "\"A mouse?\" asks Yuki.", "fr": "« Une souris ? » demande Yuki." },
+      { "es": "No. Es un gato naranja con los ojos grandes.", "en": "No. It's an orange cat with big eyes.", "fr": "Non. C'est un chat roux aux grands yeux." },
+      { "es": "—Es Churro, el gato de la casa —dice Lucía—. Es el rey del piso... y ahora, de la maleta.", "en": "\"It's Churro, the cat of the house,\" says Lucía. \"He's the king of the flat... and now, of the suitcase.\"", "fr": "« C'est Churro, le chat de la maison, dit Lucía. C'est le roi de l'appartement... et maintenant, de la valise. »" },
+      { "p": true, "es": "En la mesa de la cocina hay chocolate caliente y unos churros: la merienda típica de Madrid.", "en": "On the kitchen table there is hot chocolate and some churros: the typical afternoon snack of Madrid.", "fr": "Sur la table de la cuisine, il y a du chocolat chaud et des churros : le goûter typique de Madrid." },
+      { "es": "El gato mira los churros con mucho interés.", "en": "The cat looks at the churros with great interest.", "fr": "Le chat regarde les churros avec beaucoup d'intérêt." },
+      { "es": "—¡No, Churro! Los churros son para las personas, no para los gatos.", "en": "\"No, Churro! Churros are for people, not for cats.\"", "fr": "« Non, Churro ! Les churros, c'est pour les personnes, pas pour les chats. »" }
+    ],
+    "glossary": {
+      "madrid": { "lemma": "Madrid", "en": "Madrid", "fr": "Madrid", "note": "スペインの首都" },
+      "lunes": { "lemma": "lunes", "en": "Monday", "fr": "lundi", "note": "男性名詞。単複同形" },
+      "septiembre": { "lemma": "septiembre", "en": "September", "fr": "septembre" },
+      "estudiante": { "lemma": "estudiante", "en": "student", "fr": "étudiant(e)", "note": "男女同形。冠詞で区別" },
+      "japón": { "lemma": "Japón", "en": "Japan", "fr": "Japon" },
+      "puerta": { "lemma": "puerta", "en": "door", "fr": "porte" },
+      "piso": { "lemma": "piso", "en": "flat, apartment; floor", "fr": "appartement ; étage", "note": "スペインでは「マンションの部屋」の意味でよく使う" },
+      "chica": { "lemma": "chica", "en": "girl", "fr": "fille" },
+      "maleta": { "lemma": "maleta", "en": "suitcase", "fr": "valise" },
+      "enorme": { "lemma": "enorme", "en": "huge", "fr": "énorme" },
+      "hola": { "lemma": "hola", "en": "hello, hi", "fr": "salut, bonjour" },
+      "bienvenida": { "lemma": "bienvenido", "en": "welcome", "fr": "bienvenu(e)", "note": "女性形（相手が女性なので）" },
+      "compañera": { "lemma": "compañero", "en": "companion, mate", "fr": "camarade, collègue", "note": "女性形。compañera de piso = ルームメイト" },
+      "todo": { "lemma": "todo", "en": "everything, all", "fr": "tout", "note": "de todo = 何でも" },
+      "libros": { "lemma": "libro", "en": "book", "fr": "livre", "note": "複数形" },
+      "diccionarios": { "lemma": "diccionario", "en": "dictionary", "fr": "dictionnaire", "note": "複数形" },
+      "paraguas": { "lemma": "paraguas", "en": "umbrella", "fr": "parapluie", "note": "男性名詞。単複同形" },
+      "tetera": { "lemma": "tetera", "en": "teapot", "fr": "théière" },
+      "cuarenta": { "lemma": "cuarenta", "en": "forty", "fr": "quarante" },
+      "paquetes": { "lemma": "paquete", "en": "packet, package", "fr": "paquet", "note": "複数形" },
+      "té": { "lemma": "té", "en": "tea", "fr": "thé", "note": "te（あなたを）と区別してアクセント記号をつける" },
+      "verde": { "lemma": "verde", "en": "green", "fr": "vert" },
+      "llueve": { "lemma": "llover", "en": "to rain", "fr": "pleuvoir", "note": "3人称単数・現在" },
+      "fotos": { "lemma": "foto", "en": "photo", "fr": "photo", "note": "女性名詞（fotografía の略）。複数形" },
+      "familia": { "lemma": "familia", "en": "family", "fr": "famille" },
+      "mapa": { "lemma": "mapa", "en": "map", "fr": "carte, plan", "note": "-a で終わる男性名詞" },
+      "ciudad": { "lemma": "ciudad", "en": "city", "fr": "ville", "note": "女性名詞" },
+      "lápices": { "lemma": "lápiz", "en": "pencil", "fr": "crayon", "note": "複数形（-z → -ces）" },
+      "colores": { "lemma": "color", "en": "color", "fr": "couleur", "note": "男性名詞（仏語 la couleur と逆）。複数形" },
+      "repente": { "lemma": "de repente", "en": "suddenly", "fr": "soudain" },
+      "ruido": { "lemma": "ruido", "en": "noise", "fr": "bruit" },
+      "ratón": { "lemma": "ratón", "en": "mouse", "fr": "souris" },
+      "pregunta": { "lemma": "preguntar", "en": "to ask", "fr": "demander", "note": "3人称単数・現在" },
+      "gato": { "lemma": "gato", "en": "cat", "fr": "chat" },
+      "naranja": { "lemma": "naranja", "en": "orange", "fr": "orange, roux", "note": "色の名前は形が変わらない" },
+      "ojos": { "lemma": "ojo", "en": "eye", "fr": "œil", "note": "複数形" },
+      "grandes": { "lemma": "grande", "en": "big", "fr": "grand", "note": "複数形" },
+      "casa": { "lemma": "casa", "en": "house, home", "fr": "maison" },
+      "rey": { "lemma": "rey", "en": "king", "fr": "roi" },
+      "ahora": { "lemma": "ahora", "en": "now", "fr": "maintenant" },
+      "mesa": { "lemma": "mesa", "en": "table", "fr": "table" },
+      "cocina": { "lemma": "cocina", "en": "kitchen", "fr": "cuisine" },
+      "chocolate": { "lemma": "chocolate", "en": "chocolate", "fr": "chocolat" },
+      "caliente": { "lemma": "caliente", "en": "hot", "fr": "chaud" },
+      "churros": { "lemma": "churro", "en": "churro (fried dough)", "fr": "churro (beignet)", "note": "複数形。チョコラテに浸して食べる揚げ菓子" },
+      "merienda": { "lemma": "merienda", "en": "afternoon snack", "fr": "goûter", "note": "スペインでは夕方のおやつ" },
+      "típica": { "lemma": "típico", "en": "typical", "fr": "typique", "note": "女性形" },
+      "mira": { "lemma": "mirar", "en": "to look at", "fr": "regarder", "note": "3人称単数・現在" },
+      "interés": { "lemma": "interés", "en": "interest", "fr": "intérêt" },
+      "personas": { "lemma": "persona", "en": "person", "fr": "personne", "note": "複数形" },
+      "gatos": { "lemma": "gato", "en": "cat", "fr": "chat", "note": "複数形" }
+    },
+    "quiz": [
+      { "q": "¿Qué hay en la maleta de Yuki?", "options": ["Tres paraguas", "Tres gatos", "Tres mesas"], "answer": "Tres paraguas" },
+      { "q": "¿Qué animal hay en la maleta?", "options": ["Un gato", "Un ratón", "Un perro"], "answer": "Un gato" },
+      { "q": "¿Qué hay en la mesa de la cocina?", "options": ["Chocolate y churros", "Té verde y paraguas", "Libros y diccionarios"], "answer": "Chocolate y churros" }
+    ]
+  }
+}

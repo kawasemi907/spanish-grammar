@@ -1,0 +1,2929 @@
+{
+ "persons": [
+  "yo",
+  "tú",
+  "él / ella / usted",
+  "nosotros",
+  "vosotros",
+  "ellos / ellas / ustedes"
+ ],
+ "tenses": [
+  {
+   "key": "pres",
+   "label": "直説法現在",
+   "unit": 5
+  },
+  {
+   "key": "perf",
+   "label": "現在完了",
+   "unit": 14
+  },
+  {
+   "key": "indef",
+   "label": "点過去",
+   "unit": 15
+  },
+  {
+   "key": "imperf",
+   "label": "線過去",
+   "unit": 17
+  },
+  {
+   "key": "fut",
+   "label": "未来",
+   "unit": 18
+  },
+  {
+   "key": "cond",
+   "label": "過去未来",
+   "unit": 20
+  },
+  {
+   "key": "subj",
+   "label": "接続法現在",
+   "unit": 21
+  }
+ ],
+ "verbs": [
+  {
+   "inf": "hablar",
+   "ja": "話す",
+   "group": "reg",
+   "part": "hablado",
+   "forms": {
+    "pres": [
+     "hablo",
+     "hablas",
+     "habla",
+     "hablamos",
+     "habláis",
+     "hablan"
+    ],
+    "indef": [
+     "hablé",
+     "hablaste",
+     "habló",
+     "hablamos",
+     "hablasteis",
+     "hablaron"
+    ],
+    "imperf": [
+     "hablaba",
+     "hablabas",
+     "hablaba",
+     "hablábamos",
+     "hablabais",
+     "hablaban"
+    ],
+    "subj": [
+     "hable",
+     "hables",
+     "hable",
+     "hablemos",
+     "habléis",
+     "hablen"
+    ],
+    "fut": [
+     "hablaré",
+     "hablarás",
+     "hablará",
+     "hablaremos",
+     "hablaréis",
+     "hablarán"
+    ],
+    "cond": [
+     "hablaría",
+     "hablarías",
+     "hablaría",
+     "hablaríamos",
+     "hablaríais",
+     "hablarían"
+    ],
+    "perf": [
+     "he hablado",
+     "has hablado",
+     "ha hablado",
+     "hemos hablado",
+     "habéis hablado",
+     "han hablado"
+    ]
+   }
+  },
+  {
+   "inf": "estudiar",
+   "ja": "勉強する",
+   "group": "reg",
+   "part": "estudiado",
+   "forms": {
+    "pres": [
+     "estudio",
+     "estudias",
+     "estudia",
+     "estudiamos",
+     "estudiáis",
+     "estudian"
+    ],
+    "indef": [
+     "estudié",
+     "estudiaste",
+     "estudió",
+     "estudiamos",
+     "estudiasteis",
+     "estudiaron"
+    ],
+    "imperf": [
+     "estudiaba",
+     "estudiabas",
+     "estudiaba",
+     "estudiábamos",
+     "estudiabais",
+     "estudiaban"
+    ],
+    "subj": [
+     "estudie",
+     "estudies",
+     "estudie",
+     "estudiemos",
+     "estudiéis",
+     "estudien"
+    ],
+    "fut": [
+     "estudiaré",
+     "estudiarás",
+     "estudiará",
+     "estudiaremos",
+     "estudiaréis",
+     "estudiarán"
+    ],
+    "cond": [
+     "estudiaría",
+     "estudiarías",
+     "estudiaría",
+     "estudiaríamos",
+     "estudiaríais",
+     "estudiarían"
+    ],
+    "perf": [
+     "he estudiado",
+     "has estudiado",
+     "ha estudiado",
+     "hemos estudiado",
+     "habéis estudiado",
+     "han estudiado"
+    ]
+   }
+  },
+  {
+   "inf": "trabajar",
+   "ja": "働く",
+   "group": "reg",
+   "part": "trabajado",
+   "forms": {
+    "pres": [
+     "trabajo",
+     "trabajas",
+     "trabaja",
+     "trabajamos",
+     "trabajáis",
+     "trabajan"
+    ],
+    "indef": [
+     "trabajé",
+     "trabajaste",
+     "trabajó",
+     "trabajamos",
+     "trabajasteis",
+     "trabajaron"
+    ],
+    "imperf": [
+     "trabajaba",
+     "trabajabas",
+     "trabajaba",
+     "trabajábamos",
+     "trabajabais",
+     "trabajaban"
+    ],
+    "subj": [
+     "trabaje",
+     "trabajes",
+     "trabaje",
+     "trabajemos",
+     "trabajéis",
+     "trabajen"
+    ],
+    "fut": [
+     "trabajaré",
+     "trabajarás",
+     "trabajará",
+     "trabajaremos",
+     "trabajaréis",
+     "trabajarán"
+    ],
+    "cond": [
+     "trabajaría",
+     "trabajarías",
+     "trabajaría",
+     "trabajaríamos",
+     "trabajaríais",
+     "trabajarían"
+    ],
+    "perf": [
+     "he trabajado",
+     "has trabajado",
+     "ha trabajado",
+     "hemos trabajado",
+     "habéis trabajado",
+     "han trabajado"
+    ]
+   }
+  },
+  {
+   "inf": "tomar",
+   "ja": "取る・飲む",
+   "group": "reg",
+   "part": "tomado",
+   "forms": {
+    "pres": [
+     "tomo",
+     "tomas",
+     "toma",
+     "tomamos",
+     "tomáis",
+     "toman"
+    ],
+    "indef": [
+     "tomé",
+     "tomaste",
+     "tomó",
+     "tomamos",
+     "tomasteis",
+     "tomaron"
+    ],
+    "imperf": [
+     "tomaba",
+     "tomabas",
+     "tomaba",
+     "tomábamos",
+     "tomabais",
+     "tomaban"
+    ],
+    "subj": [
+     "tome",
+     "tomes",
+     "tome",
+     "tomemos",
+     "toméis",
+     "tomen"
+    ],
+    "fut": [
+     "tomaré",
+     "tomarás",
+     "tomará",
+     "tomaremos",
+     "tomaréis",
+     "tomarán"
+    ],
+    "cond": [
+     "tomaría",
+     "tomarías",
+     "tomaría",
+     "tomaríamos",
+     "tomaríais",
+     "tomarían"
+    ],
+    "perf": [
+     "he tomado",
+     "has tomado",
+     "ha tomado",
+     "hemos tomado",
+     "habéis tomado",
+     "han tomado"
+    ]
+   }
+  },
+  {
+   "inf": "comprar",
+   "ja": "買う",
+   "group": "reg",
+   "part": "comprado",
+   "forms": {
+    "pres": [
+     "compro",
+     "compras",
+     "compra",
+     "compramos",
+     "compráis",
+     "compran"
+    ],
+    "indef": [
+     "compré",
+     "compraste",
+     "compró",
+     "compramos",
+     "comprasteis",
+     "compraron"
+    ],
+    "imperf": [
+     "compraba",
+     "comprabas",
+     "compraba",
+     "comprábamos",
+     "comprabais",
+     "compraban"
+    ],
+    "subj": [
+     "compre",
+     "compres",
+     "compre",
+     "compremos",
+     "compréis",
+     "compren"
+    ],
+    "fut": [
+     "compraré",
+     "comprarás",
+     "comprará",
+     "compraremos",
+     "compraréis",
+     "comprarán"
+    ],
+    "cond": [
+     "compraría",
+     "comprarías",
+     "compraría",
+     "compraríamos",
+     "compraríais",
+     "comprarían"
+    ],
+    "perf": [
+     "he comprado",
+     "has comprado",
+     "ha comprado",
+     "hemos comprado",
+     "habéis comprado",
+     "han comprado"
+    ]
+   }
+  },
+  {
+   "inf": "llegar",
+   "ja": "着く",
+   "group": "reg",
+   "part": "llegado",
+   "forms": {
+    "pres": [
+     "llego",
+     "llegas",
+     "llega",
+     "llegamos",
+     "llegáis",
+     "llegan"
+    ],
+    "indef": [
+     "llegué",
+     "llegaste",
+     "llegó",
+     "llegamos",
+     "llegasteis",
+     "llegaron"
+    ],
+    "imperf": [
+     "llegaba",
+     "llegabas",
+     "llegaba",
+     "llegábamos",
+     "llegabais",
+     "llegaban"
+    ],
+    "subj": [
+     "llegue",
+     "llegues",
+     "llegue",
+     "lleguemos",
+     "lleguéis",
+     "lleguen"
+    ],
+    "fut": [
+     "llegaré",
+     "llegarás",
+     "llegará",
+     "llegaremos",
+     "llegaréis",
+     "llegarán"
+    ],
+    "cond": [
+     "llegaría",
+     "llegarías",
+     "llegaría",
+     "llegaríamos",
+     "llegaríais",
+     "llegarían"
+    ],
+    "perf": [
+     "he llegado",
+     "has llegado",
+     "ha llegado",
+     "hemos llegado",
+     "habéis llegado",
+     "han llegado"
+    ]
+   }
+  },
+  {
+   "inf": "buscar",
+   "ja": "探す",
+   "group": "reg",
+   "part": "buscado",
+   "forms": {
+    "pres": [
+     "busco",
+     "buscas",
+     "busca",
+     "buscamos",
+     "buscáis",
+     "buscan"
+    ],
+    "indef": [
+     "busqué",
+     "buscaste",
+     "buscó",
+     "buscamos",
+     "buscasteis",
+     "buscaron"
+    ],
+    "imperf": [
+     "buscaba",
+     "buscabas",
+     "buscaba",
+     "buscábamos",
+     "buscabais",
+     "buscaban"
+    ],
+    "subj": [
+     "busque",
+     "busques",
+     "busque",
+     "busquemos",
+     "busquéis",
+     "busquen"
+    ],
+    "fut": [
+     "buscaré",
+     "buscarás",
+     "buscará",
+     "buscaremos",
+     "buscaréis",
+     "buscarán"
+    ],
+    "cond": [
+     "buscaría",
+     "buscarías",
+     "buscaría",
+     "buscaríamos",
+     "buscaríais",
+     "buscarían"
+    ],
+    "perf": [
+     "he buscado",
+     "has buscado",
+     "ha buscado",
+     "hemos buscado",
+     "habéis buscado",
+     "han buscado"
+    ]
+   }
+  },
+  {
+   "inf": "bailar",
+   "ja": "踊る",
+   "group": "reg",
+   "part": "bailado",
+   "forms": {
+    "pres": [
+     "bailo",
+     "bailas",
+     "baila",
+     "bailamos",
+     "bailáis",
+     "bailan"
+    ],
+    "indef": [
+     "bailé",
+     "bailaste",
+     "bailó",
+     "bailamos",
+     "bailasteis",
+     "bailaron"
+    ],
+    "imperf": [
+     "bailaba",
+     "bailabas",
+     "bailaba",
+     "bailábamos",
+     "bailabais",
+     "bailaban"
+    ],
+    "subj": [
+     "baile",
+     "bailes",
+     "baile",
+     "bailemos",
+     "bailéis",
+     "bailen"
+    ],
+    "fut": [
+     "bailaré",
+     "bailarás",
+     "bailará",
+     "bailaremos",
+     "bailaréis",
+     "bailarán"
+    ],
+    "cond": [
+     "bailaría",
+     "bailarías",
+     "bailaría",
+     "bailaríamos",
+     "bailaríais",
+     "bailarían"
+    ],
+    "perf": [
+     "he bailado",
+     "has bailado",
+     "ha bailado",
+     "hemos bailado",
+     "habéis bailado",
+     "han bailado"
+    ]
+   }
+  },
+  {
+   "inf": "cenar",
+   "ja": "夕食をとる",
+   "group": "reg",
+   "part": "cenado",
+   "forms": {
+    "pres": [
+     "ceno",
+     "cenas",
+     "cena",
+     "cenamos",
+     "cenáis",
+     "cenan"
+    ],
+    "indef": [
+     "cené",
+     "cenaste",
+     "cenó",
+     "cenamos",
+     "cenasteis",
+     "cenaron"
+    ],
+    "imperf": [
+     "cenaba",
+     "cenabas",
+     "cenaba",
+     "cenábamos",
+     "cenabais",
+     "cenaban"
+    ],
+    "subj": [
+     "cene",
+     "cenes",
+     "cene",
+     "cenemos",
+     "cenéis",
+     "cenen"
+    ],
+    "fut": [
+     "cenaré",
+     "cenarás",
+     "cenará",
+     "cenaremos",
+     "cenaréis",
+     "cenarán"
+    ],
+    "cond": [
+     "cenaría",
+     "cenarías",
+     "cenaría",
+     "cenaríamos",
+     "cenaríais",
+     "cenarían"
+    ],
+    "perf": [
+     "he cenado",
+     "has cenado",
+     "ha cenado",
+     "hemos cenado",
+     "habéis cenado",
+     "han cenado"
+    ]
+   }
+  },
+  {
+   "inf": "comer",
+   "ja": "食べる",
+   "group": "reg",
+   "part": "comido",
+   "forms": {
+    "pres": [
+     "como",
+     "comes",
+     "come",
+     "comemos",
+     "coméis",
+     "comen"
+    ],
+    "indef": [
+     "comí",
+     "comiste",
+     "comió",
+     "comimos",
+     "comisteis",
+     "comieron"
+    ],
+    "imperf": [
+     "comía",
+     "comías",
+     "comía",
+     "comíamos",
+     "comíais",
+     "comían"
+    ],
+    "subj": [
+     "coma",
+     "comas",
+     "coma",
+     "comamos",
+     "comáis",
+     "coman"
+    ],
+    "fut": [
+     "comeré",
+     "comerás",
+     "comerá",
+     "comeremos",
+     "comeréis",
+     "comerán"
+    ],
+    "cond": [
+     "comería",
+     "comerías",
+     "comería",
+     "comeríamos",
+     "comeríais",
+     "comerían"
+    ],
+    "perf": [
+     "he comido",
+     "has comido",
+     "ha comido",
+     "hemos comido",
+     "habéis comido",
+     "han comido"
+    ]
+   }
+  },
+  {
+   "inf": "beber",
+   "ja": "飲む",
+   "group": "reg",
+   "part": "bebido",
+   "forms": {
+    "pres": [
+     "bebo",
+     "bebes",
+     "bebe",
+     "bebemos",
+     "bebéis",
+     "beben"
+    ],
+    "indef": [
+     "bebí",
+     "bebiste",
+     "bebió",
+     "bebimos",
+     "bebisteis",
+     "bebieron"
+    ],
+    "imperf": [
+     "bebía",
+     "bebías",
+     "bebía",
+     "bebíamos",
+     "bebíais",
+     "bebían"
+    ],
+    "subj": [
+     "beba",
+     "bebas",
+     "beba",
+     "bebamos",
+     "bebáis",
+     "beban"
+    ],
+    "fut": [
+     "beberé",
+     "beberás",
+     "beberá",
+     "beberemos",
+     "beberéis",
+     "beberán"
+    ],
+    "cond": [
+     "bebería",
+     "beberías",
+     "bebería",
+     "beberíamos",
+     "beberíais",
+     "beberían"
+    ],
+    "perf": [
+     "he bebido",
+     "has bebido",
+     "ha bebido",
+     "hemos bebido",
+     "habéis bebido",
+     "han bebido"
+    ]
+   }
+  },
+  {
+   "inf": "aprender",
+   "ja": "学ぶ",
+   "group": "reg",
+   "part": "aprendido",
+   "forms": {
+    "pres": [
+     "aprendo",
+     "aprendes",
+     "aprende",
+     "aprendemos",
+     "aprendéis",
+     "aprenden"
+    ],
+    "indef": [
+     "aprendí",
+     "aprendiste",
+     "aprendió",
+     "aprendimos",
+     "aprendisteis",
+     "aprendieron"
+    ],
+    "imperf": [
+     "aprendía",
+     "aprendías",
+     "aprendía",
+     "aprendíamos",
+     "aprendíais",
+     "aprendían"
+    ],
+    "subj": [
+     "aprenda",
+     "aprendas",
+     "aprenda",
+     "aprendamos",
+     "aprendáis",
+     "aprendan"
+    ],
+    "fut": [
+     "aprenderé",
+     "aprenderás",
+     "aprenderá",
+     "aprenderemos",
+     "aprenderéis",
+     "aprenderán"
+    ],
+    "cond": [
+     "aprendería",
+     "aprenderías",
+     "aprendería",
+     "aprenderíamos",
+     "aprenderíais",
+     "aprenderían"
+    ],
+    "perf": [
+     "he aprendido",
+     "has aprendido",
+     "ha aprendido",
+     "hemos aprendido",
+     "habéis aprendido",
+     "han aprendido"
+    ]
+   }
+  },
+  {
+   "inf": "leer",
+   "ja": "読む",
+   "group": "reg",
+   "part": "leído",
+   "forms": {
+    "pres": [
+     "leo",
+     "lees",
+     "lee",
+     "leemos",
+     "leéis",
+     "leen"
+    ],
+    "indef": [
+     "leí",
+     "leíste",
+     "leyó",
+     "leímos",
+     "leísteis",
+     "leyeron"
+    ],
+    "imperf": [
+     "leía",
+     "leías",
+     "leía",
+     "leíamos",
+     "leíais",
+     "leían"
+    ],
+    "subj": [
+     "lea",
+     "leas",
+     "lea",
+     "leamos",
+     "leáis",
+     "lean"
+    ],
+    "fut": [
+     "leeré",
+     "leerás",
+     "leerá",
+     "leeremos",
+     "leeréis",
+     "leerán"
+    ],
+    "cond": [
+     "leería",
+     "leerías",
+     "leería",
+     "leeríamos",
+     "leeríais",
+     "leerían"
+    ],
+    "perf": [
+     "he leído",
+     "has leído",
+     "ha leído",
+     "hemos leído",
+     "habéis leído",
+     "han leído"
+    ]
+   }
+  },
+  {
+   "inf": "correr",
+   "ja": "走る",
+   "group": "reg",
+   "part": "corrido",
+   "forms": {
+    "pres": [
+     "corro",
+     "corres",
+     "corre",
+     "corremos",
+     "corréis",
+     "corren"
+    ],
+    "indef": [
+     "corrí",
+     "corriste",
+     "corrió",
+     "corrimos",
+     "corristeis",
+     "corrieron"
+    ],
+    "imperf": [
+     "corría",
+     "corrías",
+     "corría",
+     "corríamos",
+     "corríais",
+     "corrían"
+    ],
+    "subj": [
+     "corra",
+     "corras",
+     "corra",
+     "corramos",
+     "corráis",
+     "corran"
+    ],
+    "fut": [
+     "correré",
+     "correrás",
+     "correrá",
+     "correremos",
+     "correréis",
+     "correrán"
+    ],
+    "cond": [
+     "correría",
+     "correrías",
+     "correría",
+     "correríamos",
+     "correríais",
+     "correrían"
+    ],
+    "perf": [
+     "he corrido",
+     "has corrido",
+     "ha corrido",
+     "hemos corrido",
+     "habéis corrido",
+     "han corrido"
+    ]
+   }
+  },
+  {
+   "inf": "vivir",
+   "ja": "住む",
+   "group": "reg",
+   "part": "vivido",
+   "forms": {
+    "pres": [
+     "vivo",
+     "vives",
+     "vive",
+     "vivimos",
+     "vivís",
+     "viven"
+    ],
+    "indef": [
+     "viví",
+     "viviste",
+     "vivió",
+     "vivimos",
+     "vivisteis",
+     "vivieron"
+    ],
+    "imperf": [
+     "vivía",
+     "vivías",
+     "vivía",
+     "vivíamos",
+     "vivíais",
+     "vivían"
+    ],
+    "subj": [
+     "viva",
+     "vivas",
+     "viva",
+     "vivamos",
+     "viváis",
+     "vivan"
+    ],
+    "fut": [
+     "viviré",
+     "vivirás",
+     "vivirá",
+     "viviremos",
+     "viviréis",
+     "vivirán"
+    ],
+    "cond": [
+     "viviría",
+     "vivirías",
+     "viviría",
+     "viviríamos",
+     "viviríais",
+     "vivirían"
+    ],
+    "perf": [
+     "he vivido",
+     "has vivido",
+     "ha vivido",
+     "hemos vivido",
+     "habéis vivido",
+     "han vivido"
+    ]
+   }
+  },
+  {
+   "inf": "escribir",
+   "ja": "書く",
+   "group": "reg",
+   "part": "escrito",
+   "forms": {
+    "pres": [
+     "escribo",
+     "escribes",
+     "escribe",
+     "escribimos",
+     "escribís",
+     "escriben"
+    ],
+    "indef": [
+     "escribí",
+     "escribiste",
+     "escribió",
+     "escribimos",
+     "escribisteis",
+     "escribieron"
+    ],
+    "imperf": [
+     "escribía",
+     "escribías",
+     "escribía",
+     "escribíamos",
+     "escribíais",
+     "escribían"
+    ],
+    "subj": [
+     "escriba",
+     "escribas",
+     "escriba",
+     "escribamos",
+     "escribáis",
+     "escriban"
+    ],
+    "fut": [
+     "escribiré",
+     "escribirás",
+     "escribirá",
+     "escribiremos",
+     "escribiréis",
+     "escribirán"
+    ],
+    "cond": [
+     "escribiría",
+     "escribirías",
+     "escribiría",
+     "escribiríamos",
+     "escribiríais",
+     "escribirían"
+    ],
+    "perf": [
+     "he escrito",
+     "has escrito",
+     "ha escrito",
+     "hemos escrito",
+     "habéis escrito",
+     "han escrito"
+    ]
+   }
+  },
+  {
+   "inf": "abrir",
+   "ja": "開ける",
+   "group": "reg",
+   "part": "abierto",
+   "forms": {
+    "pres": [
+     "abro",
+     "abres",
+     "abre",
+     "abrimos",
+     "abrís",
+     "abren"
+    ],
+    "indef": [
+     "abrí",
+     "abriste",
+     "abrió",
+     "abrimos",
+     "abristeis",
+     "abrieron"
+    ],
+    "imperf": [
+     "abría",
+     "abrías",
+     "abría",
+     "abríamos",
+     "abríais",
+     "abrían"
+    ],
+    "subj": [
+     "abra",
+     "abras",
+     "abra",
+     "abramos",
+     "abráis",
+     "abran"
+    ],
+    "fut": [
+     "abriré",
+     "abrirás",
+     "abrirá",
+     "abriremos",
+     "abriréis",
+     "abrirán"
+    ],
+    "cond": [
+     "abriría",
+     "abrirías",
+     "abriría",
+     "abriríamos",
+     "abriríais",
+     "abrirían"
+    ],
+    "perf": [
+     "he abierto",
+     "has abierto",
+     "ha abierto",
+     "hemos abierto",
+     "habéis abierto",
+     "han abierto"
+    ]
+   }
+  },
+  {
+   "inf": "recibir",
+   "ja": "受け取る",
+   "group": "reg",
+   "part": "recibido",
+   "forms": {
+    "pres": [
+     "recibo",
+     "recibes",
+     "recibe",
+     "recibimos",
+     "recibís",
+     "reciben"
+    ],
+    "indef": [
+     "recibí",
+     "recibiste",
+     "recibió",
+     "recibimos",
+     "recibisteis",
+     "recibieron"
+    ],
+    "imperf": [
+     "recibía",
+     "recibías",
+     "recibía",
+     "recibíamos",
+     "recibíais",
+     "recibían"
+    ],
+    "subj": [
+     "reciba",
+     "recibas",
+     "reciba",
+     "recibamos",
+     "recibáis",
+     "reciban"
+    ],
+    "fut": [
+     "recibiré",
+     "recibirás",
+     "recibirá",
+     "recibiremos",
+     "recibiréis",
+     "recibirán"
+    ],
+    "cond": [
+     "recibiría",
+     "recibirías",
+     "recibiría",
+     "recibiríamos",
+     "recibiríais",
+     "recibirían"
+    ],
+    "perf": [
+     "he recibido",
+     "has recibido",
+     "ha recibido",
+     "hemos recibido",
+     "habéis recibido",
+     "han recibido"
+    ]
+   }
+  },
+  {
+   "inf": "pensar",
+   "ja": "考える",
+   "group": "stem",
+   "part": "pensado",
+   "forms": {
+    "pres": [
+     "pienso",
+     "piensas",
+     "piensa",
+     "pensamos",
+     "pensáis",
+     "piensan"
+    ],
+    "indef": [
+     "pensé",
+     "pensaste",
+     "pensó",
+     "pensamos",
+     "pensasteis",
+     "pensaron"
+    ],
+    "imperf": [
+     "pensaba",
+     "pensabas",
+     "pensaba",
+     "pensábamos",
+     "pensabais",
+     "pensaban"
+    ],
+    "subj": [
+     "piense",
+     "pienses",
+     "piense",
+     "pensemos",
+     "penséis",
+     "piensen"
+    ],
+    "fut": [
+     "pensaré",
+     "pensarás",
+     "pensará",
+     "pensaremos",
+     "pensaréis",
+     "pensarán"
+    ],
+    "cond": [
+     "pensaría",
+     "pensarías",
+     "pensaría",
+     "pensaríamos",
+     "pensaríais",
+     "pensarían"
+    ],
+    "perf": [
+     "he pensado",
+     "has pensado",
+     "ha pensado",
+     "hemos pensado",
+     "habéis pensado",
+     "han pensado"
+    ]
+   }
+  },
+  {
+   "inf": "cerrar",
+   "ja": "閉める",
+   "group": "stem",
+   "part": "cerrado",
+   "forms": {
+    "pres": [
+     "cierro",
+     "cierras",
+     "cierra",
+     "cerramos",
+     "cerráis",
+     "cierran"
+    ],
+    "indef": [
+     "cerré",
+     "cerraste",
+     "cerró",
+     "cerramos",
+     "cerrasteis",
+     "cerraron"
+    ],
+    "imperf": [
+     "cerraba",
+     "cerrabas",
+     "cerraba",
+     "cerrábamos",
+     "cerrabais",
+     "cerraban"
+    ],
+    "subj": [
+     "cierre",
+     "cierres",
+     "cierre",
+     "cerremos",
+     "cerréis",
+     "cierren"
+    ],
+    "fut": [
+     "cerraré",
+     "cerrarás",
+     "cerrará",
+     "cerraremos",
+     "cerraréis",
+     "cerrarán"
+    ],
+    "cond": [
+     "cerraría",
+     "cerrarías",
+     "cerraría",
+     "cerraríamos",
+     "cerraríais",
+     "cerrarían"
+    ],
+    "perf": [
+     "he cerrado",
+     "has cerrado",
+     "ha cerrado",
+     "hemos cerrado",
+     "habéis cerrado",
+     "han cerrado"
+    ]
+   }
+  },
+  {
+   "inf": "empezar",
+   "ja": "始める",
+   "group": "stem",
+   "part": "empezado",
+   "forms": {
+    "pres": [
+     "empiezo",
+     "empiezas",
+     "empieza",
+     "empezamos",
+     "empezáis",
+     "empiezan"
+    ],
+    "indef": [
+     "empecé",
+     "empezaste",
+     "empezó",
+     "empezamos",
+     "empezasteis",
+     "empezaron"
+    ],
+    "imperf": [
+     "empezaba",
+     "empezabas",
+     "empezaba",
+     "empezábamos",
+     "empezabais",
+     "empezaban"
+    ],
+    "subj": [
+     "empiece",
+     "empieces",
+     "empiece",
+     "empecemos",
+     "empecéis",
+     "empiecen"
+    ],
+    "fut": [
+     "empezaré",
+     "empezarás",
+     "empezará",
+     "empezaremos",
+     "empezaréis",
+     "empezarán"
+    ],
+    "cond": [
+     "empezaría",
+     "empezarías",
+     "empezaría",
+     "empezaríamos",
+     "empezaríais",
+     "empezarían"
+    ],
+    "perf": [
+     "he empezado",
+     "has empezado",
+     "ha empezado",
+     "hemos empezado",
+     "habéis empezado",
+     "han empezado"
+    ]
+   }
+  },
+  {
+   "inf": "querer",
+   "ja": "欲する・愛する",
+   "group": "stem",
+   "part": "querido",
+   "forms": {
+    "pres": [
+     "quiero",
+     "quieres",
+     "quiere",
+     "queremos",
+     "queréis",
+     "quieren"
+    ],
+    "indef": [
+     "quise",
+     "quisiste",
+     "quiso",
+     "quisimos",
+     "quisisteis",
+     "quisieron"
+    ],
+    "imperf": [
+     "quería",
+     "querías",
+     "quería",
+     "queríamos",
+     "queríais",
+     "querían"
+    ],
+    "subj": [
+     "quiera",
+     "quieras",
+     "quiera",
+     "queramos",
+     "queráis",
+     "quieran"
+    ],
+    "fut": [
+     "querré",
+     "querrás",
+     "querrá",
+     "querremos",
+     "querréis",
+     "querrán"
+    ],
+    "cond": [
+     "querría",
+     "querrías",
+     "querría",
+     "querríamos",
+     "querríais",
+     "querrían"
+    ],
+    "perf": [
+     "he querido",
+     "has querido",
+     "ha querido",
+     "hemos querido",
+     "habéis querido",
+     "han querido"
+    ]
+   }
+  },
+  {
+   "inf": "volver",
+   "ja": "戻る",
+   "group": "stem",
+   "part": "vuelto",
+   "forms": {
+    "pres": [
+     "vuelvo",
+     "vuelves",
+     "vuelve",
+     "volvemos",
+     "volvéis",
+     "vuelven"
+    ],
+    "indef": [
+     "volví",
+     "volviste",
+     "volvió",
+     "volvimos",
+     "volvisteis",
+     "volvieron"
+    ],
+    "imperf": [
+     "volvía",
+     "volvías",
+     "volvía",
+     "volvíamos",
+     "volvíais",
+     "volvían"
+    ],
+    "subj": [
+     "vuelva",
+     "vuelvas",
+     "vuelva",
+     "volvamos",
+     "volváis",
+     "vuelvan"
+    ],
+    "fut": [
+     "volveré",
+     "volverás",
+     "volverá",
+     "volveremos",
+     "volveréis",
+     "volverán"
+    ],
+    "cond": [
+     "volvería",
+     "volverías",
+     "volvería",
+     "volveríamos",
+     "volveríais",
+     "volverían"
+    ],
+    "perf": [
+     "he vuelto",
+     "has vuelto",
+     "ha vuelto",
+     "hemos vuelto",
+     "habéis vuelto",
+     "han vuelto"
+    ]
+   }
+  },
+  {
+   "inf": "poder",
+   "ja": "できる",
+   "group": "stem",
+   "part": "podido",
+   "forms": {
+    "pres": [
+     "puedo",
+     "puedes",
+     "puede",
+     "podemos",
+     "podéis",
+     "pueden"
+    ],
+    "indef": [
+     "pude",
+     "pudiste",
+     "pudo",
+     "pudimos",
+     "pudisteis",
+     "pudieron"
+    ],
+    "imperf": [
+     "podía",
+     "podías",
+     "podía",
+     "podíamos",
+     "podíais",
+     "podían"
+    ],
+    "subj": [
+     "pueda",
+     "puedas",
+     "pueda",
+     "podamos",
+     "podáis",
+     "puedan"
+    ],
+    "fut": [
+     "podré",
+     "podrás",
+     "podrá",
+     "podremos",
+     "podréis",
+     "podrán"
+    ],
+    "cond": [
+     "podría",
+     "podrías",
+     "podría",
+     "podríamos",
+     "podríais",
+     "podrían"
+    ],
+    "perf": [
+     "he podido",
+     "has podido",
+     "ha podido",
+     "hemos podido",
+     "habéis podido",
+     "han podido"
+    ]
+   }
+  },
+  {
+   "inf": "dormir",
+   "ja": "眠る",
+   "group": "stem",
+   "part": "dormido",
+   "forms": {
+    "pres": [
+     "duermo",
+     "duermes",
+     "duerme",
+     "dormimos",
+     "dormís",
+     "duermen"
+    ],
+    "indef": [
+     "dormí",
+     "dormiste",
+     "durmió",
+     "dormimos",
+     "dormisteis",
+     "durmieron"
+    ],
+    "imperf": [
+     "dormía",
+     "dormías",
+     "dormía",
+     "dormíamos",
+     "dormíais",
+     "dormían"
+    ],
+    "subj": [
+     "duerma",
+     "duermas",
+     "duerma",
+     "durmamos",
+     "durmáis",
+     "duerman"
+    ],
+    "fut": [
+     "dormiré",
+     "dormirás",
+     "dormirá",
+     "dormiremos",
+     "dormiréis",
+     "dormirán"
+    ],
+    "cond": [
+     "dormiría",
+     "dormirías",
+     "dormiría",
+     "dormiríamos",
+     "dormiríais",
+     "dormirían"
+    ],
+    "perf": [
+     "he dormido",
+     "has dormido",
+     "ha dormido",
+     "hemos dormido",
+     "habéis dormido",
+     "han dormido"
+    ]
+   }
+  },
+  {
+   "inf": "jugar",
+   "ja": "遊ぶ・(競技を)する",
+   "group": "stem",
+   "part": "jugado",
+   "forms": {
+    "pres": [
+     "juego",
+     "juegas",
+     "juega",
+     "jugamos",
+     "jugáis",
+     "juegan"
+    ],
+    "indef": [
+     "jugué",
+     "jugaste",
+     "jugó",
+     "jugamos",
+     "jugasteis",
+     "jugaron"
+    ],
+    "imperf": [
+     "jugaba",
+     "jugabas",
+     "jugaba",
+     "jugábamos",
+     "jugabais",
+     "jugaban"
+    ],
+    "subj": [
+     "juegue",
+     "juegues",
+     "juegue",
+     "juguemos",
+     "juguéis",
+     "jueguen"
+    ],
+    "fut": [
+     "jugaré",
+     "jugarás",
+     "jugará",
+     "jugaremos",
+     "jugaréis",
+     "jugarán"
+    ],
+    "cond": [
+     "jugaría",
+     "jugarías",
+     "jugaría",
+     "jugaríamos",
+     "jugaríais",
+     "jugarían"
+    ],
+    "perf": [
+     "he jugado",
+     "has jugado",
+     "ha jugado",
+     "hemos jugado",
+     "habéis jugado",
+     "han jugado"
+    ]
+   }
+  },
+  {
+   "inf": "pedir",
+   "ja": "頼む",
+   "group": "stem",
+   "part": "pedido",
+   "forms": {
+    "pres": [
+     "pido",
+     "pides",
+     "pide",
+     "pedimos",
+     "pedís",
+     "piden"
+    ],
+    "indef": [
+     "pedí",
+     "pediste",
+     "pidió",
+     "pedimos",
+     "pedisteis",
+     "pidieron"
+    ],
+    "imperf": [
+     "pedía",
+     "pedías",
+     "pedía",
+     "pedíamos",
+     "pedíais",
+     "pedían"
+    ],
+    "subj": [
+     "pida",
+     "pidas",
+     "pida",
+     "pidamos",
+     "pidáis",
+     "pidan"
+    ],
+    "fut": [
+     "pediré",
+     "pedirás",
+     "pedirá",
+     "pediremos",
+     "pediréis",
+     "pedirán"
+    ],
+    "cond": [
+     "pediría",
+     "pedirías",
+     "pediría",
+     "pediríamos",
+     "pediríais",
+     "pedirían"
+    ],
+    "perf": [
+     "he pedido",
+     "has pedido",
+     "ha pedido",
+     "hemos pedido",
+     "habéis pedido",
+     "han pedido"
+    ]
+   }
+  },
+  {
+   "inf": "repetir",
+   "ja": "繰り返す",
+   "group": "stem",
+   "part": "repetido",
+   "forms": {
+    "pres": [
+     "repito",
+     "repites",
+     "repite",
+     "repetimos",
+     "repetís",
+     "repiten"
+    ],
+    "indef": [
+     "repetí",
+     "repetiste",
+     "repitió",
+     "repetimos",
+     "repetisteis",
+     "repitieron"
+    ],
+    "imperf": [
+     "repetía",
+     "repetías",
+     "repetía",
+     "repetíamos",
+     "repetíais",
+     "repetían"
+    ],
+    "subj": [
+     "repita",
+     "repitas",
+     "repita",
+     "repitamos",
+     "repitáis",
+     "repitan"
+    ],
+    "fut": [
+     "repetiré",
+     "repetirás",
+     "repetirá",
+     "repetiremos",
+     "repetiréis",
+     "repetirán"
+    ],
+    "cond": [
+     "repetiría",
+     "repetirías",
+     "repetiría",
+     "repetiríamos",
+     "repetiríais",
+     "repetirían"
+    ],
+    "perf": [
+     "he repetido",
+     "has repetido",
+     "ha repetido",
+     "hemos repetido",
+     "habéis repetido",
+     "han repetido"
+    ]
+   }
+  },
+  {
+   "inf": "sentir",
+   "ja": "感じる",
+   "group": "stem",
+   "part": "sentido",
+   "forms": {
+    "pres": [
+     "siento",
+     "sientes",
+     "siente",
+     "sentimos",
+     "sentís",
+     "sienten"
+    ],
+    "indef": [
+     "sentí",
+     "sentiste",
+     "sintió",
+     "sentimos",
+     "sentisteis",
+     "sintieron"
+    ],
+    "imperf": [
+     "sentía",
+     "sentías",
+     "sentía",
+     "sentíamos",
+     "sentíais",
+     "sentían"
+    ],
+    "subj": [
+     "sienta",
+     "sientas",
+     "sienta",
+     "sintamos",
+     "sintáis",
+     "sientan"
+    ],
+    "fut": [
+     "sentiré",
+     "sentirás",
+     "sentirá",
+     "sentiremos",
+     "sentiréis",
+     "sentirán"
+    ],
+    "cond": [
+     "sentiría",
+     "sentirías",
+     "sentiría",
+     "sentiríamos",
+     "sentiríais",
+     "sentirían"
+    ],
+    "perf": [
+     "he sentido",
+     "has sentido",
+     "ha sentido",
+     "hemos sentido",
+     "habéis sentido",
+     "han sentido"
+    ]
+   }
+  },
+  {
+   "inf": "ser",
+   "ja": "〜である",
+   "group": "irr",
+   "part": "sido",
+   "forms": {
+    "pres": [
+     "soy",
+     "eres",
+     "es",
+     "somos",
+     "sois",
+     "son"
+    ],
+    "indef": [
+     "fui",
+     "fuiste",
+     "fue",
+     "fuimos",
+     "fuisteis",
+     "fueron"
+    ],
+    "imperf": [
+     "era",
+     "eras",
+     "era",
+     "éramos",
+     "erais",
+     "eran"
+    ],
+    "subj": [
+     "sea",
+     "seas",
+     "sea",
+     "seamos",
+     "seáis",
+     "sean"
+    ],
+    "fut": [
+     "seré",
+     "serás",
+     "será",
+     "seremos",
+     "seréis",
+     "serán"
+    ],
+    "cond": [
+     "sería",
+     "serías",
+     "sería",
+     "seríamos",
+     "seríais",
+     "serían"
+    ],
+    "perf": [
+     "he sido",
+     "has sido",
+     "ha sido",
+     "hemos sido",
+     "habéis sido",
+     "han sido"
+    ]
+   }
+  },
+  {
+   "inf": "estar",
+   "ja": "〜である・いる",
+   "group": "irr",
+   "part": "estado",
+   "forms": {
+    "pres": [
+     "estoy",
+     "estás",
+     "está",
+     "estamos",
+     "estáis",
+     "están"
+    ],
+    "indef": [
+     "estuve",
+     "estuviste",
+     "estuvo",
+     "estuvimos",
+     "estuvisteis",
+     "estuvieron"
+    ],
+    "imperf": [
+     "estaba",
+     "estabas",
+     "estaba",
+     "estábamos",
+     "estabais",
+     "estaban"
+    ],
+    "subj": [
+     "esté",
+     "estés",
+     "esté",
+     "estemos",
+     "estéis",
+     "estén"
+    ],
+    "fut": [
+     "estaré",
+     "estarás",
+     "estará",
+     "estaremos",
+     "estaréis",
+     "estarán"
+    ],
+    "cond": [
+     "estaría",
+     "estarías",
+     "estaría",
+     "estaríamos",
+     "estaríais",
+     "estarían"
+    ],
+    "perf": [
+     "he estado",
+     "has estado",
+     "ha estado",
+     "hemos estado",
+     "habéis estado",
+     "han estado"
+    ]
+   }
+  },
+  {
+   "inf": "tener",
+   "ja": "持つ",
+   "group": "irr",
+   "part": "tenido",
+   "forms": {
+    "pres": [
+     "tengo",
+     "tienes",
+     "tiene",
+     "tenemos",
+     "tenéis",
+     "tienen"
+    ],
+    "indef": [
+     "tuve",
+     "tuviste",
+     "tuvo",
+     "tuvimos",
+     "tuvisteis",
+     "tuvieron"
+    ],
+    "imperf": [
+     "tenía",
+     "tenías",
+     "tenía",
+     "teníamos",
+     "teníais",
+     "tenían"
+    ],
+    "subj": [
+     "tenga",
+     "tengas",
+     "tenga",
+     "tengamos",
+     "tengáis",
+     "tengan"
+    ],
+    "fut": [
+     "tendré",
+     "tendrás",
+     "tendrá",
+     "tendremos",
+     "tendréis",
+     "tendrán"
+    ],
+    "cond": [
+     "tendría",
+     "tendrías",
+     "tendría",
+     "tendríamos",
+     "tendríais",
+     "tendrían"
+    ],
+    "perf": [
+     "he tenido",
+     "has tenido",
+     "ha tenido",
+     "hemos tenido",
+     "habéis tenido",
+     "han tenido"
+    ]
+   }
+  },
+  {
+   "inf": "ir",
+   "ja": "行く",
+   "group": "irr",
+   "part": "ido",
+   "forms": {
+    "pres": [
+     "voy",
+     "vas",
+     "va",
+     "vamos",
+     "vais",
+     "van"
+    ],
+    "indef": [
+     "fui",
+     "fuiste",
+     "fue",
+     "fuimos",
+     "fuisteis",
+     "fueron"
+    ],
+    "imperf": [
+     "iba",
+     "ibas",
+     "iba",
+     "íbamos",
+     "ibais",
+     "iban"
+    ],
+    "subj": [
+     "vaya",
+     "vayas",
+     "vaya",
+     "vayamos",
+     "vayáis",
+     "vayan"
+    ],
+    "fut": [
+     "iré",
+     "irás",
+     "irá",
+     "iremos",
+     "iréis",
+     "irán"
+    ],
+    "cond": [
+     "iría",
+     "irías",
+     "iría",
+     "iríamos",
+     "iríais",
+     "irían"
+    ],
+    "perf": [
+     "he ido",
+     "has ido",
+     "ha ido",
+     "hemos ido",
+     "habéis ido",
+     "han ido"
+    ]
+   }
+  },
+  {
+   "inf": "hacer",
+   "ja": "する・作る",
+   "group": "irr",
+   "part": "hecho",
+   "forms": {
+    "pres": [
+     "hago",
+     "haces",
+     "hace",
+     "hacemos",
+     "hacéis",
+     "hacen"
+    ],
+    "indef": [
+     "hice",
+     "hiciste",
+     "hizo",
+     "hicimos",
+     "hicisteis",
+     "hicieron"
+    ],
+    "imperf": [
+     "hacía",
+     "hacías",
+     "hacía",
+     "hacíamos",
+     "hacíais",
+     "hacían"
+    ],
+    "subj": [
+     "haga",
+     "hagas",
+     "haga",
+     "hagamos",
+     "hagáis",
+     "hagan"
+    ],
+    "fut": [
+     "haré",
+     "harás",
+     "hará",
+     "haremos",
+     "haréis",
+     "harán"
+    ],
+    "cond": [
+     "haría",
+     "harías",
+     "haría",
+     "haríamos",
+     "haríais",
+     "harían"
+    ],
+    "perf": [
+     "he hecho",
+     "has hecho",
+     "ha hecho",
+     "hemos hecho",
+     "habéis hecho",
+     "han hecho"
+    ]
+   }
+  },
+  {
+   "inf": "venir",
+   "ja": "来る",
+   "group": "irr",
+   "part": "venido",
+   "forms": {
+    "pres": [
+     "vengo",
+     "vienes",
+     "viene",
+     "venimos",
+     "venís",
+     "vienen"
+    ],
+    "indef": [
+     "vine",
+     "viniste",
+     "vino",
+     "vinimos",
+     "vinisteis",
+     "vinieron"
+    ],
+    "imperf": [
+     "venía",
+     "venías",
+     "venía",
+     "veníamos",
+     "veníais",
+     "venían"
+    ],
+    "subj": [
+     "venga",
+     "vengas",
+     "venga",
+     "vengamos",
+     "vengáis",
+     "vengan"
+    ],
+    "fut": [
+     "vendré",
+     "vendrás",
+     "vendrá",
+     "vendremos",
+     "vendréis",
+     "vendrán"
+    ],
+    "cond": [
+     "vendría",
+     "vendrías",
+     "vendría",
+     "vendríamos",
+     "vendríais",
+     "vendrían"
+    ],
+    "perf": [
+     "he venido",
+     "has venido",
+     "ha venido",
+     "hemos venido",
+     "habéis venido",
+     "han venido"
+    ]
+   }
+  },
+  {
+   "inf": "decir",
+   "ja": "言う",
+   "group": "irr",
+   "part": "dicho",
+   "forms": {
+    "pres": [
+     "digo",
+     "dices",
+     "dice",
+     "decimos",
+     "decís",
+     "dicen"
+    ],
+    "indef": [
+     "dije",
+     "dijiste",
+     "dijo",
+     "dijimos",
+     "dijisteis",
+     "dijeron"
+    ],
+    "imperf": [
+     "decía",
+     "decías",
+     "decía",
+     "decíamos",
+     "decíais",
+     "decían"
+    ],
+    "subj": [
+     "diga",
+     "digas",
+     "diga",
+     "digamos",
+     "digáis",
+     "digan"
+    ],
+    "fut": [
+     "diré",
+     "dirás",
+     "dirá",
+     "diremos",
+     "diréis",
+     "dirán"
+    ],
+    "cond": [
+     "diría",
+     "dirías",
+     "diría",
+     "diríamos",
+     "diríais",
+     "dirían"
+    ],
+    "perf": [
+     "he dicho",
+     "has dicho",
+     "ha dicho",
+     "hemos dicho",
+     "habéis dicho",
+     "han dicho"
+    ]
+   }
+  },
+  {
+   "inf": "salir",
+   "ja": "出る",
+   "group": "irr",
+   "part": "salido",
+   "forms": {
+    "pres": [
+     "salgo",
+     "sales",
+     "sale",
+     "salimos",
+     "salís",
+     "salen"
+    ],
+    "indef": [
+     "salí",
+     "saliste",
+     "salió",
+     "salimos",
+     "salisteis",
+     "salieron"
+    ],
+    "imperf": [
+     "salía",
+     "salías",
+     "salía",
+     "salíamos",
+     "salíais",
+     "salían"
+    ],
+    "subj": [
+     "salga",
+     "salgas",
+     "salga",
+     "salgamos",
+     "salgáis",
+     "salgan"
+    ],
+    "fut": [
+     "saldré",
+     "saldrás",
+     "saldrá",
+     "saldremos",
+     "saldréis",
+     "saldrán"
+    ],
+    "cond": [
+     "saldría",
+     "saldrías",
+     "saldría",
+     "saldríamos",
+     "saldríais",
+     "saldrían"
+    ],
+    "perf": [
+     "he salido",
+     "has salido",
+     "ha salido",
+     "hemos salido",
+     "habéis salido",
+     "han salido"
+    ]
+   }
+  },
+  {
+   "inf": "poner",
+   "ja": "置く",
+   "group": "irr",
+   "part": "puesto",
+   "forms": {
+    "pres": [
+     "pongo",
+     "pones",
+     "pone",
+     "ponemos",
+     "ponéis",
+     "ponen"
+    ],
+    "indef": [
+     "puse",
+     "pusiste",
+     "puso",
+     "pusimos",
+     "pusisteis",
+     "pusieron"
+    ],
+    "imperf": [
+     "ponía",
+     "ponías",
+     "ponía",
+     "poníamos",
+     "poníais",
+     "ponían"
+    ],
+    "subj": [
+     "ponga",
+     "pongas",
+     "ponga",
+     "pongamos",
+     "pongáis",
+     "pongan"
+    ],
+    "fut": [
+     "pondré",
+     "pondrás",
+     "pondrá",
+     "pondremos",
+     "pondréis",
+     "pondrán"
+    ],
+    "cond": [
+     "pondría",
+     "pondrías",
+     "pondría",
+     "pondríamos",
+     "pondríais",
+     "pondrían"
+    ],
+    "perf": [
+     "he puesto",
+     "has puesto",
+     "ha puesto",
+     "hemos puesto",
+     "habéis puesto",
+     "han puesto"
+    ]
+   }
+  },
+  {
+   "inf": "saber",
+   "ja": "知っている",
+   "group": "irr",
+   "part": "sabido",
+   "forms": {
+    "pres": [
+     "sé",
+     "sabes",
+     "sabe",
+     "sabemos",
+     "sabéis",
+     "saben"
+    ],
+    "indef": [
+     "supe",
+     "supiste",
+     "supo",
+     "supimos",
+     "supisteis",
+     "supieron"
+    ],
+    "imperf": [
+     "sabía",
+     "sabías",
+     "sabía",
+     "sabíamos",
+     "sabíais",
+     "sabían"
+    ],
+    "subj": [
+     "sepa",
+     "sepas",
+     "sepa",
+     "sepamos",
+     "sepáis",
+     "sepan"
+    ],
+    "fut": [
+     "sabré",
+     "sabrás",
+     "sabrá",
+     "sabremos",
+     "sabréis",
+     "sabrán"
+    ],
+    "cond": [
+     "sabría",
+     "sabrías",
+     "sabría",
+     "sabríamos",
+     "sabríais",
+     "sabrían"
+    ],
+    "perf": [
+     "he sabido",
+     "has sabido",
+     "ha sabido",
+     "hemos sabido",
+     "habéis sabido",
+     "han sabido"
+    ]
+   }
+  },
+  {
+   "inf": "conocer",
+   "ja": "知っている(人・場所)",
+   "group": "irr",
+   "part": "conocido",
+   "forms": {
+    "pres": [
+     "conozco",
+     "conoces",
+     "conoce",
+     "conocemos",
+     "conocéis",
+     "conocen"
+    ],
+    "indef": [
+     "conocí",
+     "conociste",
+     "conoció",
+     "conocimos",
+     "conocisteis",
+     "conocieron"
+    ],
+    "imperf": [
+     "conocía",
+     "conocías",
+     "conocía",
+     "conocíamos",
+     "conocíais",
+     "conocían"
+    ],
+    "subj": [
+     "conozca",
+     "conozcas",
+     "conozca",
+     "conozcamos",
+     "conozcáis",
+     "conozcan"
+    ],
+    "fut": [
+     "conoceré",
+     "conocerás",
+     "conocerá",
+     "conoceremos",
+     "conoceréis",
+     "conocerán"
+    ],
+    "cond": [
+     "conocería",
+     "conocerías",
+     "conocería",
+     "conoceríamos",
+     "conoceríais",
+     "conocerían"
+    ],
+    "perf": [
+     "he conocido",
+     "has conocido",
+     "ha conocido",
+     "hemos conocido",
+     "habéis conocido",
+     "han conocido"
+    ]
+   }
+  },
+  {
+   "inf": "dar",
+   "ja": "与える",
+   "group": "irr",
+   "part": "dado",
+   "forms": {
+    "pres": [
+     "doy",
+     "das",
+     "da",
+     "damos",
+     "dais",
+     "dan"
+    ],
+    "indef": [
+     "di",
+     "diste",
+     "dio",
+     "dimos",
+     "disteis",
+     "dieron"
+    ],
+    "imperf": [
+     "daba",
+     "dabas",
+     "daba",
+     "dábamos",
+     "dabais",
+     "daban"
+    ],
+    "subj": [
+     "dé",
+     "des",
+     "dé",
+     "demos",
+     "deis",
+     "den"
+    ],
+    "fut": [
+     "daré",
+     "darás",
+     "dará",
+     "daremos",
+     "daréis",
+     "darán"
+    ],
+    "cond": [
+     "daría",
+     "darías",
+     "daría",
+     "daríamos",
+     "daríais",
+     "darían"
+    ],
+    "perf": [
+     "he dado",
+     "has dado",
+     "ha dado",
+     "hemos dado",
+     "habéis dado",
+     "han dado"
+    ]
+   }
+  },
+  {
+   "inf": "ver",
+   "ja": "見る",
+   "group": "irr",
+   "part": "visto",
+   "forms": {
+    "pres": [
+     "veo",
+     "ves",
+     "ve",
+     "vemos",
+     "veis",
+     "ven"
+    ],
+    "indef": [
+     "vi",
+     "viste",
+     "vio",
+     "vimos",
+     "visteis",
+     "vieron"
+    ],
+    "imperf": [
+     "veía",
+     "veías",
+     "veía",
+     "veíamos",
+     "veíais",
+     "veían"
+    ],
+    "subj": [
+     "vea",
+     "veas",
+     "vea",
+     "veamos",
+     "veáis",
+     "vean"
+    ],
+    "fut": [
+     "veré",
+     "verás",
+     "verá",
+     "veremos",
+     "veréis",
+     "verán"
+    ],
+    "cond": [
+     "vería",
+     "verías",
+     "vería",
+     "veríamos",
+     "veríais",
+     "verían"
+    ],
+    "perf": [
+     "he visto",
+     "has visto",
+     "ha visto",
+     "hemos visto",
+     "habéis visto",
+     "han visto"
+    ]
+   }
+  },
+  {
+   "inf": "traer",
+   "ja": "持ってくる",
+   "group": "irr",
+   "part": "traído",
+   "forms": {
+    "pres": [
+     "traigo",
+     "traes",
+     "trae",
+     "traemos",
+     "traéis",
+     "traen"
+    ],
+    "indef": [
+     "traje",
+     "trajiste",
+     "trajo",
+     "trajimos",
+     "trajisteis",
+     "trajeron"
+    ],
+    "imperf": [
+     "traía",
+     "traías",
+     "traía",
+     "traíamos",
+     "traíais",
+     "traían"
+    ],
+    "subj": [
+     "traiga",
+     "traigas",
+     "traiga",
+     "traigamos",
+     "traigáis",
+     "traigan"
+    ],
+    "fut": [
+     "traeré",
+     "traerás",
+     "traerá",
+     "traeremos",
+     "traeréis",
+     "traerán"
+    ],
+    "cond": [
+     "traería",
+     "traerías",
+     "traería",
+     "traeríamos",
+     "traeríais",
+     "traerían"
+    ],
+    "perf": [
+     "he traído",
+     "has traído",
+     "ha traído",
+     "hemos traído",
+     "habéis traído",
+     "han traído"
+    ]
+   }
+  },
+  {
+   "inf": "oír",
+   "ja": "聞こえる",
+   "group": "irr",
+   "part": "oído",
+   "forms": {
+    "pres": [
+     "oigo",
+     "oyes",
+     "oye",
+     "oímos",
+     "oís",
+     "oyen"
+    ],
+    "indef": [
+     "oí",
+     "oíste",
+     "oyó",
+     "oímos",
+     "oísteis",
+     "oyeron"
+    ],
+    "imperf": [
+     "oía",
+     "oías",
+     "oía",
+     "oíamos",
+     "oíais",
+     "oían"
+    ],
+    "subj": [
+     "oiga",
+     "oigas",
+     "oiga",
+     "oigamos",
+     "oigáis",
+     "oigan"
+    ],
+    "fut": [
+     "oiré",
+     "oirás",
+     "oirá",
+     "oiremos",
+     "oiréis",
+     "oirán"
+    ],
+    "cond": [
+     "oiría",
+     "oirías",
+     "oiría",
+     "oiríamos",
+     "oiríais",
+     "oirían"
+    ],
+    "perf": [
+     "he oído",
+     "has oído",
+     "ha oído",
+     "hemos oído",
+     "habéis oído",
+     "han oído"
+    ]
+   }
+  },
+  {
+   "inf": "conducir",
+   "ja": "運転する",
+   "group": "irr",
+   "part": "conducido",
+   "forms": {
+    "pres": [
+     "conduzco",
+     "conduces",
+     "conduce",
+     "conducimos",
+     "conducís",
+     "conducen"
+    ],
+    "indef": [
+     "conduje",
+     "condujiste",
+     "condujo",
+     "condujimos",
+     "condujisteis",
+     "condujeron"
+    ],
+    "imperf": [
+     "conducía",
+     "conducías",
+     "conducía",
+     "conducíamos",
+     "conducíais",
+     "conducían"
+    ],
+    "subj": [
+     "conduzca",
+     "conduzcas",
+     "conduzca",
+     "conduzcamos",
+     "conduzcáis",
+     "conduzcan"
+    ],
+    "fut": [
+     "conduciré",
+     "conducirás",
+     "conducirá",
+     "conduciremos",
+     "conduciréis",
+     "conducirán"
+    ],
+    "cond": [
+     "conduciría",
+     "conducirías",
+     "conduciría",
+     "conduciríamos",
+     "conduciríais",
+     "conducirían"
+    ],
+    "perf": [
+     "he conducido",
+     "has conducido",
+     "ha conducido",
+     "hemos conducido",
+     "habéis conducido",
+     "han conducido"
+    ]
+   }
+  }
+ ]
+}

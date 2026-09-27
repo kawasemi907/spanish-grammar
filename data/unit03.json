@@ -1,0 +1,113 @@
+{
+  "id": 3,
+  "title": "estarとhay",
+  "explain": {
+    "sections": [
+      {
+        "title": "estar の活用",
+        "body": "<table><tr><td>yo</td><td><b>estoy</b></td><td>nosotros</td><td><b>estamos</b></td></tr><tr><td>tú</td><td><b>estás</b></td><td>vosotros</td><td><b>estáis</b></td></tr><tr><td>él / usted</td><td><b>está</b></td><td>ellos / ustedes</td><td><b>están</b></td></tr></table><p>yo 以外はアクセント記号つき（<span class='es'>estamos</span> を除く）。</p>"
+      },
+      {
+        "title": "estar の使い方",
+        "body": "<ul><li><b>所在</b>（特定の人・ものがどこにいるか）：<span class='es'>El gato está en la cocina.</span></li><li><b>状態</b>（一時的な様子・気分）：<span class='es'>Estoy cansada. ¿Cómo estás? —Estoy bien.</span></li></ul><p><b>ser</b> は本質・性格、<b>estar</b> は今の状態：<span class='es'>Lucía es alegre.</span>（明るい性格）／<span class='es'>Lucía está triste hoy.</span>（今日は悲しい）</p>"
+      },
+      {
+        "title": "hay と estar の区別",
+        "body": "<ul><li><b>hay</b>＝「〜がある・いる」（初めて話題にする、不特定のもの）。後ろは<b>不定冠詞・数詞・無冠詞</b>。単数でも複数でも <span class='es'>hay</span>。<br><span class='es'>Hay un banco en la plaza. Hay dos bancos.</span></li><li><b>estar</b>＝「（その）〜は…にある」（特定のもの）。主語に<b>定冠詞・固有名詞</b>。<br><span class='es'>El banco está en la plaza.</span></li></ul><p>位置の表現：<span class='es'>encima de</span>（上に）、<span class='es'>debajo de</span>（下に）、<span class='es'>delante de</span>（前に）、<span class='es'>detrás de</span>（後ろに）、<span class='es'>al lado de</span>（隣に）、<span class='es'>cerca de / lejos de</span>（近く・遠く）</p>"
+      }
+    ],
+    "french": "<ul><li>仏語の <b>être</b> は西語では <span class='es'>ser</span>（本質）と <span class='es'>estar</span>（所在・状態）に分かれる：<span class='es'>Je suis fatiguée.</span> → <span class='es'>Estoy cansada.</span></li><li><span class='es'>estar</span> はラテン語 <i>stare</i>（立っている）から。仏語の半過去 <b>j'étais</b> や <b>état</b> も同じ語源。</li><li><span class='es'>hay</span> ＝ <b>il y a</b>。どちらも単複で形が変わらない：<span class='es'>Hay dos cafés.</span>（Il y a deux cafés.）</li><li>仏語の <b>Comment ça va ? — Ça va bien.</b> は <span class='es'>¿Cómo estás? —Estoy bien.</span>（estar を使う）</li><li>位置の前置詞句：<span class='es'>debajo de</span>（sous）、<span class='es'>encima de</span>（sur）、<span class='es'>al lado de</span>（à côté de）、<span class='es'>cerca de</span>（près de）。</li></ul>",
+    "examples": [
+      { "es": "¿Dónde está el gato? —Está debajo de la cama.", "en": "Where's the cat? —It's under the bed.", "fr": "Où est le chat ? — Il est sous le lit." },
+      { "es": "Hay un gato en la cocina.", "en": "There's a cat in the kitchen.", "fr": "Il y a un chat dans la cuisine." },
+      { "es": "¿Cómo estás? —Estoy muy bien, gracias.", "en": "How are you? —I'm very well, thanks.", "fr": "Comment vas-tu ? — Je vais très bien, merci." },
+      { "es": "Lucía está cansada hoy.", "en": "Lucía is tired today.", "fr": "Lucía est fatiguée aujourd'hui." },
+      { "es": "El Museo del Prado está en Madrid.", "en": "The Prado Museum is in Madrid.", "fr": "Le musée du Prado est à Madrid." },
+      { "es": "En la plaza hay dos cafeterías.", "en": "There are two cafés in the square.", "fr": "Sur la place, il y a deux cafés." },
+      { "es": "Estamos en clase.", "en": "We're in class.", "fr": "Nous sommes en cours." },
+      { "es": "¿Hay un supermercado cerca de aquí?", "en": "Is there a supermarket near here?", "fr": "Y a-t-il un supermarché près d'ici ?" }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "conj", "verb": "estar", "person": "yo", "tense": "直説法現在", "sentence": "Yo ___ en casa.", "answer": ["estoy"], "explain": "estar：<b>estoy</b>, estás, está, estamos, estáis, están" },
+    { "id": "q02", "type": "conj", "verb": "estar", "person": "tú", "tense": "直説法現在", "sentence": "¿Cómo ___, Yuki?", "answer": ["estás"], "explain": "tú の形は <b>estás</b>（アクセント記号を忘れずに）。" },
+    { "id": "q03", "type": "conj", "verb": "estar", "person": "nosotros", "tense": "直説法現在", "sentence": "Nosotros ___ cansados.", "answer": ["estamos"], "explain": "nosotros の形は <b>estamos</b>。一時的な状態なので estar。" },
+    { "id": "q04", "type": "conj", "verb": "estar", "person": "vosotros", "tense": "直説法現在", "sentence": "¿Vosotros ___ en Madrid?", "answer": ["estáis"], "explain": "vosotros の形は <b>estáis</b>。" },
+    { "id": "q05", "type": "conj", "verb": "estar", "person": "ellos / ellas", "tense": "直説法現在", "sentence": "Las llaves ___ en la mesa.", "answer": ["están"], "explain": "主語 <span class='es'>las llaves</span> は3人称複数 → <b>están</b>。" },
+    { "id": "q06", "type": "choice", "prompt": "正しい語を選ぼう", "sentence": "___ un banco en la plaza.", "options": ["Hay", "Está", "Es"], "answer": "Hay", "explain": "<span class='es'>un banco</span>（不特定）の存在 → <b>hay</b>。" },
+    { "id": "q07", "type": "choice", "prompt": "正しい語を選ぼう", "sentence": "El banco ___ en la plaza.", "options": ["hay", "está", "es"], "answer": "está", "explain": "<span class='es'>el banco</span>（特定）の所在 → <b>está</b>。" },
+    { "id": "q08", "type": "choice", "prompt": "正しい語を選ぼう", "sentence": "Madrid ___ en el centro de España.", "options": ["está", "es", "hay"], "answer": "está", "explain": "場所（所在）は <b>estar</b>。地名でも同じ。" },
+    { "id": "q09", "type": "choice", "prompt": "正しい語を選ぼう", "sentence": "Lucía ___ de Madrid.", "options": ["es", "está", "hay"], "answer": "es", "explain": "出身は <b>ser de</b>。" },
+    { "id": "q10", "type": "choice", "prompt": "正しい語を選ぼう", "sentence": "Hoy Yuki ___ muy cansada.", "options": ["está", "es", "hay"], "answer": "está", "explain": "今日の状態 → <b>estar</b>。" },
+    { "id": "q11", "type": "choice", "prompt": "正しい語を選ぼう", "sentence": "¿Dónde ___ los libros?", "options": ["están", "hay", "son"], "answer": "están", "explain": "<span class='es'>los libros</span>（特定）の所在 → <b>están</b>。" },
+    { "id": "q12", "type": "fill", "prompt": "hay か estar の正しい形を入れよう", "sentence": "En la clase ___ diez estudiantes.", "answer": ["hay"], "explain": "数詞＋名詞（不特定）の存在 → <b>hay</b>。複数でも hay。" },
+    { "id": "q13", "type": "fill", "prompt": "hay か estar の正しい形を入れよう", "sentence": "¿Dónde ___ Diego?", "answer": ["está"], "explain": "人名（特定）の所在 → <b>está</b>。" },
+    { "id": "q14", "type": "fill", "prompt": "「〜の下に」を入れよう", "sentence": "El gato está ___ la cama.", "answer": ["debajo de"], "explain": "<b>debajo de</b>＝〜の下に。反対は <span class='es'>encima de</span>。" },
+    { "id": "q15", "type": "fill", "prompt": "hay か estar の正しい形を入れよう", "sentence": "¿___ un supermercado cerca de aquí?", "answer": ["hay"], "explain": "「近くにスーパーはある？」＝不特定のものの存在 → <b>Hay</b>。" },
+    { "id": "q16", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["El", "gato", "está", "debajo", "de", "la", "mesa"], "answer": ["El gato está debajo de la mesa"], "en": "The cat is under the table.", "fr": "Le chat est sous la table.", "explain": "特定のもの＋ <b>estar</b> ＋場所。" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Hay", "dos", "cafeterías", "en", "la", "plaza"], "answer": ["Hay dos cafeterías en la plaza", "En la plaza hay dos cafeterías"], "en": "There are two cafés in the square.", "fr": "Il y a deux cafés sur la place.", "explain": "<b>hay</b> ＋数詞＋名詞。場所は前でも後ろでもよい。" },
+    { "id": "q18", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Nosotros", "estamos", "muy", "bien", "hoy"], "answer": ["Nosotros estamos muy bien hoy", "Hoy nosotros estamos muy bien", "Nosotros hoy estamos muy bien"], "en": "We are very well today.", "fr": "Nous allons très bien aujourd'hui.", "explain": "気分・体調は <b>estar</b> ＋ <span class='es'>bien / mal</span>。" }
+  ],
+  "reading": {
+    "title": "¿Dónde está Churro?",
+    "sentences": [
+      { "p": true, "es": "Es sábado por la mañana.", "en": "It's Saturday morning.", "fr": "C'est samedi matin." },
+      { "es": "Yuki está en la cocina y Lucía está en el sofá.", "en": "Yuki is in the kitchen and Lucía is on the sofa.", "fr": "Yuki est dans la cuisine et Lucía est sur le canapé." },
+      { "es": "Lucía está muy cansada: los viernes, en Lavapiés, hay fiesta hasta las cuatro de la mañana.", "en": "Lucía is very tired: on Fridays in Lavapiés there's partying until four in the morning.", "fr": "Lucía est très fatiguée : le vendredi, à Lavapiés, on fait la fête jusqu'à quatre heures du matin." },
+      { "p": true, "es": "—¿Dónde está Churro? —pregunta Yuki—. En su plato hay comida, pero el gato no está.", "en": "\"Where's Churro?\" asks Yuki. \"There's food in his bowl, but the cat isn't here.\"", "fr": "« Où est Churro ? demande Yuki. Il y a de la nourriture dans sa gamelle, mais le chat n'est pas là. »" },
+      { "es": "El piso no es grande: hay un salón, una cocina, dos dormitorios y un baño muy pequeño.", "en": "The flat isn't big: there's a living room, a kitchen, two bedrooms and a very small bathroom.", "fr": "L'appartement n'est pas grand : il y a un salon, une cuisine, deux chambres et une toute petite salle de bains." },
+      { "es": "Churro no está debajo de la cama.", "en": "Churro isn't under the bed.", "fr": "Churro n'est pas sous le lit." },
+      { "es": "No está en el armario.", "en": "He isn't in the wardrobe.", "fr": "Il n'est pas dans l'armoire." },
+      { "es": "No está detrás de las plantas.", "en": "He isn't behind the plants.", "fr": "Il n'est pas derrière les plantes." },
+      { "es": "Yuki está un poco nerviosa.", "en": "Yuki is a little worried.", "fr": "Yuki est un peu inquiète." },
+      { "p": true, "es": "—Tranquila —dice Lucía—. Churro siempre está en el mismo sitio a esta hora.", "en": "\"Relax,\" says Lucía. \"Churro is always in the same place at this time.\"", "fr": "« Du calme, dit Lucía. Churro est toujours au même endroit à cette heure-ci. »" },
+      { "es": "En el balcón hay una silla al sol.", "en": "On the balcony there's a chair in the sun.", "fr": "Sur le balcon, il y a une chaise au soleil." },
+      { "es": "Y encima de la silla está Churro: muy tranquilo, muy feliz y muy gordo.", "en": "And on the chair is Churro: very calm, very happy and very fat.", "fr": "Et sur la chaise se trouve Churro : très calme, très heureux et très gros." },
+      { "es": "—Es un gato madrileño —dice Lucía—. Por la mañana, sol; por la noche, fiesta.", "en": "\"He's a Madrid cat,\" says Lucía. \"Sun in the morning; party at night.\"", "fr": "« C'est un chat madrilène, dit Lucía. Le matin, le soleil ; le soir, la fête. »" }
+    ],
+    "glossary": {
+      "sábado": { "lemma": "sábado", "en": "Saturday", "fr": "samedi" },
+      "cocina": { "lemma": "cocina", "en": "kitchen", "fr": "cuisine" },
+      "sofá": { "lemma": "sofá", "en": "sofa", "fr": "canapé", "note": "-á で終わる男性名詞" },
+      "cansada": { "lemma": "cansado", "en": "tired", "fr": "fatigué", "note": "女性形。状態なので estar と使う" },
+      "viernes": { "lemma": "viernes", "en": "Friday", "fr": "vendredi", "note": "los viernes = 毎週金曜日に" },
+      "lavapiés": { "lemma": "Lavapiés", "en": "Lavapiés", "fr": "Lavapiés", "note": "マドリード中心部の多文化な下町。Yukiたちのアパートがある" },
+      "fiesta": { "lemma": "fiesta", "en": "party", "fr": "fête" },
+      "las": { "lemma": "el", "en": "the", "fr": "les", "note": "時刻では hora（時間）を省略：las cuatro = 4時" },
+      "pregunta": { "lemma": "preguntar", "en": "to ask", "fr": "demander", "note": "3人称単数・現在" },
+      "plato": { "lemma": "plato", "en": "plate, bowl", "fr": "assiette, gamelle" },
+      "comida": { "lemma": "comida", "en": "food", "fr": "nourriture" },
+      "gato": { "lemma": "gato", "en": "cat", "fr": "chat" },
+      "piso": { "lemma": "piso", "en": "flat, apartment", "fr": "appartement" },
+      "grande": { "lemma": "grande", "en": "big", "fr": "grand" },
+      "salón": { "lemma": "salón", "en": "living room", "fr": "salon" },
+      "dormitorios": { "lemma": "dormitorio", "en": "bedroom", "fr": "chambre", "note": "複数形" },
+      "baño": { "lemma": "baño", "en": "bathroom", "fr": "salle de bains" },
+      "pequeño": { "lemma": "pequeño", "en": "small", "fr": "petit" },
+      "cama": { "lemma": "cama", "en": "bed", "fr": "lit" },
+      "armario": { "lemma": "armario", "en": "wardrobe", "fr": "armoire" },
+      "detrás": { "lemma": "detrás", "en": "behind (detrás de)", "fr": "derrière" },
+      "plantas": { "lemma": "planta", "en": "plant", "fr": "plante", "note": "複数形" },
+      "un": { "lemma": "uno", "en": "a", "fr": "un", "note": "un poco = 少し" },
+      "poco": { "lemma": "poco", "en": "a little (un poco)", "fr": "un peu (un poco)" },
+      "nerviosa": { "lemma": "nervioso", "en": "nervous, worried", "fr": "nerveux, inquiet", "note": "女性形" },
+      "tranquila": { "lemma": "tranquilo", "en": "calm", "fr": "calme", "note": "女性形。「落ち着いて」の意味でよく使う" },
+      "mismo": { "lemma": "mismo", "en": "same", "fr": "même" },
+      "sitio": { "lemma": "sitio", "en": "place", "fr": "endroit" },
+      "esta": { "lemma": "este", "en": "this", "fr": "cette", "note": "指示詞・女性形（ユニット4）" },
+      "hora": { "lemma": "hora", "en": "hour, time", "fr": "heure" },
+      "balcón": { "lemma": "balcón", "en": "balcony", "fr": "balcon" },
+      "silla": { "lemma": "silla", "en": "chair", "fr": "chaise" },
+      "sol": { "lemma": "sol", "en": "sun", "fr": "soleil", "note": "al sol = 日なたに" },
+      "tranquilo": { "lemma": "tranquilo", "en": "calm", "fr": "calme" },
+      "feliz": { "lemma": "feliz", "en": "happy", "fr": "heureux" },
+      "gordo": { "lemma": "gordo", "en": "fat", "fr": "gros" },
+      "madrileño": { "lemma": "madrileño", "en": "from Madrid", "fr": "madrilène" }
+    },
+    "quiz": [
+      { "q": "¿Dónde está Lucía por la mañana?", "options": ["En el sofá", "En el balcón", "En la cocina"], "answer": "En el sofá" },
+      { "q": "¿Cuántos dormitorios hay en el piso?", "options": ["Dos", "Uno", "Tres"], "answer": "Dos" },
+      { "q": "¿Dónde está Churro?", "options": ["Encima de una silla en el balcón", "Debajo de la cama", "En el armario"], "answer": "Encima de una silla en el balcón" }
+    ]
+  }
+}

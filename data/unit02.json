@@ -1,0 +1,126 @@
+{
+  "id": 2,
+  "title": "主語代名詞とser",
+  "explain": {
+    "sections": [
+      {
+        "title": "主語代名詞",
+        "body": "<table><tr><th></th><th>単数</th><th>複数</th></tr><tr><th>1人称</th><td>yo（私）</td><td>nosotros / nosotras</td></tr><tr><th>2人称</th><td>tú（君）</td><td>vosotros / vosotras</td></tr><tr><th>3人称</th><td>él / ella / usted</td><td>ellos / ellas / ustedes</td></tr></table><ul><li><span class='es'>usted</span>（あなた）は丁寧な言い方で、動詞は<b>3人称</b>の形を使う。</li><li><span class='es'>vosotros</span> はスペインだけ。中南米では複数の相手にはいつも <span class='es'>ustedes</span>。</li><li>動詞の形で主語がわかるので、主語代名詞は<b>ふつう省略</b>する。強調・対比のときに言う。</li></ul>"
+      },
+      {
+        "title": "ser の活用",
+        "body": "<table><tr><td>yo</td><td><b>soy</b></td><td>nosotros</td><td><b>somos</b></td></tr><tr><td>tú</td><td><b>eres</b></td><td>vosotros</td><td><b>sois</b></td></tr><tr><td>él / usted</td><td><b>es</b></td><td>ellos / ustedes</td><td><b>son</b></td></tr></table>"
+      },
+      {
+        "title": "ser の使い方",
+        "body": "<ul><li>名前・身分・職業：<span class='es'>Soy Yuki. Soy estudiante.</span>（職業の前に冠詞をつけない）</li><li>出身・国籍：<span class='es'>Soy de Japón. Soy japonesa.</span></li><li>性格・本質：<span class='es'>Diego es simpático.</span></li><li>材料・所有：<span class='es'>Es de madera. Es de Lucía.</span></li></ul><p>否定は動詞の前に <span class='es'>no</span>：<span class='es'>No soy español.</span> 疑問文は文の最初と最後に <b>¿ ?</b>：<span class='es'>¿Eres japonesa?</span></p><p>国籍形容詞の女性形：<span class='es'>japonés → japonesa</span>、<span class='es'>español → española</span>、<span class='es'>mexicano → mexicana</span>。</p>"
+      }
+    ],
+    "french": "<ul><li>ser は仏語の <b>être</b> に当たる：<span class='es'>soy, eres, es, somos, sois, son</span> ＝ suis, es, est, sommes, êtes, sont。ただし être の一部の用法は次のユニットの <span class='es'>estar</span> が受け持つ。</li><li>仏語は主語代名詞が必須だが、西語は<b>省略が普通</b>：<span class='es'>Soy Yuki.</span>（Je suis Yuki.）</li><li><span class='es'>usted</span> は丁寧の <b>vous</b> だが、動詞は3人称単数：<span class='es'>usted es</span>（vous êtes）。</li><li>親しい複数の「vous」は <span class='es'>vosotros</span>（sois）、丁寧な複数は <span class='es'>ustedes</span>（son）。</li><li>職業に冠詞をつけないのは仏語と同じ：<span class='es'>Soy estudiante.</span>（Je suis étudiant.）</li><li>仏語の <b>c'est</b> は <span class='es'>es</span> 1語：<span class='es'>Es Churro.</span>（C'est Churro.）</li></ul>",
+    "examples": [
+      { "es": "Yo soy Yuki. Soy japonesa.", "en": "I'm Yuki. I'm Japanese.", "fr": "Je suis Yuki. Je suis japonaise." },
+      { "es": "¿Eres estudiante? —Sí, soy estudiante.", "en": "Are you a student? —Yes, I'm a student.", "fr": "Tu es étudiante ? — Oui, je suis étudiante." },
+      { "es": "Diego es de México.", "en": "Diego is from Mexico.", "fr": "Diego est du Mexique." },
+      { "es": "Nosotros somos amigos.", "en": "We are friends.", "fr": "Nous sommes amis." },
+      { "es": "¿Sois de Madrid?", "en": "Are you (all) from Madrid?", "fr": "Vous êtes de Madrid ?" },
+      { "es": "Usted es la profesora, ¿verdad?", "en": "You are the teacher, right?", "fr": "Vous êtes la professeure, n'est-ce pas ?" },
+      { "es": "La mesa es de madera.", "en": "The table is made of wood.", "fr": "La table est en bois." },
+      { "es": "Ellas no son españolas, son argentinas.", "en": "They aren't Spanish, they're Argentinian.", "fr": "Elles ne sont pas espagnoles, elles sont argentines." }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "conj", "verb": "ser", "person": "yo", "tense": "直説法現在", "sentence": "Yo ___ estudiante.", "answer": ["soy"], "explain": "ser：<b>soy</b>, eres, es, somos, sois, son" },
+    { "id": "q02", "type": "conj", "verb": "ser", "person": "tú", "tense": "直説法現在", "sentence": "¿Tú ___ de Japón?", "answer": ["eres"], "explain": "tú の形は <b>eres</b>。" },
+    { "id": "q03", "type": "conj", "verb": "ser", "person": "nosotros", "tense": "直説法現在", "sentence": "Nosotros ___ amigos.", "answer": ["somos"], "explain": "nosotros の形は <b>somos</b>。" },
+    { "id": "q04", "type": "conj", "verb": "ser", "person": "vosotros", "tense": "直説法現在", "sentence": "¿Vosotros ___ de Madrid?", "answer": ["sois"], "explain": "vosotros の形は <b>sois</b>（アクセント記号なし）。" },
+    { "id": "q05", "type": "conj", "verb": "ser", "person": "ellos", "tense": "直説法現在", "sentence": "Ellos ___ mexicanos.", "answer": ["son"], "explain": "ellos / ellas / ustedes の形は <b>son</b>。" },
+    { "id": "q06", "type": "conj", "verb": "ser", "person": "usted", "tense": "直説法現在", "sentence": "Usted ___ el profesor.", "answer": ["es"], "explain": "<span class='es'>usted</span> は意味は「あなた」だが、動詞は<b>3人称単数</b>：<b>es</b>。" },
+    { "id": "q07", "type": "fill", "prompt": "主語代名詞を入れよう（私たち・男女混合）", "sentence": "___ somos de Japón.", "answer": ["nosotros"], "explain": "男女混合・男性のみなら <b>nosotros</b>、女性だけなら <span class='es'>nosotras</span>。" },
+    { "id": "q08", "type": "fill", "prompt": "主語代名詞を入れよう（彼女は）", "sentence": "___ es Lucía.", "answer": ["ella"], "explain": "「彼女」は <b>ella</b>。" },
+    { "id": "q09", "type": "fill", "prompt": "japonés を正しい形にしよう", "sentence": "Yuki es ___.", "answer": ["japonesa"], "explain": "女性形は <b>japonesa</b>。-a がつくと強勢の位置が自然になるので、アクセント記号は<b>消える</b>。" },
+    { "id": "q10", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Diego y yo ___ compañeros de clase.", "options": ["son", "somos", "sois", "es"], "answer": "somos", "explain": "「Diego と私」＝ nosotros → <b>somos</b>。" },
+    { "id": "q11", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Lucía y Carmen ___ de Madrid.", "options": ["es", "sois", "son", "somos"], "answer": "son", "explain": "「Lucía と Carmen」＝ ellas → <b>son</b>。" },
+    { "id": "q12", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "¿___ usted española?", "options": ["Es", "Eres", "Soy", "Sois"], "answer": "Es", "explain": "<span class='es'>usted</span> には3人称単数 <b>es</b>。" },
+    { "id": "q13", "type": "choice", "prompt": "「私は学生です」として最も自然なのは？", "options": ["Soy estudiante.", "Soy un estudiante.", "Estoy estudiante."], "answer": "Soy estudiante.", "explain": "職業・身分は <b>ser + 無冠詞</b>。形容詞がつくと冠詞が入る：<span class='es'>Soy un estudiante muy serio.</span>" },
+    { "id": "q14", "type": "choice", "prompt": "「あなた（usted）はどちらのご出身ですか」", "options": ["¿De dónde es usted?", "¿De dónde eres usted?", "¿De dónde son usted?"], "answer": "¿De dónde es usted?", "explain": "出身は <b>ser de</b>。usted なので <b>es</b>。" },
+    { "id": "q15", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Yo", "no", "soy", "de", "México"], "answer": ["Yo no soy de México"], "en": "I'm not from Mexico.", "fr": "Je ne suis pas du Mexique.", "explain": "否定の <span class='es'>no</span> は動詞の直前。" },
+    { "id": "q16", "type": "order", "prompt": "並べ替えて疑問文を作ろう", "words": ["eres", "tú", "la", "compañera", "de", "Yuki"], "answer": ["¿Eres tú la compañera de Yuki?", "¿Tú eres la compañera de Yuki?"], "en": "Are you Yuki's flatmate?", "fr": "C'est toi, la colocataire de Yuki ?", "explain": "疑問文は主語と動詞を倒置することが多い（しなくてもよい）。" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Churro", "es", "un", "gato", "muy", "simpático"], "answer": ["Churro es un gato muy simpático"], "en": "Churro is a very nice cat.", "fr": "Churro est un chat très sympathique.", "explain": "性格は <b>ser</b> で表す。形容詞は名詞の後ろ。" },
+    { "id": "q18", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Ellas", "son", "profesoras", "de", "español"], "answer": ["Ellas son profesoras de español"], "en": "They are Spanish teachers.", "fr": "Elles sont professeures d'espagnol.", "explain": "職業には冠詞なし：<span class='es'>son profesoras</span>。" }
+  ],
+  "reading": {
+    "title": "El primer día de clase",
+    "sentences": [
+      { "p": true, "es": "Hoy es el primer día de clase en la escuela de idiomas.", "en": "Today is the first day of class at the language school.", "fr": "Aujourd'hui, c'est le premier jour de cours à l'école de langues." },
+      { "es": "La profesora es de Salamanca y es muy simpática.", "en": "The teacher is from Salamanca and she's very nice.", "fr": "La professeure est de Salamanque et elle est très sympathique." },
+      { "es": "—Buenos días. Yo soy Marta, la profesora. ¿Y vosotros? ¿Quiénes sois?", "en": "\"Good morning. I'm Marta, the teacher. And you? Who are you?\"", "fr": "« Bonjour. Je suis Marta, la professeure. Et vous ? Qui êtes-vous ? »" },
+      { "p": true, "es": "—Yo soy Yuki. Soy japonesa, de Osaka.", "en": "\"I'm Yuki. I'm Japanese, from Osaka.\"", "fr": "« Je suis Yuki. Je suis japonaise, d'Osaka. »" },
+      { "es": "Un chico con una camiseta verde, blanca y roja levanta la mano.", "en": "A boy in a green, white and red T-shirt raises his hand.", "fr": "Un garçon avec un tee-shirt vert, blanc et rouge lève la main." },
+      { "es": "—¡Y yo soy Diego! Soy mexicano, de Guadalajara, la ciudad del mariachi y del tequila.", "en": "\"And I'm Diego! I'm Mexican, from Guadalajara, the city of mariachi and tequila.\"", "fr": "« Et moi, je suis Diego ! Je suis mexicain, de Guadalajara, la ville du mariachi et de la tequila. »" },
+      { "es": "—¿Eres músico? —pregunta la profesora.", "en": "\"Are you a musician?\" asks the teacher.", "fr": "« Tu es musicien ? » demande la professeure." },
+      { "es": "—No, soy futbolista... bueno, soy estudiante. Pero mi abuelo es mariachi.", "en": "\"No, I'm a football player... well, I'm a student. But my grandfather is a mariachi.\"", "fr": "« Non, je suis footballeur... enfin, je suis étudiant. Mais mon grand-père est mariachi. »" },
+      { "p": true, "es": "Después de la clase, Diego y Yuki ya son amigos.", "en": "After class, Diego and Yuki are already friends.", "fr": "Après le cours, Diego et Yuki sont déjà amis." },
+      { "es": "—¿Y quién es la chica de la foto? —pregunta Diego.", "en": "\"And who is the girl in the photo?\" asks Diego.", "fr": "« Et qui est la fille sur la photo ? » demande Diego." },
+      { "es": "—Es Lucía, mi compañera de piso. Es de Madrid y es bailarina de flamenco.", "en": "\"That's Lucía, my flatmate. She's from Madrid and she's a flamenco dancer.\"", "fr": "« C'est Lucía, ma colocataire. Elle est de Madrid et elle est danseuse de flamenco. »" },
+      { "es": "—¿Y el animal? ¿Es un tigre?", "en": "\"And the animal? Is it a tiger?\"", "fr": "« Et l'animal ? C'est un tigre ? »" },
+      { "es": "—No, es Churro, el gato. Es pequeño, pero es el jefe de la casa.", "en": "\"No, it's Churro, the cat. He's small, but he's the boss of the house.\"", "fr": "« Non, c'est Churro, le chat. Il est petit, mais c'est le chef de la maison. »" },
+      { "es": "—Ah, como mi abuela en Guadalajara —dice Diego.", "en": "\"Ah, like my grandmother in Guadalajara,\" says Diego.", "fr": "« Ah, comme ma grand-mère à Guadalajara », dit Diego." }
+    ],
+    "glossary": {
+      "primer": { "lemma": "primero", "en": "first", "fr": "premier", "note": "男性単数名詞の前で primero → primer" },
+      "día": { "lemma": "día", "en": "day", "fr": "jour", "note": "-a で終わる男性名詞" },
+      "clase": { "lemma": "clase", "en": "class", "fr": "cours, classe" },
+      "escuela": { "lemma": "escuela", "en": "school", "fr": "école" },
+      "idiomas": { "lemma": "idioma", "en": "language", "fr": "langue", "note": "-a で終わる男性名詞。複数形" },
+      "profesora": { "lemma": "profesor", "en": "teacher", "fr": "professeure", "note": "女性形" },
+      "salamanca": { "lemma": "Salamanca", "en": "Salamanca", "fr": "Salamanque", "note": "スペイン語教育で有名な大学都市" },
+      "simpática": { "lemma": "simpático", "en": "nice, friendly", "fr": "sympathique", "note": "女性形" },
+      "buenos": { "lemma": "bueno", "en": "good", "fr": "bon", "note": "Buenos días = おはよう" },
+      "días": { "lemma": "día", "en": "day", "fr": "jour", "note": "複数形" },
+      "marta": { "lemma": "Marta", "en": "Marta", "fr": "Marta", "note": "語学学校の先生" },
+      "quiénes": { "lemma": "quién", "en": "who", "fr": "qui", "note": "複数形" },
+      "japonesa": { "lemma": "japonés", "en": "Japanese", "fr": "japonaise", "note": "女性形" },
+      "osaka": { "lemma": "Osaka", "en": "Osaka", "fr": "Osaka" },
+      "chico": { "lemma": "chico", "en": "boy", "fr": "garçon" },
+      "camiseta": { "lemma": "camiseta", "en": "T-shirt", "fr": "tee-shirt" },
+      "verde": { "lemma": "verde", "en": "green", "fr": "vert" },
+      "blanca": { "lemma": "blanco", "en": "white", "fr": "blanc", "note": "女性形" },
+      "roja": { "lemma": "rojo", "en": "red", "fr": "rouge", "note": "女性形。緑・白・赤はメキシコ国旗の色" },
+      "levanta": { "lemma": "levantar", "en": "to raise", "fr": "lever", "note": "3人称単数・現在" },
+      "mano": { "lemma": "mano", "en": "hand", "fr": "main", "note": "-o で終わる女性名詞" },
+      "mexicano": { "lemma": "mexicano", "en": "Mexican", "fr": "mexicain" },
+      "guadalajara": { "lemma": "Guadalajara", "en": "Guadalajara", "fr": "Guadalajara", "note": "メキシコ第2の都市。マリアッチ発祥の地" },
+      "ciudad": { "lemma": "ciudad", "en": "city", "fr": "ville" },
+      "mariachi": { "lemma": "mariachi", "en": "mariachi (music / musician)", "fr": "mariachi", "note": "メキシコの楽団・音楽" },
+      "tequila": { "lemma": "tequila", "en": "tequila", "fr": "tequila", "note": "グアダラハラ近郊の町 Tequila が名前の由来" },
+      "músico": { "lemma": "músico", "en": "musician", "fr": "musicien" },
+      "pregunta": { "lemma": "preguntar", "en": "to ask", "fr": "demander", "note": "3人称単数・現在" },
+      "futbolista": { "lemma": "futbolista", "en": "football player", "fr": "footballeur", "note": "男女同形" },
+      "bueno": { "lemma": "bueno", "en": "well...; good", "fr": "bon..., enfin", "note": "話のつなぎ「まあ、ええと」" },
+      "estudiante": { "lemma": "estudiante", "en": "student", "fr": "étudiant(e)" },
+      "abuelo": { "lemma": "abuelo", "en": "grandfather", "fr": "grand-père" },
+      "después": { "lemma": "después", "en": "after (después de)", "fr": "après" },
+      "amigos": { "lemma": "amigo", "en": "friend", "fr": "ami", "note": "複数形" },
+      "chica": { "lemma": "chica", "en": "girl", "fr": "fille" },
+      "foto": { "lemma": "foto", "en": "photo", "fr": "photo", "note": "女性名詞" },
+      "compañera": { "lemma": "compañero", "en": "mate, companion", "fr": "camarade", "note": "compañera de piso = ルームメイト" },
+      "piso": { "lemma": "piso", "en": "flat, apartment", "fr": "appartement" },
+      "madrid": { "lemma": "Madrid", "en": "Madrid", "fr": "Madrid" },
+      "bailarina": { "lemma": "bailarín", "en": "dancer", "fr": "danseuse", "note": "女性形" },
+      "flamenco": { "lemma": "flamenco", "en": "flamenco", "fr": "flamenco", "note": "アンダルシア発祥の歌と踊り" },
+      "animal": { "lemma": "animal", "en": "animal", "fr": "animal" },
+      "tigre": { "lemma": "tigre", "en": "tiger", "fr": "tigre" },
+      "gato": { "lemma": "gato", "en": "cat", "fr": "chat" },
+      "pequeño": { "lemma": "pequeño", "en": "small", "fr": "petit" },
+      "jefe": { "lemma": "jefe", "en": "boss", "fr": "chef, patron" },
+      "casa": { "lemma": "casa", "en": "house, home", "fr": "maison" },
+      "ah": { "lemma": "ah", "en": "ah, oh", "fr": "ah" },
+      "como": { "lemma": "como", "en": "like, as", "fr": "comme" }
+    },
+    "quiz": [
+      { "q": "¿De dónde es la profesora?", "options": ["De Salamanca", "De Osaka", "De Guadalajara"], "answer": "De Salamanca" },
+      { "q": "¿Qué es el abuelo de Diego?", "options": ["Es mariachi", "Es futbolista", "Es profesor"], "answer": "Es mariachi" },
+      { "q": "¿Quién es Lucía?", "options": ["La compañera de piso de Yuki", "La profesora de español", "La abuela de Diego"], "answer": "La compañera de piso de Yuki" }
+    ]
+  }
+}

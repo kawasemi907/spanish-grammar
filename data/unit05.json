@@ -1,0 +1,131 @@
+{
+  "id": 5,
+  "title": "直説法現在：規則動詞",
+  "explain": {
+    "sections": [
+      {
+        "title": "3つのタイプと語尾",
+        "body": "<p>動詞の原形（不定詞）は <b>-ar, -er, -ir</b> の3タイプ。語尾を取って主語に合わせた語尾をつける。</p><table><tr><th></th><th>hablar</th><th>comer</th><th>vivir</th></tr><tr><td>yo</td><td>habl<b>o</b></td><td>com<b>o</b></td><td>viv<b>o</b></td></tr><tr><td>tú</td><td>habl<b>as</b></td><td>com<b>es</b></td><td>viv<b>es</b></td></tr><tr><td>él / usted</td><td>habl<b>a</b></td><td>com<b>e</b></td><td>viv<b>e</b></td></tr><tr><td>nosotros</td><td>habl<b>amos</b></td><td>com<b>emos</b></td><td>viv<b>imos</b></td></tr><tr><td>vosotros</td><td>habl<b>áis</b></td><td>com<b>éis</b></td><td>viv<b>ís</b></td></tr><tr><td>ellos / ustedes</td><td>habl<b>an</b></td><td>com<b>en</b></td><td>viv<b>en</b></td></tr></table><p>-er と -ir は nosotros・vosotros 以外同じ形。vosotros の形にはアクセント記号がつく。</p>"
+      },
+      {
+        "title": "使い方",
+        "body": "<ul><li>現在の習慣・事実：<span class='es'>Vivo en Madrid.</span></li><li>今していること（英語の進行形にも当たる）：<span class='es'>¿Qué comes?</span></li><li>確定した近い未来：<span class='es'>Mañana trabajo.</span></li></ul><p>否定は <span class='es'>no</span> ＋動詞、疑問文は <span class='es'>¿...?</span> で囲む：<span class='es'>¿Hablas español? —No, no hablo español.</span></p>"
+      },
+      {
+        "title": "よく使う規則動詞",
+        "body": "<ul><li><b>-ar</b>：hablar（話す）, estudiar（勉強する）, trabajar（働く）, tomar（取る・飲む）, cenar（夕食をとる）, bailar（踊る）, escuchar（聞く）, mirar（見る）, llegar（着く）, preparar（準備する）</li><li><b>-er</b>：comer（食べる）, beber（飲む）, aprender（学ぶ）, leer（読む）, comprender（理解する）, correr（走る）</li><li><b>-ir</b>：vivir（住む）, escribir（書く）, abrir（開ける）, recibir（受け取る）</li></ul>"
+      }
+    ],
+    "french": "<ul><li>-ar 動詞は仏語の第1群（-er）に当たる：<span class='es'>hablo, hablas, habla</span> ≒ je parle, tu parles, il parle。</li><li>仏語は語尾が発音上ほぼ同じ（parle / parles / parlent）なので主語が必須。西語は語尾がすべて違って聞こえるので<b>主語を省略</b>できる。</li><li>nosotros <span class='es'>-amos / -emos / -imos</span> は仏語 <b>-ons</b>、vosotros <span class='es'>-áis / -éis / -ís</span> は <b>-ez</b> に当たる。</li><li>否定は <span class='es'>no</span> 1語（ne ... pas の2語ではない）：<span class='es'>No hablo francés.</span>（Je ne parle pas français.）</li><li>仏語と同じく、現在形で「今〜している」も表せる：<span class='es'>¿Qué lees?</span>（Qu'est-ce que tu lis ?）</li></ul>",
+    "examples": [
+      { "es": "Hablo japonés, inglés y un poco de español.", "en": "I speak Japanese, English and a little Spanish.", "fr": "Je parle japonais, anglais et un peu espagnol." },
+      { "es": "¿Dónde vives? —Vivo en Lavapiés.", "en": "Where do you live? —I live in Lavapiés.", "fr": "Où habites-tu ? — J'habite à Lavapiés." },
+      { "es": "En España cenamos a las diez de la noche.", "en": "In Spain we have dinner at ten at night.", "fr": "En Espagne, nous dînons à dix heures du soir." },
+      { "es": "Diego come tacos todos los días.", "en": "Diego eats tacos every day.", "fr": "Diego mange des tacos tous les jours." },
+      { "es": "¿Leéis el periódico?", "en": "Do you (all) read the newspaper?", "fr": "Vous lisez le journal ?" },
+      { "es": "Mis amigos no beben café.", "en": "My friends don't drink coffee.", "fr": "Mes amis ne boivent pas de café." },
+      { "es": "Lucía baila flamenco los sábados.", "en": "Lucía dances flamenco on Saturdays.", "fr": "Lucía danse le flamenco le samedi." },
+      { "es": "Escribo un correo a mi familia.", "en": "I'm writing an email to my family.", "fr": "J'écris un e-mail à ma famille." }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "conj", "verb": "hablar", "person": "yo", "tense": "直説法現在", "sentence": "Yo ___ japonés.", "answer": ["hablo"], "explain": "-ar 動詞 yo：habl<b>o</b>" },
+    { "id": "q02", "type": "conj", "verb": "estudiar", "person": "tú", "tense": "直説法現在", "sentence": "¿Tú ___ español?", "answer": ["estudias"], "explain": "-ar 動詞 tú：estudi<b>as</b>" },
+    { "id": "q03", "type": "conj", "verb": "comer", "person": "él", "tense": "直説法現在", "sentence": "Diego ___ tacos.", "answer": ["come"], "explain": "-er 動詞 él：com<b>e</b>" },
+    { "id": "q04", "type": "conj", "verb": "vivir", "person": "nosotros", "tense": "直説法現在", "sentence": "Nosotros ___ en Madrid.", "answer": ["vivimos"], "explain": "-ir 動詞 nosotros：viv<b>imos</b>（-er の -emos と区別）" },
+    { "id": "q05", "type": "conj", "verb": "beber", "person": "vosotros", "tense": "直説法現在", "sentence": "¿Qué ___ vosotros?", "answer": ["bebéis"], "explain": "-er 動詞 vosotros：beb<b>éis</b>（アクセント記号つき）" },
+    { "id": "q06", "type": "conj", "verb": "escribir", "person": "ellos", "tense": "直説法現在", "sentence": "Ellos ___ correos.", "answer": ["escriben"], "explain": "-ir 動詞 ellos：escrib<b>en</b>" },
+    { "id": "q07", "type": "conj", "verb": "trabajar", "person": "usted", "tense": "直説法現在", "sentence": "¿Dónde ___ usted?", "answer": ["trabaja"], "explain": "usted は3人称単数：trabaj<b>a</b>" },
+    { "id": "q08", "type": "conj", "verb": "aprender", "person": "yo", "tense": "直説法現在", "sentence": "___ mucho en clase.", "answer": ["aprendo"], "explain": "-er 動詞 yo：aprend<b>o</b>。主語 yo は省略されている。" },
+    { "id": "q09", "type": "conj", "verb": "abrir", "person": "vosotros", "tense": "直説法現在", "sentence": "¿Vosotros ___ la ventana?", "answer": ["abrís"], "explain": "-ir 動詞 vosotros：abr<b>ís</b>（アクセント記号つき）" },
+    { "id": "q10", "type": "conj", "verb": "cenar", "person": "nosotros", "tense": "直説法現在", "sentence": "___ a las diez.", "answer": ["cenamos"], "explain": "-ar 動詞 nosotros：cen<b>amos</b>" },
+    { "id": "q11", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Lucía ___ flamenco los sábados.", "options": ["baila", "bailas", "bailan", "bailo"], "answer": "baila", "explain": "主語 Lucía は3人称単数 → <b>baila</b>。" },
+    { "id": "q12", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Yuki y yo ___ en la biblioteca.", "options": ["estudiamos", "estudian", "estudiáis"], "answer": "estudiamos", "explain": "「Yuki と私」＝ nosotros → <b>estudiamos</b>。" },
+    { "id": "q13", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "¿Vosotros ___ el periódico?", "options": ["leéis", "leen", "leemos", "leís"], "answer": "leéis", "explain": "leer は -er 動詞 → vosotros は <b>leéis</b>。" },
+    { "id": "q14", "type": "fill", "prompt": "（ ）の動詞を正しい形にしよう", "sentence": "Ellas ___ (vivir) cerca de aquí.", "answer": ["viven"], "explain": "-ir 動詞 ellas：viv<b>en</b>" },
+    { "id": "q15", "type": "fill", "prompt": "（ ）の動詞を正しい形にしよう", "sentence": "¿Tú ___ (comprender) la pregunta?", "answer": ["comprendes"], "explain": "-er 動詞 tú：comprend<b>es</b>" },
+    { "id": "q16", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Yuki", "no", "toma", "café", "por", "la", "noche"], "answer": ["Yuki no toma café por la noche", "Por la noche Yuki no toma café"], "en": "Yuki doesn't drink coffee at night.", "fr": "Yuki ne prend pas de café le soir.", "explain": "否定の <span class='es'>no</span> は動詞の直前。<span class='es'>tomar café</span>＝コーヒーを飲む。" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて疑問文を作ろう", "words": ["dónde", "vives", "tú"], "answer": ["¿Dónde vives tú?", "¿Tú dónde vives?"], "en": "Where do you live?", "fr": "Où habites-tu ?", "explain": "疑問詞は文頭、ふつう動詞が続く：<span class='es'>¿Dónde vives?</span>" },
+    { "id": "q18", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["En", "España", "cenamos", "muy", "tarde"], "answer": ["En España cenamos muy tarde", "Cenamos muy tarde en España"], "en": "In Spain we have dinner very late.", "fr": "En Espagne, nous dînons très tard.", "explain": "<span class='es'>cenar</span>（夕食をとる）の nosotros 形 <b>cenamos</b>。" }
+  ],
+  "reading": {
+    "title": "Un día normal (más o menos)",
+    "sentences": [
+      { "p": true, "es": "Yuki es una chica muy organizada.", "en": "Yuki is a very organized girl.", "fr": "Yuki est une fille très organisée." },
+      { "es": "Desayuna a las siete, estudia en la biblioteca y come a las doce en punto.", "en": "She has breakfast at seven, studies in the library and has lunch at twelve on the dot.", "fr": "Elle prend son petit-déjeuner à sept heures, étudie à la bibliothèque et déjeune à midi pile." },
+      { "es": "Pero en Madrid, a las doce, los restaurantes están vacíos.", "en": "But in Madrid, at twelve, the restaurants are empty.", "fr": "Mais à Madrid, à midi, les restaurants sont vides." },
+      { "es": "—Aquí comemos a las dos o a las tres —explica Lucía.", "en": "\"Here we have lunch at two or three,\" explains Lucía.", "fr": "« Ici, nous déjeunons à deux ou trois heures », explique Lucía." },
+      { "p": true, "es": "Por la tarde, Diego y Yuki estudian juntos en un café.", "en": "In the afternoon, Diego and Yuki study together in a café.", "fr": "L'après-midi, Diego et Yuki étudient ensemble dans un café." },
+      { "es": "Yuki escribe los verbos en un cuaderno.", "en": "Yuki writes the verbs in a notebook.", "fr": "Yuki écrit les verbes dans un cahier." },
+      { "es": "Diego mira un partido de fútbol en el móvil.", "en": "Diego watches a football match on his phone.", "fr": "Diego regarde un match de foot sur son portable." },
+      { "es": "—¿Tú no estudias? —pregunta Yuki.", "en": "\"Aren't you studying?\" asks Yuki.", "fr": "« Tu n'étudies pas ? » demande Yuki." },
+      { "es": "—Sí, sí. Escucho a los comentaristas. ¡Aprendo mucho vocabulario!", "en": "\"Yes, yes. I'm listening to the commentators. I'm learning a lot of vocabulary!\"", "fr": "« Si, si. J'écoute les commentateurs. J'apprends beaucoup de vocabulaire ! »" },
+      { "p": true, "es": "A las siete, Yuki prepara la cena.", "en": "At seven, Yuki makes dinner.", "fr": "À sept heures, Yuki prépare le dîner." },
+      { "es": "Pero Lucía no cena a las siete: toma un café y baila en su habitación.", "en": "But Lucía doesn't have dinner at seven: she has a coffee and dances in her room.", "fr": "Mais Lucía ne dîne pas à sept heures : elle prend un café et danse dans sa chambre." },
+      { "es": "—En España cenamos a las diez —dice Lucía—. A las siete es la hora de la merienda.", "en": "\"In Spain we have dinner at ten,\" says Lucía. \"Seven is snack time.\"", "fr": "« En Espagne, on dîne à dix heures, dit Lucía. Sept heures, c'est l'heure du goûter. »" },
+      { "p": true, "es": "A las diez, Yuki está en la cama y lee un libro.", "en": "At ten, Yuki is in bed reading a book.", "fr": "À dix heures, Yuki est au lit et lit un livre." },
+      { "es": "Lucía, Diego y la abuela Carmen cenan tortilla en la cocina y hablan muy alto.", "en": "Lucía, Diego and Grandma Carmen have tortilla for dinner in the kitchen and talk very loudly.", "fr": "Lucía, Diego et grand-mère Carmen mangent une tortilla dans la cuisine et parlent très fort." },
+      { "es": "Y Churro... Churro come en los dos horarios: el japonés y el español.", "en": "And Churro... Churro eats on both schedules: the Japanese one and the Spanish one.", "fr": "Et Churro... Churro mange aux deux horaires : le japonais et l'espagnol." }
+    ],
+    "glossary": {
+      "día": { "lemma": "día", "en": "day", "fr": "jour" },
+      "normal": { "lemma": "normal", "en": "normal", "fr": "normal" },
+      "más": { "lemma": "más", "en": "more", "fr": "plus", "note": "más o menos = だいたい" },
+      "chica": { "lemma": "chica", "en": "girl", "fr": "fille" },
+      "organizada": { "lemma": "organizado", "en": "organized", "fr": "organisé", "note": "女性形" },
+      "desayuna": { "lemma": "desayunar", "en": "to have breakfast", "fr": "prendre le petit-déjeuner", "note": "3人称単数・現在" },
+      "las": { "lemma": "el", "en": "the", "fr": "les", "note": "a las siete = 7時に（horas を省略）" },
+      "estudia": { "lemma": "estudiar", "en": "to study", "fr": "étudier", "note": "3人称単数・現在" },
+      "biblioteca": { "lemma": "biblioteca", "en": "library", "fr": "bibliothèque" },
+      "come": { "lemma": "comer", "en": "to eat; to have lunch", "fr": "manger ; déjeuner", "note": "3人称単数・現在。スペインでは「昼食をとる」の意味も" },
+      "doce": { "lemma": "doce", "en": "twelve", "fr": "douze" },
+      "punto": { "lemma": "punto", "en": "point", "fr": "point", "note": "en punto = ちょうど（〜時）" },
+      "madrid": { "lemma": "Madrid", "en": "Madrid", "fr": "Madrid" },
+      "restaurantes": { "lemma": "restaurante", "en": "restaurant", "fr": "restaurant", "note": "複数形" },
+      "vacíos": { "lemma": "vacío", "en": "empty", "fr": "vide", "note": "男性複数" },
+      "comemos": { "lemma": "comer", "en": "to eat; to have lunch", "fr": "manger ; déjeuner", "note": "1人称複数・現在" },
+      "explica": { "lemma": "explicar", "en": "to explain", "fr": "expliquer", "note": "3人称単数・現在" },
+      "estudian": { "lemma": "estudiar", "en": "to study", "fr": "étudier", "note": "3人称複数・現在" },
+      "juntos": { "lemma": "junto", "en": "together", "fr": "ensemble", "note": "男性複数" },
+      "café": { "lemma": "café", "en": "coffee; café", "fr": "café" },
+      "escribe": { "lemma": "escribir", "en": "to write", "fr": "écrire", "note": "3人称単数・現在" },
+      "verbos": { "lemma": "verbo", "en": "verb", "fr": "verbe", "note": "複数形" },
+      "cuaderno": { "lemma": "cuaderno", "en": "notebook", "fr": "cahier" },
+      "mira": { "lemma": "mirar", "en": "to look at, to watch", "fr": "regarder", "note": "3人称単数・現在" },
+      "partido": { "lemma": "partido", "en": "match, game", "fr": "match" },
+      "fútbol": { "lemma": "fútbol", "en": "football, soccer", "fr": "football" },
+      "móvil": { "lemma": "móvil", "en": "mobile phone", "fr": "portable", "note": "中南米では celular" },
+      "estudias": { "lemma": "estudiar", "en": "to study", "fr": "étudier", "note": "2人称単数・現在" },
+      "pregunta": { "lemma": "preguntar", "en": "to ask", "fr": "demander", "note": "3人称単数・現在" },
+      "escucho": { "lemma": "escuchar", "en": "to listen to", "fr": "écouter", "note": "1人称単数・現在" },
+      "comentaristas": { "lemma": "comentarista", "en": "commentator", "fr": "commentateur", "note": "男女同形。複数形" },
+      "aprendo": { "lemma": "aprender", "en": "to learn", "fr": "apprendre", "note": "1人称単数・現在" },
+      "vocabulario": { "lemma": "vocabulario", "en": "vocabulary", "fr": "vocabulaire" },
+      "prepara": { "lemma": "preparar", "en": "to prepare", "fr": "préparer", "note": "3人称単数・現在" },
+      "cena": { "lemma": "cena / cenar", "en": "dinner / to have dinner", "fr": "dîner", "note": "名詞 la cena、または cenar の3人称単数・現在" },
+      "toma": { "lemma": "tomar", "en": "to take, to have (a drink)", "fr": "prendre", "note": "3人称単数・現在" },
+      "baila": { "lemma": "bailar", "en": "to dance", "fr": "danser", "note": "3人称単数・現在" },
+      "habitación": { "lemma": "habitación", "en": "room, bedroom", "fr": "chambre" },
+      "españa": { "lemma": "España", "en": "Spain", "fr": "Espagne" },
+      "cenamos": { "lemma": "cenar", "en": "to have dinner", "fr": "dîner", "note": "1人称複数・現在" },
+      "hora": { "lemma": "hora", "en": "hour, time", "fr": "heure" },
+      "merienda": { "lemma": "merienda", "en": "afternoon snack", "fr": "goûter" },
+      "cama": { "lemma": "cama", "en": "bed", "fr": "lit" },
+      "lee": { "lemma": "leer", "en": "to read", "fr": "lire", "note": "3人称単数・現在" },
+      "libro": { "lemma": "libro", "en": "book", "fr": "livre" },
+      "cenan": { "lemma": "cenar", "en": "to have dinner", "fr": "dîner", "note": "3人称複数・現在" },
+      "tortilla": { "lemma": "tortilla", "en": "Spanish omelette", "fr": "omelette espagnole", "note": "じゃがいも入りオムレツ。メキシコでは薄焼きパンのこと" },
+      "cocina": { "lemma": "cocina", "en": "kitchen", "fr": "cuisine" },
+      "hablan": { "lemma": "hablar", "en": "to speak, to talk", "fr": "parler", "note": "3人称複数・現在" },
+      "alto": { "lemma": "alto", "en": "loud(ly); tall", "fr": "fort ; grand", "note": "hablar alto = 大声で話す" },
+      "horarios": { "lemma": "horario", "en": "schedule", "fr": "horaire", "note": "複数形" },
+      "japonés": { "lemma": "japonés", "en": "Japanese", "fr": "japonais" },
+      "español": { "lemma": "español", "en": "Spanish", "fr": "espagnol" }
+    },
+    "quiz": [
+      { "q": "¿A qué hora come Yuki?", "options": ["A las doce", "A las tres", "A las diez"], "answer": "A las doce" },
+      { "q": "¿Qué mira Diego en el café?", "options": ["Un partido de fútbol", "Una película", "Un libro de verbos"], "answer": "Un partido de fútbol" },
+      { "q": "Según Lucía, ¿a qué hora cenan en España?", "options": ["A las diez", "A las siete", "A las doce"], "answer": "A las diez" }
+    ]
+  }
+}

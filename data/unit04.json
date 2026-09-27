@@ -1,0 +1,129 @@
+{
+  "id": 4,
+  "title": "形容詞の一致・指示詞",
+  "explain": {
+    "sections": [
+      {
+        "title": "形容詞は名詞に一致する",
+        "body": "<p>形容詞は、修飾する名詞の<b>性と数</b>に合わせて形を変える。</p><table><tr><th>語尾</th><th>男単</th><th>女単</th><th>男複</th><th>女複</th></tr><tr><td>-o</td><td>alto</td><td>alta</td><td>altos</td><td>altas</td></tr><tr><td>-e</td><td colspan='2'>grande</td><td colspan='2'>grandes</td></tr><tr><td>子音</td><td colspan='2'>azul</td><td colspan='2'>azules</td></tr><tr><td>国籍</td><td>español</td><td>española</td><td>españoles</td><td>españolas</td></tr></table><p>男女が混ざっていたら<b>男性複数</b>：<span class='es'>Diego y Lucía son altos.</span></p>"
+      },
+      {
+        "title": "形容詞の位置",
+        "body": "<ul><li>ふつうは<b>名詞の後ろ</b>：<span class='es'>una casa blanca</span></li><li>数量の形容詞は前：<span class='es'>muchos libros, pocas personas</span></li><li><span class='es'>bueno / malo</span> は男性単数名詞の前で <b>buen / mal</b>：<span class='es'>un buen amigo</span></li><li><span class='es'>grande</span> は単数名詞の前で <b>gran</b>（「偉大な・すごい」）：<span class='es'>una gran ciudad</span></li></ul>"
+      },
+      {
+        "title": "指示詞（この・その・あの）",
+        "body": "<table><tr><th></th><th>男単</th><th>女単</th><th>男複</th><th>女複</th></tr><tr><th>この</th><td>este</td><td>esta</td><td>estos</td><td>estas</td></tr><tr><th>その</th><td>ese</td><td>esa</td><td>esos</td><td>esas</td></tr><tr><th>あの</th><td>aquel</td><td>aquella</td><td>aquellos</td><td>aquellas</td></tr></table><ul><li>名詞なしで「これ・それ」としても使える：<span class='es'>Este es Diego.</span></li><li>何かわからないもの・事柄は中性形 <b>esto, eso, aquello</b>：<span class='es'>¿Qué es esto?</span></li></ul>"
+      }
+    ],
+    "french": "<ul><li>形容詞の性数一致は仏語と同じ。ただし西語は複数の -s を<b>発音する</b>ので、耳でも一致がわかる。</li><li>-e で終わる形容詞は男女同形：<span class='es'>grande</span>（grand / grande）、<span class='es'>triste</span>（triste）。</li><li>指示詞は仏語 <b>ce / cet / cette / ces</b> の1系列に対し、西語は距離で<b>3系列</b>：<span class='es'>este</span>（ce...-ci）、<span class='es'>ese</span>（ce）、<span class='es'>aquel</span>（ce...-là）。</li><li>中性の <span class='es'>esto / eso</span> は仏語の <b>ceci / cela (ça)</b>：<span class='es'>¿Qué es esto?</span>（Qu'est-ce que c'est ?）</li><li><span class='es'>un gran hombre</span>（偉大な人）／<span class='es'>un hombre grande</span>（大柄な人）の区別は仏語 <b>un grand homme / un homme grand</b> とそっくり。</li></ul>",
+    "examples": [
+      { "es": "Esta falda es muy bonita.", "en": "This skirt is very pretty.", "fr": "Cette jupe est très jolie." },
+      { "es": "Ese sombrero negro es muy caro.", "en": "That black hat is very expensive.", "fr": "Ce chapeau noir est très cher." },
+      { "es": "Aquellas montañas son muy altas.", "en": "Those mountains over there are very high.", "fr": "Ces montagnes-là sont très hautes." },
+      { "es": "Diego es un chico alto y simpático.", "en": "Diego is a tall, friendly boy.", "fr": "Diego est un garçon grand et sympathique." },
+      { "es": "Las calles de Lavapiés son estrechas y antiguas.", "en": "The streets of Lavapiés are narrow and old.", "fr": "Les rues de Lavapiés sont étroites et anciennes." },
+      { "es": "Es un buen libro.", "en": "It's a good book.", "fr": "C'est un bon livre." },
+      { "es": "¿Qué es esto?", "en": "What is this?", "fr": "Qu'est-ce que c'est ?" },
+      { "es": "Madrid es una gran ciudad.", "en": "Madrid is a great city.", "fr": "Madrid est une grande ville." }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "fill", "prompt": "blanco を正しい形にしよう", "sentence": "una casa ___", "answer": ["blanca"], "explain": "<span class='es'>casa</span> は女性単数 → <b>blanca</b>。" },
+    { "id": "q02", "type": "fill", "prompt": "rojo を正しい形にしよう", "sentence": "los coches ___", "answer": ["rojos"], "explain": "<span class='es'>coches</span> は男性複数 → <b>rojos</b>。" },
+    { "id": "q03", "type": "fill", "prompt": "español を正しい形にしよう", "sentence": "unas chicas ___", "answer": ["españolas"], "explain": "国籍形容詞は子音で終わっても女性形がある：<span class='es'>español → española → españolas</span>。" },
+    { "id": "q04", "type": "fill", "prompt": "grande を正しい形にしよう", "sentence": "dos ciudades ___", "answer": ["grandes"], "explain": "-e で終わる形容詞は男女同形。複数は <b>grandes</b>。" },
+    { "id": "q05", "type": "fill", "prompt": "azul を正しい形にしよう", "sentence": "unos pantalones ___", "answer": ["azules"], "explain": "子音で終わる形容詞は男女同形。複数は <b>-es</b>：<span class='es'>azules</span>。" },
+    { "id": "q06", "type": "fill", "prompt": "「この」を入れよう", "sentence": "___ libro es de Yuki.", "answer": ["este"], "explain": "<span class='es'>libro</span> は男性単数 → <b>este</b>。" },
+    { "id": "q07", "type": "fill", "prompt": "「その」を入れよう", "sentence": "___ mesas son nuevas.", "answer": ["esas"], "explain": "<span class='es'>mesas</span> は女性複数 → <b>esas</b>。" },
+    { "id": "q08", "type": "fill", "prompt": "「あの」を入れよう", "sentence": "___ montaña es muy alta.", "answer": ["aquella"], "explain": "<span class='es'>montaña</span> は女性単数 → <b>aquella</b>。" },
+    { "id": "q09", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Diego es un ___ amigo.", "options": ["buen", "bueno", "buena"], "answer": "buen", "explain": "男性単数名詞の<b>前</b>では <span class='es'>bueno → buen</span>。" },
+    { "id": "q10", "type": "choice", "prompt": "「これらの」にあたる語を選ぼう", "sentence": "___ chicos son de México.", "options": ["Estos", "Estas", "Esos", "Este"], "answer": "Estos", "explain": "<span class='es'>chicos</span> は男性複数 → <b>estos</b>。" },
+    { "id": "q11", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Lucía y Yuki son muy ___.", "options": ["simpáticos", "simpáticas", "simpática"], "answer": "simpáticas", "explain": "女性2人 → 女性複数 <b>simpáticas</b>。" },
+    { "id": "q12", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Diego y Lucía son ___.", "options": ["altos", "altas", "alto"], "answer": "altos", "explain": "男女が混ざると<b>男性複数</b>：<span class='es'>altos</span>。" },
+    { "id": "q13", "type": "choice", "prompt": "何かわからないものを指して", "sentence": "¿Qué es ___?", "options": ["esto", "este", "esta"], "answer": "esto", "explain": "正体がわからないもの・事柄は<b>中性形</b> <span class='es'>esto</span>（-o で終わるが男性形 este とは別）。" },
+    { "id": "q14", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Madrid es una ___ ciudad.", "options": ["gran", "grande", "grandes"], "answer": "gran", "explain": "単数名詞の<b>前</b>では <span class='es'>grande → gran</span>（男女とも）。「偉大な・すばらしい」の意味になる。" },
+    { "id": "q15", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Esta", "falda", "roja", "es", "muy", "bonita"], "answer": ["Esta falda roja es muy bonita"], "en": "This red skirt is very pretty.", "fr": "Cette jupe rouge est très jolie.", "explain": "色の形容詞は名詞の後ろ：<span class='es'>falda roja</span>。" },
+    { "id": "q16", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Aquellos", "edificios", "son", "muy", "antiguos"], "answer": ["Aquellos edificios son muy antiguos"], "en": "Those buildings over there are very old.", "fr": "Ces bâtiments-là sont très anciens.", "explain": "<span class='es'>edificio</span> は男性 → <b>aquellos ... antiguos</b>。" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["La", "abuela", "de", "Lucía", "es", "muy", "simpática"], "answer": ["La abuela de Lucía es muy simpática"], "en": "Lucía's grandmother is very nice.", "fr": "La grand-mère de Lucía est très sympathique.", "explain": "主語 <span class='es'>la abuela</span> に合わせて <b>simpática</b>。" },
+    { "id": "q18", "type": "fill", "prompt": "verde を正しい形にしよう", "sentence": "unas camisas ___", "answer": ["verdes"], "explain": "-e で終わるので男女同形、複数は <b>verdes</b>。" }
+  ],
+  "reading": {
+    "title": "Domingo en el Rastro",
+    "sentences": [
+      { "p": true, "es": "Es domingo y el Rastro está lleno de gente.", "en": "It's Sunday and the Rastro is full of people.", "fr": "C'est dimanche et le Rastro est plein de monde." },
+      { "es": "El Rastro es un mercado muy antiguo y muy famoso de Madrid.", "en": "The Rastro is a very old and very famous market in Madrid.", "fr": "Le Rastro est un marché très ancien et très célèbre de Madrid." },
+      { "es": "La abuela Carmen es la guía: es pequeña, rápida y muy lista.", "en": "Grandma Carmen is the guide: she's small, quick and very clever.", "fr": "Grand-mère Carmen est la guide : elle est petite, rapide et très maligne." },
+      { "p": true, "es": "—Abuela, ¿qué es esto? —pregunta Yuki.", "en": "\"Grandma, what's this?\" asks Yuki.", "fr": "« Mamie, qu'est-ce que c'est ? » demande Yuki." },
+      { "es": "—Eso es un abanico. Es perfecto para el verano de Madrid.", "en": "\"That's a fan. It's perfect for the Madrid summer.\"", "fr": "« Ça, c'est un éventail. Il est parfait pour l'été à Madrid. »" },
+      { "es": "Hay abanicos rojos, negros, azules y amarillos.", "en": "There are red, black, blue and yellow fans.", "fr": "Il y a des éventails rouges, noirs, bleus et jaunes." },
+      { "es": "—Este abanico rojo es muy bonito —dice Yuki.", "en": "\"This red fan is very pretty,\" says Yuki.", "fr": "« Cet éventail rouge est très joli », dit Yuki." },
+      { "es": "—Sí, pero es muy caro. Aquellos abanicos de allí son baratos y también bonitos.", "en": "\"Yes, but it's very expensive. Those fans over there are cheap and pretty too.\"", "fr": "« Oui, mais il est très cher. Ces éventails là-bas sont bon marché et jolis aussi. »" },
+      { "p": true, "es": "De repente, aparece Diego con un sombrero enorme.", "en": "Suddenly, Diego appears with an enormous hat.", "fr": "Soudain, Diego apparaît avec un chapeau énorme." },
+      { "es": "—¿Qué tal este sombrero? ¡Es mexicano, como yo!", "en": "\"What do you think of this hat? It's Mexican, like me!\"", "fr": "« Que pensez-vous de ce chapeau ? Il est mexicain, comme moi ! »" },
+      { "es": "—Diego, ese sombrero no es mexicano —dice la abuela—. Es de Toledo, y es muy feo.", "en": "\"Diego, that hat isn't Mexican,\" says Grandma. \"It's from Toledo, and it's very ugly.\"", "fr": "« Diego, ce chapeau n'est pas mexicain, dit la grand-mère. Il vient de Tolède, et il est très laid. »" },
+      { "es": "Diego está triste, pero solo un minuto.", "en": "Diego is sad, but only for a minute.", "fr": "Diego est triste, mais seulement une minute." },
+      { "es": "—Bueno... ¡pero es un sombrero muy grande y muy cómodo!", "en": "\"Well... but it's a very big and very comfortable hat!\"", "fr": "« Bon... mais c'est un chapeau très grand et très confortable ! »" },
+      { "p": true, "es": "Al final, todos están contentos: Yuki con un abanico azul, Lucía con unas gafas de sol antiguas y Diego con su sombrero feo.", "en": "In the end, everyone is happy: Yuki with a blue fan, Lucía with some vintage sunglasses and Diego with his ugly hat.", "fr": "À la fin, tout le monde est content : Yuki avec un éventail bleu, Lucía avec des lunettes de soleil anciennes et Diego avec son chapeau laid." }
+    ],
+    "glossary": {
+      "domingo": { "lemma": "domingo", "en": "Sunday", "fr": "dimanche" },
+      "rastro": { "lemma": "Rastro", "en": "the Rastro (flea market)", "fr": "le Rastro (marché aux puces)", "note": "日曜の朝に開かれるマドリード最大の蚤の市" },
+      "lleno": { "lemma": "lleno", "en": "full", "fr": "plein" },
+      "gente": { "lemma": "gente", "en": "people", "fr": "gens, monde", "note": "女性単数名詞として扱う" },
+      "mercado": { "lemma": "mercado", "en": "market", "fr": "marché" },
+      "antiguo": { "lemma": "antiguo", "en": "old, ancient", "fr": "ancien" },
+      "famoso": { "lemma": "famoso", "en": "famous", "fr": "célèbre" },
+      "madrid": { "lemma": "Madrid", "en": "Madrid", "fr": "Madrid" },
+      "guía": { "lemma": "guía", "en": "guide", "fr": "guide", "note": "男女同形" },
+      "pequeña": { "lemma": "pequeño", "en": "small", "fr": "petit", "note": "女性形" },
+      "rápida": { "lemma": "rápido", "en": "quick, fast", "fr": "rapide", "note": "女性形" },
+      "lista": { "lemma": "listo", "en": "clever", "fr": "malin, intelligent", "note": "女性形。ser listo = 賢い／estar listo = 準備ができた" },
+      "pregunta": { "lemma": "preguntar", "en": "to ask", "fr": "demander", "note": "3人称単数・現在" },
+      "esto": { "lemma": "esto", "en": "this (thing)", "fr": "ceci, ça", "note": "中性の指示代名詞" },
+      "eso": { "lemma": "eso", "en": "that (thing)", "fr": "cela, ça", "note": "中性の指示代名詞" },
+      "abanico": { "lemma": "abanico", "en": "fan", "fr": "éventail", "note": "スペインの夏の必需品" },
+      "perfecto": { "lemma": "perfecto", "en": "perfect", "fr": "parfait" },
+      "verano": { "lemma": "verano", "en": "summer", "fr": "été" },
+      "abanicos": { "lemma": "abanico", "en": "fan", "fr": "éventail", "note": "複数形" },
+      "rojos": { "lemma": "rojo", "en": "red", "fr": "rouge", "note": "男性複数" },
+      "negros": { "lemma": "negro", "en": "black", "fr": "noir", "note": "男性複数" },
+      "azules": { "lemma": "azul", "en": "blue", "fr": "bleu", "note": "複数形" },
+      "amarillos": { "lemma": "amarillo", "en": "yellow", "fr": "jaune", "note": "男性複数" },
+      "este": { "lemma": "este", "en": "this", "fr": "ce, cet", "note": "指示詞・男性単数" },
+      "rojo": { "lemma": "rojo", "en": "red", "fr": "rouge" },
+      "bonito": { "lemma": "bonito", "en": "pretty", "fr": "joli" },
+      "caro": { "lemma": "caro", "en": "expensive", "fr": "cher" },
+      "aquellos": { "lemma": "aquel", "en": "those (over there)", "fr": "ces...-là", "note": "指示詞・男性複数" },
+      "baratos": { "lemma": "barato", "en": "cheap", "fr": "bon marché", "note": "男性複数" },
+      "bonitos": { "lemma": "bonito", "en": "pretty", "fr": "joli", "note": "男性複数" },
+      "repente": { "lemma": "de repente", "en": "suddenly", "fr": "soudain" },
+      "aparece": { "lemma": "aparecer", "en": "to appear", "fr": "apparaître", "note": "3人称単数・現在" },
+      "sombrero": { "lemma": "sombrero", "en": "hat", "fr": "chapeau" },
+      "enorme": { "lemma": "enorme", "en": "enormous", "fr": "énorme" },
+      "tal": { "lemma": "qué tal", "en": "how about", "fr": "que penses-tu de", "note": "¿Qué tal ...? = 〜はどう？" },
+      "mexicano": { "lemma": "mexicano", "en": "Mexican", "fr": "mexicain" },
+      "como": { "lemma": "como", "en": "like, as", "fr": "comme" },
+      "ese": { "lemma": "ese", "en": "that", "fr": "ce", "note": "指示詞・男性単数" },
+      "toledo": { "lemma": "Toledo", "en": "Toledo", "fr": "Tolède", "note": "マドリード南の古都" },
+      "feo": { "lemma": "feo", "en": "ugly", "fr": "laid, moche" },
+      "triste": { "lemma": "triste", "en": "sad", "fr": "triste" },
+      "solo": { "lemma": "solo", "en": "only", "fr": "seulement" },
+      "minuto": { "lemma": "minuto", "en": "minute", "fr": "minute" },
+      "bueno": { "lemma": "bueno", "en": "well...", "fr": "bon...", "note": "話のつなぎ" },
+      "grande": { "lemma": "grande", "en": "big", "fr": "grand" },
+      "cómodo": { "lemma": "cómodo", "en": "comfortable", "fr": "confortable" },
+      "final": { "lemma": "final", "en": "end", "fr": "fin", "note": "al final = 最後には" },
+      "contentos": { "lemma": "contento", "en": "happy, pleased", "fr": "content", "note": "男性複数。estar と使う" },
+      "azul": { "lemma": "azul", "en": "blue", "fr": "bleu" },
+      "gafas": { "lemma": "gafas", "en": "glasses", "fr": "lunettes", "note": "gafas de sol = サングラス" },
+      "sol": { "lemma": "sol", "en": "sun", "fr": "soleil" },
+      "antiguas": { "lemma": "antiguo", "en": "old, vintage", "fr": "ancien", "note": "女性複数" }
+    },
+    "quiz": [
+      { "q": "¿Cómo es la abuela Carmen?", "options": ["Pequeña y lista", "Alta y seria", "Joven y tímida"], "answer": "Pequeña y lista" },
+      { "q": "¿De qué color es el abanico de Yuki al final?", "options": ["Azul", "Rojo", "Negro"], "answer": "Azul" },
+      { "q": "Según la abuela, ¿cómo es el sombrero de Diego?", "options": ["Es de Toledo y es feo", "Es mexicano y es bonito", "Es pequeño y es caro"], "answer": "Es de Toledo y es feo" }
+    ]
+  }
+}
