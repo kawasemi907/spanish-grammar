@@ -100,7 +100,7 @@ const Data = {
   c: {},
   json(path) {
     if (!this.c[path]) {
-      this.c[path] = fetch(path)
+      this.c[path] = fetch(path, { cache: 'no-cache' })
         .then(r => { if (!r.ok) throw new Error(`${path} (${r.status})`); return r.json(); })
         .catch(e => { delete this.c[path]; throw e; });
     }
@@ -978,5 +978,13 @@ window.addEventListener('hashchange', render);
 render();
 
 if ('serviceWorker' in navigator) {
+  // 新しいバージョンが公開されたら、切り替わった時点で1回だけ再読み込みして最新データを表示する
+  const hadController = !!navigator.serviceWorker.controller;
+  let reloading = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!hadController || reloading) return;
+    reloading = true;
+    location.reload();
+  });
   window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
 }

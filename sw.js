@@ -1,6 +1,7 @@
 // Service Worker：ネットワーク優先（最新データを取得）、オフライン時はキャッシュを使う。
 // ユニットを追加したら CACHE の番号を上げ、PRECACHE に data/unitNN.json を足すこと。
-const CACHE = 'esp4-v2';
+// GitHub Pages は max-age=600 を返すので、ブラウザのHTTPキャッシュを通さず必ずサーバーに確認する。
+const CACHE = 'esp4-v3';
 const PRECACHE = [
   './',
   'index.html',
@@ -27,7 +28,7 @@ const PRECACHE = [
 const TIMEOUT_MS = 4000;
 
 self.addEventListener('install', e => {
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(PRECACHE)).then(() => self.skipWaiting()));
+  e.waitUntil(caches.open(CACHE).then(c => c.addAll(PRECACHE.map(u => new Request(u, { cache: 'reload' })))).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', e => {
@@ -45,7 +46,7 @@ self.addEventListener('fetch', e => {
     const cache = await caches.open(CACHE);
     try {
       const res = await Promise.race([
-        fetch(req),
+        fetch(req.url, { cache: 'no-cache' }),
         new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), TIMEOUT_MS)),
       ]);
       if (res.ok) cache.put(req, res.clone());
