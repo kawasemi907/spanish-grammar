@@ -1,0 +1,125 @@
+{
+  "id": 14,
+  "title": "現在完了",
+  "explain": {
+    "sections": [
+      {
+        "title": "形：haber ＋ 過去分詞",
+        "body": "<table><tr><td>yo</td><td><b>he</b> hablado</td><td>nosotros</td><td><b>hemos</b> comido</td></tr><tr><td>tú</td><td><b>has</b> hablado</td><td>vosotros</td><td><b>habéis</b> comido</td></tr><tr><td>él / usted</td><td><b>ha</b> hablado</td><td>ellos / ustedes</td><td><b>han</b> vivido</td></tr></table><p>過去分詞：<b>-ar → -ado</b>、<b>-er / -ir → -ido</b>。現在完了では<b>形が変わらない</b>（性数一致しない）。</p>"
+      },
+      {
+        "title": "不規則な過去分詞",
+        "body": "<table><tr><td>abrir → <b>abierto</b></td><td>decir → <b>dicho</b></td></tr><tr><td>escribir → <b>escrito</b></td><td>hacer → <b>hecho</b></td></tr><tr><td>poner → <b>puesto</b></td><td>romper → <b>roto</b></td></tr><tr><td>ver → <b>visto</b></td><td>volver → <b>vuelto</b></td></tr><tr><td>morir → <b>muerto</b></td><td>descubrir → <b>descubierto</b></td></tr></table><p>母音 ＋ -ido はアクセント記号がつく：<span class='es'>leído, oído, traído</span></p>"
+      },
+      {
+        "title": "使い方",
+        "body": "<ul><li><b>今を含む期間</b>の出来事：<span class='es'>hoy, esta mañana, esta semana, este año</span>　<span class='es'>Hoy he comido paella.</span></li><li><b>経験</b>：<span class='es'>¿Has estado alguna vez en México? —No, nunca he estado.</span></li><li><b>完了・未完了</b>：<span class='es'>ya</span>（もう）, <span class='es'>todavía no</span>（まだ〜ない）</li><li>haber と分詞の間には何も入れない。代名詞・no は haber の前：<span class='es'>No lo he visto.</span></li></ul><p>※ スペインでは「今日のこと」に現在完了を使う。中南米では点過去（ユニット15）を使うことが多い。</p>"
+      }
+    ],
+    "french": "<ul><li>形は仏語の<b>複合過去</b>（passé composé）と同じ作り。ただし助動詞は<b>常に haber</b>：<span class='es'>He ido.</span>（Je suis allé.）<span class='es'>Me he levantado.</span>（Je me suis levé.）</li><li>過去分詞は<b>一致しない</b>：<span class='es'>Las he visto.</span>（Je les ai vues.）</li><li>使い方の違い：仏語の passé composé は過去全般に使うが、西語の現在完了は<b>今と関係のある時間</b>だけ。<span class='es'>ayer</span>（hier）なら点過去を使う。</li><li><span class='es'>ya / todavía no / alguna vez / nunca</span> ＝ <b>déjà / pas encore / déjà (une fois) / jamais</b>。</li></ul>",
+    "examples": [
+      { "es": "Hoy he comido paella.", "en": "I've had paella today.", "fr": "Aujourd'hui, j'ai mangé de la paella." },
+      { "es": "¿Has estado alguna vez en México?", "en": "Have you ever been to Mexico?", "fr": "Tu es déjà allé au Mexique ?" },
+      { "es": "Todavía no he visto el Museo del Prado.", "en": "I haven't seen the Prado Museum yet.", "fr": "Je n'ai pas encore vu le musée du Prado." },
+      { "es": "Esta semana hemos estudiado mucho.", "en": "We've studied a lot this week.", "fr": "Cette semaine, nous avons beaucoup étudié." },
+      { "es": "Lucía ya ha vuelto a casa.", "en": "Lucía has already come back home.", "fr": "Lucía est déjà rentrée à la maison." },
+      { "es": "¿Quién ha abierto la ventana?", "en": "Who has opened the window?", "fr": "Qui a ouvert la fenêtre ?" },
+      { "es": "Nunca he escrito un poema en español.", "en": "I've never written a poem in Spanish.", "fr": "Je n'ai jamais écrit de poème en espagnol." },
+      { "es": "Esta mañana me he levantado muy tarde.", "en": "This morning I got up very late.", "fr": "Ce matin, je me suis levée très tard." }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "conj", "verb": "hablar", "person": "yo", "tense": "現在完了", "sentence": "Hoy ___ con mi madre.", "answer": ["he hablado"], "explain": "<b>he</b> ＋ hablado。" },
+    { "id": "q02", "type": "conj", "verb": "comer", "person": "tú", "tense": "現在完了", "sentence": "¿Ya ___?", "answer": ["has comido"], "explain": "<b>has</b> ＋ comido。" },
+    { "id": "q03", "type": "conj", "verb": "ver", "person": "él", "tense": "現在完了", "sentence": "Diego nunca ___ la nieve.", "answer": ["ha visto"], "explain": "ver の過去分詞は不規則：<b>visto</b>。" },
+    { "id": "q04", "type": "conj", "verb": "hacer", "person": "nosotros", "tense": "現在完了", "sentence": "Esta mañana ___ una tortilla.", "answer": ["hemos hecho"], "explain": "hacer の過去分詞は <b>hecho</b>。" },
+    { "id": "q05", "type": "conj", "verb": "volver", "person": "ellos", "tense": "現在完了", "sentence": "Todavía no ___.", "answer": ["han vuelto"], "explain": "volver の過去分詞は <b>vuelto</b>。" },
+    { "id": "q06", "type": "conj", "verb": "escribir", "person": "vosotros", "tense": "現在完了", "sentence": "¿Ya ___ la carta?", "answer": ["habéis escrito"], "explain": "<b>habéis</b> ＋ escrito（不規則）。" },
+    { "id": "q07", "type": "conj", "verb": "decir", "person": "usted", "tense": "現在完了", "sentence": "¿Qué ___ usted?", "answer": ["ha dicho"], "explain": "decir の過去分詞は <b>dicho</b>。" },
+    { "id": "q08", "type": "fill", "prompt": "過去分詞にしよう（abrir）", "sentence": "¿Quién ha ___ la puerta?", "answer": ["abierto"], "explain": "abrir → <b>abierto</b>（不規則）。" },
+    { "id": "q09", "type": "fill", "prompt": "過去分詞にしよう（poner）", "sentence": "¿Dónde has ___ mis llaves?", "answer": ["puesto"], "explain": "poner → <b>puesto</b>（不規則）。" },
+    { "id": "q10", "type": "fill", "prompt": "過去分詞にしよう（leer）", "sentence": "¿Has ___ este libro?", "answer": ["leído"], "explain": "leer → <b>leído</b>（アクセント記号つき）。" },
+    { "id": "q11", "type": "fill", "prompt": "過去分詞にしよう（romper）", "sentence": "Churro ha ___ un vaso.", "answer": ["roto"], "explain": "romper → <b>roto</b>（不規則）。" },
+    { "id": "q12", "type": "choice", "prompt": "正しい語を選ぼう", "sentence": "Hoy ___ ido al cine.", "options": ["he", "ha", "soy"], "answer": "he", "explain": "助動詞は常に <b>haber</b>。yo → he。" },
+    { "id": "q13", "type": "choice", "prompt": "「今までに〜したことがある？」", "sentence": "¿Has estado ___ en Japón?", "options": ["alguna vez", "nunca", "todavía"], "answer": "alguna vez", "explain": "経験を尋ねる <b>alguna vez</b>。" },
+    { "id": "q14", "type": "choice", "prompt": "代名詞を選ぼう", "sentence": "¿La película? No ___ he visto.", "options": ["la", "lo", "le"], "answer": "la", "explain": "<span class='es'>la película</span> → <b>la</b>。代名詞は haber の前。" },
+    { "id": "q15", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Todavía no ___ los deberes.", "options": ["he hecho", "hecho he", "he hacido"], "answer": "he hecho", "explain": "haber ＋ 過去分詞の順。hacer → hecho。" },
+    { "id": "q16", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Nunca", "he", "estado", "en", "México"], "answer": ["Nunca he estado en México"], "en": "I've never been to Mexico.", "fr": "Je ne suis jamais allé au Mexique.", "explain": "経験の否定 <b>nunca</b> ＋ 現在完了。" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて疑問文を作ろう", "words": ["has", "visto", "a", "Churro"], "answer": ["¿Has visto a Churro?"], "en": "Have you seen Churro?", "fr": "Tu as vu Churro ?", "explain": "haber と過去分詞は離さない。" },
+    { "id": "q18", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Esta", "semana", "hemos", "estudiado", "mucho"], "answer": ["Esta semana hemos estudiado mucho", "Hemos estudiado mucho esta semana"], "en": "We've studied a lot this week.", "fr": "Cette semaine, nous avons beaucoup étudié.", "explain": "<span class='es'>esta semana</span>（今を含む期間）→ 現在完了。" }
+  ],
+  "reading": {
+    "title": "La lista de Yuki",
+    "sentences": [
+      { "p": true, "es": "Yuki lleva tres meses en Madrid.", "en": "Yuki has been in Madrid for three months.", "fr": "Yuki est à Madrid depuis trois mois." },
+      { "es": "En su cuaderno tiene una lista: «Cosas para hacer en España».", "en": "In her notebook she has a list: \"Things to do in Spain\".", "fr": "Dans son cahier, elle a une liste : « Choses à faire en Espagne »." },
+      { "es": "Esta noche, Lucía la lee en voz alta.", "en": "Tonight, Lucía reads it out loud.", "fr": "Ce soir, Lucía la lit à voix haute." },
+      { "p": true, "es": "—«Comer churros con chocolate»... ¡Ya lo has hecho cincuenta veces!", "en": "\"'Eat churros with chocolate'... You've already done that fifty times!\"", "fr": "« “Manger des churros avec du chocolat”... Tu l'as déjà fait cinquante fois ! »" },
+      { "es": "«Ver un partido en un bar». Hecho. «Aprender a hacer tortilla». Hecho.", "en": "\"'Watch a match in a bar.' Done. 'Learn to make tortilla.' Done.\"", "fr": "« “Regarder un match dans un bar.” Fait. “Apprendre à faire une tortilla.” Fait. »" },
+      { "es": "«Visitar el Museo del Prado»... ¿Todavía no has ido al Prado?", "en": "\"'Visit the Prado Museum'... You still haven't been to the Prado?\"", "fr": "« “Visiter le musée du Prado”... Tu n'es pas encore allée au Prado ? »" },
+      { "es": "—No. Siempre hay mucha gente... y siempre he tenido clase.", "en": "\"No. There are always lots of people... and I've always had class.\"", "fr": "« Non. Il y a toujours beaucoup de monde... et j'ai toujours eu cours. »" },
+      { "p": true, "es": "—«Bailar flamenco». ¿Has bailado flamenco alguna vez?", "en": "\"'Dance flamenco.' Have you ever danced flamenco?\"", "fr": "« “Danser le flamenco.” Tu as déjà dansé le flamenco ? »" },
+      { "es": "—Nunca. Pero he visto muchos vídeos.", "en": "\"Never. But I've watched lots of videos.\"", "fr": "« Jamais. Mais j'ai regardé beaucoup de vidéos. »" },
+      { "es": "Lucía cierra el cuaderno y sonríe.", "en": "Lucía closes the notebook and smiles.", "fr": "Lucía ferme le cahier et sourit." },
+      { "es": "—Muy bien. Mañana vamos al Prado por la mañana y a mi clase de flamenco por la tarde.", "en": "\"Right. Tomorrow we're going to the Prado in the morning and to my flamenco class in the afternoon.\"", "fr": "« Très bien. Demain, on va au Prado le matin et à mon cours de flamenco l'après-midi. »" },
+      { "p": true, "es": "En el sofá, Churro abre un ojo.", "en": "On the sofa, Churro opens one eye.", "fr": "Sur le canapé, Churro ouvre un œil." },
+      { "es": "Él no ha hecho nada en tres meses y es el más feliz de la casa.", "en": "He hasn't done anything in three months and he's the happiest one in the flat.", "fr": "Il n'a rien fait en trois mois et c'est le plus heureux de la maison." }
+    ],
+    "glossary": {
+      "lista": { "lemma": "lista", "en": "list", "fr": "liste" },
+      "lleva": { "lemma": "llevar", "en": "to have been (for a time)", "fr": "être depuis", "note": "llevar + 期間 = 〜の間ずっと…している" },
+      "meses": { "lemma": "mes", "en": "month", "fr": "mois", "note": "複数形" },
+      "madrid": { "lemma": "Madrid", "en": "Madrid", "fr": "Madrid" },
+      "cuaderno": { "lemma": "cuaderno", "en": "notebook", "fr": "cahier" },
+      "cosas": { "lemma": "cosa", "en": "thing", "fr": "chose", "note": "複数形" },
+      "hacer": { "lemma": "hacer", "en": "to do, to make", "fr": "faire" },
+      "españa": { "lemma": "España", "en": "Spain", "fr": "Espagne" },
+      "esta": { "lemma": "este", "en": "this", "fr": "ce, cette", "note": "esta noche = 今夜" },
+      "lee": { "lemma": "leer", "en": "to read", "fr": "lire", "note": "3人称単数・現在" },
+      "voz": { "lemma": "voz", "en": "voice", "fr": "voix", "note": "en voz alta = 声に出して" },
+      "alta": { "lemma": "alto", "en": "loud, high", "fr": "haut", "note": "女性形" },
+      "comer": { "lemma": "comer", "en": "to eat", "fr": "manger" },
+      "churros": { "lemma": "churro", "en": "churro", "fr": "churro", "note": "複数形" },
+      "chocolate": { "lemma": "chocolate", "en": "(hot) chocolate", "fr": "chocolat" },
+      "has": { "lemma": "haber", "en": "have (auxiliary)", "fr": "as (auxiliaire)", "note": "2人称単数・現在。現在完了の助動詞" },
+      "hecho": { "lemma": "hacer", "en": "done, made", "fr": "fait", "note": "過去分詞（不規則）" },
+      "cincuenta": { "lemma": "cincuenta", "en": "fifty", "fr": "cinquante" },
+      "veces": { "lemma": "vez", "en": "time (occasion)", "fr": "fois", "note": "複数形（z → ces）" },
+      "ver": { "lemma": "ver", "en": "to watch, to see", "fr": "regarder, voir" },
+      "partido": { "lemma": "partido", "en": "match", "fr": "match" },
+      "bar": { "lemma": "bar", "en": "bar", "fr": "bar" },
+      "aprender": { "lemma": "aprender", "en": "to learn", "fr": "apprendre" },
+      "tortilla": { "lemma": "tortilla", "en": "Spanish omelette", "fr": "omelette espagnole" },
+      "visitar": { "lemma": "visitar", "en": "to visit", "fr": "visiter" },
+      "museo": { "lemma": "museo", "en": "museum", "fr": "musée" },
+      "prado": { "lemma": "Prado", "en": "the Prado (museum)", "fr": "le Prado", "note": "ベラスケスやゴヤで有名なプラド美術館" },
+      "todavía": { "lemma": "todavía", "en": "still, yet", "fr": "encore", "note": "todavía no = まだ〜ない" },
+      "ido": { "lemma": "ir", "en": "gone", "fr": "allé", "note": "過去分詞" },
+      "gente": { "lemma": "gente", "en": "people", "fr": "monde, gens" },
+      "he": { "lemma": "haber", "en": "have (auxiliary)", "fr": "ai (auxiliaire)", "note": "1人称単数・現在" },
+      "tenido": { "lemma": "tener", "en": "had", "fr": "eu", "note": "過去分詞" },
+      "clase": { "lemma": "clase", "en": "class", "fr": "cours" },
+      "bailar": { "lemma": "bailar", "en": "to dance", "fr": "danser" },
+      "flamenco": { "lemma": "flamenco", "en": "flamenco", "fr": "flamenco" },
+      "bailado": { "lemma": "bailar", "en": "danced", "fr": "dansé", "note": "過去分詞" },
+      "alguna": { "lemma": "alguno", "en": "some, any", "fr": "quelque", "note": "alguna vez = 今までに一度でも" },
+      "vez": { "lemma": "vez", "en": "time (occasion)", "fr": "fois" },
+      "visto": { "lemma": "ver", "en": "seen, watched", "fr": "vu", "note": "過去分詞（不規則）" },
+      "vídeos": { "lemma": "vídeo", "en": "video", "fr": "vidéo", "note": "複数形。中南米では video" },
+      "cierra": { "lemma": "cerrar", "en": "to close", "fr": "fermer", "note": "3人称単数・現在" },
+      "sonríe": { "lemma": "sonreír", "en": "to smile", "fr": "sourire", "note": "3人称単数・現在" },
+      "sofá": { "lemma": "sofá", "en": "sofa", "fr": "canapé" },
+      "abre": { "lemma": "abrir", "en": "to open", "fr": "ouvrir", "note": "3人称単数・現在" },
+      "ojo": { "lemma": "ojo", "en": "eye", "fr": "œil" },
+      "ha": { "lemma": "haber", "en": "has (auxiliary)", "fr": "a (auxiliaire)", "note": "3人称単数・現在" },
+      "nada": { "lemma": "nada", "en": "nothing", "fr": "rien" },
+      "feliz": { "lemma": "feliz", "en": "happy", "fr": "heureux" },
+      "casa": { "lemma": "casa", "en": "house, home", "fr": "maison" }
+    },
+    "quiz": [
+      { "q": "Según Lucía, ¿cuántas veces ha comido Yuki churros con chocolate?", "options": ["Cincuenta", "Tres", "Nunca"], "answer": "Cincuenta" },
+      { "q": "¿Ha ido Yuki al Museo del Prado?", "options": ["Todavía no", "Sí, muchas veces", "Sí, una vez"], "answer": "Todavía no" },
+      { "q": "¿Qué van a hacer mañana por la tarde?", "options": ["Ir a la clase de flamenco", "Ver un partido", "Visitar el Prado"], "answer": "Ir a la clase de flamenco" }
+    ]
+  }
+}

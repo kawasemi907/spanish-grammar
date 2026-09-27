@@ -685,8 +685,9 @@ function showWord(span, word, local, common) {
 
 /* ---------- Conjugation trainer ---------- */
 function conjTable(v, tenseKey, persons, hit) {
-  return '<table class="conj-table">' + v.forms[tenseKey].map((f, i) =>
-    `<tr class="${i === hit ? 'hit' : ''}"><td>${persons[i]}</td><td>${f}</td></tr>`).join('') + '</table>';
+  // 命令法には yo の形がない（null）ので行ごと省く
+  return '<table class="conj-table">' + v.forms[tenseKey].map((f, i) => f == null ? ''
+    : `<tr class="${i === hit ? 'hit' : ''}"><td>${persons[i]}</td><td>${f}</td></tr>`).join('') + '</table>';
 }
 
 function conjQuestion(V, v, tenseKey, person) {
@@ -772,7 +773,8 @@ async function TrainerView() {
       for (let k = 0; k < 10; k++) {
         v = verbs[Math.floor(Math.random() * verbs.length)];
         tk = T.tenses[Math.floor(Math.random() * T.tenses.length)];
-        p = persons[Math.floor(Math.random() * persons.length)];
+        const ps = persons.filter(x => v.forms[tk][x] != null);
+        p = ps[Math.floor(Math.random() * ps.length)];
         key = `${v.inf}:${tk}:${p}`;
         if (key !== last) break;
       }
@@ -811,7 +813,7 @@ async function ReviewView() {
       return q ? { q, source: `Unit ${item.unit}` } : null;
     }
     const v = V.verbs.find(x => x.inf === item.verb);
-    if (!v || !v.forms[item.tense]) return null;
+    if (!v || !v.forms[item.tense] || v.forms[item.tense][item.person] == null) return null;
     return { q: conjQuestion(V, v, item.tense, item.person), source: '活用トレーナー' };
   };
 

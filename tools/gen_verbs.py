@@ -14,8 +14,12 @@ TENSES = [
     {"key": "indef", "label": "点過去", "unit": 15},
     {"key": "imperf", "label": "線過去", "unit": 17},
     {"key": "fut", "label": "未来", "unit": 18},
+    {"key": "imp", "label": "肯定命令", "unit": 18},
+    {"key": "plusc", "label": "過去完了", "unit": 19},
+    {"key": "futperf", "label": "未来完了", "unit": 20},
     {"key": "cond", "label": "過去未来", "unit": 20},
     {"key": "subj", "label": "接続法現在", "unit": 21},
+    {"key": "neg", "label": "否定命令", "unit": 23},
 ]
 PERSONS = ["yo", "tú", "él / ella / usted", "nosotros", "vosotros", "ellos / ellas / ustedes"]
 
@@ -67,6 +71,11 @@ END = {
 FUT = ["é", "ás", "á", "emos", "éis", "án"]
 COND = ["ía", "ías", "ía", "íamos", "íais", "ían"]
 HABER = ["he", "has", "ha", "hemos", "habéis", "han"]
+HABIA = ["había", "habías", "había", "habíamos", "habíais", "habían"]
+HABRE = ["habré", "habrás", "habrá", "habremos", "habréis", "habrán"]
+# tú の肯定命令の不規則形（それ以外は直説法現在の3人称単数と同じ）
+IMP_TU = {"decir": "di", "hacer": "haz", "ir": "ve", "poner": "pon", "salir": "sal",
+          "ser": "sé", "tener": "ten", "venir": "ven"}
 
 
 def s(text):
@@ -195,6 +204,14 @@ def conjugate(inf):
     forms["cond"] = [fut_stem + x for x in COND]
     part = ov.get("part", stem + e["part"])
     forms["perf"] = [h + " " + part for h in HABER]
+    forms["plusc"] = [h + " " + part for h in HABIA]
+    forms["futperf"] = [h + " " + part for h in HABRE]
+    # 命令法：yo の形はないので None。usted・nosotros・ustedes は接続法現在と同じ
+    sj = forms["subj"]
+    vos = "id" if inf == "ir" else inf[:-1] + "d"
+    forms["imp"] = [None, IMP_TU.get(inf, forms["pres"][2]), sj[2],
+                    "vamos" if inf == "ir" else sj[3], vos, sj[5]]
+    forms["neg"] = [None] + ["no " + f for f in sj[1:]]
     return forms, part
 
 

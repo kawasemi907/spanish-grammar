@@ -34,6 +34,21 @@
    "unit": 18
   },
   {
+   "key": "imp",
+   "label": "肯定命令",
+   "unit": 18
+  },
+  {
+   "key": "plusc",
+   "label": "過去完了",
+   "unit": 19
+  },
+  {
+   "key": "futperf",
+   "label": "未来完了",
+   "unit": 20
+  },
+  {
    "key": "cond",
    "label": "過去未来",
    "unit": 20
@@ -42,6 +57,11 @@
    "key": "subj",
    "label": "接続法現在",
    "unit": 21
+  },
+  {
+   "key": "neg",
+   "label": "否定命令",
+   "unit": 23
   }
  ],
  "verbs": [
@@ -106,6 +126,38 @@
      "hemos hablado",
      "habéis hablado",
      "han hablado"
+    ],
+    "plusc": [
+     "había hablado",
+     "habías hablado",
+     "había hablado",
+     "habíamos hablado",
+     "habíais hablado",
+     "habían hablado"
+    ],
+    "futperf": [
+     "habré hablado",
+     "habrás hablado",
+     "habrá hablado",
+     "habremos hablado",
+     "habréis hablado",
+     "habrán hablado"
+    ],
+    "imp": [
+     null,
+     "habla",
+     "hable",
+     "hablemos",
+     "hablad",
+     "hablen"
+    ],
+    "neg": [
+     null,
+     "no hables",
+     "no hable",
+     "no hablemos",
+     "no habléis",
+     "no hablen"
     ]
    }
   },
@@ -170,6 +222,38 @@
      "hemos estudiado",
      "habéis estudiado",
      "han estudiado"
+    ],
+    "plusc": [
+     "había estudiado",
+     "habías estudiado",
+     "había estudiado",
+     "habíamos estudiado",
+     "habíais estudiado",
+     "habían estudiado"
+    ],
+    "futperf": [
+     "habré estudiado",
+     "habrás estudiado",
+     "habrá estudiado",
+     "habremos estudiado",
+     "habréis estudiado",
+     "habrán estudiado"
+    ],
+    "imp": [
+     null,
+     "estudia",
+     "estudie",
+     "estudiemos",
+     "estudiad",
+     "estudien"
+    ],
+    "neg": [
+     null,
+     "no estudies",
+     "no estudie",
+     "no estudiemos",
+     "no estudiéis",
+     "no estudien"
     ]
    }
   },
@@ -234,6 +318,38 @@
      "hemos trabajado",
      "habéis trabajado",
      "han trabajado"
+    ],
+    "plusc": [
+     "había trabajado",
+     "habías trabajado",
+     "había trabajado",
+     "habíamos trabajado",
+     "habíais trabajado",
+     "habían trabajado"
+    ],
+    "futperf": [
+     "habré trabajado",
+     "habrás trabajado",
+     "habrá trabajado",
+     "habremos trabajado",
+     "habréis trabajado",
+     "habrán trabajado"
+    ],
+    "imp": [
+     null,
+     "trabaja",
+     "trabaje",
+     "trabajemos",
+     "trabajad",
+     "trabajen"
+    ],
+    "neg": [
+     null,
+     "no trabajes",
+     "no trabaje",
+     "no trabajemos",
+     "no trabajéis",
+     "no trabajen"
     ]
    }
   },
@@ -298,6 +414,38 @@
      "hemos tomado",
      "habéis tomado",
      "han tomado"
+    ],
+    "plusc": [
+     "había tomado",
+     "habías tomado",
+     "había tomado",
+     "habíamos tomado",
+     "habíais tomado",
+     "habían tomado"
+    ],
+    "futperf": [
+     "habré tomado",
+     "habrás tomado",
+     "habrá tomado",
+     "habremos tomado",
+     "habréis tomado",
+     "habrán tomado"
+    ],
+    "imp": [
+     null,
+     "toma",
+     "tome",
+     "tomemos",
+     "tomad",
+     "tomen"
+    ],
+    "neg": [
+     null,
+     "no tomes",
+     "no tome",
+     "no tomemos",
+     "no toméis",
+     "no tomen"
     ]
    }
   },
@@ -362,6 +510,38 @@
      "hemos comprado",
      "habéis comprado",
      "han comprado"
+    ],
+    "plusc": [
+     "había comprado",
+     "habías comprado",
+     "había comprado",
+     "habíamos comprado",
+     "habíais comprado",
+     "habían comprado"
+    ],
+    "futperf": [
+     "habré comprado",
+     "habrás comprado",
+     "habrá comprado",
+     "habremos comprado",
+     "habréis comprado",
+     "habrán comprado"
+    ],
+    "imp": [
+     null,
+     "compra",
+     "compre",
+     "compremos",
+     "comprad",
+     "compren"
+    ],
+    "neg": [
+     null,
+     "no compres",
+     "no compre",
+     "no compremos",
+     "no compréis",
+     "no compren"
     ]
    }
   },
@@ -426,6 +606,38 @@
      "hemos llegado",
      "habéis llegado",
      "han llegado"
+    ],
+    "plusc": [
+     "había llegado",
+     "habías llegado",
+     "había llegado",
+     "habíamos llegado",
+     "habíais llegado",
+     "habían llegado"
+    ],
+    "futperf": [
+     "habré llegado",
+     "habrás llegado",
+     "habrá llegado",
+     "habremos llegado",
+     "habréis llegado",
+     "habrán llegado"
+    ],
+    "imp": [
+     null,
+     "llega",
+     "llegue",
+     "lleguemos",
+     "llegad",
+     "lleguen"
+    ],
+    "neg": [
+     null,
+     "no llegues",
+     "no llegue",
+     "no lleguemos",
+     "no lleguéis",
+     "no lleguen"
     ]
    }
   },
@@ -490,6 +702,38 @@
      "hemos buscado",
      "habéis buscado",
      "han buscado"
+    ],
+    "plusc": [
+     "había buscado",
+     "habías buscado",
+     "había buscado",
+     "habíamos buscado",
+     "habíais buscado",
+     "habían buscado"
+    ],
+    "futperf": [
+     "habré buscado",
+     "habrás buscado",
+     "habrá buscado",
+     "habremos buscado",
+     "habréis buscado",
+     "habrán buscado"
+    ],
+    "imp": [
+     null,
+     "busca",
+     "busque",
+     "busquemos",
+     "buscad",
+     "busquen"
+    ],
+    "neg": [
+     null,
+     "no busques",
+     "no busque",
+     "no busquemos",
+     "no busquéis",
+     "no busquen"
     ]
    }
   },
@@ -554,6 +798,38 @@
      "hemos bailado",
      "habéis bailado",
      "han bailado"
+    ],
+    "plusc": [
+     "había bailado",
+     "habías bailado",
+     "había bailado",
+     "habíamos bailado",
+     "habíais bailado",
+     "habían bailado"
+    ],
+    "futperf": [
+     "habré bailado",
+     "habrás bailado",
+     "habrá bailado",
+     "habremos bailado",
+     "habréis bailado",
+     "habrán bailado"
+    ],
+    "imp": [
+     null,
+     "baila",
+     "baile",
+     "bailemos",
+     "bailad",
+     "bailen"
+    ],
+    "neg": [
+     null,
+     "no bailes",
+     "no baile",
+     "no bailemos",
+     "no bailéis",
+     "no bailen"
     ]
    }
   },
@@ -618,6 +894,38 @@
      "hemos cenado",
      "habéis cenado",
      "han cenado"
+    ],
+    "plusc": [
+     "había cenado",
+     "habías cenado",
+     "había cenado",
+     "habíamos cenado",
+     "habíais cenado",
+     "habían cenado"
+    ],
+    "futperf": [
+     "habré cenado",
+     "habrás cenado",
+     "habrá cenado",
+     "habremos cenado",
+     "habréis cenado",
+     "habrán cenado"
+    ],
+    "imp": [
+     null,
+     "cena",
+     "cene",
+     "cenemos",
+     "cenad",
+     "cenen"
+    ],
+    "neg": [
+     null,
+     "no cenes",
+     "no cene",
+     "no cenemos",
+     "no cenéis",
+     "no cenen"
     ]
    }
   },
@@ -682,6 +990,38 @@
      "hemos comido",
      "habéis comido",
      "han comido"
+    ],
+    "plusc": [
+     "había comido",
+     "habías comido",
+     "había comido",
+     "habíamos comido",
+     "habíais comido",
+     "habían comido"
+    ],
+    "futperf": [
+     "habré comido",
+     "habrás comido",
+     "habrá comido",
+     "habremos comido",
+     "habréis comido",
+     "habrán comido"
+    ],
+    "imp": [
+     null,
+     "come",
+     "coma",
+     "comamos",
+     "comed",
+     "coman"
+    ],
+    "neg": [
+     null,
+     "no comas",
+     "no coma",
+     "no comamos",
+     "no comáis",
+     "no coman"
     ]
    }
   },
@@ -746,6 +1086,38 @@
      "hemos bebido",
      "habéis bebido",
      "han bebido"
+    ],
+    "plusc": [
+     "había bebido",
+     "habías bebido",
+     "había bebido",
+     "habíamos bebido",
+     "habíais bebido",
+     "habían bebido"
+    ],
+    "futperf": [
+     "habré bebido",
+     "habrás bebido",
+     "habrá bebido",
+     "habremos bebido",
+     "habréis bebido",
+     "habrán bebido"
+    ],
+    "imp": [
+     null,
+     "bebe",
+     "beba",
+     "bebamos",
+     "bebed",
+     "beban"
+    ],
+    "neg": [
+     null,
+     "no bebas",
+     "no beba",
+     "no bebamos",
+     "no bebáis",
+     "no beban"
     ]
    }
   },
@@ -810,6 +1182,38 @@
      "hemos aprendido",
      "habéis aprendido",
      "han aprendido"
+    ],
+    "plusc": [
+     "había aprendido",
+     "habías aprendido",
+     "había aprendido",
+     "habíamos aprendido",
+     "habíais aprendido",
+     "habían aprendido"
+    ],
+    "futperf": [
+     "habré aprendido",
+     "habrás aprendido",
+     "habrá aprendido",
+     "habremos aprendido",
+     "habréis aprendido",
+     "habrán aprendido"
+    ],
+    "imp": [
+     null,
+     "aprende",
+     "aprenda",
+     "aprendamos",
+     "aprended",
+     "aprendan"
+    ],
+    "neg": [
+     null,
+     "no aprendas",
+     "no aprenda",
+     "no aprendamos",
+     "no aprendáis",
+     "no aprendan"
     ]
    }
   },
@@ -874,6 +1278,38 @@
      "hemos leído",
      "habéis leído",
      "han leído"
+    ],
+    "plusc": [
+     "había leído",
+     "habías leído",
+     "había leído",
+     "habíamos leído",
+     "habíais leído",
+     "habían leído"
+    ],
+    "futperf": [
+     "habré leído",
+     "habrás leído",
+     "habrá leído",
+     "habremos leído",
+     "habréis leído",
+     "habrán leído"
+    ],
+    "imp": [
+     null,
+     "lee",
+     "lea",
+     "leamos",
+     "leed",
+     "lean"
+    ],
+    "neg": [
+     null,
+     "no leas",
+     "no lea",
+     "no leamos",
+     "no leáis",
+     "no lean"
     ]
    }
   },
@@ -938,6 +1374,38 @@
      "hemos corrido",
      "habéis corrido",
      "han corrido"
+    ],
+    "plusc": [
+     "había corrido",
+     "habías corrido",
+     "había corrido",
+     "habíamos corrido",
+     "habíais corrido",
+     "habían corrido"
+    ],
+    "futperf": [
+     "habré corrido",
+     "habrás corrido",
+     "habrá corrido",
+     "habremos corrido",
+     "habréis corrido",
+     "habrán corrido"
+    ],
+    "imp": [
+     null,
+     "corre",
+     "corra",
+     "corramos",
+     "corred",
+     "corran"
+    ],
+    "neg": [
+     null,
+     "no corras",
+     "no corra",
+     "no corramos",
+     "no corráis",
+     "no corran"
     ]
    }
   },
@@ -1002,6 +1470,38 @@
      "hemos vivido",
      "habéis vivido",
      "han vivido"
+    ],
+    "plusc": [
+     "había vivido",
+     "habías vivido",
+     "había vivido",
+     "habíamos vivido",
+     "habíais vivido",
+     "habían vivido"
+    ],
+    "futperf": [
+     "habré vivido",
+     "habrás vivido",
+     "habrá vivido",
+     "habremos vivido",
+     "habréis vivido",
+     "habrán vivido"
+    ],
+    "imp": [
+     null,
+     "vive",
+     "viva",
+     "vivamos",
+     "vivid",
+     "vivan"
+    ],
+    "neg": [
+     null,
+     "no vivas",
+     "no viva",
+     "no vivamos",
+     "no viváis",
+     "no vivan"
     ]
    }
   },
@@ -1066,6 +1566,38 @@
      "hemos escrito",
      "habéis escrito",
      "han escrito"
+    ],
+    "plusc": [
+     "había escrito",
+     "habías escrito",
+     "había escrito",
+     "habíamos escrito",
+     "habíais escrito",
+     "habían escrito"
+    ],
+    "futperf": [
+     "habré escrito",
+     "habrás escrito",
+     "habrá escrito",
+     "habremos escrito",
+     "habréis escrito",
+     "habrán escrito"
+    ],
+    "imp": [
+     null,
+     "escribe",
+     "escriba",
+     "escribamos",
+     "escribid",
+     "escriban"
+    ],
+    "neg": [
+     null,
+     "no escribas",
+     "no escriba",
+     "no escribamos",
+     "no escribáis",
+     "no escriban"
     ]
    }
   },
@@ -1130,6 +1662,38 @@
      "hemos abierto",
      "habéis abierto",
      "han abierto"
+    ],
+    "plusc": [
+     "había abierto",
+     "habías abierto",
+     "había abierto",
+     "habíamos abierto",
+     "habíais abierto",
+     "habían abierto"
+    ],
+    "futperf": [
+     "habré abierto",
+     "habrás abierto",
+     "habrá abierto",
+     "habremos abierto",
+     "habréis abierto",
+     "habrán abierto"
+    ],
+    "imp": [
+     null,
+     "abre",
+     "abra",
+     "abramos",
+     "abrid",
+     "abran"
+    ],
+    "neg": [
+     null,
+     "no abras",
+     "no abra",
+     "no abramos",
+     "no abráis",
+     "no abran"
     ]
    }
   },
@@ -1194,6 +1758,38 @@
      "hemos recibido",
      "habéis recibido",
      "han recibido"
+    ],
+    "plusc": [
+     "había recibido",
+     "habías recibido",
+     "había recibido",
+     "habíamos recibido",
+     "habíais recibido",
+     "habían recibido"
+    ],
+    "futperf": [
+     "habré recibido",
+     "habrás recibido",
+     "habrá recibido",
+     "habremos recibido",
+     "habréis recibido",
+     "habrán recibido"
+    ],
+    "imp": [
+     null,
+     "recibe",
+     "reciba",
+     "recibamos",
+     "recibid",
+     "reciban"
+    ],
+    "neg": [
+     null,
+     "no recibas",
+     "no reciba",
+     "no recibamos",
+     "no recibáis",
+     "no reciban"
     ]
    }
   },
@@ -1258,6 +1854,38 @@
      "hemos pensado",
      "habéis pensado",
      "han pensado"
+    ],
+    "plusc": [
+     "había pensado",
+     "habías pensado",
+     "había pensado",
+     "habíamos pensado",
+     "habíais pensado",
+     "habían pensado"
+    ],
+    "futperf": [
+     "habré pensado",
+     "habrás pensado",
+     "habrá pensado",
+     "habremos pensado",
+     "habréis pensado",
+     "habrán pensado"
+    ],
+    "imp": [
+     null,
+     "piensa",
+     "piense",
+     "pensemos",
+     "pensad",
+     "piensen"
+    ],
+    "neg": [
+     null,
+     "no pienses",
+     "no piense",
+     "no pensemos",
+     "no penséis",
+     "no piensen"
     ]
    }
   },
@@ -1322,6 +1950,38 @@
      "hemos cerrado",
      "habéis cerrado",
      "han cerrado"
+    ],
+    "plusc": [
+     "había cerrado",
+     "habías cerrado",
+     "había cerrado",
+     "habíamos cerrado",
+     "habíais cerrado",
+     "habían cerrado"
+    ],
+    "futperf": [
+     "habré cerrado",
+     "habrás cerrado",
+     "habrá cerrado",
+     "habremos cerrado",
+     "habréis cerrado",
+     "habrán cerrado"
+    ],
+    "imp": [
+     null,
+     "cierra",
+     "cierre",
+     "cerremos",
+     "cerrad",
+     "cierren"
+    ],
+    "neg": [
+     null,
+     "no cierres",
+     "no cierre",
+     "no cerremos",
+     "no cerréis",
+     "no cierren"
     ]
    }
   },
@@ -1386,6 +2046,38 @@
      "hemos empezado",
      "habéis empezado",
      "han empezado"
+    ],
+    "plusc": [
+     "había empezado",
+     "habías empezado",
+     "había empezado",
+     "habíamos empezado",
+     "habíais empezado",
+     "habían empezado"
+    ],
+    "futperf": [
+     "habré empezado",
+     "habrás empezado",
+     "habrá empezado",
+     "habremos empezado",
+     "habréis empezado",
+     "habrán empezado"
+    ],
+    "imp": [
+     null,
+     "empieza",
+     "empiece",
+     "empecemos",
+     "empezad",
+     "empiecen"
+    ],
+    "neg": [
+     null,
+     "no empieces",
+     "no empiece",
+     "no empecemos",
+     "no empecéis",
+     "no empiecen"
     ]
    }
   },
@@ -1450,6 +2142,38 @@
      "hemos querido",
      "habéis querido",
      "han querido"
+    ],
+    "plusc": [
+     "había querido",
+     "habías querido",
+     "había querido",
+     "habíamos querido",
+     "habíais querido",
+     "habían querido"
+    ],
+    "futperf": [
+     "habré querido",
+     "habrás querido",
+     "habrá querido",
+     "habremos querido",
+     "habréis querido",
+     "habrán querido"
+    ],
+    "imp": [
+     null,
+     "quiere",
+     "quiera",
+     "queramos",
+     "quered",
+     "quieran"
+    ],
+    "neg": [
+     null,
+     "no quieras",
+     "no quiera",
+     "no queramos",
+     "no queráis",
+     "no quieran"
     ]
    }
   },
@@ -1514,6 +2238,38 @@
      "hemos vuelto",
      "habéis vuelto",
      "han vuelto"
+    ],
+    "plusc": [
+     "había vuelto",
+     "habías vuelto",
+     "había vuelto",
+     "habíamos vuelto",
+     "habíais vuelto",
+     "habían vuelto"
+    ],
+    "futperf": [
+     "habré vuelto",
+     "habrás vuelto",
+     "habrá vuelto",
+     "habremos vuelto",
+     "habréis vuelto",
+     "habrán vuelto"
+    ],
+    "imp": [
+     null,
+     "vuelve",
+     "vuelva",
+     "volvamos",
+     "volved",
+     "vuelvan"
+    ],
+    "neg": [
+     null,
+     "no vuelvas",
+     "no vuelva",
+     "no volvamos",
+     "no volváis",
+     "no vuelvan"
     ]
    }
   },
@@ -1578,6 +2334,38 @@
      "hemos podido",
      "habéis podido",
      "han podido"
+    ],
+    "plusc": [
+     "había podido",
+     "habías podido",
+     "había podido",
+     "habíamos podido",
+     "habíais podido",
+     "habían podido"
+    ],
+    "futperf": [
+     "habré podido",
+     "habrás podido",
+     "habrá podido",
+     "habremos podido",
+     "habréis podido",
+     "habrán podido"
+    ],
+    "imp": [
+     null,
+     "puede",
+     "pueda",
+     "podamos",
+     "poded",
+     "puedan"
+    ],
+    "neg": [
+     null,
+     "no puedas",
+     "no pueda",
+     "no podamos",
+     "no podáis",
+     "no puedan"
     ]
    }
   },
@@ -1642,6 +2430,38 @@
      "hemos dormido",
      "habéis dormido",
      "han dormido"
+    ],
+    "plusc": [
+     "había dormido",
+     "habías dormido",
+     "había dormido",
+     "habíamos dormido",
+     "habíais dormido",
+     "habían dormido"
+    ],
+    "futperf": [
+     "habré dormido",
+     "habrás dormido",
+     "habrá dormido",
+     "habremos dormido",
+     "habréis dormido",
+     "habrán dormido"
+    ],
+    "imp": [
+     null,
+     "duerme",
+     "duerma",
+     "durmamos",
+     "dormid",
+     "duerman"
+    ],
+    "neg": [
+     null,
+     "no duermas",
+     "no duerma",
+     "no durmamos",
+     "no durmáis",
+     "no duerman"
     ]
    }
   },
@@ -1706,6 +2526,38 @@
      "hemos jugado",
      "habéis jugado",
      "han jugado"
+    ],
+    "plusc": [
+     "había jugado",
+     "habías jugado",
+     "había jugado",
+     "habíamos jugado",
+     "habíais jugado",
+     "habían jugado"
+    ],
+    "futperf": [
+     "habré jugado",
+     "habrás jugado",
+     "habrá jugado",
+     "habremos jugado",
+     "habréis jugado",
+     "habrán jugado"
+    ],
+    "imp": [
+     null,
+     "juega",
+     "juegue",
+     "juguemos",
+     "jugad",
+     "jueguen"
+    ],
+    "neg": [
+     null,
+     "no juegues",
+     "no juegue",
+     "no juguemos",
+     "no juguéis",
+     "no jueguen"
     ]
    }
   },
@@ -1770,6 +2622,38 @@
      "hemos preferido",
      "habéis preferido",
      "han preferido"
+    ],
+    "plusc": [
+     "había preferido",
+     "habías preferido",
+     "había preferido",
+     "habíamos preferido",
+     "habíais preferido",
+     "habían preferido"
+    ],
+    "futperf": [
+     "habré preferido",
+     "habrás preferido",
+     "habrá preferido",
+     "habremos preferido",
+     "habréis preferido",
+     "habrán preferido"
+    ],
+    "imp": [
+     null,
+     "prefiere",
+     "prefiera",
+     "prefiramos",
+     "preferid",
+     "prefieran"
+    ],
+    "neg": [
+     null,
+     "no prefieras",
+     "no prefiera",
+     "no prefiramos",
+     "no prefiráis",
+     "no prefieran"
     ]
    }
   },
@@ -1834,6 +2718,38 @@
      "hemos entendido",
      "habéis entendido",
      "han entendido"
+    ],
+    "plusc": [
+     "había entendido",
+     "habías entendido",
+     "había entendido",
+     "habíamos entendido",
+     "habíais entendido",
+     "habían entendido"
+    ],
+    "futperf": [
+     "habré entendido",
+     "habrás entendido",
+     "habrá entendido",
+     "habremos entendido",
+     "habréis entendido",
+     "habrán entendido"
+    ],
+    "imp": [
+     null,
+     "entiende",
+     "entienda",
+     "entendamos",
+     "entended",
+     "entiendan"
+    ],
+    "neg": [
+     null,
+     "no entiendas",
+     "no entienda",
+     "no entendamos",
+     "no entendáis",
+     "no entiendan"
     ]
    }
   },
@@ -1898,6 +2814,38 @@
      "hemos encontrado",
      "habéis encontrado",
      "han encontrado"
+    ],
+    "plusc": [
+     "había encontrado",
+     "habías encontrado",
+     "había encontrado",
+     "habíamos encontrado",
+     "habíais encontrado",
+     "habían encontrado"
+    ],
+    "futperf": [
+     "habré encontrado",
+     "habrás encontrado",
+     "habrá encontrado",
+     "habremos encontrado",
+     "habréis encontrado",
+     "habrán encontrado"
+    ],
+    "imp": [
+     null,
+     "encuentra",
+     "encuentre",
+     "encontremos",
+     "encontrad",
+     "encuentren"
+    ],
+    "neg": [
+     null,
+     "no encuentres",
+     "no encuentre",
+     "no encontremos",
+     "no encontréis",
+     "no encuentren"
     ]
    }
   },
@@ -1962,6 +2910,38 @@
      "hemos pedido",
      "habéis pedido",
      "han pedido"
+    ],
+    "plusc": [
+     "había pedido",
+     "habías pedido",
+     "había pedido",
+     "habíamos pedido",
+     "habíais pedido",
+     "habían pedido"
+    ],
+    "futperf": [
+     "habré pedido",
+     "habrás pedido",
+     "habrá pedido",
+     "habremos pedido",
+     "habréis pedido",
+     "habrán pedido"
+    ],
+    "imp": [
+     null,
+     "pide",
+     "pida",
+     "pidamos",
+     "pedid",
+     "pidan"
+    ],
+    "neg": [
+     null,
+     "no pidas",
+     "no pida",
+     "no pidamos",
+     "no pidáis",
+     "no pidan"
     ]
    }
   },
@@ -2026,6 +3006,38 @@
      "hemos repetido",
      "habéis repetido",
      "han repetido"
+    ],
+    "plusc": [
+     "había repetido",
+     "habías repetido",
+     "había repetido",
+     "habíamos repetido",
+     "habíais repetido",
+     "habían repetido"
+    ],
+    "futperf": [
+     "habré repetido",
+     "habrás repetido",
+     "habrá repetido",
+     "habremos repetido",
+     "habréis repetido",
+     "habrán repetido"
+    ],
+    "imp": [
+     null,
+     "repite",
+     "repita",
+     "repitamos",
+     "repetid",
+     "repitan"
+    ],
+    "neg": [
+     null,
+     "no repitas",
+     "no repita",
+     "no repitamos",
+     "no repitáis",
+     "no repitan"
     ]
    }
   },
@@ -2090,6 +3102,38 @@
      "hemos sentido",
      "habéis sentido",
      "han sentido"
+    ],
+    "plusc": [
+     "había sentido",
+     "habías sentido",
+     "había sentido",
+     "habíamos sentido",
+     "habíais sentido",
+     "habían sentido"
+    ],
+    "futperf": [
+     "habré sentido",
+     "habrás sentido",
+     "habrá sentido",
+     "habremos sentido",
+     "habréis sentido",
+     "habrán sentido"
+    ],
+    "imp": [
+     null,
+     "siente",
+     "sienta",
+     "sintamos",
+     "sentid",
+     "sientan"
+    ],
+    "neg": [
+     null,
+     "no sientas",
+     "no sienta",
+     "no sintamos",
+     "no sintáis",
+     "no sientan"
     ]
    }
   },
@@ -2154,6 +3198,38 @@
      "hemos sido",
      "habéis sido",
      "han sido"
+    ],
+    "plusc": [
+     "había sido",
+     "habías sido",
+     "había sido",
+     "habíamos sido",
+     "habíais sido",
+     "habían sido"
+    ],
+    "futperf": [
+     "habré sido",
+     "habrás sido",
+     "habrá sido",
+     "habremos sido",
+     "habréis sido",
+     "habrán sido"
+    ],
+    "imp": [
+     null,
+     "sé",
+     "sea",
+     "seamos",
+     "sed",
+     "sean"
+    ],
+    "neg": [
+     null,
+     "no seas",
+     "no sea",
+     "no seamos",
+     "no seáis",
+     "no sean"
     ]
    }
   },
@@ -2218,6 +3294,38 @@
      "hemos estado",
      "habéis estado",
      "han estado"
+    ],
+    "plusc": [
+     "había estado",
+     "habías estado",
+     "había estado",
+     "habíamos estado",
+     "habíais estado",
+     "habían estado"
+    ],
+    "futperf": [
+     "habré estado",
+     "habrás estado",
+     "habrá estado",
+     "habremos estado",
+     "habréis estado",
+     "habrán estado"
+    ],
+    "imp": [
+     null,
+     "está",
+     "esté",
+     "estemos",
+     "estad",
+     "estén"
+    ],
+    "neg": [
+     null,
+     "no estés",
+     "no esté",
+     "no estemos",
+     "no estéis",
+     "no estén"
     ]
    }
   },
@@ -2282,6 +3390,38 @@
      "hemos tenido",
      "habéis tenido",
      "han tenido"
+    ],
+    "plusc": [
+     "había tenido",
+     "habías tenido",
+     "había tenido",
+     "habíamos tenido",
+     "habíais tenido",
+     "habían tenido"
+    ],
+    "futperf": [
+     "habré tenido",
+     "habrás tenido",
+     "habrá tenido",
+     "habremos tenido",
+     "habréis tenido",
+     "habrán tenido"
+    ],
+    "imp": [
+     null,
+     "ten",
+     "tenga",
+     "tengamos",
+     "tened",
+     "tengan"
+    ],
+    "neg": [
+     null,
+     "no tengas",
+     "no tenga",
+     "no tengamos",
+     "no tengáis",
+     "no tengan"
     ]
    }
   },
@@ -2346,6 +3486,38 @@
      "hemos ido",
      "habéis ido",
      "han ido"
+    ],
+    "plusc": [
+     "había ido",
+     "habías ido",
+     "había ido",
+     "habíamos ido",
+     "habíais ido",
+     "habían ido"
+    ],
+    "futperf": [
+     "habré ido",
+     "habrás ido",
+     "habrá ido",
+     "habremos ido",
+     "habréis ido",
+     "habrán ido"
+    ],
+    "imp": [
+     null,
+     "ve",
+     "vaya",
+     "vamos",
+     "id",
+     "vayan"
+    ],
+    "neg": [
+     null,
+     "no vayas",
+     "no vaya",
+     "no vayamos",
+     "no vayáis",
+     "no vayan"
     ]
    }
   },
@@ -2410,6 +3582,38 @@
      "hemos hecho",
      "habéis hecho",
      "han hecho"
+    ],
+    "plusc": [
+     "había hecho",
+     "habías hecho",
+     "había hecho",
+     "habíamos hecho",
+     "habíais hecho",
+     "habían hecho"
+    ],
+    "futperf": [
+     "habré hecho",
+     "habrás hecho",
+     "habrá hecho",
+     "habremos hecho",
+     "habréis hecho",
+     "habrán hecho"
+    ],
+    "imp": [
+     null,
+     "haz",
+     "haga",
+     "hagamos",
+     "haced",
+     "hagan"
+    ],
+    "neg": [
+     null,
+     "no hagas",
+     "no haga",
+     "no hagamos",
+     "no hagáis",
+     "no hagan"
     ]
    }
   },
@@ -2474,6 +3678,38 @@
      "hemos venido",
      "habéis venido",
      "han venido"
+    ],
+    "plusc": [
+     "había venido",
+     "habías venido",
+     "había venido",
+     "habíamos venido",
+     "habíais venido",
+     "habían venido"
+    ],
+    "futperf": [
+     "habré venido",
+     "habrás venido",
+     "habrá venido",
+     "habremos venido",
+     "habréis venido",
+     "habrán venido"
+    ],
+    "imp": [
+     null,
+     "ven",
+     "venga",
+     "vengamos",
+     "venid",
+     "vengan"
+    ],
+    "neg": [
+     null,
+     "no vengas",
+     "no venga",
+     "no vengamos",
+     "no vengáis",
+     "no vengan"
     ]
    }
   },
@@ -2538,6 +3774,38 @@
      "hemos dicho",
      "habéis dicho",
      "han dicho"
+    ],
+    "plusc": [
+     "había dicho",
+     "habías dicho",
+     "había dicho",
+     "habíamos dicho",
+     "habíais dicho",
+     "habían dicho"
+    ],
+    "futperf": [
+     "habré dicho",
+     "habrás dicho",
+     "habrá dicho",
+     "habremos dicho",
+     "habréis dicho",
+     "habrán dicho"
+    ],
+    "imp": [
+     null,
+     "di",
+     "diga",
+     "digamos",
+     "decid",
+     "digan"
+    ],
+    "neg": [
+     null,
+     "no digas",
+     "no diga",
+     "no digamos",
+     "no digáis",
+     "no digan"
     ]
    }
   },
@@ -2602,6 +3870,38 @@
      "hemos salido",
      "habéis salido",
      "han salido"
+    ],
+    "plusc": [
+     "había salido",
+     "habías salido",
+     "había salido",
+     "habíamos salido",
+     "habíais salido",
+     "habían salido"
+    ],
+    "futperf": [
+     "habré salido",
+     "habrás salido",
+     "habrá salido",
+     "habremos salido",
+     "habréis salido",
+     "habrán salido"
+    ],
+    "imp": [
+     null,
+     "sal",
+     "salga",
+     "salgamos",
+     "salid",
+     "salgan"
+    ],
+    "neg": [
+     null,
+     "no salgas",
+     "no salga",
+     "no salgamos",
+     "no salgáis",
+     "no salgan"
     ]
    }
   },
@@ -2666,6 +3966,38 @@
      "hemos puesto",
      "habéis puesto",
      "han puesto"
+    ],
+    "plusc": [
+     "había puesto",
+     "habías puesto",
+     "había puesto",
+     "habíamos puesto",
+     "habíais puesto",
+     "habían puesto"
+    ],
+    "futperf": [
+     "habré puesto",
+     "habrás puesto",
+     "habrá puesto",
+     "habremos puesto",
+     "habréis puesto",
+     "habrán puesto"
+    ],
+    "imp": [
+     null,
+     "pon",
+     "ponga",
+     "pongamos",
+     "poned",
+     "pongan"
+    ],
+    "neg": [
+     null,
+     "no pongas",
+     "no ponga",
+     "no pongamos",
+     "no pongáis",
+     "no pongan"
     ]
    }
   },
@@ -2730,6 +4062,38 @@
      "hemos sabido",
      "habéis sabido",
      "han sabido"
+    ],
+    "plusc": [
+     "había sabido",
+     "habías sabido",
+     "había sabido",
+     "habíamos sabido",
+     "habíais sabido",
+     "habían sabido"
+    ],
+    "futperf": [
+     "habré sabido",
+     "habrás sabido",
+     "habrá sabido",
+     "habremos sabido",
+     "habréis sabido",
+     "habrán sabido"
+    ],
+    "imp": [
+     null,
+     "sabe",
+     "sepa",
+     "sepamos",
+     "sabed",
+     "sepan"
+    ],
+    "neg": [
+     null,
+     "no sepas",
+     "no sepa",
+     "no sepamos",
+     "no sepáis",
+     "no sepan"
     ]
    }
   },
@@ -2794,6 +4158,38 @@
      "hemos conocido",
      "habéis conocido",
      "han conocido"
+    ],
+    "plusc": [
+     "había conocido",
+     "habías conocido",
+     "había conocido",
+     "habíamos conocido",
+     "habíais conocido",
+     "habían conocido"
+    ],
+    "futperf": [
+     "habré conocido",
+     "habrás conocido",
+     "habrá conocido",
+     "habremos conocido",
+     "habréis conocido",
+     "habrán conocido"
+    ],
+    "imp": [
+     null,
+     "conoce",
+     "conozca",
+     "conozcamos",
+     "conoced",
+     "conozcan"
+    ],
+    "neg": [
+     null,
+     "no conozcas",
+     "no conozca",
+     "no conozcamos",
+     "no conozcáis",
+     "no conozcan"
     ]
    }
   },
@@ -2858,6 +4254,38 @@
      "hemos dado",
      "habéis dado",
      "han dado"
+    ],
+    "plusc": [
+     "había dado",
+     "habías dado",
+     "había dado",
+     "habíamos dado",
+     "habíais dado",
+     "habían dado"
+    ],
+    "futperf": [
+     "habré dado",
+     "habrás dado",
+     "habrá dado",
+     "habremos dado",
+     "habréis dado",
+     "habrán dado"
+    ],
+    "imp": [
+     null,
+     "da",
+     "dé",
+     "demos",
+     "dad",
+     "den"
+    ],
+    "neg": [
+     null,
+     "no des",
+     "no dé",
+     "no demos",
+     "no deis",
+     "no den"
     ]
    }
   },
@@ -2922,6 +4350,38 @@
      "hemos visto",
      "habéis visto",
      "han visto"
+    ],
+    "plusc": [
+     "había visto",
+     "habías visto",
+     "había visto",
+     "habíamos visto",
+     "habíais visto",
+     "habían visto"
+    ],
+    "futperf": [
+     "habré visto",
+     "habrás visto",
+     "habrá visto",
+     "habremos visto",
+     "habréis visto",
+     "habrán visto"
+    ],
+    "imp": [
+     null,
+     "ve",
+     "vea",
+     "veamos",
+     "ved",
+     "vean"
+    ],
+    "neg": [
+     null,
+     "no veas",
+     "no vea",
+     "no veamos",
+     "no veáis",
+     "no vean"
     ]
    }
   },
@@ -2986,6 +4446,38 @@
      "hemos traído",
      "habéis traído",
      "han traído"
+    ],
+    "plusc": [
+     "había traído",
+     "habías traído",
+     "había traído",
+     "habíamos traído",
+     "habíais traído",
+     "habían traído"
+    ],
+    "futperf": [
+     "habré traído",
+     "habrás traído",
+     "habrá traído",
+     "habremos traído",
+     "habréis traído",
+     "habrán traído"
+    ],
+    "imp": [
+     null,
+     "trae",
+     "traiga",
+     "traigamos",
+     "traed",
+     "traigan"
+    ],
+    "neg": [
+     null,
+     "no traigas",
+     "no traiga",
+     "no traigamos",
+     "no traigáis",
+     "no traigan"
     ]
    }
   },
@@ -3050,6 +4542,38 @@
      "hemos oído",
      "habéis oído",
      "han oído"
+    ],
+    "plusc": [
+     "había oído",
+     "habías oído",
+     "había oído",
+     "habíamos oído",
+     "habíais oído",
+     "habían oído"
+    ],
+    "futperf": [
+     "habré oído",
+     "habrás oído",
+     "habrá oído",
+     "habremos oído",
+     "habréis oído",
+     "habrán oído"
+    ],
+    "imp": [
+     null,
+     "oye",
+     "oiga",
+     "oigamos",
+     "oíd",
+     "oigan"
+    ],
+    "neg": [
+     null,
+     "no oigas",
+     "no oiga",
+     "no oigamos",
+     "no oigáis",
+     "no oigan"
     ]
    }
   },
@@ -3114,6 +4638,38 @@
      "hemos conducido",
      "habéis conducido",
      "han conducido"
+    ],
+    "plusc": [
+     "había conducido",
+     "habías conducido",
+     "había conducido",
+     "habíamos conducido",
+     "habíais conducido",
+     "habían conducido"
+    ],
+    "futperf": [
+     "habré conducido",
+     "habrás conducido",
+     "habrá conducido",
+     "habremos conducido",
+     "habréis conducido",
+     "habrán conducido"
+    ],
+    "imp": [
+     null,
+     "conduce",
+     "conduzca",
+     "conduzcamos",
+     "conducid",
+     "conduzcan"
+    ],
+    "neg": [
+     null,
+     "no conduzcas",
+     "no conduzca",
+     "no conduzcamos",
+     "no conduzcáis",
+     "no conduzcan"
     ]
    }
   }

@@ -1,0 +1,128 @@
+{
+  "id": 15,
+  "title": "点過去（規則）",
+  "explain": {
+    "sections": [
+      {
+        "title": "規則動詞の点過去",
+        "body": "<table><tr><th></th><th>hablar</th><th>comer</th><th>vivir</th></tr><tr><td>yo</td><td>habl<b>é</b></td><td>com<b>í</b></td><td>viv<b>í</b></td></tr><tr><td>tú</td><td>habl<b>aste</b></td><td>com<b>iste</b></td><td>viv<b>iste</b></td></tr><tr><td>él / usted</td><td>habl<b>ó</b></td><td>com<b>ió</b></td><td>viv<b>ió</b></td></tr><tr><td>nosotros</td><td>habl<b>amos</b></td><td>com<b>imos</b></td><td>viv<b>imos</b></td></tr><tr><td>vosotros</td><td>habl<b>asteis</b></td><td>com<b>isteis</b></td><td>viv<b>isteis</b></td></tr><tr><td>ellos / ustedes</td><td>habl<b>aron</b></td><td>com<b>ieron</b></td><td>viv<b>ieron</b></td></tr></table><p>-er と -ir は同じ語尾。yo と él のアクセント記号を忘れずに（<span class='es'>hablo</span> 私は話す ／ <span class='es'>habló</span> 彼は話した）。</p>"
+      },
+      {
+        "title": "綴りが変わる動詞",
+        "body": "<ul><li>yo だけ：<b>-car → -qué</b>（buscar → busqué）、<b>-gar → -gué</b>（llegar → llegué）、<b>-zar → -cé</b>（empezar → empecé）… 発音を保つため</li><li>3人称で <b>i → y</b>：leer → le<b>yó</b>, le<b>yeron</b>；oír → o<b>yó</b>；creer → cre<b>yó</b></li><li>-ar・-er の語幹母音変化動詞は点過去では変化しない：<span class='es'>pensé, volví</span></li></ul>"
+      },
+      {
+        "title": "使い方",
+        "body": "<p>過去の<b>終わった出来事</b>を1つの点として述べる。</p><ul><li>時の表現：<span class='es'>ayer</span>（昨日）, <span class='es'>anoche</span>（昨夜）, <span class='es'>el lunes pasado</span>, <span class='es'>la semana pasada</span>, <span class='es'>el año pasado</span>, <span class='es'>en 2020</span>, <span class='es'>hace dos días</span>（2日前）</li><li>現在完了との違い：<span class='es'>Hoy <b>he comido</b> paella.</span>（今日）／ <span class='es'>Ayer <b>comí</b> paella.</span>（昨日）</li></ul>"
+      }
+    ],
+    "french": "<ul><li>点過去は仏語の<b>単純過去</b>（passé simple）にあたる：<span class='es'>habló</span> ≒ il parla、<span class='es'>comieron</span> ≒ ils mangèrent。</li><li>ただし仏語の単純過去は書き言葉専用だが、西語の点過去は<b>会話で毎日使う</b>。仏語の会話で passé composé を使う場面（hier, l'année dernière）は、西語では点過去。</li><li><span class='es'>hace dos días</span> ＝ <b>il y a deux jours</b>（hace は hacer の3人称単数）。</li><li>-car / -gar の綴りの変化は、仏語の <b>nous mangeons</b>（g の音を保つための e）と同じ発想。</li></ul>",
+    "examples": [
+      { "es": "Ayer comí en casa de la abuela.", "en": "Yesterday I had lunch at Grandma's.", "fr": "Hier, j'ai déjeuné chez ma grand-mère." },
+      { "es": "¿A qué hora llegaste anoche?", "en": "What time did you get home last night?", "fr": "À quelle heure es-tu rentré hier soir ?" },
+      { "es": "El año pasado Lucía viajó a Sevilla.", "en": "Last year Lucía traveled to Seville.", "fr": "L'année dernière, Lucía est allée à Séville." },
+      { "es": "Vivimos dos años en Londres.", "en": "We lived in London for two years.", "fr": "Nous avons vécu deux ans à Londres." },
+      { "es": "Hace tres días empecé un curso de cocina.", "en": "Three days ago I started a cooking course.", "fr": "Il y a trois jours, j'ai commencé un cours de cuisine." },
+      { "es": "Diego leyó el periódico en el metro.", "en": "Diego read the newspaper on the metro.", "fr": "Diego a lu le journal dans le métro." },
+      { "es": "¿Cuándo volvisteis de Toledo?", "en": "When did you (all) come back from Toledo?", "fr": "Quand êtes-vous rentrés de Tolède ?" },
+      { "es": "Mis padres se conocieron en una fiesta.", "en": "My parents met at a party.", "fr": "Mes parents se sont rencontrés à une fête." }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "conj", "verb": "hablar", "person": "yo", "tense": "点過去", "sentence": "Ayer ___ con Diego.", "answer": ["hablé"], "explain": "-ar 動詞 yo：habl<b>é</b>（アクセント記号つき）。" },
+    { "id": "q02", "type": "conj", "verb": "comer", "person": "tú", "tense": "点過去", "sentence": "¿Qué ___ ayer?", "answer": ["comiste"], "explain": "-er 動詞 tú：com<b>iste</b>。" },
+    { "id": "q03", "type": "conj", "verb": "vivir", "person": "él", "tense": "点過去", "sentence": "Diego ___ veinte años en Guadalajara.", "answer": ["vivió"], "explain": "-ir 動詞 él：viv<b>ió</b>。" },
+    { "id": "q04", "type": "conj", "verb": "estudiar", "person": "nosotros", "tense": "点過去", "sentence": "Anoche ___ hasta las doce.", "answer": ["estudiamos"], "explain": "-ar の nosotros は現在形と同じ形：estudi<b>amos</b>。" },
+    { "id": "q05", "type": "conj", "verb": "volver", "person": "vosotros", "tense": "点過去", "sentence": "¿Cuándo ___ de Toledo?", "answer": ["volvisteis"], "explain": "点過去では語幹母音は変わらない：volv<b>isteis</b>。" },
+    { "id": "q06", "type": "conj", "verb": "escribir", "person": "ellos", "tense": "点過去", "sentence": "Ellos ___ una carta a la abuela.", "answer": ["escribieron"], "explain": "-ir 動詞 ellos：escrib<b>ieron</b>。" },
+    { "id": "q07", "type": "conj", "verb": "llegar", "person": "yo", "tense": "点過去", "sentence": "___ tarde a clase.", "answer": ["Llegué"], "explain": "-gar は yo で <b>-gué</b>：llegué。" },
+    { "id": "q08", "type": "conj", "verb": "buscar", "person": "yo", "tense": "点過去", "sentence": "___ mis llaves por toda la casa.", "answer": ["Busqué"], "explain": "-car は yo で <b>-qué</b>：busqué。" },
+    { "id": "q09", "type": "conj", "verb": "empezar", "person": "yo", "tense": "点過去", "sentence": "Ayer ___ un libro nuevo.", "answer": ["empecé"], "explain": "-zar は yo で <b>-cé</b>：empecé。" },
+    { "id": "q10", "type": "conj", "verb": "leer", "person": "ella", "tense": "点過去", "sentence": "Lucía ___ el periódico.", "answer": ["leyó"], "explain": "leer の3人称は <b>leyó</b>（i → y）。" },
+    { "id": "q11", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Anoche Lucía ___ hasta las tres.", "options": ["bailó", "baila", "ha bailado"], "answer": "bailó", "explain": "<span class='es'>anoche</span>（昨夜・終わった時間）→ 点過去 <b>bailó</b>。" },
+    { "id": "q12", "type": "choice", "prompt": "正しい形を選ぼう（スペインの用法）", "sentence": "Hoy ___ paella.", "options": ["he comido", "comí", "como"], "answer": "he comido", "explain": "<span class='es'>hoy</span>（今を含む期間）→ スペインでは現在完了 <b>he comido</b>。" },
+    { "id": "q13", "type": "choice", "prompt": "「去年」", "sentence": "El año ___ viajé a México.", "options": ["pasado", "pasada", "último"], "answer": "pasado", "explain": "<span class='es'>el año pasado</span>（año は男性名詞）。" },
+    { "id": "q14", "type": "choice", "prompt": "「2日前に」", "sentence": "___ dos días llegó Diego.", "options": ["Hace", "Desde", "Hay"], "answer": "Hace", "explain": "<b>hace</b> ＋ 期間 ＝ 〜前に。" },
+    { "id": "q15", "type": "fill", "prompt": "（ ）の動詞を点過去にしよう", "sentence": "Churro ___ (abrir) la puerta.", "answer": ["abrió"], "explain": "-ir 動詞 él：abr<b>ió</b>。" },
+    { "id": "q16", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Ayer", "comí", "en", "casa", "de", "la", "abuela"], "answer": ["Ayer comí en casa de la abuela", "Comí en casa de la abuela ayer"], "en": "Yesterday I had lunch at Grandma's.", "fr": "Hier, j'ai déjeuné chez la grand-mère.", "explain": "<span class='es'>ayer</span> → 点過去。" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて疑問文を作ろう", "words": ["a", "qué", "hora", "llegaste", "anoche"], "answer": ["¿A qué hora llegaste anoche?"], "en": "What time did you get home last night?", "fr": "À quelle heure es-tu rentré hier soir ?", "explain": "tú の点過去：lleg<b>aste</b>。" },
+    { "id": "q18", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["El", "año", "pasado", "viajamos", "a", "Sevilla"], "answer": ["El año pasado viajamos a Sevilla", "Viajamos a Sevilla el año pasado"], "en": "Last year we traveled to Seville.", "fr": "L'année dernière, nous sommes allés à Séville.", "explain": "nosotros の点過去 viaj<b>amos</b>。" }
+  ],
+  "reading": {
+    "title": "Un sábado en Segovia",
+    "sentences": [
+      { "p": true, "es": "El sábado pasado, Yuki, Lucía y Diego viajaron a Segovia en tren.", "en": "Last Saturday, Yuki, Lucía and Diego took the train to Segovia.", "fr": "Samedi dernier, Yuki, Lucía et Diego sont allés à Ségovie en train." },
+      { "es": "Salieron de Madrid a las nueve y llegaron a las diez menos cuarto.", "en": "They left Madrid at nine and arrived at a quarter to ten.", "fr": "Ils sont partis de Madrid à neuf heures et sont arrivés à dix heures moins le quart." },
+      { "es": "Primero visitaron el acueducto romano.", "en": "First they visited the Roman aqueduct.", "fr": "D'abord, ils ont visité l'aqueduc romain." },
+      { "es": "Yuki lo miró con la boca abierta: ¡casi dos mil años y sin cemento!", "en": "Yuki looked at it open-mouthed: almost two thousand years old and no cement!", "fr": "Yuki l'a regardé bouche bée : presque deux mille ans et sans ciment !" },
+      { "es": "Diego sacó doscientas fotos.", "en": "Diego took two hundred photos.", "fr": "Diego a pris deux cents photos." },
+      { "p": true, "es": "Después, subieron al Alcázar, un castillo de cuento.", "en": "Then they went up to the Alcázar, a fairy-tale castle.", "fr": "Ensuite, ils sont montés à l'Alcázar, un château de conte de fées." },
+      { "es": "—Disney copió este castillo —explicó Lucía.", "en": "\"Disney copied this castle,\" Lucía explained.", "fr": "« Disney a copié ce château », a expliqué Lucía." },
+      { "es": "A las dos comieron cochinillo, el plato típico de Segovia.", "en": "At two they ate roast suckling pig, Segovia's typical dish.", "fr": "À deux heures, ils ont mangé du cochon de lait, le plat typique de Ségovie." },
+      { "es": "El camarero cortó la carne con un plato, no con un cuchillo, y todo el restaurante aplaudió.", "en": "The waiter cut the meat with a plate, not a knife, and the whole restaurant applauded.", "fr": "Le serveur a coupé la viande avec une assiette, pas avec un couteau, et tout le restaurant a applaudi." },
+      { "p": true, "es": "Por la tarde, compraron dulces para la abuela y volvieron a Madrid muy cansados.", "en": "In the afternoon, they bought sweets for Grandma and went back to Madrid very tired.", "fr": "L'après-midi, ils ont acheté des gâteaux pour la grand-mère et sont rentrés à Madrid très fatigués." },
+      { "es": "En el tren, Diego miró sus fotos: ciento noventa y ocho fotos del acueducto y dos del cochinillo.", "en": "On the train, Diego looked at his photos: one hundred and ninety-eight of the aqueduct and two of the suckling pig.", "fr": "Dans le train, Diego a regardé ses photos : cent quatre-vingt-dix-huit de l'aqueduc et deux du cochon de lait." },
+      { "es": "—¿Y fotos de nosotras? —preguntó Lucía.", "en": "\"And photos of us?\" asked Lucía.", "fr": "« Et des photos de nous ? » a demandé Lucía." },
+      { "es": "Diego no contestó.", "en": "Diego didn't answer.", "fr": "Diego n'a pas répondu." }
+    ],
+    "glossary": {
+      "sábado": { "lemma": "sábado", "en": "Saturday", "fr": "samedi" },
+      "segovia": { "lemma": "Segovia", "en": "Segovia", "fr": "Ségovie", "note": "マドリードから電車で約30分〜1時間の古都" },
+      "pasado": { "lemma": "pasado", "en": "last, past", "fr": "dernier, passé", "note": "el sábado pasado = 先週の土曜日" },
+      "viajaron": { "lemma": "viajar", "en": "to travel", "fr": "voyager", "note": "3人称複数・点過去" },
+      "tren": { "lemma": "tren", "en": "train", "fr": "train" },
+      "salieron": { "lemma": "salir", "en": "to leave", "fr": "partir, sortir", "note": "3人称複数・点過去（salir は点過去では規則的）" },
+      "madrid": { "lemma": "Madrid", "en": "Madrid", "fr": "Madrid" },
+      "llegaron": { "lemma": "llegar", "en": "to arrive", "fr": "arriver", "note": "3人称複数・点過去" },
+      "cuarto": { "lemma": "cuarto", "en": "quarter", "fr": "quart", "note": "menos cuarto = 15分前" },
+      "primero": { "lemma": "primero", "en": "first", "fr": "d'abord" },
+      "visitaron": { "lemma": "visitar", "en": "to visit", "fr": "visiter", "note": "3人称複数・点過去" },
+      "acueducto": { "lemma": "acueducto", "en": "aqueduct", "fr": "aqueduc", "note": "2世紀ごろのローマ時代の水道橋" },
+      "romano": { "lemma": "romano", "en": "Roman", "fr": "romain" },
+      "miró": { "lemma": "mirar", "en": "to look at", "fr": "regarder", "note": "3人称単数・点過去" },
+      "boca": { "lemma": "boca", "en": "mouth", "fr": "bouche", "note": "con la boca abierta = ぽかんと口を開けて" },
+      "abierta": { "lemma": "abierto", "en": "open", "fr": "ouvert", "note": "女性形（abrir の過去分詞）" },
+      "casi": { "lemma": "casi", "en": "almost", "fr": "presque" },
+      "mil": { "lemma": "mil", "en": "thousand", "fr": "mille" },
+      "años": { "lemma": "año", "en": "year", "fr": "an", "note": "複数形" },
+      "cemento": { "lemma": "cemento", "en": "cement", "fr": "ciment" },
+      "sacó": { "lemma": "sacar", "en": "to take (a photo); to take out", "fr": "prendre (une photo) ; sortir", "note": "3人称単数・点過去。sacar fotos = 写真を撮る" },
+      "doscientas": { "lemma": "doscientos", "en": "two hundred", "fr": "deux cents", "note": "女性形（fotos に一致）" },
+      "fotos": { "lemma": "foto", "en": "photo", "fr": "photo", "note": "複数形" },
+      "después": { "lemma": "después", "en": "then, afterwards", "fr": "ensuite" },
+      "subieron": { "lemma": "subir", "en": "to go up", "fr": "monter", "note": "3人称複数・点過去" },
+      "alcázar": { "lemma": "alcázar", "en": "fortress, castle", "fr": "alcazar, forteresse", "note": "アラビア語起源の「城塞」" },
+      "castillo": { "lemma": "castillo", "en": "castle", "fr": "château" },
+      "cuento": { "lemma": "cuento", "en": "tale, story", "fr": "conte", "note": "de cuento = おとぎ話のような" },
+      "disney": { "lemma": "Disney", "en": "Disney", "fr": "Disney", "note": "白雪姫の城のモデルという説がある" },
+      "copió": { "lemma": "copiar", "en": "to copy", "fr": "copier", "note": "3人称単数・点過去" },
+      "este": { "lemma": "este", "en": "this", "fr": "ce" },
+      "explicó": { "lemma": "explicar", "en": "to explain", "fr": "expliquer", "note": "3人称単数・点過去" },
+      "comieron": { "lemma": "comer", "en": "to eat", "fr": "manger", "note": "3人称複数・点過去" },
+      "cochinillo": { "lemma": "cochinillo", "en": "suckling pig", "fr": "cochon de lait", "note": "子豚の丸焼き。セゴビア名物" },
+      "plato": { "lemma": "plato", "en": "dish; plate", "fr": "plat ; assiette" },
+      "típico": { "lemma": "típico", "en": "typical", "fr": "typique" },
+      "camarero": { "lemma": "camarero", "en": "waiter", "fr": "serveur" },
+      "cortó": { "lemma": "cortar", "en": "to cut", "fr": "couper", "note": "3人称単数・点過去。柔らかさを見せるため皿で切るのが伝統" },
+      "carne": { "lemma": "carne", "en": "meat", "fr": "viande" },
+      "cuchillo": { "lemma": "cuchillo", "en": "knife", "fr": "couteau" },
+      "restaurante": { "lemma": "restaurante", "en": "restaurant", "fr": "restaurant" },
+      "aplaudió": { "lemma": "aplaudir", "en": "to applaud", "fr": "applaudir", "note": "3人称単数・点過去" },
+      "compraron": { "lemma": "comprar", "en": "to buy", "fr": "acheter", "note": "3人称複数・点過去" },
+      "dulces": { "lemma": "dulce", "en": "sweet (n.)", "fr": "douceur, gâteau", "note": "複数形" },
+      "volvieron": { "lemma": "volver", "en": "to go back", "fr": "rentrer", "note": "3人称複数・点過去" },
+      "cansados": { "lemma": "cansado", "en": "tired", "fr": "fatigué", "note": "男性複数" },
+      "sus": { "lemma": "su", "en": "his, her, their", "fr": "ses" },
+      "ciento": { "lemma": "ciento", "en": "hundred", "fr": "cent", "note": "101〜199 は ciento ..." },
+      "noventa": { "lemma": "noventa", "en": "ninety", "fr": "quatre-vingt-dix" },
+      "nosotras": { "lemma": "nosotros", "en": "us (feminine)", "fr": "nous", "note": "女性だけのとき" },
+      "preguntó": { "lemma": "preguntar", "en": "to ask", "fr": "demander", "note": "3人称単数・点過去" },
+      "contestó": { "lemma": "contestar", "en": "to answer", "fr": "répondre", "note": "3人称単数・点過去" }
+    },
+    "quiz": [
+      { "q": "¿Cómo viajaron a Segovia?", "options": ["En tren", "En coche", "En autobús"], "answer": "En tren" },
+      { "q": "¿Qué comieron a las dos?", "options": ["Cochinillo", "Paella", "Tortilla"], "answer": "Cochinillo" },
+      { "q": "¿Cuántas fotos del cochinillo sacó Diego?", "options": ["Dos", "Doscientas", "Ninguna"], "answer": "Dos" }
+    ]
+  }
+}

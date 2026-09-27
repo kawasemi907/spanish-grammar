@@ -38,6 +38,18 @@ def norm_order(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
+def load(path):
+    """JSON を読み込む。同じキーが2回あるとエラーにする（後の値で黙って上書きされるため）"""
+    def hook(pairs):
+        seen = set()
+        for k, _ in pairs:
+            if k in seen:
+                err(f"{path.name}: キー '{k}' が重複しています")
+            seen.add(k)
+        return dict(pairs)
+    return json.loads(path.read_text(encoding="utf-8"), object_pairs_hook=hook)
+
+
 def need(obj, keys, where):
     for k in keys:
         if k not in obj or obj[k] in (None, "", []):
@@ -49,7 +61,7 @@ def check_unit(n, common, show_missing):
     if not path.exists():
         err(f"{path.name} がありません")
         return
-    u = json.loads(path.read_text(encoding="utf-8"))
+    u = load(path)
     w = path.name
     if u.get("id") != n:
         err(f"{w}: id が {n} ではありません")
@@ -144,7 +156,7 @@ def main():
     units = json.loads((DATA / "units.json").read_text(encoding="utf-8"))["units"]
     if len(units) != 25:
         err("units.json は25ユニット")
-    common_raw = json.loads((DATA / "glossary.json").read_text(encoding="utf-8"))
+    common_raw = load(DATA / "glossary.json")
     common = {}
     for k, v in common_raw.items():
         need(v, ["lemma", "en", "fr"], f"glossary.json '{k}'")

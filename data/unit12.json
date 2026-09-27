@@ -1,0 +1,120 @@
+{
+  "id": 12,
+  "title": "ir a＋不定詞・現在進行形",
+  "explain": {
+    "sections": [
+      {
+        "title": "ir a + 不定詞（〜するつもりだ）",
+        "body": "<p><span class='es'>ir</span>（voy, vas, va, vamos, vais, van）＋ <b>a</b> ＋ 不定詞で、<b>近い未来・予定</b>を表す。</p><ul><li><span class='es'>Voy a estudiar esta tarde.</span>（今日の午後勉強するつもりだ）</li><li><span class='es'>Va a llover.</span>（雨が降りそうだ）</li><li><span class='es'>¡Vamos a bailar!</span>（さあ踊ろう）… vamos a は「〜しよう」の誘いにもなる</li></ul>"
+      },
+      {
+        "title": "現在分詞の作り方",
+        "body": "<ul><li><b>-ar → -ando</b>：hablar → habl<b>ando</b></li><li><b>-er / -ir → -iendo</b>：comer → com<b>iendo</b>、vivir → viv<b>iendo</b></li><li>母音＋er/ir → <b>-yendo</b>：leer → le<b>yendo</b>、oír → o<b>yendo</b>、ir → <b>yendo</b></li><li>-ir の語幹母音変化動詞は e → i、o → u：pedir → p<b>i</b>diendo、decir → d<b>i</b>ciendo、sentir → s<b>i</b>ntiendo、dormir → d<b>u</b>rmiendo</li></ul>"
+      },
+      {
+        "title": "estar + 現在分詞（〜している）",
+        "body": "<p>今まさに進行中の動作：<span class='es'>¿Qué estás haciendo? —Estoy cocinando.</span></p><ul><li>代名詞は estar の前か、分詞の後ろにつなげる（アクセント記号が必要）：<span class='es'>Lo estoy leyendo. = Estoy leyéndolo.</span></li><li><span class='es'>seguir + 現在分詞</span>：まだ〜し続けている　<span class='es'>Diego sigue durmiendo.</span></li></ul>"
+      }
+    ],
+    "french": "<ul><li><span class='es'>ir a + 不定詞</span> は仏語の近接未来 <b>aller + 不定詞</b> とまったく同じ：<span class='es'>Voy a estudiar.</span>（Je vais étudier.）ただし西語は前置詞 <b>a</b> が入る。</li><li><span class='es'>estar + 現在分詞</span> は <b>être en train de + 不定詞</b>：<span class='es'>Estoy comiendo.</span>（Je suis en train de manger.）西語のほうがずっと気軽に使う。</li><li>現在分詞 <span class='es'>-ando / -iendo</span> は仏語の <b>-ant</b>（parlant, mangeant）に当たる。</li><li><span class='es'>seguir + 現在分詞</span> は仏語では <b>continuer à</b> / <b>être toujours en train de</b>。</li></ul>",
+    "examples": [
+      { "es": "Esta tarde voy a estudiar en la biblioteca.", "en": "This afternoon I'm going to study in the library.", "fr": "Cet après-midi, je vais étudier à la bibliothèque." },
+      { "es": "¿Qué vas a hacer el fin de semana?", "en": "What are you going to do at the weekend?", "fr": "Qu'est-ce que tu vas faire ce week-end ?" },
+      { "es": "¡Vamos a bailar!", "en": "Let's dance!", "fr": "Allons danser !" },
+      { "es": "¿Qué estás haciendo? —Estoy cocinando.", "en": "What are you doing? —I'm cooking.", "fr": "Qu'est-ce que tu fais ? — Je suis en train de cuisiner." },
+      { "es": "Churro está durmiendo en el sofá.", "en": "Churro is sleeping on the sofa.", "fr": "Churro est en train de dormir sur le canapé." },
+      { "es": "Los niños están leyendo un cuento.", "en": "The children are reading a story.", "fr": "Les enfants sont en train de lire une histoire." },
+      { "es": "Mañana va a llover.", "en": "It's going to rain tomorrow.", "fr": "Demain, il va pleuvoir." },
+      { "es": "Diego sigue durmiendo.", "en": "Diego is still sleeping.", "fr": "Diego dort toujours." }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "fill", "prompt": "現在分詞にしよう（hablar）", "sentence": "Estoy ___ por teléfono.", "answer": ["hablando"], "explain": "-ar → <b>-ando</b>：hablando。" },
+    { "id": "q02", "type": "fill", "prompt": "現在分詞にしよう（comer）", "sentence": "Estamos ___.", "answer": ["comiendo"], "explain": "-er → <b>-iendo</b>：comiendo。" },
+    { "id": "q03", "type": "fill", "prompt": "現在分詞にしよう（leer）", "sentence": "¿Qué estás ___?", "answer": ["leyendo"], "explain": "母音の後の -iendo は <b>-yendo</b>：leyendo。" },
+    { "id": "q04", "type": "fill", "prompt": "現在分詞にしよう（dormir）", "sentence": "El gato está ___.", "answer": ["durmiendo"], "explain": "dormir は o → u：<b>durmiendo</b>。" },
+    { "id": "q05", "type": "fill", "prompt": "現在分詞にしよう（pedir）", "sentence": "Diego está ___ la cuenta.", "answer": ["pidiendo"], "explain": "pedir は e → i：<b>pidiendo</b>。" },
+    { "id": "q06", "type": "fill", "prompt": "現在分詞にしよう（decir）", "sentence": "¿Qué estás ___?", "answer": ["diciendo"], "explain": "decir は e → i：<b>diciendo</b>。" },
+    { "id": "q07", "type": "conj", "verb": "ir", "person": "yo", "tense": "直説法現在", "sentence": "___ a estudiar esta tarde.", "answer": ["Voy"], "explain": "<b>ir a + 不定詞</b>：voy a estudiar。" },
+    { "id": "q08", "type": "conj", "verb": "estar", "person": "nosotros", "tense": "直説法現在", "sentence": "___ cenando.", "answer": ["Estamos"], "explain": "<b>estar + 現在分詞</b>：estamos cenando。" },
+    { "id": "q09", "type": "choice", "prompt": "正しい語を選ぼう", "sentence": "Mañana ___ a llover.", "options": ["va", "está", "es"], "answer": "va", "explain": "未来の予測 → <b>ir a + 不定詞</b>。" },
+    { "id": "q10", "type": "choice", "prompt": "正しい語を選ぼう", "sentence": "¿Qué ___ haciendo ahora?", "options": ["estás", "vas", "eres"], "answer": "estás", "explain": "進行中 → <b>estar + 現在分詞</b>。" },
+    { "id": "q11", "type": "choice", "prompt": "正しい語を選ぼう", "sentence": "¡Vamos ___ bailar!", "options": ["a", "de", "en"], "answer": "a", "explain": "<b>ir a</b> ＋不定詞。前置詞 a を忘れずに。" },
+    { "id": "q12", "type": "choice", "prompt": "「まだ寝ている」", "sentence": "Lucía sigue ___.", "options": ["durmiendo", "dormiendo", "dormir"], "answer": "durmiendo", "explain": "<b>seguir + 現在分詞</b>。dormir → durmiendo。" },
+    { "id": "q13", "type": "choice", "prompt": "「それを読んでいる」", "sentence": "¿El libro? Estoy ___.", "options": ["leyéndolo", "leyendolo", "lo leyendo"], "answer": "leyéndolo", "explain": "分詞に代名詞をつなげると強勢の位置を示すため<b>アクセント記号</b>がつく。<span class='es'>Lo estoy leyendo.</span> も可。" },
+    { "id": "q14", "type": "fill", "prompt": "ir の正しい形を入れよう", "sentence": "Nosotros ___ a viajar a México.", "answer": ["vamos"], "explain": "nosotros → <b>vamos</b> a viajar。" },
+    { "id": "q15", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Voy", "a", "llamar", "a", "mi", "madre"], "answer": ["Voy a llamar a mi madre"], "en": "I'm going to call my mother.", "fr": "Je vais appeler ma mère.", "explain": "<span class='es'>ir a + 不定詞</span>。人の目的語に a。" },
+    { "id": "q16", "type": "order", "prompt": "並べ替えて疑問文を作ろう", "words": ["qué", "vas", "a", "hacer", "mañana"], "answer": ["¿Qué vas a hacer mañana?", "¿Mañana qué vas a hacer?"], "en": "What are you going to do tomorrow?", "fr": "Qu'est-ce que tu vas faire demain ?", "explain": "疑問詞 qué ＋ vas a hacer。" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Churro", "está", "durmiendo", "en", "el", "sofá"], "answer": ["Churro está durmiendo en el sofá"], "en": "Churro is sleeping on the sofa.", "fr": "Churro est en train de dormir sur le canapé.", "explain": "estar ＋ 現在分詞。" },
+    { "id": "q18", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Estamos", "preparando", "la", "cena"], "answer": ["Estamos preparando la cena"], "en": "We're making dinner.", "fr": "Nous sommes en train de préparer le dîner.", "explain": "preparar → preparando。" }
+  ],
+  "reading": {
+    "title": "El altar de muertos",
+    "sentences": [
+      { "p": true, "es": "Hoy es uno de noviembre y Diego está preparando un altar en el salón.", "en": "Today is the first of November and Diego is setting up an altar in the living room.", "fr": "Aujourd'hui, c'est le premier novembre et Diego est en train de préparer un autel dans le salon." },
+      { "es": "—¿Qué estás haciendo? —pregunta Yuki.", "en": "\"What are you doing?\" asks Yuki.", "fr": "« Qu'est-ce que tu fais ? » demande Yuki." },
+      { "es": "—Un altar de muertos. Mañana es el Día de Muertos y vamos a recordar a nuestros abuelos.", "en": "\"An altar for the dead. Tomorrow is the Day of the Dead and we're going to remember our grandparents.\"", "fr": "« Un autel des morts. Demain, c'est le Jour des morts et nous allons nous souvenir de nos grands-parents. »" },
+      { "p": true, "es": "Diego está poniendo flores naranjas, velas, fotos y mucha comida.", "en": "Diego is putting out orange flowers, candles, photos and lots of food.", "fr": "Diego est en train de disposer des fleurs orange, des bougies, des photos et beaucoup de nourriture." },
+      { "es": "—¿Comida? ¿Para quién?", "en": "\"Food? Who for?\"", "fr": "« De la nourriture ? Pour qui ? »" },
+      { "es": "—Para ellos. Esta noche van a venir a visitarnos.", "en": "\"For them. Tonight they're going to come and visit us.\"", "fr": "« Pour eux. Ce soir, ils vont venir nous rendre visite. »" },
+      { "es": "En México, el Día de Muertos no es un día triste: es una fiesta con música, colores y pan de muerto.", "en": "In Mexico, the Day of the Dead isn't a sad day: it's a celebration with music, colors and \"bread of the dead\".", "fr": "Au Mexique, le Jour des morts n'est pas un jour triste : c'est une fête avec de la musique, des couleurs et du « pain des morts »." },
+      { "p": true, "es": "La abuela Carmen está mirando las fotos.", "en": "Grandma Carmen is looking at the photos.", "fr": "Grand-mère Carmen est en train de regarder les photos." },
+      { "es": "—Voy a poner una foto de mi Paco —dice—. Y una taza de chocolate: ¡es su favorito!", "en": "\"I'm going to put up a photo of my Paco,\" she says. \"And a cup of hot chocolate: it's his favorite!\"", "fr": "« Je vais mettre une photo de mon Paco, dit-elle. Et une tasse de chocolat : c'est son préféré ! »" },
+      { "es": "Mientras todos están hablando, alguien está comiendo el pan de muerto.", "en": "While everyone is talking, someone is eating the bread of the dead.", "fr": "Pendant que tout le monde parle, quelqu'un est en train de manger le pain des morts." },
+      { "es": "—¡Churro! —grita Diego—. ¡Esa comida es para los muertos!", "en": "\"Churro!\" shouts Diego. \"That food is for the dead!\"", "fr": "« Churro ! crie Diego. Cette nourriture est pour les morts ! »" },
+      { "es": "Churro lo mira con la boca llena.", "en": "Churro looks at him with his mouth full.", "fr": "Churro le regarde, la bouche pleine." },
+      { "es": "Él está muy vivo... y tiene mucha hambre.", "en": "He is very much alive... and very hungry.", "fr": "Lui, il est bien vivant... et il a très faim." }
+    ],
+    "glossary": {
+      "altar": { "lemma": "altar", "en": "altar", "fr": "autel" },
+      "muertos": { "lemma": "muerto", "en": "dead (person)", "fr": "mort", "note": "複数形。Día de Muertos = 死者の日（11月1〜2日）" },
+      "noviembre": { "lemma": "noviembre", "en": "November", "fr": "novembre" },
+      "preparando": { "lemma": "preparar", "en": "to prepare", "fr": "préparer", "note": "現在分詞" },
+      "salón": { "lemma": "salón", "en": "living room", "fr": "salon" },
+      "estás": { "lemma": "estar", "en": "to be", "fr": "être", "note": "2人称単数・現在" },
+      "haciendo": { "lemma": "hacer", "en": "to do, to make", "fr": "faire", "note": "現在分詞" },
+      "pregunta": { "lemma": "preguntar", "en": "to ask", "fr": "demander", "note": "3人称単数・現在" },
+      "día": { "lemma": "día", "en": "day", "fr": "jour" },
+      "recordar": { "lemma": "recordar", "en": "to remember", "fr": "se souvenir de" },
+      "abuelos": { "lemma": "abuelo", "en": "grandparent", "fr": "grand-parent", "note": "複数形（祖父母）" },
+      "poniendo": { "lemma": "poner", "en": "to put", "fr": "mettre", "note": "現在分詞" },
+      "flores": { "lemma": "flor", "en": "flower", "fr": "fleur", "note": "複数形。死者の日にはオレンジ色のマリーゴールド（cempasúchil）を飾る" },
+      "naranjas": { "lemma": "naranja", "en": "orange", "fr": "orange", "note": "色の名前。複数形にすることもある" },
+      "velas": { "lemma": "vela", "en": "candle", "fr": "bougie", "note": "複数形" },
+      "fotos": { "lemma": "foto", "en": "photo", "fr": "photo", "note": "複数形" },
+      "comida": { "lemma": "comida", "en": "food", "fr": "nourriture" },
+      "venir": { "lemma": "venir", "en": "to come", "fr": "venir" },
+      "visitarnos": { "lemma": "visitar + nos", "en": "to visit us", "fr": "nous rendre visite", "note": "不定詞に目的格 nos をつなげた形" },
+      "méxico": { "lemma": "México", "en": "Mexico", "fr": "Mexique" },
+      "triste": { "lemma": "triste", "en": "sad", "fr": "triste" },
+      "fiesta": { "lemma": "fiesta", "en": "celebration, party", "fr": "fête" },
+      "música": { "lemma": "música", "en": "music", "fr": "musique" },
+      "colores": { "lemma": "color", "en": "color", "fr": "couleur", "note": "複数形" },
+      "pan": { "lemma": "pan", "en": "bread", "fr": "pain", "note": "pan de muerto = 死者の日の甘いパン" },
+      "muerto": { "lemma": "muerto", "en": "dead (person)", "fr": "mort" },
+      "mirando": { "lemma": "mirar", "en": "to look at", "fr": "regarder", "note": "現在分詞" },
+      "poner": { "lemma": "poner", "en": "to put", "fr": "mettre" },
+      "foto": { "lemma": "foto", "en": "photo", "fr": "photo" },
+      "paco": { "lemma": "Paco", "en": "Paco", "fr": "Paco", "note": "Francisco の愛称。Carmen の亡くなった夫" },
+      "taza": { "lemma": "taza", "en": "cup", "fr": "tasse" },
+      "chocolate": { "lemma": "chocolate", "en": "(hot) chocolate", "fr": "chocolat" },
+      "favorito": { "lemma": "favorito", "en": "favorite", "fr": "préféré" },
+      "mientras": { "lemma": "mientras", "en": "while", "fr": "pendant que" },
+      "hablando": { "lemma": "hablar", "en": "to talk", "fr": "parler", "note": "現在分詞" },
+      "alguien": { "lemma": "alguien", "en": "someone", "fr": "quelqu'un" },
+      "comiendo": { "lemma": "comer", "en": "to eat", "fr": "manger", "note": "現在分詞" },
+      "grita": { "lemma": "gritar", "en": "to shout", "fr": "crier", "note": "3人称単数・現在" },
+      "esa": { "lemma": "ese", "en": "that", "fr": "cette" },
+      "mira": { "lemma": "mirar", "en": "to look at", "fr": "regarder", "note": "3人称単数・現在" },
+      "boca": { "lemma": "boca", "en": "mouth", "fr": "bouche" },
+      "llena": { "lemma": "lleno", "en": "full", "fr": "plein", "note": "女性形" },
+      "vivo": { "lemma": "vivo", "en": "alive", "fr": "vivant", "note": "estar vivo = 生きている" },
+      "hambre": { "lemma": "hambre", "en": "hunger", "fr": "faim", "note": "tener hambre = おなかがすいている" }
+    },
+    "quiz": [
+      { "q": "¿Qué está preparando Diego?", "options": ["Un altar de muertos", "Una tortilla", "Una fiesta de cumpleaños"], "answer": "Un altar de muertos" },
+      { "q": "¿Qué va a poner la abuela en el altar?", "options": ["Una foto de Paco", "Unas flores rojas", "Un libro de cocina"], "answer": "Una foto de Paco" },
+      { "q": "¿Quién está comiendo el pan de muerto?", "options": ["Churro", "Yuki", "Lucía"], "answer": "Churro" }
+    ]
+  }
+}

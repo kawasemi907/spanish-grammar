@@ -53,27 +53,27 @@
   {
    "id": 11,
    "title": "再帰動詞",
-   "available": false
+   "available": true
   },
   {
    "id": 12,
    "title": "ir a＋不定詞・現在進行形",
-   "available": false
+   "available": true
   },
   {
    "id": 13,
    "title": "比較級・最上級",
-   "available": false
+   "available": true
   },
   {
    "id": 14,
    "title": "現在完了",
-   "available": false
+   "available": true
   },
   {
    "id": 15,
    "title": "点過去（規則）",
-   "available": false
+   "available": true
   },
   {
    "id": 16,

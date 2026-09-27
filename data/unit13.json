@@ -1,0 +1,120 @@
+{
+  "id": 13,
+  "title": "比較級・最上級",
+  "explain": {
+    "sections": [
+      {
+        "title": "比較級",
+        "body": "<ul><li>優等：<b>más</b> ＋ 形容詞・副詞・名詞 ＋ <b>que</b>　<span class='es'>Madrid es más grande que Toledo.</span></li><li>劣等：<b>menos</b> ＋ … ＋ <b>que</b>　<span class='es'>El té es menos caro que el café.</span></li><li>同等：<b>tan</b> ＋ 形容詞・副詞 ＋ <b>como</b>　<span class='es'>Diego es tan alto como su padre.</span></li><li>名詞の同等：<b>tanto / tanta / tantos / tantas</b> ＋ 名詞 ＋ <b>como</b>（名詞に一致）</li><li>動詞の同等：動詞 ＋ <b>tanto como</b>　<span class='es'>Churro come tanto como un tigre.</span></li><li>数の前は <b>más de</b>：<span class='es'>más de cien personas</span></li></ul>"
+      },
+      {
+        "title": "不規則な比較級",
+        "body": "<table><tr><td>bueno / bien</td><td>→ <b>mejor</b></td><td>malo / mal</td><td>→ <b>peor</b></td></tr><tr><td>grande（年齢）</td><td>→ <b>mayor</b></td><td>pequeño（年齢）</td><td>→ <b>menor</b></td></tr></table><p>大きさを比べるときは <span class='es'>más grande / más pequeño</span> でよい。<span class='es'>mejor, peor, mayor, menor</span> は複数形 -es。</p>"
+      },
+      {
+        "title": "最上級",
+        "body": "<ul><li><b>定冠詞 ＋（名詞）＋ más ＋ 形容詞 ＋ de</b>：<span class='es'>el museo más famoso de España</span>、<span class='es'>la mejor ciudad del mundo</span></li><li>範囲は <b>de</b> で示す（英語の in / of の両方）。</li><li><b>絶対最上級 -ísimo</b>（とても〜）：<span class='es'>guapo → guapísimo</span>、<span class='es'>rico → riquísimo</span>（c → qu）、<span class='es'>mucho → muchísimo</span></li></ul>"
+      }
+    ],
+    "french": "<ul><li><span class='es'>más … que / menos … que / tan … como</span> ＝ <b>plus … que / moins … que / aussi … que</b>。同等比較の2語目が que ではなく <span class='es'>como</span> になる点に注意。</li><li><span class='es'>tanto(s) … como</span> ＝ <b>autant de … que</b>。</li><li><span class='es'>mejor / peor</span> ＝ <b>meilleur / pire</b>（副詞は mieux）。<span class='es'>mayor / menor</span> ＝ <b>aîné / cadet</b>、plus âgé / plus jeune。</li><li>最上級：仏語は <b>la ville la plus grande</b> と冠詞を繰り返すが、西語は1回だけ：<span class='es'>la ciudad más grande</span>。</li><li><span class='es'>más de + 数</span> ＝ <b>plus de</b>。<span class='es'>-ísimo</span> は仏語の <b>-issime</b>（rarissime）に近い。</li></ul>",
+    "examples": [
+      { "es": "Madrid es más grande que Toledo.", "en": "Madrid is bigger than Toledo.", "fr": "Madrid est plus grande que Tolède." },
+      { "es": "Diego es tan alto como su padre.", "en": "Diego is as tall as his father.", "fr": "Diego est aussi grand que son père." },
+      { "es": "Lucía es mayor que Yuki.", "en": "Lucía is older than Yuki.", "fr": "Lucía est plus âgée que Yuki." },
+      { "es": "Esta tortilla es mejor que la de mi madre.", "en": "This tortilla is better than my mother's.", "fr": "Cette tortilla est meilleure que celle de ma mère." },
+      { "es": "El Prado es el museo más famoso de España.", "en": "The Prado is the most famous museum in Spain.", "fr": "Le Prado est le musée le plus célèbre d'Espagne." },
+      { "es": "Tengo tantos libros como tú.", "en": "I have as many books as you.", "fr": "J'ai autant de livres que toi." },
+      { "es": "En el concierto hay más de mil personas.", "en": "There are more than a thousand people at the concert.", "fr": "Au concert, il y a plus de mille personnes." },
+      { "es": "¡Estos churros están riquísimos!", "en": "These churros are delicious!", "fr": "Ces churros sont délicieux !" }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "choice", "prompt": "正しい語を選ぼう", "sentence": "Madrid es ___ grande que Toledo.", "options": ["más", "tan", "tanto"], "answer": "más", "explain": "<b>más</b> ＋ 形容詞 ＋ que。" },
+    { "id": "q02", "type": "choice", "prompt": "正しい語を選ぼう", "sentence": "Diego es tan alto ___ su padre.", "options": ["como", "que", "de"], "answer": "como", "explain": "同等比較は <b>tan … como</b>。" },
+    { "id": "q03", "type": "choice", "prompt": "正しい語を選ぼう", "sentence": "Lucía tiene ___ amigos como Diego.", "options": ["tantos", "tan", "tantas"], "answer": "tantos", "explain": "名詞 <span class='es'>amigos</span>（男性複数）に合わせて <b>tantos</b>。" },
+    { "id": "q04", "type": "choice", "prompt": "bueno の比較級", "sentence": "Esta tortilla es ___ que la otra.", "options": ["mejor", "más buena", "más bien"], "answer": "mejor", "explain": "bueno の比較級は <b>mejor</b>。" },
+    { "id": "q05", "type": "choice", "prompt": "年齢の比較", "sentence": "Mi hermano tiene 20 años y yo 18. Él es ___ que yo.", "options": ["mayor", "más grande", "menor"], "answer": "mayor", "explain": "年上は <b>mayor</b>、年下は menor。" },
+    { "id": "q06", "type": "choice", "prompt": "正しい語を選ぼう", "sentence": "Es el museo más famoso ___ España.", "options": ["de", "en", "que"], "answer": "de", "explain": "最上級の範囲は <b>de</b>。" },
+    { "id": "q07", "type": "choice", "prompt": "正しい語を選ぼう", "sentence": "Hay ___ de cien personas.", "options": ["más", "tanto", "muy"], "answer": "más", "explain": "数の前は <b>más de</b>。" },
+    { "id": "q08", "type": "fill", "prompt": "「〜ほど…ない」を入れよう", "sentence": "El té es ___ caro que el café.", "answer": ["menos"], "explain": "劣等比較 <b>menos … que</b>。" },
+    { "id": "q09", "type": "fill", "prompt": "malo の比較級を入れよう", "sentence": "Hoy el tiempo es ___ que ayer.", "answer": ["peor"], "explain": "malo の比較級は <b>peor</b>。" },
+    { "id": "q10", "type": "fill", "prompt": "rico を -ísimo にしよう", "sentence": "Los churros están ___.", "answer": ["riquísimos"], "explain": "rico → <b>riquísimo</b>（c → qu）。churros に合わせて複数。" },
+    { "id": "q11", "type": "fill", "prompt": "guapo を -ísimo にしよう", "sentence": "El cantante es ___.", "answer": ["guapísimo"], "explain": "語尾の母音を取って <b>-ísimo</b>：guapísimo。" },
+    { "id": "q12", "type": "fill", "prompt": "最上級にしよう", "sentence": "Yuki es la estudiante ___ trabajadora de la clase.", "answer": ["más"], "explain": "定冠詞 ＋ 名詞 ＋ <b>más</b> ＋ 形容詞 ＋ de。" },
+    { "id": "q13", "type": "fill", "prompt": "「〜と同じくらい（食べる）」", "sentence": "Churro come ___ como un tigre.", "answer": ["tanto"], "explain": "動詞の同等比較は <b>tanto como</b>（形は変わらない）。" },
+    { "id": "q14", "type": "choice", "prompt": "「クラスで一番よい」", "sentence": "Yuki es ___ estudiante de la clase.", "options": ["la mejor", "la más buena", "mejor"], "answer": "la mejor", "explain": "最上級は定冠詞 ＋ <b>mejor</b>。" },
+    { "id": "q15", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Madrid", "es", "más", "grande", "que", "Toledo"], "answer": ["Madrid es más grande que Toledo"], "en": "Madrid is bigger than Toledo.", "fr": "Madrid est plus grande que Tolède.", "explain": "más ＋ 形容詞 ＋ que。" },
+    { "id": "q16", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Lucía", "es", "tan", "alta", "como", "Diego"], "answer": ["Lucía es tan alta como Diego"], "en": "Lucía is as tall as Diego.", "fr": "Lucía est aussi grande que Diego.", "explain": "tan ＋ 形容詞 ＋ como。" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Es", "el", "piso", "más", "pequeño", "del", "edificio"], "answer": ["Es el piso más pequeño del edificio"], "en": "It's the smallest flat in the building.", "fr": "C'est l'appartement le plus petit de l'immeuble.", "explain": "定冠詞は1回だけ：el piso más pequeño。" },
+    { "id": "q18", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Yo", "no", "tengo", "tantos", "libros", "como", "tú"], "answer": ["Yo no tengo tantos libros como tú"], "en": "I don't have as many books as you.", "fr": "Je n'ai pas autant de livres que toi.", "explain": "tantos ＋ 名詞 ＋ como。" }
+  ],
+  "reading": {
+    "title": "La mejor ciudad del mundo",
+    "sentences": [
+      { "p": true, "es": "En la cocina hay un debate muy serio: ¿cuál es la mejor ciudad del mundo?", "en": "In the kitchen there's a very serious debate: which is the best city in the world?", "fr": "Dans la cuisine, il y a un débat très sérieux : quelle est la meilleure ville du monde ?" },
+      { "es": "—Madrid, claro —dice Lucía—. Es más alegre que París y tiene más bares que cualquier ciudad de Europa.", "en": "\"Madrid, of course,\" says Lucía. \"It's livelier than Paris and it has more bars than any city in Europe.\"", "fr": "« Madrid, bien sûr, dit Lucía. Elle est plus gaie que Paris et elle a plus de bars que n'importe quelle ville d'Europe. »" },
+      { "es": "—Guadalajara es mucho mejor —responde Diego—. La comida es más picante, la música es más bonita y la gente es tan simpática como aquí.", "en": "\"Guadalajara is much better,\" replies Diego. \"The food is spicier, the music is nicer and the people are as friendly as here.\"", "fr": "« Guadalajara est bien meilleure, répond Diego. La nourriture est plus épicée, la musique est plus belle et les gens sont aussi sympathiques qu'ici. »" },
+      { "p": true, "es": "Yuki piensa en Osaka.", "en": "Yuki thinks about Osaka.", "fr": "Yuki pense à Osaka." },
+      { "es": "—Osaka no es tan famosa como Tokio, pero su gente es la más divertida de Japón.", "en": "\"Osaka isn't as famous as Tokyo, but its people are the funniest in Japan.\"", "fr": "« Osaka n'est pas aussi célèbre que Tokyo, mais ses habitants sont les plus drôles du Japon. »" },
+      { "es": "Y los trenes son más puntuales que los de Madrid.", "en": "\"And the trains are more punctual than Madrid's.\"", "fr": "« Et les trains sont plus ponctuels que ceux de Madrid. »" },
+      { "es": "—Eso no es difícil —dice Lucía, y todos se ríen.", "en": "\"That's not hard,\" says Lucía, and everyone laughs.", "fr": "« Ce n'est pas difficile », dit Lucía, et tout le monde rit." },
+      { "p": true, "es": "La abuela Carmen escucha en silencio.", "en": "Grandma Carmen listens in silence.", "fr": "Grand-mère Carmen écoute en silence." },
+      { "es": "—Para mí, la mejor ciudad del mundo es la ciudad de mis amigos.", "en": "\"For me, the best city in the world is the city where my friends are.\"", "fr": "« Pour moi, la meilleure ville du monde, c'est la ville de mes amis. »" },
+      { "es": "Todos están de acuerdo: es la respuesta más bonita de la noche.", "en": "Everyone agrees: it's the nicest answer of the night.", "fr": "Tout le monde est d'accord : c'est la plus belle réponse de la soirée." },
+      { "p": true, "es": "Churro no participa en el debate.", "en": "Churro doesn't take part in the debate.", "fr": "Churro ne participe pas au débat." },
+      { "es": "Para él, el mejor sitio del mundo es el sofá: es más cómodo que Madrid, más tranquilo que Guadalajara y más caliente que Osaka.", "en": "For him, the best place in the world is the sofa: it's more comfortable than Madrid, quieter than Guadalajara and warmer than Osaka.", "fr": "Pour lui, le meilleur endroit du monde, c'est le canapé : il est plus confortable que Madrid, plus calme que Guadalajara et plus chaud qu'Osaka." }
+    ],
+    "glossary": {
+      "mejor": { "lemma": "mejor", "en": "better, best", "fr": "meilleur", "note": "bueno の比較級。定冠詞がつくと最上級" },
+      "ciudad": { "lemma": "ciudad", "en": "city", "fr": "ville" },
+      "mundo": { "lemma": "mundo", "en": "world", "fr": "monde" },
+      "cocina": { "lemma": "cocina", "en": "kitchen", "fr": "cuisine" },
+      "debate": { "lemma": "debate", "en": "debate", "fr": "débat" },
+      "serio": { "lemma": "serio", "en": "serious", "fr": "sérieux" },
+      "madrid": { "lemma": "Madrid", "en": "Madrid", "fr": "Madrid" },
+      "claro": { "lemma": "claro", "en": "of course; clear", "fr": "bien sûr ; clair" },
+      "alegre": { "lemma": "alegre", "en": "cheerful, lively", "fr": "gai, joyeux" },
+      "parís": { "lemma": "París", "en": "Paris", "fr": "Paris" },
+      "bares": { "lemma": "bar", "en": "bar", "fr": "bar", "note": "複数形" },
+      "cualquier": { "lemma": "cualquiera", "en": "any", "fr": "n'importe quel", "note": "名詞の前で cualquiera → cualquier" },
+      "europa": { "lemma": "Europa", "en": "Europe", "fr": "Europe" },
+      "guadalajara": { "lemma": "Guadalajara", "en": "Guadalajara", "fr": "Guadalajara" },
+      "responde": { "lemma": "responder", "en": "to reply", "fr": "répondre", "note": "3人称単数・現在" },
+      "comida": { "lemma": "comida", "en": "food", "fr": "nourriture" },
+      "picante": { "lemma": "picante", "en": "spicy", "fr": "épicé" },
+      "música": { "lemma": "música", "en": "music", "fr": "musique" },
+      "bonita": { "lemma": "bonito", "en": "pretty, nice", "fr": "joli", "note": "女性形" },
+      "gente": { "lemma": "gente", "en": "people", "fr": "gens", "note": "単数扱い" },
+      "tan": { "lemma": "tan", "en": "as, so", "fr": "aussi, si", "note": "tan ... como = 〜と同じくらい" },
+      "simpática": { "lemma": "simpático", "en": "nice, friendly", "fr": "sympathique", "note": "女性形" },
+      "como": { "lemma": "como", "en": "as, like", "fr": "que, comme", "note": "tan ... como の como" },
+      "piensa": { "lemma": "pensar", "en": "to think", "fr": "penser", "note": "pensar en = 〜のことを考える" },
+      "osaka": { "lemma": "Osaka", "en": "Osaka", "fr": "Osaka" },
+      "famosa": { "lemma": "famoso", "en": "famous", "fr": "célèbre", "note": "女性形" },
+      "tokio": { "lemma": "Tokio", "en": "Tokyo", "fr": "Tokyo" },
+      "divertida": { "lemma": "divertido", "en": "fun, funny", "fr": "drôle, amusant", "note": "女性形" },
+      "japón": { "lemma": "Japón", "en": "Japan", "fr": "Japon" },
+      "trenes": { "lemma": "tren", "en": "train", "fr": "train", "note": "複数形" },
+      "puntuales": { "lemma": "puntual", "en": "punctual", "fr": "ponctuel", "note": "複数形" },
+      "eso": { "lemma": "eso", "en": "that", "fr": "cela, ça" },
+      "difícil": { "lemma": "difícil", "en": "difficult", "fr": "difficile" },
+      "ríen": { "lemma": "reírse", "en": "to laugh", "fr": "rire", "note": "3人称複数・現在" },
+      "escucha": { "lemma": "escuchar", "en": "to listen", "fr": "écouter", "note": "3人称単数・現在" },
+      "silencio": { "lemma": "silencio", "en": "silence", "fr": "silence" },
+      "amigos": { "lemma": "amigo", "en": "friend", "fr": "ami", "note": "複数形" },
+      "acuerdo": { "lemma": "acuerdo", "en": "agreement", "fr": "accord", "note": "estar de acuerdo = 賛成だ" },
+      "respuesta": { "lemma": "respuesta", "en": "answer", "fr": "réponse" },
+      "participa": { "lemma": "participar", "en": "to take part", "fr": "participer", "note": "3人称単数・現在" },
+      "sitio": { "lemma": "sitio", "en": "place", "fr": "endroit" },
+      "sofá": { "lemma": "sofá", "en": "sofa", "fr": "canapé" },
+      "cómodo": { "lemma": "cómodo", "en": "comfortable", "fr": "confortable" },
+      "tranquilo": { "lemma": "tranquilo", "en": "quiet, calm", "fr": "calme" },
+      "caliente": { "lemma": "caliente", "en": "warm, hot", "fr": "chaud" }
+    },
+    "quiz": [
+      { "q": "Según Lucía, ¿qué tiene Madrid?", "options": ["Más bares que cualquier ciudad de Europa", "Los trenes más puntuales", "La comida más picante"], "answer": "Más bares que cualquier ciudad de Europa" },
+      { "q": "¿Qué dice Yuki de los trenes de Osaka?", "options": ["Son más puntuales que los de Madrid", "Son más grandes que los de Madrid", "Son tan lentos como los de Madrid"], "answer": "Son más puntuales que los de Madrid" },
+      { "q": "Para Churro, ¿cuál es el mejor sitio del mundo?", "options": ["El sofá", "Madrid", "La cocina"], "answer": "El sofá" }
+    ]
+  }
+}

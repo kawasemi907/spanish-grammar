@@ -795,5 +795,194 @@
   "en": "to do, to make",
   "fr": "faire",
   "note": "3人称単数・現在。hace calor = 暑い（天候）"
+ },
+ "este": {
+  "lemma": "este",
+  "en": "this",
+  "fr": "ce, cet",
+  "note": "指示詞・男性単数"
+ },
+ "esta": {
+  "lemma": "este",
+  "en": "this",
+  "fr": "cette",
+  "note": "指示詞・女性単数"
+ },
+ "estos": {
+  "lemma": "este",
+  "en": "these",
+  "fr": "ces",
+  "note": "指示詞・男性複数"
+ },
+ "estas": {
+  "lemma": "este",
+  "en": "these",
+  "fr": "ces",
+  "note": "指示詞・女性複数"
+ },
+ "ese": {
+  "lemma": "ese",
+  "en": "that",
+  "fr": "ce",
+  "note": "指示詞・男性単数"
+ },
+ "esa": {
+  "lemma": "ese",
+  "en": "that",
+  "fr": "cette",
+  "note": "指示詞・女性単数"
+ },
+ "esos": {
+  "lemma": "ese",
+  "en": "those",
+  "fr": "ces",
+  "note": "指示詞・男性複数"
+ },
+ "esas": {
+  "lemma": "ese",
+  "en": "those",
+  "fr": "ces",
+  "note": "指示詞・女性複数"
+ },
+ "esto": {
+  "lemma": "esto",
+  "en": "this (thing)",
+  "fr": "ceci, ça",
+  "note": "中性の指示代名詞"
+ },
+ "eso": {
+  "lemma": "eso",
+  "en": "that (thing)",
+  "fr": "cela, ça",
+  "note": "中性の指示代名詞"
+ },
+ "otro": {
+  "lemma": "otro",
+  "en": "other, another",
+  "fr": "autre",
+  "note": "不定冠詞をつけない"
+ },
+ "otra": {
+  "lemma": "otro",
+  "en": "other, another",
+  "fr": "autre",
+  "note": "女性形"
+ },
+ "casa": {
+  "lemma": "casa",
+  "en": "house, home",
+  "fr": "maison",
+  "note": "en casa = 家で"
+ },
+ "gato": {
+  "lemma": "gato",
+  "en": "cat",
+  "fr": "chat"
+ },
+ "piso": {
+  "lemma": "piso",
+  "en": "flat, apartment",
+  "fr": "appartement",
+  "note": "スペインでは「マンションの部屋」"
+ },
+ "madrid": {
+  "lemma": "Madrid",
+  "en": "Madrid",
+  "fr": "Madrid",
+  "note": "スペインの首都"
+ },
+ "cocina": {
+  "lemma": "cocina",
+  "en": "kitchen; cooking",
+  "fr": "cuisine"
+ },
+ "sofá": {
+  "lemma": "sofá",
+  "en": "sofa",
+  "fr": "canapé"
+ },
+ "mesa": {
+  "lemma": "mesa",
+  "en": "table",
+  "fr": "table"
+ },
+ "puerta": {
+  "lemma": "puerta",
+  "en": "door",
+  "fr": "porte"
+ },
+ "amigos": {
+  "lemma": "amigo",
+  "en": "friend",
+  "fr": "ami",
+  "note": "複数形"
+ },
+ "vez": {
+  "lemma": "vez",
+  "en": "time (occasion)",
+  "fr": "fois",
+  "note": "otra vez = もう一度"
+ },
+ "como": {
+  "lemma": "como",
+  "en": "like, as",
+  "fr": "comme"
+ },
+ "cuando": {
+  "lemma": "cuando",
+  "en": "when",
+  "fr": "quand",
+  "note": "疑問詞ではないのでアクセント記号なし"
+ },
+ "pregunta": {
+  "lemma": "preguntar",
+  "en": "to ask",
+  "fr": "demander",
+  "note": "3人称単数・現在（名詞 pregunta = 質問）"
+ },
+ "después": {
+  "lemma": "después",
+  "en": "after, afterwards",
+  "fr": "après, ensuite",
+  "note": "después de ... = 〜の後で"
+ },
+ "nada": {
+  "lemma": "nada",
+  "en": "nothing",
+  "fr": "rien"
+ },
+ "día": {
+  "lemma": "día",
+  "en": "day",
+  "fr": "jour",
+  "note": "-a で終わる男性名詞"
+ },
+ "años": {
+  "lemma": "año",
+  "en": "year",
+  "fr": "an, année",
+  "note": "複数形"
+ },
+ "fotos": {
+  "lemma": "foto",
+  "en": "photo",
+  "fr": "photo",
+  "note": "複数形（女性名詞）"
+ },
+ "españa": {
+  "lemma": "España",
+  "en": "Spain",
+  "fr": "Espagne"
+ },
+ "méxico": {
+  "lemma": "México",
+  "en": "Mexico",
+  "fr": "Mexique"
+ },
+ "guadalajara": {
+  "lemma": "Guadalajara",
+  "en": "Guadalajara",
+  "fr": "Guadalajara",
+  "note": "Diegoの故郷（メキシコ）"
  }
 }

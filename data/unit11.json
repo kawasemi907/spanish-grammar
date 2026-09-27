@@ -1,0 +1,123 @@
+{
+  "id": 11,
+  "title": "再帰動詞",
+  "explain": {
+    "sections": [
+      {
+        "title": "再帰動詞とは",
+        "body": "<p>動作が<b>主語自身</b>に返ってくる動詞。<span class='es'>levantar</span>（起こす）→ <span class='es'>levantarse</span>（自分を起こす＝起きる）。再帰代名詞を活用した動詞の前に置く。</p><table><tr><td>yo</td><td><b>me</b> levanto</td><td>nosotros</td><td><b>nos</b> levantamos</td></tr><tr><td>tú</td><td><b>te</b> levantas</td><td>vosotros</td><td><b>os</b> levantáis</td></tr><tr><td>él / usted</td><td><b>se</b> levanta</td><td>ellos / ustedes</td><td><b>se</b> levantan</td></tr></table><p>不定詞では語尾につなげる：<span class='es'>Quiero levantar<b>me</b> temprano.</span>（<span class='es'>Me quiero levantar…</span> も可）</p>"
+      },
+      {
+        "title": "よく使う再帰動詞",
+        "body": "<ul><li>日課：<span class='es'>despertarse</span>（ie・目覚める）, <span class='es'>levantarse</span>（起きる）, <span class='es'>ducharse</span>（シャワーを浴びる）, <span class='es'>lavarse</span>（自分の体を洗う）, <span class='es'>vestirse</span>（i・服を着る）, <span class='es'>acostarse</span>（ue・寝る）</li><li>その他：<span class='es'>llamarse</span>（〜という名前だ）, <span class='es'>sentarse</span>（ie・座る）, <span class='es'>ponerse</span>（身につける）, <span class='es'>quedarse</span>（とどまる）</li><li>体の部分・服には所有詞ではなく<b>定冠詞</b>：<span class='es'>Me lavo <b>las</b> manos. Se pone <b>el</b> sombrero.</span></li></ul>"
+      },
+      {
+        "title": "その他の se の働き",
+        "body": "<ul><li><b>相互</b>「お互いに」：<span class='es'>Nos vemos mañana. Se quieren mucho.</span></li><li><b>意味が変わる</b>：<span class='es'>ir</span>（行く）→ <span class='es'>irse</span>（立ち去る）、<span class='es'>dormir</span>（眠る）→ <span class='es'>dormirse</span>（寝入る）</li></ul>"
+      }
+    ],
+    "french": "<ul><li>仏語の<b>代名動詞</b>とほぼ同じ：<span class='es'>me levanto</span> ＝ je me lève、<span class='es'>se llama</span> ＝ il s'appelle。</li><li>体の部分に定冠詞を使うのも同じ：<span class='es'>Me lavo las manos.</span>（Je me lave les mains.）</li><li>違い①：不定詞では代名詞を<b>後ろにつなげられる</b>：<span class='es'>Voy a levantarme.</span>（Je vais me lever.）</li><li>違い②：複合時制の助動詞は常に <span class='es'>haber</span>（仏語は être）：<span class='es'>Me he levantado.</span>（Je me suis levé.）</li><li>仏語と形が一致しないもの：<span class='es'>quedarse</span>（rester）、<span class='es'>irse</span>（s'en aller）。</li></ul>",
+    "examples": [
+      { "es": "Me llamo Yuki. ¿Cómo te llamas?", "en": "My name is Yuki. What's your name?", "fr": "Je m'appelle Yuki. Comment tu t'appelles ?" },
+      { "es": "Me levanto a las siete todos los días.", "en": "I get up at seven every day.", "fr": "Je me lève à sept heures tous les jours." },
+      { "es": "Lucía se acuesta muy tarde.", "en": "Lucía goes to bed very late.", "fr": "Lucía se couche très tard." },
+      { "es": "Nos vemos mañana.", "en": "See you tomorrow.", "fr": "On se voit demain." },
+      { "es": "Diego se pone la camiseta de su equipo.", "en": "Diego puts on his team's shirt.", "fr": "Diego met le maillot de son équipe." },
+      { "es": "Los niños se lavan las manos antes de comer.", "en": "The children wash their hands before eating.", "fr": "Les enfants se lavent les mains avant de manger." },
+      { "es": "¿A qué hora os despertáis?", "en": "What time do you (all) wake up?", "fr": "À quelle heure vous réveillez-vous ?" },
+      { "es": "Es tarde. Tengo que irme.", "en": "It's late. I have to go.", "fr": "Il est tard. Je dois m'en aller." }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "conj", "verb": "levantarse", "person": "yo", "tense": "直説法現在", "sentence": "___ a las siete.", "answer": ["Me levanto"], "explain": "再帰代名詞 <b>me</b> ＋ levanto。" },
+    { "id": "q02", "type": "conj", "verb": "llamarse", "person": "tú", "tense": "直説法現在", "sentence": "¿Cómo ___?", "answer": ["te llamas"], "explain": "<b>te llamas</b>：君は〜という名前だ。" },
+    { "id": "q03", "type": "conj", "verb": "acostarse", "person": "ella", "tense": "直説法現在", "sentence": "Lucía ___ muy tarde.", "answer": ["se acuesta"], "explain": "acostarse は o → ue：<b>se acuesta</b>。" },
+    { "id": "q04", "type": "conj", "verb": "ducharse", "person": "nosotros", "tense": "直説法現在", "sentence": "___ por la mañana.", "answer": ["Nos duchamos"], "explain": "nosotros → <b>nos duchamos</b>。" },
+    { "id": "q05", "type": "conj", "verb": "despertarse", "person": "vosotros", "tense": "直説法現在", "sentence": "¿A qué hora ___?", "answer": ["os despertáis"], "explain": "vosotros は語幹が変わらない：<b>os despertáis</b>。" },
+    { "id": "q06", "type": "conj", "verb": "vestirse", "person": "ellos", "tense": "直説法現在", "sentence": "Ellos ___ muy rápido.", "answer": ["se visten"], "explain": "vestirse は e → i：<b>se visten</b>。" },
+    { "id": "q07", "type": "fill", "prompt": "再帰代名詞を入れよう", "sentence": "Yo ___ llamo Yuki.", "answer": ["me"], "explain": "yo → <b>me</b>。" },
+    { "id": "q08", "type": "fill", "prompt": "再帰代名詞を入れよう", "sentence": "Nosotros ___ sentamos aquí.", "answer": ["nos"], "explain": "nosotros → <b>nos</b>。" },
+    { "id": "q09", "type": "fill", "prompt": "（ ）の動詞を正しい形にしよう", "sentence": "Diego ___ (ponerse) el sombrero.", "answer": ["se pone"], "explain": "3人称単数 → <b>se pone</b>。服・帽子は定冠詞 el。" },
+    { "id": "q10", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Mañana quiero ___ temprano.", "options": ["levantarme", "me levantar", "levantarse"], "answer": "levantarme", "explain": "不定詞には代名詞を<b>後ろにつなげる</b>。主語（私）に合わせて me。" },
+    { "id": "q11", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Lucía ___ los dientes.", "options": ["se lava", "lava", "se lavan"], "answer": "se lava", "explain": "自分の歯を磨く → 再帰動詞 <b>se lava</b>。" },
+    { "id": "q12", "type": "choice", "prompt": "正しい語を選ぼう", "sentence": "Me lavo ___ manos.", "options": ["las", "mis", "unas"], "answer": "las", "explain": "体の部分には所有詞ではなく<b>定冠詞</b>。" },
+    { "id": "q13", "type": "choice", "prompt": "「お互いに会う」", "sentence": "Diego y Lucía ___ todos los días.", "options": ["se ven", "ven", "nos vemos"], "answer": "se ven", "explain": "相互の se：<b>se ven</b>（お互いに会う）。" },
+    { "id": "q14", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Ya es tarde. Tengo que ___.", "options": ["irme", "ir", "me ir"], "answer": "irme", "explain": "<b>irse</b>＝立ち去る。不定詞に me をつなげて <b>irme</b>。" },
+    { "id": "q15", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Me", "levanto", "a", "las", "siete"], "answer": ["Me levanto a las siete", "A las siete me levanto"], "en": "I get up at seven.", "fr": "Je me lève à sept heures.", "explain": "再帰代名詞は活用した動詞の直前。" },
+    { "id": "q16", "type": "order", "prompt": "並べ替えて疑問文を作ろう", "words": ["cómo", "se", "llama", "usted"], "answer": ["¿Cómo se llama usted?"], "en": "What's your name? (formal)", "fr": "Comment vous appelez-vous ?", "explain": "usted は3人称 → <b>se llama</b>。" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Los", "niños", "se", "lavan", "las", "manos"], "answer": ["Los niños se lavan las manos"], "en": "The children wash their hands.", "fr": "Les enfants se lavent les mains.", "explain": "<span class='es'>se lavan las manos</span>（体の部分に定冠詞）。" },
+    { "id": "q18", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Nos", "vemos", "mañana"], "answer": ["Nos vemos mañana", "Mañana nos vemos"], "en": "See you tomorrow.", "fr": "On se voit demain.", "explain": "相互の se（nos）：お互いに会う → 「また明日」。" }
+  ],
+  "reading": {
+    "title": "Dos mañanas",
+    "sentences": [
+      { "p": true, "es": "Yuki se despierta a las seis y media, sin despertador.", "en": "Yuki wakes up at six thirty, without an alarm clock.", "fr": "Yuki se réveille à six heures et demie, sans réveil." },
+      { "es": "Se levanta, se ducha, se viste y se sienta a desayunar: café, pan con tomate y una lista de verbos.", "en": "She gets up, showers, gets dressed and sits down to breakfast: coffee, bread with tomato and a list of verbs.", "fr": "Elle se lève, se douche, s'habille et s'assoit pour le petit-déjeuner : un café, du pain à la tomate et une liste de verbes." },
+      { "es": "Todo en treinta minutos, como un reloj japonés.", "en": "All in thirty minutes, like a Japanese clock.", "fr": "Le tout en trente minutes, comme une horloge japonaise." },
+      { "p": true, "es": "Lucía es diferente.", "en": "Lucía is different.", "fr": "Lucía, c'est autre chose." },
+      { "es": "Su despertador suena a las ocho, a las ocho y diez y a las ocho y veinte.", "en": "Her alarm goes off at eight, at ten past eight and at twenty past eight.", "fr": "Son réveil sonne à huit heures, à huit heures dix et à huit heures vingt." },
+      { "es": "A las nueve menos cuarto, por fin se levanta.", "en": "At a quarter to nine, she finally gets up.", "fr": "À neuf heures moins le quart, elle se lève enfin." },
+      { "es": "No se ducha: no hay tiempo.", "en": "She doesn't shower: there's no time.", "fr": "Elle ne se douche pas : pas le temps." },
+      { "es": "Se pone la ropa de ayer, se peina con los dedos y busca sus llaves por toda la casa.", "en": "She puts on yesterday's clothes, combs her hair with her fingers and looks for her keys all over the flat.", "fr": "Elle met les vêtements de la veille, se coiffe avec les doigts et cherche ses clés dans tout l'appartement." },
+      { "es": "—¡Yuki! ¿Dónde están mis llaves?", "en": "\"Yuki! Where are my keys?\"", "fr": "« Yuki ! Où sont mes clés ? »" },
+      { "es": "—En la puerta, como siempre.", "en": "\"In the door, as always.\"", "fr": "« Sur la porte, comme toujours. »" },
+      { "es": "Lucía se va corriendo.", "en": "Lucía rushes off.", "fr": "Lucía part en courant." },
+      { "p": true, "es": "¿Y Churro? Churro no se levanta, no se ducha y no se viste.", "en": "And Churro? Churro doesn't get up, doesn't shower and doesn't get dressed.", "fr": "Et Churro ? Churro ne se lève pas, ne se douche pas et ne s'habille pas." },
+      { "es": "Se lava la cara con la pata, se estira en el sofá y se duerme otra vez.", "en": "He washes his face with his paw, stretches out on the sofa and falls asleep again.", "fr": "Il se lave la figure avec la patte, s'étire sur le canapé et se rendort." },
+      { "es": "Él sí sabe vivir.", "en": "Now he knows how to live.", "fr": "Lui, il sait vivre." }
+    ],
+    "glossary": {
+      "mañanas": { "lemma": "mañana", "en": "morning", "fr": "matin", "note": "複数形" },
+      "despierta": { "lemma": "despertarse", "en": "to wake up", "fr": "se réveiller", "note": "3人称単数・現在（e → ie）" },
+      "seis": { "lemma": "seis", "en": "six", "fr": "six" },
+      "media": { "lemma": "medio", "en": "half", "fr": "demi", "note": "y media = 〜時半" },
+      "despertador": { "lemma": "despertador", "en": "alarm clock", "fr": "réveil" },
+      "levanta": { "lemma": "levantarse", "en": "to get up", "fr": "se lever", "note": "3人称単数・現在" },
+      "ducha": { "lemma": "ducharse", "en": "to shower", "fr": "se doucher", "note": "3人称単数・現在" },
+      "viste": { "lemma": "vestirse", "en": "to get dressed", "fr": "s'habiller", "note": "3人称単数・現在（e → i）" },
+      "sienta": { "lemma": "sentarse", "en": "to sit down", "fr": "s'asseoir", "note": "3人称単数・現在（e → ie）" },
+      "desayunar": { "lemma": "desayunar", "en": "to have breakfast", "fr": "prendre le petit-déjeuner" },
+      "café": { "lemma": "café", "en": "coffee", "fr": "café" },
+      "pan": { "lemma": "pan", "en": "bread", "fr": "pain" },
+      "tomate": { "lemma": "tomate", "en": "tomato", "fr": "tomate", "note": "pan con tomate = トマトを塗ったパン。定番の朝食" },
+      "lista": { "lemma": "lista", "en": "list", "fr": "liste" },
+      "verbos": { "lemma": "verbo", "en": "verb", "fr": "verbe", "note": "複数形" },
+      "treinta": { "lemma": "treinta", "en": "thirty", "fr": "trente" },
+      "minutos": { "lemma": "minuto", "en": "minute", "fr": "minute", "note": "複数形" },
+      "como": { "lemma": "como", "en": "like, as", "fr": "comme" },
+      "reloj": { "lemma": "reloj", "en": "clock, watch", "fr": "horloge, montre" },
+      "japonés": { "lemma": "japonés", "en": "Japanese", "fr": "japonais" },
+      "diferente": { "lemma": "diferente", "en": "different", "fr": "différent" },
+      "suena": { "lemma": "sonar", "en": "to ring", "fr": "sonner", "note": "3人称単数・現在（o → ue）" },
+      "veinte": { "lemma": "veinte", "en": "twenty", "fr": "vingt" },
+      "cuarto": { "lemma": "cuarto", "en": "quarter", "fr": "quart", "note": "menos cuarto = 15分前" },
+      "fin": { "lemma": "fin", "en": "end", "fr": "fin", "note": "por fin = ついに" },
+      "tiempo": { "lemma": "tiempo", "en": "time; weather", "fr": "temps" },
+      "pone": { "lemma": "ponerse", "en": "to put on", "fr": "mettre (un vêtement)", "note": "3人称単数・現在" },
+      "ropa": { "lemma": "ropa", "en": "clothes", "fr": "vêtements", "note": "女性単数名詞で「服（全体）」" },
+      "ayer": { "lemma": "ayer", "en": "yesterday", "fr": "hier" },
+      "peina": { "lemma": "peinarse", "en": "to comb one's hair", "fr": "se coiffer", "note": "3人称単数・現在" },
+      "dedos": { "lemma": "dedo", "en": "finger", "fr": "doigt", "note": "複数形" },
+      "busca": { "lemma": "buscar", "en": "to look for", "fr": "chercher", "note": "3人称単数・現在" },
+      "llaves": { "lemma": "llave", "en": "key", "fr": "clé", "note": "複数形" },
+      "casa": { "lemma": "casa", "en": "house, home", "fr": "maison" },
+      "puerta": { "lemma": "puerta", "en": "door", "fr": "porte" },
+      "corriendo": { "lemma": "correr", "en": "to run", "fr": "courir", "note": "現在分詞（ユニット12）。irse corriendo = 走って出ていく" },
+      "lava": { "lemma": "lavarse", "en": "to wash (oneself)", "fr": "se laver", "note": "3人称単数・現在" },
+      "cara": { "lemma": "cara", "en": "face", "fr": "visage, figure" },
+      "pata": { "lemma": "pata", "en": "paw, leg (of an animal)", "fr": "patte" },
+      "estira": { "lemma": "estirarse", "en": "to stretch", "fr": "s'étirer", "note": "3人称単数・現在" },
+      "sofá": { "lemma": "sofá", "en": "sofa", "fr": "canapé" },
+      "duerme": { "lemma": "dormirse", "en": "to fall asleep", "fr": "s'endormir", "note": "3人称単数・現在。dormir（眠る）＋ se で「寝入る」" },
+      "otra": { "lemma": "otro", "en": "other, another", "fr": "autre", "note": "otra vez = もう一度" },
+      "vez": { "lemma": "vez", "en": "time (occasion)", "fr": "fois" },
+      "sabe": { "lemma": "saber", "en": "to know (how to)", "fr": "savoir", "note": "3人称単数・現在" },
+      "vivir": { "lemma": "vivir", "en": "to live", "fr": "vivre" }
+    },
+    "quiz": [
+      { "q": "¿A qué hora se despierta Yuki?", "options": ["A las seis y media", "A las ocho", "A las nueve menos cuarto"], "answer": "A las seis y media" },
+      { "q": "¿Por qué no se ducha Lucía?", "options": ["Porque no hay tiempo", "Porque no hay agua", "Porque no le gusta"], "answer": "Porque no hay tiempo" },
+      { "q": "¿Qué hace Churro después de lavarse la cara?", "options": ["Se duerme otra vez", "Se va corriendo", "Busca las llaves"], "answer": "Se duerme otra vez" }
+    ]
+  }
+}
