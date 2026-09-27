@@ -1,6 +1,6 @@
 // Service Worker：ネットワーク優先（最新データを取得）、オフライン時はキャッシュを使う。
 // ユニットを追加したら CACHE の番号を上げ、PRECACHE に data/unitNN.json を足すこと。
-const CACHE = 'esp4-v1';
+const CACHE = 'esp4-v2';
 const PRECACHE = [
   './',
   'index.html',
@@ -18,6 +18,11 @@ const PRECACHE = [
   'data/unit03.json',
   'data/unit04.json',
   'data/unit05.json',
+  'data/unit06.json',
+  'data/unit07.json',
+  'data/unit08.json',
+  'data/unit09.json',
+  'data/unit10.json',
 ];
 const TIMEOUT_MS = 4000;
 

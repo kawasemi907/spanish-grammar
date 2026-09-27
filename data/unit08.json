@@ -1,0 +1,122 @@
+{
+  "id": 8,
+  "title": "所有詞・疑問詞",
+  "explain": {
+    "sections": [
+      {
+        "title": "所有形容詞（名詞の前）",
+        "body": "<table><tr><th></th><th>単数の持ち主</th><th>複数の持ち主</th></tr><tr><th>1人称</th><td>mi / mis</td><td>nuestro, nuestra / nuestros, nuestras</td></tr><tr><th>2人称</th><td>tu / tus</td><td>vuestro, vuestra / vuestros, vuestras</td></tr><tr><th>3人称</th><td>su / sus</td><td>su / sus</td></tr></table><ul><li>形は<b>所有されるもの</b>の性・数に合わせる（持ち主ではない）：<span class='es'>nuestra casa, nuestros amigos</span></li><li><span class='es'>su</span> は「彼の・彼女の・あなたの・彼らの」。あいまいなら <span class='es'>el libro de ella</span> のように言う。</li></ul>"
+      },
+      {
+        "title": "所有詞の後置形・所有代名詞",
+        "body": "<p><b>mío, tuyo, suyo, nuestro, vuestro, suyo</b>（性数変化あり）</p><ul><li>名詞の後ろ：<span class='es'>un amigo mío</span>（私の友達の1人）</li><li>ser の後：<span class='es'>Este paraguas es mío.</span></li><li>定冠詞と一緒に「〜のもの」：<span class='es'>Tu casa es grande, pero la mía es pequeña.</span></li></ul>"
+      },
+      {
+        "title": "疑問詞",
+        "body": "<table><tr><td>qué</td><td>何・どんな</td><td>quién / quiénes</td><td>誰</td></tr><tr><td>cuál / cuáles</td><td>どれ</td><td>dónde</td><td>どこ</td></tr><tr><td>cuándo</td><td>いつ</td><td>cómo</td><td>どのように</td></tr><tr><td>cuánto/a/os/as</td><td>いくつ・いくら</td><td>por qué</td><td>なぜ</td></tr></table><ul><li>疑問詞には必ず<b>アクセント記号</b>。答えの「なぜなら」は1語で <span class='es'>porque</span>。</li><li>前置詞は疑問詞の前に：<span class='es'>¿De dónde eres? ¿Con quién vives? ¿De quién es?</span></li><li><span class='es'>¿Qué es …?</span> は定義を尋ね、<span class='es'>¿Cuál es tu número?</span> は選択肢の中から特定する。</li></ul>"
+      }
+    ],
+    "french": "<ul><li><span class='es'>mi / tu / su</span> ＝ mon / ton / son。ただし <span class='es'>su</span> は <b>leur</b>・<b>votre</b>（丁寧）も兼ねる。</li><li><span class='es'>nuestro / vuestro</span> は性変化する（仏語の notre / votre は男女同形）：<span class='es'>nuestra casa</span>（notre maison）。</li><li>仏語の <b>mon amie</b> のような母音前の特別形はない：<span class='es'>mi amiga</span>。</li><li><span class='es'>el mío, la tuya</span> ＝ <b>le mien, la tienne</b>。<span class='es'>Es mío.</span> ＝ C'est à moi.</li><li><span class='es'>¿Cuál es tu nombre?</span> は <b>Quel est ton nom ?</b>（qué ではなく cuál）。</li><li>疑問文に <b>est-ce que</b> や倒置のルールはなく、イントネーションと ¿? だけで疑問文になる。</li></ul>",
+    "examples": [
+      { "es": "Nuestro piso es pequeño, pero nuestra calle es muy bonita.", "en": "Our flat is small, but our street is very pretty.", "fr": "Notre appartement est petit, mais notre rue est très jolie." },
+      { "es": "¿Cuál es tu número de teléfono?", "en": "What's your phone number?", "fr": "Quel est ton numéro de téléphone ?" },
+      { "es": "¿De quién es este paraguas? —Es mío.", "en": "Whose umbrella is this? —It's mine.", "fr": "À qui est ce parapluie ? — Il est à moi." },
+      { "es": "¿Dónde viven tus padres?", "en": "Where do your parents live?", "fr": "Où habitent tes parents ?" },
+      { "es": "¿Por qué estudias español? —Porque quiero vivir en México.", "en": "Why do you study Spanish? —Because I want to live in Mexico.", "fr": "Pourquoi tu étudies l'espagnol ? — Parce que je veux vivre au Mexique." },
+      { "es": "¿Cuántas hermanas tienes?", "en": "How many sisters do you have?", "fr": "Combien de sœurs as-tu ?" },
+      { "es": "¿Con quién vives? —Con una amiga mía.", "en": "Who do you live with? —With a friend of mine.", "fr": "Avec qui tu habites ? — Avec une amie à moi." },
+      { "es": "¿Qué es esto? —Es mate, una bebida típica de Argentina.", "en": "What's this? —It's mate, a typical drink from Argentina.", "fr": "Qu'est-ce que c'est ? — C'est du maté, une boisson typique d'Argentine." }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "fill", "prompt": "「私たちの」を入れよう", "sentence": "___ casa es grande.", "answer": ["Nuestra"], "explain": "<span class='es'>casa</span> は女性単数 → <b>nuestra</b>。" },
+    { "id": "q02", "type": "fill", "prompt": "「君の」を入れよう", "sentence": "¿Dónde están ___ llaves?", "answer": ["tus"], "explain": "<span class='es'>llaves</span> は複数 → <b>tus</b>（アクセント記号なし。tú は「君は」）。" },
+    { "id": "q03", "type": "fill", "prompt": "「彼の」を入れよう", "sentence": "Diego y ___ hermana", "answer": ["su"], "explain": "3人称の所有形容詞は <b>su</b>。持ち主の性別は関係ない。" },
+    { "id": "q04", "type": "fill", "prompt": "「君たちの」を入れよう", "sentence": "___ profesores son simpáticos.", "answer": ["Vuestros"], "explain": "<span class='es'>profesores</span> は男性複数 → <b>vuestros</b>。" },
+    { "id": "q05", "type": "fill", "prompt": "疑問詞を入れよう", "sentence": "¿___ vives? —En Madrid.", "answer": ["Dónde"], "explain": "場所を尋ねる → <b>dónde</b>。" },
+    { "id": "q06", "type": "fill", "prompt": "疑問詞を入れよう", "sentence": "¿___ años tienes? —Tengo veinte.", "answer": ["Cuántos"], "explain": "<span class='es'>años</span> は男性複数 → <b>cuántos</b>。" },
+    { "id": "q07", "type": "fill", "prompt": "疑問詞を入れよう", "sentence": "¿___ estudias español? —Porque quiero vivir en México.", "answer": ["Por qué"], "explain": "「なぜ」は2語でアクセント記号つきの <b>por qué</b>。答えの「なぜなら」は1語の <span class='es'>porque</span>。" },
+    { "id": "q08", "type": "fill", "prompt": "疑問詞を入れよう", "sentence": "¿___ es tu nombre? —Yuki.", "answer": ["Cuál"], "explain": "名前・番号など、特定のものを尋ねるときは ser の前で <b>cuál</b>。" },
+    { "id": "q09", "type": "choice", "prompt": "正しい疑問詞を選ぼう", "sentence": "¿___ es esa chica? —Es Lucía.", "options": ["Quién", "Qué", "Cuál"], "answer": "Quién", "explain": "人を尋ねる → <b>quién</b>。" },
+    { "id": "q10", "type": "choice", "prompt": "正しい疑問詞を選ぼう", "sentence": "¿___ es la paella? —Es un plato de arroz.", "options": ["Qué", "Cuál", "Quién"], "answer": "Qué", "explain": "定義（それは何か）を尋ねる → <b>qué</b>。" },
+    { "id": "q11", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Diego es un amigo ___.", "options": ["mío", "mi", "mis"], "answer": "mío", "explain": "名詞の後ろには後置形 <b>mío</b>。「私の友達の1人」の意味。" },
+    { "id": "q12", "type": "choice", "prompt": "正しい疑問詞を選ぼう", "sentence": "¿___ son tus padres? —Son de Osaka.", "options": ["De dónde", "Dónde", "Adónde"], "answer": "De dónde", "explain": "出身は <b>¿De dónde…?</b>（前置詞は疑問詞の前）。" },
+    { "id": "q13", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Ana y Pedro viven con ___ abuela.", "options": ["su", "sus", "suya"], "answer": "su", "explain": "持ち主が複数でも、<span class='es'>abuela</span> が単数なので <b>su</b>。" },
+    { "id": "q14", "type": "choice", "prompt": "「私たちのもの」を選ぼう", "sentence": "Este libro es ___.", "options": ["nuestro", "nuestros", "nuestra"], "answer": "nuestro", "explain": "<span class='es'>libro</span>（男性単数）に合わせて <b>nuestro</b>。" },
+    { "id": "q15", "type": "order", "prompt": "並べ替えて疑問文を作ろう", "words": ["cuándo", "empieza", "la", "clase"], "answer": ["¿Cuándo empieza la clase?"], "en": "When does the class start?", "fr": "Quand est-ce que le cours commence ?", "explain": "疑問詞＋動詞＋主語の順が基本。" },
+    { "id": "q16", "type": "order", "prompt": "並べ替えて疑問文を作ろう", "words": ["de", "quién", "es", "este", "abanico"], "answer": ["¿De quién es este abanico?"], "en": "Whose fan is this?", "fr": "À qui est cet éventail ?", "explain": "「誰の」は <b>¿De quién…?</b>" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Nuestros", "vecinos", "son", "muy", "ruidosos"], "answer": ["Nuestros vecinos son muy ruidosos"], "en": "Our neighbors are very noisy.", "fr": "Nos voisins sont très bruyants.", "explain": "<span class='es'>vecinos</span> は男性複数 → <b>nuestros</b>。" },
+    { "id": "q18", "type": "order", "prompt": "並べ替えて疑問文を作ろう", "words": ["con", "quién", "vive", "Yuki"], "answer": ["¿Con quién vive Yuki?"], "en": "Who does Yuki live with?", "fr": "Avec qui habite Yuki ?", "explain": "前置詞 <span class='es'>con</span> は疑問詞の前に置く。" }
+  ],
+  "reading": {
+    "title": "La videollamada",
+    "sentences": [
+      { "p": true, "es": "Diego está en el piso de Yuki y Lucía cuando suena su móvil.", "en": "Diego is at Yuki and Lucía's flat when his phone rings.", "fr": "Diego est dans l'appartement de Yuki et Lucía quand son portable sonne." },
+      { "es": "Es una videollamada de su mamá, desde Guadalajara.", "en": "It's a video call from his mom, from Guadalajara.", "fr": "C'est un appel vidéo de sa maman, depuis Guadalajara." },
+      { "es": "—¡Mijo! ¿Cómo estás? ¿Dónde estás? ¿Con quién estás?", "en": "\"Sweetie! How are you? Where are you? Who are you with?\"", "fr": "« Mon chéri ! Comment vas-tu ? Où es-tu ? Avec qui es-tu ? »" },
+      { "es": "—Estoy bien, mamá. Estoy en casa de mis amigas.", "en": "\"I'm fine, Mom. I'm at my friends' place.\"", "fr": "« Je vais bien, maman. Je suis chez mes amies. »" },
+      { "p": true, "es": "—¿Tus amigas? ¿Quiénes son? ¿De dónde son? ¿Cuántos años tienen?", "en": "\"Your friends? Who are they? Where are they from? How old are they?\"", "fr": "« Tes amies ? Qui sont-elles ? D'où viennent-elles ? Quel âge ont-elles ? »" },
+      { "es": "Diego pone el móvil delante de Yuki.", "en": "Diego puts the phone in front of Yuki.", "fr": "Diego met le portable devant Yuki." },
+      { "es": "—Buenas tardes, señora. Soy Yuki, su compañera de clase. Soy de Japón.", "en": "\"Good afternoon, ma'am. I'm Yuki, his classmate. I'm from Japan.\"", "fr": "« Bonjour, madame. Je suis Yuki, sa camarade de classe. Je viens du Japon. »" },
+      { "es": "—¡Qué educada! ¿Y qué comen ustedes? ¿Por qué está tan flaco mi hijo?", "en": "\"How polite! And what do you all eat? Why is my son so skinny?\"", "fr": "« Comme elle est polie ! Et qu'est-ce que vous mangez ? Pourquoi mon fils est-il si maigre ? »" },
+      { "p": true, "es": "Lucía toma el móvil.", "en": "Lucía takes the phone.", "fr": "Lucía prend le portable." },
+      { "es": "—Señora, no hay problema. Su hijo come aquí casi todos los días.", "en": "\"Ma'am, no problem. Your son eats here almost every day.\"", "fr": "« Madame, pas de problème. Votre fils mange ici presque tous les jours. »" },
+      { "es": "¡Come nuestra comida, bebe nuestro café y ve nuestra tele!", "en": "\"He eats our food, drinks our coffee and watches our TV!\"", "fr": "« Il mange notre nourriture, boit notre café et regarde notre télé ! »" },
+      { "es": "La mamá de Diego ríe.", "en": "Diego's mom laughs.", "fr": "La maman de Diego rit." },
+      { "es": "—Entonces, ¿cuándo vienen ustedes a Guadalajara? Mi casa es su casa.", "en": "\"So when are you all coming to Guadalajara? My house is your house.\"", "fr": "« Alors, quand venez-vous à Guadalajara ? Ma maison est votre maison. »" },
+      { "es": "Churro mira la pantalla muy serio: ¿de quién es esa voz tan fuerte?", "en": "Churro stares at the screen very seriously: whose is that loud voice?", "fr": "Churro regarde l'écran très sérieusement : à qui est cette voix si forte ?" }
+    ],
+    "glossary": {
+      "videollamada": { "lemma": "videollamada", "en": "video call", "fr": "appel vidéo" },
+      "piso": { "lemma": "piso", "en": "flat, apartment", "fr": "appartement" },
+      "cuando": { "lemma": "cuando", "en": "when", "fr": "quand", "note": "疑問詞ではないのでアクセント記号なし" },
+      "suena": { "lemma": "sonar", "en": "to ring, to sound", "fr": "sonner", "note": "3人称単数・現在（o → ue）" },
+      "móvil": { "lemma": "móvil", "en": "mobile phone", "fr": "portable" },
+      "mamá": { "lemma": "mamá", "en": "mom", "fr": "maman" },
+      "guadalajara": { "lemma": "Guadalajara", "en": "Guadalajara", "fr": "Guadalajara", "note": "Diegoの故郷（メキシコ）" },
+      "mijo": { "lemma": "mijo", "en": "sweetie, son", "fr": "mon chéri, mon fils", "note": "mi hijo の縮約。メキシコなどの口語" },
+      "casa": { "lemma": "casa", "en": "house, home", "fr": "maison", "note": "en casa de ... = 〜の家で" },
+      "amigas": { "lemma": "amigo", "en": "friend", "fr": "amie", "note": "女性複数" },
+      "quiénes": { "lemma": "quién", "en": "who", "fr": "qui", "note": "複数形" },
+      "años": { "lemma": "año", "en": "year", "fr": "an, année", "note": "複数形。¿Cuántos años tienes? = 何歳？" },
+      "tienen": { "lemma": "tener", "en": "to have", "fr": "avoir", "note": "3人称複数・現在" },
+      "pone": { "lemma": "poner", "en": "to put", "fr": "mettre", "note": "3人称単数・現在" },
+      "delante": { "lemma": "delante", "en": "in front (delante de)", "fr": "devant" },
+      "buenas": { "lemma": "bueno", "en": "good", "fr": "bon", "note": "Buenas tardes = こんにちは（午後）" },
+      "compañera": { "lemma": "compañero", "en": "mate, companion", "fr": "camarade", "note": "compañera de clase = クラスメイト" },
+      "clase": { "lemma": "clase", "en": "class", "fr": "classe" },
+      "japón": { "lemma": "Japón", "en": "Japan", "fr": "Japon" },
+      "educada": { "lemma": "educado", "en": "polite, well-mannered", "fr": "poli, bien élevé", "note": "女性形。「教育された」ではなく「礼儀正しい」" },
+      "comen": { "lemma": "comer", "en": "to eat", "fr": "manger", "note": "3人称複数・現在" },
+      "tan": { "lemma": "tan", "en": "so", "fr": "si, tellement" },
+      "flaco": { "lemma": "flaco", "en": "skinny, thin", "fr": "maigre" },
+      "hijo": { "lemma": "hijo", "en": "son", "fr": "fils" },
+      "toma": { "lemma": "tomar", "en": "to take", "fr": "prendre", "note": "3人称単数・現在" },
+      "problema": { "lemma": "problema", "en": "problem", "fr": "problème" },
+      "come": { "lemma": "comer", "en": "to eat", "fr": "manger", "note": "3人称単数・現在" },
+      "casi": { "lemma": "casi", "en": "almost", "fr": "presque" },
+      "días": { "lemma": "día", "en": "day", "fr": "jour", "note": "todos los días = 毎日" },
+      "comida": { "lemma": "comida", "en": "food", "fr": "nourriture" },
+      "bebe": { "lemma": "beber", "en": "to drink", "fr": "boire", "note": "3人称単数・現在" },
+      "nuestro": { "lemma": "nuestro", "en": "our", "fr": "notre", "note": "男性単数" },
+      "nuestra": { "lemma": "nuestro", "en": "our", "fr": "notre", "note": "女性単数" },
+      "café": { "lemma": "café", "en": "coffee", "fr": "café" },
+      "ve": { "lemma": "ver", "en": "to watch, to see", "fr": "regarder, voir", "note": "3人称単数・現在" },
+      "tele": { "lemma": "tele", "en": "TV", "fr": "télé" },
+      "ríe": { "lemma": "reír", "en": "to laugh", "fr": "rire", "note": "3人称単数・現在" },
+      "entonces": { "lemma": "entonces", "en": "so, then", "fr": "alors" },
+      "vienen": { "lemma": "venir", "en": "to come", "fr": "venir", "note": "3人称複数・現在。中南米では「君たち」も ustedes" },
+      "mira": { "lemma": "mirar", "en": "to look at", "fr": "regarder", "note": "3人称単数・現在" },
+      "pantalla": { "lemma": "pantalla", "en": "screen", "fr": "écran" },
+      "serio": { "lemma": "serio", "en": "serious", "fr": "sérieux" },
+      "esa": { "lemma": "ese", "en": "that", "fr": "cette", "note": "指示詞・女性単数" },
+      "voz": { "lemma": "voz", "en": "voice", "fr": "voix" },
+      "fuerte": { "lemma": "fuerte", "en": "strong, loud", "fr": "fort" }
+    },
+    "quiz": [
+      { "q": "¿Dónde vive la mamá de Diego?", "options": ["En Guadalajara", "En Madrid", "En Osaka"], "answer": "En Guadalajara" },
+      { "q": "¿Quién habla primero con la mamá de Diego?", "options": ["Yuki", "Lucía", "Churro"], "answer": "Yuki" },
+      { "q": "Según Lucía, ¿qué hace Diego en su piso?", "options": ["Come su comida y ve su tele", "Estudia mucho", "Duerme en el sofá"], "answer": "Come su comida y ve su tele" }
+    ]
+  }
+}

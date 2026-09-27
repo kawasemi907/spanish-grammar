@@ -1,114 +1,799 @@
 {
-  "el": { "lemma": "el", "en": "the", "fr": "le", "note": "定冠詞・男性単数" },
-  "la": { "lemma": "el", "en": "the", "fr": "la", "note": "定冠詞・女性単数（目的格代名詞「それを・彼女を」の場合もある）" },
-  "los": { "lemma": "el", "en": "the", "fr": "les", "note": "定冠詞・男性複数" },
-  "las": { "lemma": "el", "en": "the", "fr": "les", "note": "定冠詞・女性複数" },
-  "un": { "lemma": "uno", "en": "a, an; one", "fr": "un", "note": "不定冠詞・男性単数" },
-  "una": { "lemma": "uno", "en": "a, an; one", "fr": "une", "note": "不定冠詞・女性単数" },
-  "unos": { "lemma": "uno", "en": "some", "fr": "des, quelques", "note": "不定冠詞・男性複数" },
-  "unas": { "lemma": "uno", "en": "some", "fr": "des, quelques", "note": "不定冠詞・女性複数" },
-  "al": { "lemma": "a + el", "en": "to the", "fr": "au", "note": "a + el の縮約" },
-  "del": { "lemma": "de + el", "en": "of the, from the", "fr": "du", "note": "de + el の縮約" },
-  "a": { "lemma": "a", "en": "to, at", "fr": "à" },
-  "de": { "lemma": "de", "en": "of, from", "fr": "de" },
-  "en": { "lemma": "en", "en": "in, on, at", "fr": "dans, sur, en" },
-  "con": { "lemma": "con", "en": "with", "fr": "avec" },
-  "sin": { "lemma": "sin", "en": "without", "fr": "sans" },
-  "para": { "lemma": "para", "en": "for, in order to", "fr": "pour" },
-  "por": { "lemma": "por", "en": "for, by, through", "fr": "par, pour" },
-  "entre": { "lemma": "entre", "en": "between, among", "fr": "entre, parmi" },
-  "sobre": { "lemma": "sobre", "en": "on, about", "fr": "sur" },
-  "debajo": { "lemma": "debajo", "en": "under (debajo de)", "fr": "sous (debajo de)" },
-  "encima": { "lemma": "encima", "en": "on top (encima de)", "fr": "dessus (encima de)" },
-  "hasta": { "lemma": "hasta", "en": "until, up to; even", "fr": "jusqu'à ; même" },
-  "desde": { "lemma": "desde", "en": "from, since", "fr": "depuis, de" },
-  "y": { "lemma": "y", "en": "and", "fr": "et" },
-  "o": { "lemma": "o", "en": "or", "fr": "ou" },
-  "pero": { "lemma": "pero", "en": "but", "fr": "mais" },
-  "que": { "lemma": "que", "en": "that, which; than", "fr": "que, qui" },
-  "qué": { "lemma": "qué", "en": "what", "fr": "quoi, que, quel" },
-  "quién": { "lemma": "quién", "en": "who", "fr": "qui" },
-  "dónde": { "lemma": "dónde", "en": "where", "fr": "où" },
-  "cómo": { "lemma": "cómo", "en": "how", "fr": "comment" },
-  "cuándo": { "lemma": "cuándo", "en": "when", "fr": "quand" },
-  "cuál": { "lemma": "cuál", "en": "which", "fr": "lequel, quel" },
-  "cuántos": { "lemma": "cuánto", "en": "how many", "fr": "combien" },
-  "cuántas": { "lemma": "cuánto", "en": "how many", "fr": "combien" },
-  "porque": { "lemma": "porque", "en": "because", "fr": "parce que" },
-  "no": { "lemma": "no", "en": "no, not", "fr": "non, ne... pas" },
-  "sí": { "lemma": "sí", "en": "yes", "fr": "oui" },
-  "si": { "lemma": "si", "en": "if", "fr": "si" },
-  "también": { "lemma": "también", "en": "also, too", "fr": "aussi" },
-  "tampoco": { "lemma": "tampoco", "en": "neither, not either", "fr": "non plus" },
-  "muy": { "lemma": "muy", "en": "very", "fr": "très" },
-  "mucho": { "lemma": "mucho", "en": "a lot, much", "fr": "beaucoup" },
-  "mucha": { "lemma": "mucho", "en": "a lot of, much", "fr": "beaucoup de", "note": "女性形" },
-  "muchos": { "lemma": "mucho", "en": "many", "fr": "beaucoup de", "note": "男性複数" },
-  "muchas": { "lemma": "mucho", "en": "many", "fr": "beaucoup de", "note": "女性複数" },
-  "poco": { "lemma": "poco", "en": "little, not much", "fr": "peu" },
-  "más": { "lemma": "más", "en": "more", "fr": "plus" },
-  "menos": { "lemma": "menos", "en": "less", "fr": "moins" },
-  "bien": { "lemma": "bien", "en": "well, fine", "fr": "bien" },
-  "mal": { "lemma": "mal", "en": "badly", "fr": "mal" },
-  "aquí": { "lemma": "aquí", "en": "here", "fr": "ici" },
-  "allí": { "lemma": "allí", "en": "there", "fr": "là-bas" },
-  "ahora": { "lemma": "ahora", "en": "now", "fr": "maintenant" },
-  "siempre": { "lemma": "siempre", "en": "always", "fr": "toujours" },
-  "nunca": { "lemma": "nunca", "en": "never", "fr": "jamais" },
-  "todo": { "lemma": "todo", "en": "all, everything", "fr": "tout" },
-  "toda": { "lemma": "todo", "en": "all, whole", "fr": "toute", "note": "女性形" },
-  "todos": { "lemma": "todo", "en": "all, everyone", "fr": "tous", "note": "男性複数" },
-  "todas": { "lemma": "todo", "en": "all", "fr": "toutes", "note": "女性複数" },
-  "ya": { "lemma": "ya", "en": "already; now", "fr": "déjà" },
-  "hoy": { "lemma": "hoy", "en": "today", "fr": "aujourd'hui" },
-  "mañana": { "lemma": "mañana", "en": "tomorrow; morning", "fr": "demain ; matin" },
-  "tarde": { "lemma": "tarde", "en": "afternoon, evening; late", "fr": "après-midi ; tard" },
-  "noche": { "lemma": "noche", "en": "night", "fr": "nuit, soir" },
-  "yo": { "lemma": "yo", "en": "I", "fr": "je, moi" },
-  "tú": { "lemma": "tú", "en": "you", "fr": "tu, toi", "note": "親しい相手に" },
-  "él": { "lemma": "él", "en": "he", "fr": "il, lui" },
-  "ella": { "lemma": "ella", "en": "she", "fr": "elle" },
-  "usted": { "lemma": "usted", "en": "you (formal)", "fr": "vous (politesse)" },
-  "nosotros": { "lemma": "nosotros", "en": "we", "fr": "nous" },
-  "nosotras": { "lemma": "nosotros", "en": "we (feminine)", "fr": "nous", "note": "女性だけのとき" },
-  "vosotros": { "lemma": "vosotros", "en": "you (plural)", "fr": "vous", "note": "スペインで使う" },
-  "ellos": { "lemma": "ellos", "en": "they", "fr": "ils, eux" },
-  "ellas": { "lemma": "ellas", "en": "they (feminine)", "fr": "elles" },
-  "ustedes": { "lemma": "ustedes", "en": "you (plural, formal)", "fr": "vous" },
-  "mi": { "lemma": "mi", "en": "my", "fr": "mon, ma" },
-  "mis": { "lemma": "mi", "en": "my", "fr": "mes", "note": "複数" },
-  "tu": { "lemma": "tu", "en": "your", "fr": "ton, ta" },
-  "su": { "lemma": "su", "en": "his, her, their, your", "fr": "son, sa, leur" },
-  "sus": { "lemma": "su", "en": "his, her, their, your", "fr": "ses, leurs", "note": "複数" },
-  "es": { "lemma": "ser", "en": "is", "fr": "est", "note": "ser の3人称単数・現在" },
-  "son": { "lemma": "ser", "en": "are", "fr": "sont", "note": "ser の3人称複数・現在" },
-  "soy": { "lemma": "ser", "en": "am", "fr": "suis", "note": "ser の1人称単数・現在" },
-  "eres": { "lemma": "ser", "en": "are", "fr": "es", "note": "ser の2人称単数・現在" },
-  "somos": { "lemma": "ser", "en": "are", "fr": "sommes", "note": "ser の1人称複数・現在" },
-  "sois": { "lemma": "ser", "en": "are", "fr": "êtes", "note": "ser の2人称複数・現在" },
-  "está": { "lemma": "estar", "en": "is", "fr": "est", "note": "estar の3人称単数・現在" },
-  "están": { "lemma": "estar", "en": "are", "fr": "sont", "note": "estar の3人称複数・現在" },
-  "estoy": { "lemma": "estar", "en": "am", "fr": "suis", "note": "estar の1人称単数・現在" },
-  "estás": { "lemma": "estar", "en": "are", "fr": "es", "note": "estar の2人称単数・現在" },
-  "estamos": { "lemma": "estar", "en": "are", "fr": "sommes", "note": "estar の1人称複数・現在" },
-  "hay": { "lemma": "haber", "en": "there is, there are", "fr": "il y a", "note": "haber の無人称形" },
-  "dice": { "lemma": "decir", "en": "says", "fr": "dit", "note": "decir の3人称単数・現在" },
-  "uno": { "lemma": "uno", "en": "one", "fr": "un" },
-  "dos": { "lemma": "dos", "en": "two", "fr": "deux" },
-  "tres": { "lemma": "tres", "en": "three", "fr": "trois" },
-  "cuatro": { "lemma": "cuatro", "en": "four", "fr": "quatre" },
-  "cinco": { "lemma": "cinco", "en": "five", "fr": "cinq" },
-  "seis": { "lemma": "seis", "en": "six", "fr": "six" },
-  "siete": { "lemma": "siete", "en": "seven", "fr": "sept" },
-  "ocho": { "lemma": "ocho", "en": "eight", "fr": "huit" },
-  "nueve": { "lemma": "nueve", "en": "nine", "fr": "neuf" },
-  "diez": { "lemma": "diez", "en": "ten", "fr": "dix" },
-  "yuki": { "lemma": "Yuki", "en": "Yuki", "fr": "Yuki", "note": "主人公。日本人の留学生" },
-  "lucía": { "lemma": "Lucía", "en": "Lucía", "fr": "Lucía", "note": "Yukiのルームメイト。マドリード出身" },
-  "diego": { "lemma": "Diego", "en": "Diego", "fr": "Diego", "note": "クラスメイト。メキシコ・グアダラハラ出身" },
-  "carmen": { "lemma": "Carmen", "en": "Carmen", "fr": "Carmen", "note": "Lucíaの祖母" },
-  "abuela": { "lemma": "abuela", "en": "grandmother", "fr": "grand-mère" },
-  "churro": { "lemma": "Churro", "en": "Churro (the cat)", "fr": "Churro (le chat)", "note": "アパートの猫の名前（本来は揚げ菓子 churro）" },
-  "señor": { "lemma": "señor", "en": "Mr., sir, gentleman", "fr": "monsieur" },
-  "señora": { "lemma": "señora", "en": "Mrs., madam, lady", "fr": "madame" }
+ "el": {
+  "lemma": "el",
+  "en": "the",
+  "fr": "le",
+  "note": "定冠詞・男性単数"
+ },
+ "la": {
+  "lemma": "el",
+  "en": "the",
+  "fr": "la",
+  "note": "定冠詞・女性単数（目的格代名詞「それを・彼女を」の場合もある）"
+ },
+ "los": {
+  "lemma": "el",
+  "en": "the",
+  "fr": "les",
+  "note": "定冠詞・男性複数"
+ },
+ "las": {
+  "lemma": "el",
+  "en": "the",
+  "fr": "les",
+  "note": "定冠詞・女性複数"
+ },
+ "un": {
+  "lemma": "uno",
+  "en": "a, an; one",
+  "fr": "un",
+  "note": "不定冠詞・男性単数"
+ },
+ "una": {
+  "lemma": "uno",
+  "en": "a, an; one",
+  "fr": "une",
+  "note": "不定冠詞・女性単数"
+ },
+ "unos": {
+  "lemma": "uno",
+  "en": "some",
+  "fr": "des, quelques",
+  "note": "不定冠詞・男性複数"
+ },
+ "unas": {
+  "lemma": "uno",
+  "en": "some",
+  "fr": "des, quelques",
+  "note": "不定冠詞・女性複数"
+ },
+ "al": {
+  "lemma": "a + el",
+  "en": "to the",
+  "fr": "au",
+  "note": "a + el の縮約"
+ },
+ "del": {
+  "lemma": "de + el",
+  "en": "of the, from the",
+  "fr": "du",
+  "note": "de + el の縮約"
+ },
+ "a": {
+  "lemma": "a",
+  "en": "to, at",
+  "fr": "à"
+ },
+ "de": {
+  "lemma": "de",
+  "en": "of, from",
+  "fr": "de"
+ },
+ "en": {
+  "lemma": "en",
+  "en": "in, on, at",
+  "fr": "dans, sur, en"
+ },
+ "con": {
+  "lemma": "con",
+  "en": "with",
+  "fr": "avec"
+ },
+ "sin": {
+  "lemma": "sin",
+  "en": "without",
+  "fr": "sans"
+ },
+ "para": {
+  "lemma": "para",
+  "en": "for, in order to",
+  "fr": "pour"
+ },
+ "por": {
+  "lemma": "por",
+  "en": "for, by, through",
+  "fr": "par, pour"
+ },
+ "entre": {
+  "lemma": "entre",
+  "en": "between, among",
+  "fr": "entre, parmi"
+ },
+ "sobre": {
+  "lemma": "sobre",
+  "en": "on, about",
+  "fr": "sur"
+ },
+ "debajo": {
+  "lemma": "debajo",
+  "en": "under (debajo de)",
+  "fr": "sous (debajo de)"
+ },
+ "encima": {
+  "lemma": "encima",
+  "en": "on top (encima de)",
+  "fr": "dessus (encima de)"
+ },
+ "hasta": {
+  "lemma": "hasta",
+  "en": "until, up to; even",
+  "fr": "jusqu'à ; même"
+ },
+ "desde": {
+  "lemma": "desde",
+  "en": "from, since",
+  "fr": "depuis, de"
+ },
+ "y": {
+  "lemma": "y",
+  "en": "and",
+  "fr": "et"
+ },
+ "o": {
+  "lemma": "o",
+  "en": "or",
+  "fr": "ou"
+ },
+ "pero": {
+  "lemma": "pero",
+  "en": "but",
+  "fr": "mais"
+ },
+ "que": {
+  "lemma": "que",
+  "en": "that, which; than",
+  "fr": "que, qui"
+ },
+ "qué": {
+  "lemma": "qué",
+  "en": "what",
+  "fr": "quoi, que, quel"
+ },
+ "quién": {
+  "lemma": "quién",
+  "en": "who",
+  "fr": "qui"
+ },
+ "dónde": {
+  "lemma": "dónde",
+  "en": "where",
+  "fr": "où"
+ },
+ "cómo": {
+  "lemma": "cómo",
+  "en": "how",
+  "fr": "comment"
+ },
+ "cuándo": {
+  "lemma": "cuándo",
+  "en": "when",
+  "fr": "quand"
+ },
+ "cuál": {
+  "lemma": "cuál",
+  "en": "which",
+  "fr": "lequel, quel"
+ },
+ "cuántos": {
+  "lemma": "cuánto",
+  "en": "how many",
+  "fr": "combien"
+ },
+ "cuántas": {
+  "lemma": "cuánto",
+  "en": "how many",
+  "fr": "combien"
+ },
+ "porque": {
+  "lemma": "porque",
+  "en": "because",
+  "fr": "parce que"
+ },
+ "no": {
+  "lemma": "no",
+  "en": "no, not",
+  "fr": "non, ne... pas"
+ },
+ "sí": {
+  "lemma": "sí",
+  "en": "yes",
+  "fr": "oui"
+ },
+ "si": {
+  "lemma": "si",
+  "en": "if",
+  "fr": "si"
+ },
+ "también": {
+  "lemma": "también",
+  "en": "also, too",
+  "fr": "aussi"
+ },
+ "tampoco": {
+  "lemma": "tampoco",
+  "en": "neither, not either",
+  "fr": "non plus"
+ },
+ "muy": {
+  "lemma": "muy",
+  "en": "very",
+  "fr": "très"
+ },
+ "mucho": {
+  "lemma": "mucho",
+  "en": "a lot, much",
+  "fr": "beaucoup"
+ },
+ "mucha": {
+  "lemma": "mucho",
+  "en": "a lot of, much",
+  "fr": "beaucoup de",
+  "note": "女性形"
+ },
+ "muchos": {
+  "lemma": "mucho",
+  "en": "many",
+  "fr": "beaucoup de",
+  "note": "男性複数"
+ },
+ "muchas": {
+  "lemma": "mucho",
+  "en": "many",
+  "fr": "beaucoup de",
+  "note": "女性複数"
+ },
+ "poco": {
+  "lemma": "poco",
+  "en": "little, not much",
+  "fr": "peu"
+ },
+ "más": {
+  "lemma": "más",
+  "en": "more",
+  "fr": "plus"
+ },
+ "menos": {
+  "lemma": "menos",
+  "en": "less",
+  "fr": "moins"
+ },
+ "bien": {
+  "lemma": "bien",
+  "en": "well, fine",
+  "fr": "bien"
+ },
+ "mal": {
+  "lemma": "mal",
+  "en": "badly",
+  "fr": "mal"
+ },
+ "aquí": {
+  "lemma": "aquí",
+  "en": "here",
+  "fr": "ici"
+ },
+ "allí": {
+  "lemma": "allí",
+  "en": "there",
+  "fr": "là-bas"
+ },
+ "ahora": {
+  "lemma": "ahora",
+  "en": "now",
+  "fr": "maintenant"
+ },
+ "siempre": {
+  "lemma": "siempre",
+  "en": "always",
+  "fr": "toujours"
+ },
+ "nunca": {
+  "lemma": "nunca",
+  "en": "never",
+  "fr": "jamais"
+ },
+ "todo": {
+  "lemma": "todo",
+  "en": "all, everything",
+  "fr": "tout"
+ },
+ "toda": {
+  "lemma": "todo",
+  "en": "all, whole",
+  "fr": "toute",
+  "note": "女性形"
+ },
+ "todos": {
+  "lemma": "todo",
+  "en": "all, everyone",
+  "fr": "tous",
+  "note": "男性複数"
+ },
+ "todas": {
+  "lemma": "todo",
+  "en": "all",
+  "fr": "toutes",
+  "note": "女性複数"
+ },
+ "ya": {
+  "lemma": "ya",
+  "en": "already; now",
+  "fr": "déjà"
+ },
+ "hoy": {
+  "lemma": "hoy",
+  "en": "today",
+  "fr": "aujourd'hui"
+ },
+ "mañana": {
+  "lemma": "mañana",
+  "en": "tomorrow; morning",
+  "fr": "demain ; matin"
+ },
+ "tarde": {
+  "lemma": "tarde",
+  "en": "afternoon, evening; late",
+  "fr": "après-midi ; tard"
+ },
+ "noche": {
+  "lemma": "noche",
+  "en": "night",
+  "fr": "nuit, soir"
+ },
+ "yo": {
+  "lemma": "yo",
+  "en": "I",
+  "fr": "je, moi"
+ },
+ "tú": {
+  "lemma": "tú",
+  "en": "you",
+  "fr": "tu, toi",
+  "note": "親しい相手に"
+ },
+ "él": {
+  "lemma": "él",
+  "en": "he",
+  "fr": "il, lui"
+ },
+ "ella": {
+  "lemma": "ella",
+  "en": "she",
+  "fr": "elle"
+ },
+ "usted": {
+  "lemma": "usted",
+  "en": "you (formal)",
+  "fr": "vous (politesse)"
+ },
+ "nosotros": {
+  "lemma": "nosotros",
+  "en": "we",
+  "fr": "nous"
+ },
+ "nosotras": {
+  "lemma": "nosotros",
+  "en": "we (feminine)",
+  "fr": "nous",
+  "note": "女性だけのとき"
+ },
+ "vosotros": {
+  "lemma": "vosotros",
+  "en": "you (plural)",
+  "fr": "vous",
+  "note": "スペインで使う"
+ },
+ "ellos": {
+  "lemma": "ellos",
+  "en": "they",
+  "fr": "ils, eux"
+ },
+ "ellas": {
+  "lemma": "ellas",
+  "en": "they (feminine)",
+  "fr": "elles"
+ },
+ "ustedes": {
+  "lemma": "ustedes",
+  "en": "you (plural, formal)",
+  "fr": "vous"
+ },
+ "mi": {
+  "lemma": "mi",
+  "en": "my",
+  "fr": "mon, ma"
+ },
+ "mis": {
+  "lemma": "mi",
+  "en": "my",
+  "fr": "mes",
+  "note": "複数"
+ },
+ "tu": {
+  "lemma": "tu",
+  "en": "your",
+  "fr": "ton, ta"
+ },
+ "su": {
+  "lemma": "su",
+  "en": "his, her, their, your",
+  "fr": "son, sa, leur"
+ },
+ "sus": {
+  "lemma": "su",
+  "en": "his, her, their, your",
+  "fr": "ses, leurs",
+  "note": "複数"
+ },
+ "es": {
+  "lemma": "ser",
+  "en": "is",
+  "fr": "est",
+  "note": "ser の3人称単数・現在"
+ },
+ "son": {
+  "lemma": "ser",
+  "en": "are",
+  "fr": "sont",
+  "note": "ser の3人称複数・現在"
+ },
+ "soy": {
+  "lemma": "ser",
+  "en": "am",
+  "fr": "suis",
+  "note": "ser の1人称単数・現在"
+ },
+ "eres": {
+  "lemma": "ser",
+  "en": "are",
+  "fr": "es",
+  "note": "ser の2人称単数・現在"
+ },
+ "somos": {
+  "lemma": "ser",
+  "en": "are",
+  "fr": "sommes",
+  "note": "ser の1人称複数・現在"
+ },
+ "sois": {
+  "lemma": "ser",
+  "en": "are",
+  "fr": "êtes",
+  "note": "ser の2人称複数・現在"
+ },
+ "está": {
+  "lemma": "estar",
+  "en": "is",
+  "fr": "est",
+  "note": "estar の3人称単数・現在"
+ },
+ "están": {
+  "lemma": "estar",
+  "en": "are",
+  "fr": "sont",
+  "note": "estar の3人称複数・現在"
+ },
+ "estoy": {
+  "lemma": "estar",
+  "en": "am",
+  "fr": "suis",
+  "note": "estar の1人称単数・現在"
+ },
+ "estás": {
+  "lemma": "estar",
+  "en": "are",
+  "fr": "es",
+  "note": "estar の2人称単数・現在"
+ },
+ "estamos": {
+  "lemma": "estar",
+  "en": "are",
+  "fr": "sommes",
+  "note": "estar の1人称複数・現在"
+ },
+ "hay": {
+  "lemma": "haber",
+  "en": "there is, there are",
+  "fr": "il y a",
+  "note": "haber の無人称形"
+ },
+ "dice": {
+  "lemma": "decir",
+  "en": "says",
+  "fr": "dit",
+  "note": "decir の3人称単数・現在"
+ },
+ "uno": {
+  "lemma": "uno",
+  "en": "one",
+  "fr": "un"
+ },
+ "dos": {
+  "lemma": "dos",
+  "en": "two",
+  "fr": "deux"
+ },
+ "tres": {
+  "lemma": "tres",
+  "en": "three",
+  "fr": "trois"
+ },
+ "cuatro": {
+  "lemma": "cuatro",
+  "en": "four",
+  "fr": "quatre"
+ },
+ "cinco": {
+  "lemma": "cinco",
+  "en": "five",
+  "fr": "cinq"
+ },
+ "seis": {
+  "lemma": "seis",
+  "en": "six",
+  "fr": "six"
+ },
+ "siete": {
+  "lemma": "siete",
+  "en": "seven",
+  "fr": "sept"
+ },
+ "ocho": {
+  "lemma": "ocho",
+  "en": "eight",
+  "fr": "huit"
+ },
+ "nueve": {
+  "lemma": "nueve",
+  "en": "nine",
+  "fr": "neuf"
+ },
+ "diez": {
+  "lemma": "diez",
+  "en": "ten",
+  "fr": "dix"
+ },
+ "yuki": {
+  "lemma": "Yuki",
+  "en": "Yuki",
+  "fr": "Yuki",
+  "note": "主人公。日本人の留学生"
+ },
+ "lucía": {
+  "lemma": "Lucía",
+  "en": "Lucía",
+  "fr": "Lucía",
+  "note": "Yukiのルームメイト。マドリード出身"
+ },
+ "diego": {
+  "lemma": "Diego",
+  "en": "Diego",
+  "fr": "Diego",
+  "note": "クラスメイト。メキシコ・グアダラハラ出身"
+ },
+ "carmen": {
+  "lemma": "Carmen",
+  "en": "Carmen",
+  "fr": "Carmen",
+  "note": "Lucíaの祖母"
+ },
+ "abuela": {
+  "lemma": "abuela",
+  "en": "grandmother",
+  "fr": "grand-mère"
+ },
+ "churro": {
+  "lemma": "Churro",
+  "en": "Churro (the cat)",
+  "fr": "Churro (le chat)",
+  "note": "アパートの猫の名前（本来は揚げ菓子 churro）"
+ },
+ "señor": {
+  "lemma": "señor",
+  "en": "Mr., sir, gentleman",
+  "fr": "monsieur"
+ },
+ "señora": {
+  "lemma": "señora",
+  "en": "Mrs., madam, lady",
+  "fr": "madame"
+ },
+ "me": {
+  "lemma": "me",
+  "en": "me, to me",
+  "fr": "me",
+  "note": "目的格代名詞（私を・私に）／再帰代名詞"
+ },
+ "te": {
+  "lemma": "te",
+  "en": "you, to you",
+  "fr": "te",
+  "note": "目的格代名詞（君を・君に）／再帰代名詞"
+ },
+ "lo": {
+  "lemma": "lo",
+  "en": "him, it",
+  "fr": "le",
+  "note": "直接目的格（彼を・それを）。中性で「そのこと」"
+ },
+ "le": {
+  "lemma": "le",
+  "en": "(to) him, her, you",
+  "fr": "lui",
+  "note": "間接目的格（彼に・彼女に・あなたに）"
+ },
+ "les": {
+  "lemma": "les",
+  "en": "(to) them, you",
+  "fr": "leur",
+  "note": "間接目的格（彼らに・あなた方に）"
+ },
+ "nos": {
+  "lemma": "nos",
+  "en": "us, to us",
+  "fr": "nous",
+  "note": "目的格代名詞／再帰代名詞"
+ },
+ "os": {
+  "lemma": "os",
+  "en": "you, to you (pl.)",
+  "fr": "vous",
+  "note": "目的格代名詞／再帰代名詞"
+ },
+ "se": {
+  "lemma": "se",
+  "en": "(to) him, her, them; oneself",
+  "fr": "se ; lui, leur",
+  "note": "le / les が lo・la の前で se になる。再帰代名詞でもある"
+ },
+ "mí": {
+  "lemma": "mí",
+  "en": "me",
+  "fr": "moi",
+  "note": "前置詞の後の形（a mí, para mí）"
+ },
+ "ti": {
+  "lemma": "ti",
+  "en": "you",
+  "fr": "toi",
+  "note": "前置詞の後の形（a ti, para ti）"
+ },
+ "tus": {
+  "lemma": "tu",
+  "en": "your",
+  "fr": "tes",
+  "note": "複数"
+ },
+ "nuestro": {
+  "lemma": "nuestro",
+  "en": "our",
+  "fr": "notre",
+  "note": "男性単数"
+ },
+ "nuestra": {
+  "lemma": "nuestro",
+  "en": "our",
+  "fr": "notre",
+  "note": "女性単数"
+ },
+ "nuestros": {
+  "lemma": "nuestro",
+  "en": "our",
+  "fr": "nos",
+  "note": "男性複数"
+ },
+ "nuestras": {
+  "lemma": "nuestro",
+  "en": "our",
+  "fr": "nos",
+  "note": "女性複数"
+ },
+ "tardes": {
+  "lemma": "tarde",
+  "en": "afternoon",
+  "fr": "après-midi",
+  "note": "Buenas tardes = こんにちは（昼食後〜夕方）"
+ },
+ "gusta": {
+  "lemma": "gustar",
+  "en": "to please (I like...)",
+  "fr": "plaire",
+  "note": "3人称単数・現在。me gusta = 私は〜が好き"
+ },
+ "gustan": {
+  "lemma": "gustar",
+  "en": "to please (I like...)",
+  "fr": "plaire",
+  "note": "3人称複数・現在。好きなものが複数のとき"
+ },
+ "tengo": {
+  "lemma": "tener",
+  "en": "to have",
+  "fr": "avoir",
+  "note": "1人称単数・現在"
+ },
+ "tienes": {
+  "lemma": "tener",
+  "en": "to have",
+  "fr": "avoir",
+  "note": "2人称単数・現在"
+ },
+ "tiene": {
+  "lemma": "tener",
+  "en": "to have",
+  "fr": "avoir",
+  "note": "3人称単数・現在"
+ },
+ "tenemos": {
+  "lemma": "tener",
+  "en": "to have",
+  "fr": "avoir",
+  "note": "1人称複数・現在"
+ },
+ "tienen": {
+  "lemma": "tener",
+  "en": "to have",
+  "fr": "avoir",
+  "note": "3人称複数・現在"
+ },
+ "voy": {
+  "lemma": "ir",
+  "en": "to go",
+  "fr": "aller",
+  "note": "1人称単数・現在"
+ },
+ "vas": {
+  "lemma": "ir",
+  "en": "to go",
+  "fr": "aller",
+  "note": "2人称単数・現在"
+ },
+ "va": {
+  "lemma": "ir",
+  "en": "to go",
+  "fr": "aller",
+  "note": "3人称単数・現在"
+ },
+ "vamos": {
+  "lemma": "ir",
+  "en": "to go",
+  "fr": "aller",
+  "note": "1人称複数・現在。「さあ〜しよう」の意味も"
+ },
+ "van": {
+  "lemma": "ir",
+  "en": "to go",
+  "fr": "aller",
+  "note": "3人称複数・現在"
+ },
+ "quiere": {
+  "lemma": "querer",
+  "en": "to want; to love",
+  "fr": "vouloir ; aimer",
+  "note": "3人称単数・現在"
+ },
+ "quiero": {
+  "lemma": "querer",
+  "en": "to want; to love",
+  "fr": "vouloir ; aimer",
+  "note": "1人称単数・現在"
+ },
+ "puede": {
+  "lemma": "poder",
+  "en": "can",
+  "fr": "pouvoir",
+  "note": "3人称単数・現在"
+ },
+ "puedo": {
+  "lemma": "poder",
+  "en": "can",
+  "fr": "pouvoir",
+  "note": "1人称単数・現在"
+ },
+ "hace": {
+  "lemma": "hacer",
+  "en": "to do, to make",
+  "fr": "faire",
+  "note": "3人称単数・現在。hace calor = 暑い（天候）"
+ }
 }

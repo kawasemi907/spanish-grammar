@@ -1710,6 +1710,198 @@
    }
   },
   {
+   "inf": "preferir",
+   "ja": "好む",
+   "group": "stem",
+   "part": "preferido",
+   "forms": {
+    "pres": [
+     "prefiero",
+     "prefieres",
+     "prefiere",
+     "preferimos",
+     "preferís",
+     "prefieren"
+    ],
+    "indef": [
+     "preferí",
+     "preferiste",
+     "prefirió",
+     "preferimos",
+     "preferisteis",
+     "prefirieron"
+    ],
+    "imperf": [
+     "prefería",
+     "preferías",
+     "prefería",
+     "preferíamos",
+     "preferíais",
+     "preferían"
+    ],
+    "subj": [
+     "prefiera",
+     "prefieras",
+     "prefiera",
+     "prefiramos",
+     "prefiráis",
+     "prefieran"
+    ],
+    "fut": [
+     "preferiré",
+     "preferirás",
+     "preferirá",
+     "preferiremos",
+     "preferiréis",
+     "preferirán"
+    ],
+    "cond": [
+     "preferiría",
+     "preferirías",
+     "preferiría",
+     "preferiríamos",
+     "preferiríais",
+     "preferirían"
+    ],
+    "perf": [
+     "he preferido",
+     "has preferido",
+     "ha preferido",
+     "hemos preferido",
+     "habéis preferido",
+     "han preferido"
+    ]
+   }
+  },
+  {
+   "inf": "entender",
+   "ja": "理解する",
+   "group": "stem",
+   "part": "entendido",
+   "forms": {
+    "pres": [
+     "entiendo",
+     "entiendes",
+     "entiende",
+     "entendemos",
+     "entendéis",
+     "entienden"
+    ],
+    "indef": [
+     "entendí",
+     "entendiste",
+     "entendió",
+     "entendimos",
+     "entendisteis",
+     "entendieron"
+    ],
+    "imperf": [
+     "entendía",
+     "entendías",
+     "entendía",
+     "entendíamos",
+     "entendíais",
+     "entendían"
+    ],
+    "subj": [
+     "entienda",
+     "entiendas",
+     "entienda",
+     "entendamos",
+     "entendáis",
+     "entiendan"
+    ],
+    "fut": [
+     "entenderé",
+     "entenderás",
+     "entenderá",
+     "entenderemos",
+     "entenderéis",
+     "entenderán"
+    ],
+    "cond": [
+     "entendería",
+     "entenderías",
+     "entendería",
+     "entenderíamos",
+     "entenderíais",
+     "entenderían"
+    ],
+    "perf": [
+     "he entendido",
+     "has entendido",
+     "ha entendido",
+     "hemos entendido",
+     "habéis entendido",
+     "han entendido"
+    ]
+   }
+  },
+  {
+   "inf": "encontrar",
+   "ja": "見つける",
+   "group": "stem",
+   "part": "encontrado",
+   "forms": {
+    "pres": [
+     "encuentro",
+     "encuentras",
+     "encuentra",
+     "encontramos",
+     "encontráis",
+     "encuentran"
+    ],
+    "indef": [
+     "encontré",
+     "encontraste",
+     "encontró",
+     "encontramos",
+     "encontrasteis",
+     "encontraron"
+    ],
+    "imperf": [
+     "encontraba",
+     "encontrabas",
+     "encontraba",
+     "encontrábamos",
+     "encontrabais",
+     "encontraban"
+    ],
+    "subj": [
+     "encuentre",
+     "encuentres",
+     "encuentre",
+     "encontremos",
+     "encontréis",
+     "encuentren"
+    ],
+    "fut": [
+     "encontraré",
+     "encontrarás",
+     "encontrará",
+     "encontraremos",
+     "encontraréis",
+     "encontrarán"
+    ],
+    "cond": [
+     "encontraría",
+     "encontrarías",
+     "encontraría",
+     "encontraríamos",
+     "encontraríais",
+     "encontrarían"
+    ],
+    "perf": [
+     "he encontrado",
+     "has encontrado",
+     "ha encontrado",
+     "hemos encontrado",
+     "habéis encontrado",
+     "han encontrado"
+    ]
+   }
+  },
+  {
    "inf": "pedir",
    "ja": "頼む",
    "group": "stem",

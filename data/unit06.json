@@ -1,0 +1,121 @@
+{
+  "id": 6,
+  "title": "語幹母音変化動詞",
+  "explain": {
+    "sections": [
+      {
+        "title": "強勢のある母音が変わる",
+        "body": "<p>語尾は規則動詞と同じだが、<b>強勢が語幹にくる形</b>だけ語幹の母音が変わる。nosotros と vosotros は強勢が語尾にあるので<b>変わらない</b>（表にすると長靴の形になる）。</p><table><tr><th></th><th>e → ie</th><th>o → ue</th><th>e → i</th></tr><tr><td>yo</td><td>qu<b>ie</b>ro</td><td>p<b>ue</b>do</td><td>p<b>i</b>do</td></tr><tr><td>tú</td><td>qu<b>ie</b>res</td><td>p<b>ue</b>des</td><td>p<b>i</b>des</td></tr><tr><td>él / usted</td><td>qu<b>ie</b>re</td><td>p<b>ue</b>de</td><td>p<b>i</b>de</td></tr><tr><td>nosotros</td><td>queremos</td><td>podemos</td><td>pedimos</td></tr><tr><td>vosotros</td><td>queréis</td><td>podéis</td><td>pedís</td></tr><tr><td>ellos / ustedes</td><td>qu<b>ie</b>ren</td><td>p<b>ue</b>den</td><td>p<b>i</b>den</td></tr></table>"
+      },
+      {
+        "title": "主な動詞",
+        "body": "<ul><li><b>e → ie</b>：querer（欲しい・愛する）, pensar（考える）, empezar（始まる）, cerrar（閉める）, preferir（好む）, entender（理解する）</li><li><b>o → ue</b>：poder（できる）, volver（戻る）, dormir（眠る）, encontrar（見つける）, costar（値段がする）</li><li><b>u → ue</b>：jugar（遊ぶ・競技をする）だけ</li><li><b>e → i</b>：pedir（頼む・注文する）, repetir（繰り返す）, servir（出す・役に立つ）… -ir 動詞だけ</li></ul><p>どのタイプかは原形からは判断できないので、覚えるしかない。</p>"
+      },
+      {
+        "title": "よく使う組み合わせ",
+        "body": "<ul><li><span class='es'>querer + 不定詞</span>：〜したい　<span class='es'>Quiero dormir.</span></li><li><span class='es'>poder + 不定詞</span>：〜できる・〜してもいい　<span class='es'>¿Puedo entrar?</span></li><li><span class='es'>pensar + 不定詞</span>：〜するつもりだ</li><li><span class='es'>empezar a + 不定詞</span>：〜し始める</li><li><span class='es'>volver a + 不定詞</span>：再び〜する</li><li><span class='es'>jugar al + スポーツ</span>：<span class='es'>jugar al fútbol</span>（a + el → al）</li></ul>"
+      }
+    ],
+    "french": "<ul><li>仏語にも同じ「長靴型」がある：<b>je veux / nous voulons</b>、<b>je peux / nous pouvons</b>、<b>je viens / nous venons</b>。強勢のない nous・vous で形が戻るのは同じ理屈。</li><li><span class='es'>querer</span> は <b>vouloir</b> だが、人が目的語なら <b>aimer</b>：<span class='es'>Te quiero.</span>（Je t'aime.）</li><li><span class='es'>jugar al fútbol</span> ＝ <b>jouer au football</b>。前置詞と冠詞の縮約までそっくり。</li><li><span class='es'>volver a + 不定詞</span> は仏語の接頭辞 <b>re-</b> に当たる：<span class='es'>volver a leer</span>（relire）。</li><li><span class='es'>pedir</span>（頼む）と <span class='es'>preguntar</span>（質問する）は、どちらも仏語では <b>demander</b>。</li></ul>",
+    "examples": [
+      { "es": "¿Quieres un café? —No, gracias, prefiero un té.", "en": "Do you want a coffee? —No thanks, I prefer tea.", "fr": "Tu veux un café ? — Non merci, je préfère un thé." },
+      { "es": "¿Puedes cerrar la ventana, por favor?", "en": "Can you close the window, please?", "fr": "Tu peux fermer la fenêtre, s'il te plaît ?" },
+      { "es": "La clase empieza a las nueve.", "en": "The class starts at nine.", "fr": "Le cours commence à neuf heures." },
+      { "es": "Diego juega al fútbol los domingos.", "en": "Diego plays football on Sundays.", "fr": "Diego joue au foot le dimanche." },
+      { "es": "Volvemos a casa en metro.", "en": "We go back home by metro.", "fr": "Nous rentrons à la maison en métro." },
+      { "es": "Churro duerme dieciséis horas al día.", "en": "Churro sleeps sixteen hours a day.", "fr": "Churro dort seize heures par jour." },
+      { "es": "En el bar siempre pido una tapa de tortilla.", "en": "At the bar I always order a tapa of tortilla.", "fr": "Au bar, je commande toujours une tapa de tortilla." },
+      { "es": "¿Cuánto cuesta este libro?", "en": "How much does this book cost?", "fr": "Combien coûte ce livre ?" }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "conj", "verb": "querer", "person": "yo", "tense": "直説法現在", "sentence": "Yo ___ un café.", "answer": ["quiero"], "explain": "e → ie：<b>quiero</b>, quieres, quiere, queremos, queréis, quieren" },
+    { "id": "q02", "type": "conj", "verb": "poder", "person": "tú", "tense": "直説法現在", "sentence": "¿Tú ___ cerrar la puerta?", "answer": ["puedes"], "explain": "o → ue：puedo, <b>puedes</b>, puede, podemos, podéis, pueden" },
+    { "id": "q03", "type": "conj", "verb": "pensar", "person": "nosotros", "tense": "直説法現在", "sentence": "Nosotros ___ en el examen.", "answer": ["pensamos"], "explain": "nosotros は強勢が語尾にあるので<b>変化しない</b>：<b>pensamos</b>（×piensamos）。" },
+    { "id": "q04", "type": "conj", "verb": "dormir", "person": "él", "tense": "直説法現在", "sentence": "Churro ___ en el sofá.", "answer": ["duerme"], "explain": "o → ue：<b>duerme</b>。" },
+    { "id": "q05", "type": "conj", "verb": "jugar", "person": "ellos", "tense": "直説法現在", "sentence": "Ellos ___ al fútbol.", "answer": ["juegan"], "explain": "u → ue はjugarだけ：<b>juegan</b>。" },
+    { "id": "q06", "type": "conj", "verb": "pedir", "person": "yo", "tense": "直説法現在", "sentence": "Siempre ___ una tapa de tortilla.", "answer": ["pido"], "explain": "e → i：<b>pido</b>, pides, pide, pedimos, pedís, piden" },
+    { "id": "q07", "type": "conj", "verb": "volver", "person": "vosotros", "tense": "直説法現在", "sentence": "¿A qué hora ___ a casa?", "answer": ["volvéis"], "explain": "vosotros は変化しない：<b>volvéis</b>。" },
+    { "id": "q08", "type": "conj", "verb": "empezar", "person": "él / ella", "tense": "直説法現在", "sentence": "La película ___ a las diez.", "answer": ["empieza"], "explain": "e → ie：<b>empieza</b>。" },
+    { "id": "q09", "type": "conj", "verb": "repetir", "person": "usted", "tense": "直説法現在", "sentence": "¿___ usted la pregunta, por favor?", "answer": ["Repite"], "explain": "e → i：<b>repite</b>。usted は3人称単数。" },
+    { "id": "q10", "type": "conj", "verb": "preferir", "person": "tú", "tense": "直説法現在", "sentence": "¿Qué ___, té o café?", "answer": ["prefieres"], "explain": "preferir は2つ目の e が変わる：<b>prefieres</b>。" },
+    { "id": "q11", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Nosotros no ___ dormir.", "options": ["podemos", "puedemos", "pueden"], "answer": "podemos", "explain": "nosotros は語幹が変わらない：<b>podemos</b>。" },
+    { "id": "q12", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "¿Cuánto ___ estas gafas?", "options": ["cuestan", "cuesta", "costan"], "answer": "cuestan", "explain": "主語は <span class='es'>estas gafas</span>（複数）→ <b>cuestan</b>（o → ue）。" },
+    { "id": "q13", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Yo no ___ la pregunta.", "options": ["entiendo", "entendo", "entiende"], "answer": "entiendo", "explain": "e → ie：<b>entiendo</b>。" },
+    { "id": "q14", "type": "fill", "prompt": "（ ）の動詞を正しい形にしよう", "sentence": "Los niños ___ (jugar) en el parque.", "answer": ["juegan"], "explain": "u → ue：<b>juegan</b>。" },
+    { "id": "q15", "type": "fill", "prompt": "（ ）の動詞を正しい形にしよう", "sentence": "La tienda ___ (cerrar) a las nueve.", "answer": ["cierra"], "explain": "e → ie：<b>cierra</b>。" },
+    { "id": "q16", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Yuki", "quiere", "aprender", "flamenco"], "answer": ["Yuki quiere aprender flamenco"], "en": "Yuki wants to learn flamenco.", "fr": "Yuki veut apprendre le flamenco.", "explain": "<b>querer + 不定詞</b>：〜したい。" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて疑問文を作ろう", "words": ["puedes", "repetir", "la", "pregunta", "por", "favor"], "answer": ["¿Puedes repetir la pregunta, por favor?"], "en": "Can you repeat the question, please?", "fr": "Tu peux répéter la question, s'il te plaît ?", "explain": "<b>poder + 不定詞</b> で依頼：〜してくれる？" },
+    { "id": "q18", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Diego", "juega", "al", "fútbol", "los", "domingos"], "answer": ["Diego juega al fútbol los domingos", "Los domingos Diego juega al fútbol"], "en": "Diego plays football on Sundays.", "fr": "Diego joue au foot le dimanche.", "explain": "<b>jugar al + スポーツ</b>。<span class='es'>los domingos</span>＝毎週日曜日に。" }
+  ],
+  "reading": {
+    "title": "La tortilla de la abuela",
+    "sentences": [
+      { "p": true, "es": "El domingo, Yuki y Lucía comen en casa de la abuela Carmen.", "en": "On Sunday, Yuki and Lucía have lunch at Grandma Carmen's house.", "fr": "Dimanche, Yuki et Lucía déjeunent chez grand-mère Carmen." },
+      { "es": "—Hoy quiero aprender a hacer una tortilla de patatas —dice Yuki.", "en": "\"Today I want to learn to make a potato omelette,\" says Yuki.", "fr": "« Aujourd'hui, je veux apprendre à faire une tortilla de pommes de terre », dit Yuki." },
+      { "es": "—¡Perfecto! Empezamos ahora —dice la abuela—. Primero, las patatas y la cebolla.", "en": "\"Perfect! We'll start now,\" says Grandma. \"First, the potatoes and the onion.\"", "fr": "« Parfait ! On commence maintenant, dit la grand-mère. D'abord, les pommes de terre et l'oignon. »" },
+      { "p": true, "es": "—¿Cebolla? —Lucía cierra los ojos—. Abuela, yo prefiero la tortilla sin cebolla.", "en": "\"Onion?\" Lucía closes her eyes. \"Grandma, I prefer tortilla without onion.\"", "fr": "« De l'oignon ? » Lucía ferme les yeux. « Mamie, je préfère la tortilla sans oignon. »" },
+      { "es": "En España, esta es una guerra muy seria: con cebolla o sin cebolla.", "en": "In Spain, this is a very serious war: with onion or without onion.", "fr": "En Espagne, c'est une guerre très sérieuse : avec ou sans oignon." },
+      { "es": "—En mi casa, la tortilla es con cebolla —responde la abuela—. Si no quieres cebolla, puedes comer pan.", "en": "\"In my house, tortilla is made with onion,\" Grandma replies. \"If you don't want onion, you can eat bread.\"", "fr": "« Chez moi, la tortilla, c'est avec de l'oignon, répond la grand-mère. Si tu ne veux pas d'oignon, tu peux manger du pain. »" },
+      { "p": true, "es": "Yuki no entiende el problema, pero piensa que la cebolla huele muy bien.", "en": "Yuki doesn't understand the problem, but she thinks the onion smells very good.", "fr": "Yuki ne comprend pas le problème, mais elle pense que l'oignon sent très bon." },
+      { "es": "Al final, la abuela vuelve la tortilla con un plato: ¡un momento muy peligroso!", "en": "Finally, Grandma flips the tortilla with a plate: a very dangerous moment!", "fr": "Enfin, la grand-mère retourne la tortilla avec une assiette : un moment très dangereux !" },
+      { "es": "Todos comen y todos repiten, también Lucía.", "en": "Everyone eats and everyone has seconds, Lucía too.", "fr": "Tout le monde mange et tout le monde se ressert, Lucía aussi." },
+      { "es": "—Bueno... con cebolla no está mal —dice en voz baja.", "en": "\"Well... with onion it's not bad,\" she says quietly.", "fr": "« Bon... avec de l'oignon, ce n'est pas mal », dit-elle à voix basse." },
+      { "p": true, "es": "Y Churro, debajo de la mesa, pide un trozo con los ojos.", "en": "And Churro, under the table, begs for a piece with his eyes.", "fr": "Et Churro, sous la table, réclame un morceau avec les yeux." },
+      { "es": "Después de comer, es la hora de la siesta.", "en": "After lunch, it's time for a siesta.", "fr": "Après le repas, c'est l'heure de la sieste." },
+      { "es": "Churro duerme en el sofá... y la abuela también.", "en": "Churro sleeps on the sofa... and so does Grandma.", "fr": "Churro dort sur le canapé... et la grand-mère aussi." }
+    ],
+    "glossary": {
+      "tortilla": { "lemma": "tortilla", "en": "Spanish omelette", "fr": "omelette espagnole", "note": "tortilla de patatas = じゃがいものオムレツ" },
+      "domingo": { "lemma": "domingo", "en": "Sunday", "fr": "dimanche" },
+      "comen": { "lemma": "comer", "en": "to eat, to have lunch", "fr": "manger, déjeuner", "note": "3人称複数・現在" },
+      "casa": { "lemma": "casa", "en": "house, home", "fr": "maison", "note": "en casa de ... = 〜の家で" },
+      "quiero": { "lemma": "querer", "en": "to want", "fr": "vouloir", "note": "1人称単数・現在（e → ie）" },
+      "aprender": { "lemma": "aprender", "en": "to learn", "fr": "apprendre", "note": "aprender a + 不定詞 = 〜することを学ぶ" },
+      "hacer": { "lemma": "hacer", "en": "to make, to do", "fr": "faire" },
+      "patatas": { "lemma": "patata", "en": "potato", "fr": "pomme de terre", "note": "複数形。中南米では papa" },
+      "perfecto": { "lemma": "perfecto", "en": "perfect", "fr": "parfait" },
+      "empezamos": { "lemma": "empezar", "en": "to start", "fr": "commencer", "note": "1人称複数・現在（nosotros は語幹が変わらない）" },
+      "primero": { "lemma": "primero", "en": "first", "fr": "d'abord" },
+      "cebolla": { "lemma": "cebolla", "en": "onion", "fr": "oignon" },
+      "cierra": { "lemma": "cerrar", "en": "to close", "fr": "fermer", "note": "3人称単数・現在（e → ie）" },
+      "ojos": { "lemma": "ojo", "en": "eye", "fr": "œil", "note": "複数形" },
+      "prefiero": { "lemma": "preferir", "en": "to prefer", "fr": "préférer", "note": "1人称単数・現在（e → ie）" },
+      "españa": { "lemma": "España", "en": "Spain", "fr": "Espagne" },
+      "esta": { "lemma": "este", "en": "this", "fr": "celle-ci, ce", "note": "指示代名詞・女性" },
+      "guerra": { "lemma": "guerra", "en": "war", "fr": "guerre" },
+      "seria": { "lemma": "serio", "en": "serious", "fr": "sérieux", "note": "女性形" },
+      "responde": { "lemma": "responder", "en": "to answer, to reply", "fr": "répondre", "note": "3人称単数・現在" },
+      "quieres": { "lemma": "querer", "en": "to want", "fr": "vouloir", "note": "2人称単数・現在（e → ie）" },
+      "puedes": { "lemma": "poder", "en": "can, to be able to", "fr": "pouvoir", "note": "2人称単数・現在（o → ue）" },
+      "comer": { "lemma": "comer", "en": "to eat", "fr": "manger" },
+      "pan": { "lemma": "pan", "en": "bread", "fr": "pain" },
+      "entiende": { "lemma": "entender", "en": "to understand", "fr": "comprendre", "note": "3人称単数・現在（e → ie）" },
+      "problema": { "lemma": "problema", "en": "problem", "fr": "problème", "note": "-a で終わる男性名詞" },
+      "piensa": { "lemma": "pensar", "en": "to think", "fr": "penser", "note": "3人称単数・現在（e → ie）" },
+      "huele": { "lemma": "oler", "en": "to smell", "fr": "sentir (odeur)", "note": "3人称単数・現在。o → hue と h がつく特殊な変化" },
+      "final": { "lemma": "final", "en": "end", "fr": "fin", "note": "al final = 最後に" },
+      "vuelve": { "lemma": "volver", "en": "to turn over; to return", "fr": "retourner", "note": "3人称単数・現在（o → ue）" },
+      "plato": { "lemma": "plato", "en": "plate", "fr": "assiette" },
+      "momento": { "lemma": "momento", "en": "moment", "fr": "moment" },
+      "peligroso": { "lemma": "peligroso", "en": "dangerous", "fr": "dangereux" },
+      "repiten": { "lemma": "repetir", "en": "to repeat; to have seconds", "fr": "répéter ; se resservir", "note": "3人称複数・現在（e → i）。食事では「おかわりする」" },
+      "bueno": { "lemma": "bueno", "en": "well...", "fr": "bon...", "note": "話のつなぎ" },
+      "voz": { "lemma": "voz", "en": "voice", "fr": "voix", "note": "en voz baja = 小声で" },
+      "baja": { "lemma": "bajo", "en": "low", "fr": "bas", "note": "女性形" },
+      "mesa": { "lemma": "mesa", "en": "table", "fr": "table" },
+      "pide": { "lemma": "pedir", "en": "to ask for, to order", "fr": "demander, commander", "note": "3人称単数・現在（e → i）" },
+      "trozo": { "lemma": "trozo", "en": "piece", "fr": "morceau" },
+      "después": { "lemma": "después", "en": "after (después de)", "fr": "après" },
+      "hora": { "lemma": "hora", "en": "hour, time", "fr": "heure" },
+      "siesta": { "lemma": "siesta", "en": "nap, siesta", "fr": "sieste", "note": "昼食後の昼寝。今は休日だけという人が多い" },
+      "duerme": { "lemma": "dormir", "en": "to sleep", "fr": "dormir", "note": "3人称単数・現在（o → ue）" },
+      "sofá": { "lemma": "sofá", "en": "sofa", "fr": "canapé" }
+    },
+    "quiz": [
+      { "q": "¿Qué quiere aprender Yuki?", "options": ["A hacer una tortilla", "A bailar flamenco", "A jugar al fútbol"], "answer": "A hacer una tortilla" },
+      { "q": "¿Cómo prefiere Lucía la tortilla?", "options": ["Sin cebolla", "Con cebolla", "Con pan"], "answer": "Sin cebolla" },
+      { "q": "¿Dónde duerme Churro después de comer?", "options": ["En el sofá", "Debajo de la mesa", "En la cocina"], "answer": "En el sofá" }
+    ]
+  }
+}

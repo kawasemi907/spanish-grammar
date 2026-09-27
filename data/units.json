@@ -28,27 +28,27 @@
   {
    "id": 6,
    "title": "語幹母音変化動詞",
-   "available": false
+   "available": true
   },
   {
    "id": 7,
    "title": "不規則動詞",
-   "available": false
+   "available": true
   },
   {
    "id": 8,
    "title": "所有詞・疑問詞",
-   "available": false
+   "available": true
   },
   {
    "id": 9,
    "title": "目的格代名詞",
-   "available": false
+   "available": true
   },
   {
    "id": 10,
    "title": "gustar型動詞",
-   "available": false
+   "available": true
   },
   {
    "id": 11,

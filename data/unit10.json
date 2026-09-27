@@ -1,0 +1,129 @@
+{
+  "id": 10,
+  "title": "gustar型動詞",
+  "explain": {
+    "sections": [
+      {
+        "title": "「〜が好き」＝「〜が（人に）気に入る」",
+        "body": "<p><span class='es'>gustar</span> は「〜が人の気に入る」という意味。<b>好きなもの</b>が主語で、人は<b>間接目的格</b>で表す。</p><table><tr><td>(a mí)</td><td><b>me</b></td><td rowspan='6'>gusta ＋ 単数名詞・不定詞<br>gustan ＋ 複数名詞</td></tr><tr><td>(a ti)</td><td><b>te</b></td></tr><tr><td>(a él / ella / usted)</td><td><b>le</b></td></tr><tr><td>(a nosotros)</td><td><b>nos</b></td></tr><tr><td>(a vosotros)</td><td><b>os</b></td></tr><tr><td>(a ellos / ustedes)</td><td><b>les</b></td></tr></table><p><span class='es'>Me gusta el café. Me gustan los gatos. Me gusta bailar.</span></p>"
+      },
+      {
+        "title": "ポイント",
+        "body": "<ul><li>動詞は<b>好きなもの</b>に合わせて gusta / gustan。人の数ではない：<span class='es'>Nos gusta el té.</span></li><li>名詞には定冠詞をつける：<span class='es'>Me gusta <b>el</b> té.</span>（×Me gusta té）</li><li>人を名前で言うときも代名詞は必要：<span class='es'>A Lucía <b>le</b> gusta el flamenco.</span></li><li>強調・対比には <span class='es'>a mí, a ti</span> …を加える：<span class='es'>A mí me gusta, pero a él no.</span></li></ul>"
+      },
+      {
+        "title": "同じ型の動詞とあいづち",
+        "body": "<ul><li><b>encantar</b>：大好きだ　<span class='es'>Me encantan las tapas.</span>（muy はつけない）</li><li><b>interesar</b>：興味がある　<span class='es'>Me interesa la historia.</span></li><li><b>doler</b>（o → ue）：痛む　<span class='es'>Me duele la cabeza. Me duelen los pies.</span></li><li><b>parecer</b>：〜と思える　<span class='es'>¿Qué te parece? —Me parece bien.</span></li></ul><table><tr><th>相手の文</th><th>同じ</th><th>違う</th></tr><tr><td>Me gusta.</td><td>A mí también.</td><td>A mí no.</td></tr><tr><td>No me gusta.</td><td>A mí tampoco.</td><td>A mí sí.</td></tr></table>"
+      }
+    ],
+    "french": "<ul><li><span class='es'>gustar</span> の構文は仏語の <b>plaire à</b> と同じ：<span class='es'>Me gusta el café.</span> ＝ <b>Le café me plaît.</b>（主語は café）。仏語の aimer のように「私が」を主語にしない。</li><li>名詞に定冠詞が必要なのも仏語と同じ：<b>J'aime le café.</b> → <span class='es'>Me gusta el café.</span></li><li><span class='es'>doler</span> は <b>avoir mal à</b>：<span class='es'>Me duele la cabeza.</span>（J'ai mal à la tête.）痛い部位には所有詞ではなく定冠詞を使う点も同じ。</li><li>あいづち：<span class='es'>A mí también / A mí tampoco / A mí sí</span> ＝ <b>Moi aussi / Moi non plus / Moi si</b>。</li><li><span class='es'>¿Qué te parece?</span> ＝ <b>Qu'est-ce que tu en penses ?</b></li></ul>",
+    "examples": [
+      { "es": "Me gusta mucho el café con leche.", "en": "I really like coffee with milk.", "fr": "J'aime beaucoup le café au lait." },
+      { "es": "¿Te gustan los gatos? —¡Me encantan!", "en": "Do you like cats? —I love them!", "fr": "Tu aimes les chats ? — Je les adore !" },
+      { "es": "A Diego le gusta jugar al fútbol.", "en": "Diego likes playing football.", "fr": "Diego aime jouer au foot." },
+      { "es": "A nosotros no nos gusta el frío.", "en": "We don't like the cold.", "fr": "Nous n'aimons pas le froid." },
+      { "es": "Me duele la cabeza.", "en": "I have a headache.", "fr": "J'ai mal à la tête." },
+      { "es": "¿Qué te parece este restaurante? —Me parece muy bueno.", "en": "What do you think of this restaurant? —I think it's very good.", "fr": "Que penses-tu de ce restaurant ? — Je le trouve très bon." },
+      { "es": "No me gusta el ajo. —A mí tampoco.", "en": "I don't like garlic. —Me neither.", "fr": "Je n'aime pas l'ail. — Moi non plus." },
+      { "es": "A mis padres les interesa mucho la historia de España.", "en": "My parents are very interested in the history of Spain.", "fr": "L'histoire de l'Espagne intéresse beaucoup mes parents." }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Me ___ los perros.", "options": ["gusta", "gustan", "gusto"], "answer": "gustan", "explain": "好きなもの <span class='es'>los perros</span> が複数 → <b>gustan</b>。" },
+    { "id": "q02", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "A Lucía ___ gusta bailar.", "options": ["le", "la", "se"], "answer": "le", "explain": "「Lucía に」は間接目的格 → <b>le</b>。" },
+    { "id": "q03", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "¿A vosotros ___ gusta el jamón?", "options": ["os", "vos", "les"], "answer": "os", "explain": "vosotros に対応する代名詞は <b>os</b>。" },
+    { "id": "q04", "type": "fill", "prompt": "（ ）の動詞を正しい形にしよう", "sentence": "A mí me ___ (gustar) el chocolate.", "answer": ["gusta"], "explain": "<span class='es'>el chocolate</span>（単数）→ <b>gusta</b>。" },
+    { "id": "q05", "type": "fill", "prompt": "（ ）の動詞を正しい形にしよう", "sentence": "A Yuki le ___ (encantar) las tapas.", "answer": ["encantan"], "explain": "<span class='es'>las tapas</span>（複数）→ <b>encantan</b>。" },
+    { "id": "q06", "type": "fill", "prompt": "（ ）の動詞を正しい形にしよう", "sentence": "Me ___ (doler) los pies.", "answer": ["duelen"], "explain": "doler は o → ue。<span class='es'>los pies</span>（複数）→ <b>duelen</b>。" },
+    { "id": "q07", "type": "fill", "prompt": "代名詞を入れよう", "sentence": "A nosotros ___ gusta viajar.", "answer": ["nos"], "explain": "a nosotros → <b>nos</b>。不定詞（viajar）は単数扱いで gusta。" },
+    { "id": "q08", "type": "fill", "prompt": "代名詞を入れよう", "sentence": "A mis amigos ___ gusta el fútbol.", "answer": ["les"], "explain": "a mis amigos（3人称複数）→ <b>les</b>。" },
+    { "id": "q09", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Me gusta ___.", "options": ["el té", "té", "los té"], "answer": "el té", "explain": "好きなもの（一般的な名詞）には<b>定冠詞</b>をつける。" },
+    { "id": "q10", "type": "choice", "prompt": "「私も（好きじゃない）」", "sentence": "No me gusta el ajo. —A mí ___.", "options": ["tampoco", "también", "sí"], "answer": "tampoco", "explain": "否定文への同意は <b>tampoco</b>。" },
+    { "id": "q11", "type": "choice", "prompt": "「私は好きじゃない」", "sentence": "Me gusta el pescado. —A mí ___.", "options": ["no", "tampoco", "también"], "answer": "no", "explain": "肯定文に反対するときは <b>A mí no.</b>" },
+    { "id": "q12", "type": "choice", "prompt": "「君に」を選ぼう", "sentence": "¿Qué ___ parece la idea?", "options": ["te", "tú", "ti"], "answer": "te", "explain": "parecer も gustar 型。「君に」は <b>te</b>。" },
+    { "id": "q13", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "A Diego ___ duele la cabeza.", "options": ["le", "lo", "se"], "answer": "le", "explain": "doler も間接目的格 → <b>le</b>。" },
+    { "id": "q14", "type": "fill", "prompt": "（ ）の動詞を正しい形にしよう", "sentence": "¿A ti te ___ (interesar) la historia?", "answer": ["interesa"], "explain": "<span class='es'>la historia</span>（単数）→ <b>interesa</b>。" },
+    { "id": "q15", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["A", "Diego", "le", "encantan", "los", "tacos"], "answer": ["A Diego le encantan los tacos"], "en": "Diego loves tacos.", "fr": "Diego adore les tacos.", "explain": "<b>a + 人 + le + encantan + 複数名詞</b>。" },
+    { "id": "q16", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["No", "nos", "gusta", "el", "frío"], "answer": ["No nos gusta el frío"], "en": "We don't like the cold.", "fr": "Nous n'aimons pas le froid.", "explain": "否定の <span class='es'>no</span> は代名詞の前。" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて疑問文を作ろう", "words": ["te", "gustan", "las", "películas", "españolas"], "answer": ["¿Te gustan las películas españolas?"], "en": "Do you like Spanish films?", "fr": "Tu aimes les films espagnols ?", "explain": "<span class='es'>las películas</span>（複数）→ <b>gustan</b>。" },
+    { "id": "q18", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["A", "mí", "me", "duele", "la", "cabeza"], "answer": ["A mí me duele la cabeza"], "en": "I have a headache.", "fr": "Moi, j'ai mal à la tête.", "explain": "<span class='es'>a mí</span> は強調。代名詞 <span class='es'>me</span> は省略できない。" }
+  ],
+  "reading": {
+    "title": "De tapas por La Latina",
+    "sentences": [
+      { "p": true, "es": "Es viernes por la noche y los amigos van de tapas por La Latina.", "en": "It's Friday night and the friends are going out for tapas in La Latina.", "fr": "C'est vendredi soir et les amis vont manger des tapas à La Latina." },
+      { "es": "A Lucía le encanta este plan: un bar, una tapa, otro bar, otra tapa...", "en": "Lucía loves this plan: a bar, a tapa, another bar, another tapa...", "fr": "Lucía adore ce programme : un bar, une tapa, un autre bar, une autre tapa..." },
+      { "es": "A Yuki le gustan mucho las croquetas y la tortilla.", "en": "Yuki really likes croquettes and tortilla.", "fr": "Yuki aime beaucoup les croquettes et la tortilla." },
+      { "es": "Pero no le gustan los caracoles.", "en": "But she doesn't like snails.", "fr": "Mais elle n'aime pas les escargots." },
+      { "es": "—¿Caracoles? ¡Me parecen muy interesantes! —dice la abuela, y pide dos raciones.", "en": "\"Snails? I find them very interesting!\" says Grandma, and orders two portions.", "fr": "« Des escargots ? Je les trouve très intéressants ! » dit la grand-mère, et elle commande deux portions." },
+      { "p": true, "es": "Diego prueba las patatas bravas y pone cara triste.", "en": "Diego tries the patatas bravas and makes a sad face.", "fr": "Diego goûte les patatas bravas et fait une tête triste." },
+      { "es": "—¿No te gustan? —pregunta Lucía.", "en": "\"Don't you like them?\" asks Lucía.", "fr": "« Tu ne les aimes pas ? » demande Lucía." },
+      { "es": "—Sí, pero no pican nada. En México, esto no es picante: ¡es una ensalada!", "en": "\"Yes, but they aren't spicy at all. In Mexico, this isn't spicy: it's a salad!\"", "fr": "« Si, mais elles ne piquent pas du tout. Au Mexique, ce n'est pas épicé : c'est une salade ! »" },
+      { "p": true, "es": "A las doce, a Yuki le duelen los pies y le duele un poco la cabeza.", "en": "At midnight, Yuki's feet hurt and her head hurts a little.", "fr": "À minuit, Yuki a mal aux pieds et un peu mal à la tête." },
+      { "es": "—¿Ya estás cansada? ¡La noche es joven! —dice la abuela.", "en": "\"Tired already? The night is young!\" says Grandma.", "fr": "« Tu es déjà fatiguée ? La nuit est jeune ! » dit la grand-mère." },
+      { "es": "En casa, Churro espera en la puerta.", "en": "At home, Churro is waiting at the door.", "fr": "À la maison, Churro attend à la porte." },
+      { "es": "A él no le interesan las croquetas ni los caracoles: le interesa una sola cosa, el jamón.", "en": "He isn't interested in croquettes or snails: only one thing interests him, ham.", "fr": "Les croquettes et les escargots ne l'intéressent pas : une seule chose l'intéresse, le jambon." },
+      { "es": "Por suerte, la abuela siempre lleva un poco en el bolso.", "en": "Luckily, Grandma always carries a bit in her handbag.", "fr": "Heureusement, la grand-mère en a toujours un peu dans son sac." }
+    ],
+    "glossary": {
+      "tapas": { "lemma": "tapa", "en": "tapa (small dish)", "fr": "tapa", "note": "複数形。ir de tapas = タパスを食べ歩く" },
+      "latina": { "lemma": "La Latina", "en": "La Latina", "fr": "La Latina", "note": "マドリードのバルが多い地区" },
+      "viernes": { "lemma": "viernes", "en": "Friday", "fr": "vendredi" },
+      "amigos": { "lemma": "amigo", "en": "friend", "fr": "ami", "note": "複数形" },
+      "van": { "lemma": "ir", "en": "to go", "fr": "aller", "note": "3人称複数・現在" },
+      "le": { "lemma": "le", "en": "(to) him, her, you", "fr": "lui", "note": "間接目的格・3人称単数" },
+      "encanta": { "lemma": "encantar", "en": "to love, to delight", "fr": "adorer, enchanter", "note": "3人称単数・現在。gustar 型" },
+      "este": { "lemma": "este", "en": "this", "fr": "ce", "note": "指示詞" },
+      "plan": { "lemma": "plan", "en": "plan", "fr": "plan, programme" },
+      "bar": { "lemma": "bar", "en": "bar", "fr": "bar" },
+      "tapa": { "lemma": "tapa", "en": "tapa (small dish)", "fr": "tapa", "note": "もとは「ふた」の意味" },
+      "otro": { "lemma": "otro", "en": "another", "fr": "un autre", "note": "不定冠詞をつけない" },
+      "otra": { "lemma": "otro", "en": "another", "fr": "une autre", "note": "女性形" },
+      "gustan": { "lemma": "gustar", "en": "to please, to like", "fr": "plaire", "note": "3人称複数・現在。好きなものが複数" },
+      "croquetas": { "lemma": "croqueta", "en": "croquette", "fr": "croquette", "note": "複数形" },
+      "tortilla": { "lemma": "tortilla", "en": "Spanish omelette", "fr": "omelette espagnole" },
+      "caracoles": { "lemma": "caracol", "en": "snail", "fr": "escargot", "note": "複数形。マドリードの伝統的なタパス" },
+      "parecen": { "lemma": "parecer", "en": "to seem", "fr": "sembler, paraître", "note": "3人称複数・現在。gustar 型" },
+      "interesantes": { "lemma": "interesante", "en": "interesting", "fr": "intéressant", "note": "複数形" },
+      "pide": { "lemma": "pedir", "en": "to order", "fr": "commander", "note": "3人称単数・現在" },
+      "raciones": { "lemma": "ración", "en": "portion", "fr": "portion", "note": "複数形。タパより大きい一皿" },
+      "prueba": { "lemma": "probar", "en": "to taste, to try", "fr": "goûter, essayer", "note": "3人称単数・現在（o → ue）" },
+      "patatas": { "lemma": "patata", "en": "potato", "fr": "pomme de terre", "note": "複数形" },
+      "bravas": { "lemma": "bravo", "en": "fierce", "fr": "féroce", "note": "patatas bravas = 辛いソースのポテト" },
+      "pone": { "lemma": "poner", "en": "to put", "fr": "mettre", "note": "poner cara ... = 〜な顔をする" },
+      "cara": { "lemma": "cara", "en": "face", "fr": "visage, tête" },
+      "triste": { "lemma": "triste", "en": "sad", "fr": "triste" },
+      "pregunta": { "lemma": "preguntar", "en": "to ask", "fr": "demander", "note": "3人称単数・現在" },
+      "pican": { "lemma": "picar", "en": "to be spicy; to sting", "fr": "piquer", "note": "3人称複数・現在" },
+      "nada": { "lemma": "nada", "en": "nothing; not at all", "fr": "rien ; pas du tout" },
+      "méxico": { "lemma": "México", "en": "Mexico", "fr": "Mexique", "note": "メキシコ料理は辛いことで有名" },
+      "esto": { "lemma": "esto", "en": "this", "fr": "ceci, ça" },
+      "picante": { "lemma": "picante", "en": "spicy", "fr": "épicé, piquant" },
+      "ensalada": { "lemma": "ensalada", "en": "salad", "fr": "salade" },
+      "doce": { "lemma": "doce", "en": "twelve", "fr": "douze", "note": "a las doce = 12時に（ここでは夜中）" },
+      "duelen": { "lemma": "doler", "en": "to hurt", "fr": "faire mal", "note": "3人称複数・現在（o → ue）" },
+      "pies": { "lemma": "pie", "en": "foot", "fr": "pied", "note": "複数形" },
+      "duele": { "lemma": "doler", "en": "to hurt", "fr": "faire mal", "note": "3人称単数・現在（o → ue）" },
+      "cabeza": { "lemma": "cabeza", "en": "head", "fr": "tête" },
+      "cansada": { "lemma": "cansado", "en": "tired", "fr": "fatigué", "note": "女性形" },
+      "joven": { "lemma": "joven", "en": "young", "fr": "jeune" },
+      "casa": { "lemma": "casa", "en": "home", "fr": "maison", "note": "en casa = 家で" },
+      "espera": { "lemma": "esperar", "en": "to wait", "fr": "attendre", "note": "3人称単数・現在" },
+      "puerta": { "lemma": "puerta", "en": "door", "fr": "porte" },
+      "interesan": { "lemma": "interesar", "en": "to interest", "fr": "intéresser", "note": "3人称複数・現在。gustar 型" },
+      "ni": { "lemma": "ni", "en": "nor, or", "fr": "ni" },
+      "interesa": { "lemma": "interesar", "en": "to interest", "fr": "intéresser", "note": "3人称単数・現在" },
+      "sola": { "lemma": "solo", "en": "only, single", "fr": "seul", "note": "女性形" },
+      "cosa": { "lemma": "cosa", "en": "thing", "fr": "chose" },
+      "jamón": { "lemma": "jamón", "en": "ham", "fr": "jambon", "note": "スペインの生ハムは国民食" },
+      "suerte": { "lemma": "suerte", "en": "luck", "fr": "chance", "note": "por suerte = 幸い" },
+      "lleva": { "lemma": "llevar", "en": "to carry, to bring", "fr": "porter, avoir sur soi", "note": "3人称単数・現在" },
+      "bolso": { "lemma": "bolso", "en": "handbag", "fr": "sac à main" }
+    },
+    "quiz": [
+      { "q": "¿Qué no le gusta a Yuki?", "options": ["Los caracoles", "Las croquetas", "La tortilla"], "answer": "Los caracoles" },
+      { "q": "¿Por qué pone cara triste Diego?", "options": ["Porque las patatas bravas no pican", "Porque le duele la cabeza", "Porque no hay tortilla"], "answer": "Porque las patatas bravas no pican" },
+      { "q": "¿Qué le interesa a Churro?", "options": ["El jamón", "Los caracoles", "Las croquetas"], "answer": "El jamón" }
+    ]
+  }
+}
