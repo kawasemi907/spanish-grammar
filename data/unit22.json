@@ -1,0 +1,113 @@
+{
+  "id": 22,
+  "title": "接続法の用法",
+  "explain": {
+    "sections": [
+      {
+        "title": "que 以下が接続法になる動詞・表現",
+        "body": "<ul><li><b>願望・依頼</b>：<span class='es'>querer que, esperar que, pedir que, recomendar que</span></li><li><b>感情</b>：<span class='es'>alegrarse de que, me gusta que, sentir que</span></li><li><b>価値判断</b>：<span class='es'>es importante / necesario / mejor que</span></li><li><b>否定・疑い</b>：<span class='es'>no creo que, dudar que</span></li></ul><p>主語が同じなら <b>que を使わず不定詞</b>：<span class='es'>Quiero ir.</span>（私が行きたい）／<span class='es'>Quiero que vayas.</span>（君に行ってほしい）</p>"
+      },
+      {
+        "title": "副詞節で接続法を使う",
+        "body": "<ul><li><b>para que</b>（〜するように）：<span class='es'>Te lo explico para que lo entiendas.</span></li><li><b>cuando ＋ 未来のこと</b>：<span class='es'>Cuando llegues, llámame.</span></li><li><b>antes de que</b>（〜する前に）、<b>hasta que</b>（〜するまで・未来）</li></ul>"
+      },
+      {
+        "title": "直説法との対比",
+        "body": "<table><tr><th>直説法（事実）</th><th>接続法（未実現・主観）</th></tr><tr><td>Creo que <b>viene</b>.</td><td>No creo que <b>venga</b>.</td></tr><tr><td>Cuando <b>llego</b>, me ducho.（いつも）</td><td>Cuando <b>llegue</b>, me ducharé.（これから）</td></tr><tr><td>Sé que <b>está</b> aquí.</td><td>Espero que <b>esté</b> aquí.</td></tr></table>"
+      }
+    ],
+    "french": "<ul><li>接続法を要求する表現はほぼ共通：<b>vouloir que, il faut que, il est important que, pour que, avant que</b> ＋ subjonctif。</li><li><span class='es'>creer que</span>（直説法）／<span class='es'>no creer que</span>（接続法）の区別も仏語と同じ。</li><li>違い①：<span class='es'>esperar que</span> は<b>接続法</b>（仏語の espérer que は直説法）。</li><li>違い②：未来の <span class='es'>cuando</span> は接続法現在：<span class='es'>Cuando llegues…</span>（仏語は Quand tu <b>arriveras</b>…と単純未来）。</li><li>主語が同じなら不定詞にするのも同じ：<span class='es'>Quiero ir.</span>（Je veux y aller.）</li></ul>",
+    "examples": [
+      { "es": "Espero que te guste el regalo.", "en": "I hope you like the present.", "fr": "J'espère que le cadeau te plaira." },
+      { "es": "Es importante que duermas bien antes del examen.", "en": "It's important that you sleep well before the exam.", "fr": "Il est important que tu dormes bien avant l'examen." },
+      { "es": "Me alegro de que estés aquí.", "en": "I'm glad you're here.", "fr": "Je suis content que tu sois là." },
+      { "es": "No creo que Diego llegue a tiempo.", "en": "I don't think Diego will arrive on time.", "fr": "Je ne crois pas que Diego arrive à l'heure." },
+      { "es": "Te lo explico para que lo entiendas.", "en": "I'm explaining it so that you understand it.", "fr": "Je te l'explique pour que tu le comprennes." },
+      { "es": "Cuando llegues a casa, llámame.", "en": "When you get home, call me.", "fr": "Quand tu arriveras à la maison, appelle-moi." },
+      { "es": "La profesora quiere que leamos este libro.", "en": "The teacher wants us to read this book.", "fr": "La professeure veut que nous lisions ce livre." },
+      { "es": "Quiero ir, pero no quiero que vayas sola.", "en": "I want to go, but I don't want you to go alone.", "fr": "Je veux y aller, mais je ne veux pas que tu y ailles seule." }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Espero que ___ bien.", "options": ["estés", "estás", "estar"], "answer": "estés", "explain": "<b>esperar que</b> ＋ 接続法。" },
+    { "id": "q02", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Creo que Diego ___ mañana.", "options": ["viene", "venga"], "answer": "viene", "explain": "肯定の <b>creer que</b> は直説法。" },
+    { "id": "q03", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "No creo que Diego ___ mañana.", "options": ["venga", "viene"], "answer": "venga", "explain": "否定の <b>no creer que</b> は接続法。" },
+    { "id": "q04", "type": "choice", "prompt": "「私が映画に行きたい」", "sentence": "Quiero ___ al cine.", "options": ["ir", "que vaya", "vaya"], "answer": "ir", "explain": "主語が同じなら <b>不定詞</b>。" },
+    { "id": "q05", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Cuando ___ a casa, llámame.", "options": ["llegues", "llegas", "llegarás"], "answer": "llegues", "explain": "未来のことを表す <b>cuando</b> は接続法。" },
+    { "id": "q06", "type": "choice", "prompt": "正しい形を選ぼう（毎日の習慣）", "sentence": "Cuando ___ a casa, siempre me ducho.", "options": ["llego", "llegue"], "answer": "llego", "explain": "習慣（事実）の cuando は<b>直説法</b>。" },
+    { "id": "q07", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Te lo explico para que lo ___.", "options": ["entiendas", "entiendes", "entender"], "answer": "entiendas", "explain": "<b>para que</b> ＋ 接続法。" },
+    { "id": "q08", "type": "fill", "prompt": "dormir（tú）を正しい形にしよう", "sentence": "Es importante que ___ bien.", "answer": ["duermas"], "explain": "<b>es importante que</b> ＋ 接続法：duermas。" },
+    { "id": "q09", "type": "fill", "prompt": "estar（tú）を正しい形にしよう", "sentence": "Me alegro de que ___ aquí.", "answer": ["estés"], "explain": "感情 <b>alegrarse de que</b> ＋ 接続法：estés。" },
+    { "id": "q10", "type": "fill", "prompt": "leer（nosotros）を正しい形にしよう", "sentence": "La profesora quiere que ___ este libro.", "answer": ["leamos"], "explain": "<b>querer que</b> ＋ 接続法：leamos。" },
+    { "id": "q11", "type": "fill", "prompt": "ir（tú）を正しい形にしよう", "sentence": "No quiero que ___ sola.", "answer": ["vayas"], "explain": "ir の接続法：<b>vayas</b>。" },
+    { "id": "q12", "type": "fill", "prompt": "hacer（vosotros）を正しい形にしよう", "sentence": "Os pido que ___ los deberes.", "answer": ["hagáis"], "explain": "<b>pedir que</b> ＋ 接続法：hagáis。" },
+    { "id": "q13", "type": "conj", "verb": "salir", "person": "ella", "tense": "接続法現在", "sentence": "Es mejor que Lucía ___ temprano.", "answer": ["salga"], "explain": "<b>es mejor que</b> ＋ 接続法。salgo → salga。" },
+    { "id": "q14", "type": "conj", "verb": "poder", "person": "él", "tense": "接続法現在", "sentence": "Espero que Diego ___ venir.", "answer": ["pueda"], "explain": "<b>esperar que</b> ＋ 接続法：pueda。" },
+    { "id": "q15", "type": "conj", "verb": "ser", "person": "nosotros", "tense": "接続法現在", "sentence": "Es necesario que ___ puntuales.", "answer": ["seamos"], "explain": "<b>es necesario que</b> ＋ 接続法：seamos。" },
+    { "id": "q16", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Espero", "que", "te", "guste", "el", "regalo"], "answer": ["Espero que te guste el regalo"], "en": "I hope you like the present.", "fr": "J'espère que le cadeau te plaira.", "explain": "esperar que ＋ 接続法（guste）。" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["No", "creo", "que", "llueva", "mañana"], "answer": ["No creo que llueva mañana"], "en": "I don't think it will rain tomorrow.", "fr": "Je ne crois pas qu'il pleuve demain.", "explain": "no creer que ＋ 接続法。" },
+    { "id": "q18", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Cuando", "llegues", "a", "casa", "llámame"], "answer": ["Cuando llegues a casa llámame", "Llámame cuando llegues a casa"], "en": "Call me when you get home.", "fr": "Appelle-moi quand tu arriveras à la maison.", "explain": "未来の cuando ＋ 接続法。" }
+  ],
+  "reading": {
+    "title": "Consejos antes del examen",
+    "sentences": [
+      { "p": true, "es": "Mañana Yuki tiene el examen DELE y está muy nerviosa.", "en": "Tomorrow Yuki has the DELE exam and she's very nervous.", "fr": "Demain, Yuki passe l'examen du DELE et elle est très nerveuse." },
+      { "es": "Todos quieren que le vaya bien, y todos le dan consejos.", "en": "Everyone wants it to go well for her, and everyone gives her advice.", "fr": "Tout le monde veut que ça se passe bien pour elle, et tout le monde lui donne des conseils." },
+      { "p": true, "es": "—Es importante que duermas ocho horas —dice Lucía—. Y no quiero que estudies esta noche.", "en": "\"It's important that you sleep eight hours,\" says Lucía. \"And I don't want you to study tonight.\"", "fr": "« Il est important que tu dormes huit heures, dit Lucía. Et je ne veux pas que tu étudies ce soir. »" },
+      { "es": "—Es mejor que desayunes bien —dice la abuela—. Te voy a preparar unas tostadas para que tengas energía.", "en": "\"It's better that you have a good breakfast,\" says Grandma. \"I'll make you some toast so that you have energy.\"", "fr": "« Il vaut mieux que tu prennes un bon petit-déjeuner, dit la grand-mère. Je vais te préparer des tartines pour que tu aies de l'énergie. »" },
+      { "es": "—Yo te recomiendo que lleves algo para la suerte —dice Diego, y le da una pequeña calavera de azúcar.", "en": "\"I recommend you take something for luck,\" says Diego, and he gives her a little sugar skull.", "fr": "« Moi, je te conseille d'emporter un porte-bonheur », dit Diego, et il lui donne une petite tête de mort en sucre." },
+      { "p": true, "es": "Yuki se ríe.", "en": "Yuki laughs.", "fr": "Yuki rit." },
+      { "es": "—No creo que una calavera me ayude con el subjuntivo.", "en": "\"I don't think a skull is going to help me with the subjunctive.\"", "fr": "« Je ne crois pas qu'une tête de mort m'aide avec le subjonctif. »" },
+      { "es": "—Nunca se sabe —responde Diego.", "en": "\"You never know,\" replies Diego.", "fr": "« On ne sait jamais », répond Diego." },
+      { "p": true, "es": "Esa noche, cuando Yuki se acuesta, Churro se sube a su cama.", "en": "That night, when Yuki goes to bed, Churro climbs onto her bed.", "fr": "Ce soir-là, quand Yuki se couche, Churro monte sur son lit." },
+      { "es": "Él no da consejos.", "en": "He doesn't give advice.", "fr": "Lui ne donne pas de conseils." },
+      { "es": "Solo espera que Yuki le deje un poco de sitio... y un poco de las tostadas de mañana.", "en": "He just hopes Yuki leaves him a bit of room... and a bit of tomorrow's toast.", "fr": "Il espère seulement que Yuki lui laisse un peu de place... et un peu des tartines de demain." }
+    ],
+    "glossary": {
+      "consejos": { "lemma": "consejo", "en": "advice", "fr": "conseil", "note": "複数形" },
+      "antes": { "lemma": "antes", "en": "before (antes de)", "fr": "avant" },
+      "examen": { "lemma": "examen", "en": "exam", "fr": "examen" },
+      "dele": { "lemma": "DELE", "en": "DELE (Spanish diploma)", "fr": "DELE (diplôme d'espagnol)", "note": "スペイン政府公認のスペイン語検定" },
+      "nerviosa": { "lemma": "nervioso", "en": "nervous", "fr": "nerveux", "note": "女性形" },
+      "quieren": { "lemma": "querer", "en": "to want", "fr": "vouloir", "note": "3人称複数・現在" },
+      "vaya": { "lemma": "ir", "en": "to go", "fr": "aller", "note": "3人称単数・接続法現在。irle bien a alguien = 〜にとってうまくいく" },
+      "dan": { "lemma": "dar", "en": "to give", "fr": "donner", "note": "3人称複数・現在" },
+      "importante": { "lemma": "importante", "en": "important", "fr": "important" },
+      "duermas": { "lemma": "dormir", "en": "to sleep", "fr": "dormir", "note": "2人称単数・接続法現在" },
+      "horas": { "lemma": "hora", "en": "hour", "fr": "heure", "note": "複数形" },
+      "estudies": { "lemma": "estudiar", "en": "to study", "fr": "étudier", "note": "2人称単数・接続法現在" },
+      "noche": { "lemma": "noche", "en": "night", "fr": "nuit, soir" },
+      "mejor": { "lemma": "mejor", "en": "better", "fr": "mieux", "note": "es mejor que + 接続法 = 〜したほうがよい" },
+      "desayunes": { "lemma": "desayunar", "en": "to have breakfast", "fr": "prendre le petit-déjeuner", "note": "2人称単数・接続法現在" },
+      "preparar": { "lemma": "preparar", "en": "to prepare", "fr": "préparer" },
+      "tostadas": { "lemma": "tostada", "en": "toast", "fr": "tartine grillée", "note": "複数形" },
+      "tengas": { "lemma": "tener", "en": "to have", "fr": "avoir", "note": "2人称単数・接続法現在" },
+      "energía": { "lemma": "energía", "en": "energy", "fr": "énergie" },
+      "recomiendo": { "lemma": "recomendar", "en": "to recommend", "fr": "recommander, conseiller", "note": "1人称単数・現在（e → ie）" },
+      "lleves": { "lemma": "llevar", "en": "to take, to carry", "fr": "emporter", "note": "2人称単数・接続法現在" },
+      "algo": { "lemma": "algo", "en": "something", "fr": "quelque chose" },
+      "suerte": { "lemma": "suerte", "en": "luck", "fr": "chance" },
+      "da": { "lemma": "dar", "en": "to give", "fr": "donner", "note": "3人称単数・現在" },
+      "pequeña": { "lemma": "pequeño", "en": "small", "fr": "petit", "note": "女性形" },
+      "calavera": { "lemma": "calavera", "en": "skull", "fr": "tête de mort", "note": "calavera de azúcar = 死者の日の砂糖菓子" },
+      "azúcar": { "lemma": "azúcar", "en": "sugar", "fr": "sucre" },
+      "ríe": { "lemma": "reírse", "en": "to laugh", "fr": "rire", "note": "3人称単数・現在" },
+      "creo": { "lemma": "creer", "en": "to believe, to think", "fr": "croire", "note": "1人称単数・現在" },
+      "ayude": { "lemma": "ayudar", "en": "to help", "fr": "aider", "note": "3人称単数・接続法現在" },
+      "subjuntivo": { "lemma": "subjuntivo", "en": "subjunctive", "fr": "subjonctif" },
+      "sabe": { "lemma": "saber", "en": "to know", "fr": "savoir", "note": "Nunca se sabe = 何が起こるかわからない" },
+      "responde": { "lemma": "responder", "en": "to reply", "fr": "répondre", "note": "3人称単数・現在" },
+      "acuesta": { "lemma": "acostarse", "en": "to go to bed", "fr": "se coucher", "note": "3人称単数・現在（o → ue）" },
+      "sube": { "lemma": "subirse", "en": "to climb onto", "fr": "monter sur", "note": "3人称単数・現在" },
+      "cama": { "lemma": "cama", "en": "bed", "fr": "lit" },
+      "espera": { "lemma": "esperar", "en": "to hope; to wait", "fr": "espérer ; attendre", "note": "3人称単数・現在。esperar que + 接続法" },
+      "deje": { "lemma": "dejar", "en": "to leave, to let", "fr": "laisser", "note": "3人称単数・接続法現在" },
+      "sitio": { "lemma": "sitio", "en": "room, place", "fr": "place" }
+    },
+    "quiz": [
+      { "q": "¿Qué no quiere Lucía que haga Yuki esta noche?", "options": ["Que estudie", "Que duerma", "Que desayune"], "answer": "Que estudie" },
+      { "q": "¿Para qué prepara la abuela unas tostadas?", "options": ["Para que Yuki tenga energía", "Para que Churro coma", "Para que Diego se quede"], "answer": "Para que Yuki tenga energía" },
+      { "q": "¿Qué le da Diego a Yuki?", "options": ["Una calavera de azúcar", "Un libro de gramática", "Una moneda"], "answer": "Una calavera de azúcar" }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "id": 24,
+  "title": "受身",
+  "explain": {
+    "sections": [
+      {
+        "title": "ser ＋ 過去分詞（＋ por 動作主）",
+        "body": "<p>「〜される」。過去分詞は<b>主語に性数一致</b>する。</p><ul><li><span class='es'>El palacio fue construid<b>o</b> en el siglo XVIII.</span></li><li><span class='es'>La carta fue escrit<b>a</b> por Carmen.</span></li><li><span class='es'>Las entradas fueron vendid<b>as</b> en una hora.</span></li></ul><p>動作主は <b>por</b> で示す。主に<b>書き言葉</b>（歴史・ニュース）で使い、会話では次の se 受身が普通。</p>"
+      },
+      {
+        "title": "再帰受身（se ＋ 3人称の動詞）",
+        "body": "<ul><li><b>se ＋ 動詞（3人称）＋ 主語</b>：<span class='es'>Se venden pisos.</span>（マンション売ります）<span class='es'>Se habla español.</span></li><li>動詞は後ろの名詞（主語）に合わせて単数・複数：<span class='es'>se vende una casa ／ se venden casas</span></li><li>動作主は言わない。</li><li>人一般を主語にする無人称の se：<span class='es'>Aquí se vive bien. ¿Cómo se dice…?</span></li></ul>"
+      },
+      {
+        "title": "estar ＋ 過去分詞（結果の状態）",
+        "body": "<p>動作の<b>結果の状態</b>を表す。過去分詞は主語に一致。</p><ul><li><span class='es'>La tienda <b>está cerrada</b>.</span>（閉まっている）</li><li><span class='es'>La puerta <b>fue abierta</b> por el portero.</span>（開けられた：動作）／<span class='es'>La puerta <b>está abierta</b>.</span>（開いている：状態）</li></ul>"
+      }
+    ],
+    "french": "<ul><li><span class='es'>ser ＋ 過去分詞 ＋ por</span> は仏語の <b>être ＋ 過去分詞 ＋ par</b> と同じ。性数一致も同じ：<span class='es'>fue construida</span>（a été construite）。</li><li>se 受身は仏語の <b>on</b> や代名動詞に当たる：<span class='es'>Se habla español.</span>（On parle espagnol.）<span class='es'>Se venden bicicletas.</span>（Vélos à vendre / Des vélos se vendent.）</li><li>仏語の <b>La porte est ouverte</b> は「開けられる」「開いている」の両方になりうるが、西語は <span class='es'>es abierta</span>（動作）と <span class='es'>está abierta</span>（状態）で区別する。</li></ul>",
+    "examples": [
+      { "es": "El Palacio Real fue construido en el siglo XVIII.", "en": "The Royal Palace was built in the 18th century.", "fr": "Le Palais royal a été construit au XVIIIe siècle." },
+      { "es": "Este libro fue escrito por Cervantes.", "en": "This book was written by Cervantes.", "fr": "Ce livre a été écrit par Cervantes." },
+      { "es": "En México se habla español.", "en": "Spanish is spoken in Mexico.", "fr": "Au Mexique, on parle espagnol." },
+      { "es": "Se venden bicicletas.", "en": "Bicycles for sale.", "fr": "Vélos à vendre." },
+      { "es": "La tienda está cerrada los domingos.", "en": "The shop is closed on Sundays.", "fr": "Le magasin est fermé le dimanche." },
+      { "es": "Las entradas fueron vendidas en una hora.", "en": "The tickets were sold in an hour.", "fr": "Les billets ont été vendus en une heure." },
+      { "es": "¿Cómo se dice «gracias» en japonés?", "en": "How do you say \"thank you\" in Japanese?", "fr": "Comment dit-on « merci » en japonais ?" },
+      { "es": "Aquí se come muy bien.", "en": "You eat very well here.", "fr": "Ici, on mange très bien." }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "fill", "prompt": "construir の過去分詞を一致させよう", "sentence": "La Plaza Mayor fue ___ en el siglo XVII.", "answer": ["construida"], "explain": "主語 <span class='es'>la plaza</span>（女性単数）→ <b>construida</b>。" },
+    { "id": "q02", "type": "fill", "prompt": "escribir の過去分詞を一致させよう", "sentence": "Estas cartas fueron ___ por la abuela.", "answer": ["escritas"], "explain": "不規則形 escrito を女性複数に：<b>escritas</b>。" },
+    { "id": "q03", "type": "fill", "prompt": "pintar の過去分詞を一致させよう", "sentence": "El Guernica fue ___ por Picasso.", "answer": ["pintado"], "explain": "主語 <span class='es'>el Guernica</span>（男性単数）→ <b>pintado</b>。" },
+    { "id": "q04", "type": "fill", "prompt": "vender の過去分詞を一致させよう", "sentence": "Todas las entradas fueron ___.", "answer": ["vendidas"], "explain": "<span class='es'>las entradas</span>（女性複数）→ <b>vendidas</b>。" },
+    { "id": "q05", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Se ___ pisos.", "options": ["venden", "vende"], "answer": "venden", "explain": "主語 <span class='es'>pisos</span> が複数 → <b>venden</b>。" },
+    { "id": "q06", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Aquí se ___ español.", "options": ["habla", "hablan"], "answer": "habla", "explain": "主語 <span class='es'>español</span> は単数 → <b>habla</b>。" },
+    { "id": "q07", "type": "choice", "prompt": "「開いている」（状態）", "sentence": "La puerta ___ abierta.", "options": ["está", "es", "fue"], "answer": "está", "explain": "結果の状態は <b>estar</b> ＋ 過去分詞。" },
+    { "id": "q08", "type": "choice", "prompt": "「建てられた」（動作）", "sentence": "El palacio ___ construido en 1764.", "options": ["fue", "estuvo", "está"], "answer": "fue", "explain": "受身の動作は <b>ser</b> ＋ 過去分詞。" },
+    { "id": "q09", "type": "choice", "prompt": "動作主を表す前置詞", "sentence": "Esta novela fue escrita ___ Cervantes.", "options": ["por", "de", "para"], "answer": "por", "explain": "動作主は <b>por</b>。" },
+    { "id": "q10", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "¿Cómo se ___ «gracias» en japonés?", "options": ["dice", "dicen", "decir"], "answer": "dice", "explain": "<span class='es'>¿Cómo se dice…?</span>（〜はどう言いますか）。" },
+    { "id": "q11", "type": "conj", "verb": "ser", "person": "él", "tense": "点過去", "sentence": "El acueducto ___ construido por los romanos.", "answer": ["fue"], "explain": "過去の受身：<b>fue</b> ＋ 過去分詞。" },
+    { "id": "q12", "type": "fill", "prompt": "abrir の過去分詞を一致させよう", "sentence": "Las tiendas están ___ hasta las diez.", "answer": ["abiertas"], "explain": "不規則形 abierto を女性複数に：<b>abiertas</b>。" },
+    { "id": "q13", "type": "fill", "prompt": "cerrar の過去分詞を一致させよう", "sentence": "El museo está ___ los lunes.", "answer": ["cerrado"], "explain": "<span class='es'>el museo</span>（男性単数）→ <b>cerrado</b>。" },
+    { "id": "q14", "type": "fill", "prompt": "romper の過去分詞を一致させよう", "sentence": "La ventana está ___.", "answer": ["rota"], "explain": "不規則形 roto を女性形に：<b>rota</b>。" },
+    { "id": "q15", "type": "choice", "prompt": "無人称の se", "sentence": "En este bar se ___ muy bien.", "options": ["come", "comen", "comemos"], "answer": "come", "explain": "人一般を表す無人称の se は3人称単数：<b>se come</b>。" },
+    { "id": "q16", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["El", "Guernica", "fue", "pintado", "por", "Picasso"], "answer": ["El Guernica fue pintado por Picasso"], "en": "Guernica was painted by Picasso.", "fr": "Guernica a été peint par Picasso.", "explain": "ser ＋ 過去分詞 ＋ por。" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["En", "México", "se", "habla", "español"], "answer": ["En México se habla español", "Se habla español en México"], "en": "Spanish is spoken in Mexico.", "fr": "Au Mexique, on parle espagnol.", "explain": "se 受身。" },
+    { "id": "q18", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["La", "tienda", "está", "cerrada", "los", "domingos"], "answer": ["La tienda está cerrada los domingos", "Los domingos la tienda está cerrada"], "en": "The shop is closed on Sundays.", "fr": "Le magasin est fermé le dimanche.", "explain": "estar ＋ 過去分詞（状態）。" }
+  ],
+  "reading": {
+    "title": "Diego, guía turístico",
+    "sentences": [
+      { "p": true, "es": "¡Los padres de Yuki han venido a Madrid!", "en": "Yuki's parents have come to Madrid!", "fr": "Les parents de Yuki sont venus à Madrid !" },
+      { "es": "Diego es su guía hoy, con el sombrero enorme del Rastro.", "en": "Diego is their guide today, wearing the enormous hat from the Rastro.", "fr": "Diego est leur guide aujourd'hui, avec l'énorme chapeau du Rastro." },
+      { "p": true, "es": "—Esta es la Plaza Mayor. Fue construida en el siglo XVII y fue usada para mercados, fiestas y corridas de toros.", "en": "\"This is the Plaza Mayor. It was built in the 17th century and was used for markets, festivals and bullfights.\"", "fr": "« Voici la Plaza Mayor. Elle a été construite au XVIIe siècle et a servi pour des marchés, des fêtes et des corridas. »" },
+      { "es": "Aquí se venden los famosos bocadillos de calamares.", "en": "\"The famous squid sandwiches are sold here.\"", "fr": "« Ici, on vend les fameux sandwichs aux calamars. »" },
+      { "es": "El padre de Yuki saca muchas fotos. La madre prueba un bocadillo y dice: «¡Oishii!».", "en": "Yuki's father takes lots of photos. Her mother tries a sandwich and says: \"Oishii!\"", "fr": "Le père de Yuki prend beaucoup de photos. Sa mère goûte un sandwich et dit : « Oishii ! »" },
+      { "p": true, "es": "—Y aquel edificio es el Palacio Real —sigue Diego—. Fue construido en el siglo XVIII y tiene más de tres mil habitaciones.", "en": "\"And that building over there is the Royal Palace,\" Diego goes on. \"It was built in the 18th century and has more than three thousand rooms.\"", "fr": "« Et ce bâtiment là-bas, c'est le Palais royal, continue Diego. Il a été construit au XVIIIe siècle et il compte plus de trois mille pièces. »" },
+      { "es": "—¿Y está abierto hoy? —pregunta Yuki.", "en": "\"And is it open today?\" asks Yuki.", "fr": "« Et il est ouvert aujourd'hui ? » demande Yuki." },
+      { "es": "Diego mira la puerta. Hay un cartel: «Cerrado por visita oficial».", "en": "Diego looks at the gate. There's a sign: \"Closed for an official visit.\"", "fr": "Diego regarde la porte. Il y a un panneau : « Fermé pour visite officielle »." },
+      { "es": "—Bueno... desde fuera también se ve muy bien, ¿no?", "en": "\"Well... it looks great from outside too, doesn't it?\"", "fr": "« Bon... de l'extérieur aussi, il est très beau, non ? »" },
+      { "p": true, "es": "Los padres de Yuki se ríen.", "en": "Yuki's parents laugh.", "fr": "Les parents de Yuki rient." },
+      { "es": "Para ellos, lo mejor del viaje es otra cosa: su hija habla español.", "en": "For them, the best part of the trip is something else: their daughter speaks Spanish.", "fr": "Pour eux, le meilleur du voyage, c'est autre chose : leur fille parle espagnol." }
+    ],
+    "glossary": {
+      "guía": { "lemma": "guía", "en": "guide", "fr": "guide" },
+      "turístico": { "lemma": "turístico", "en": "tourist (adj.)", "fr": "touristique" },
+      "padres": { "lemma": "padre", "en": "parents", "fr": "parents", "note": "複数形で「両親」" },
+      "han": { "lemma": "haber", "en": "have (auxiliary)", "fr": "ont (auxiliaire)", "note": "3人称複数・現在" },
+      "venido": { "lemma": "venir", "en": "come", "fr": "venu", "note": "過去分詞" },
+      "sombrero": { "lemma": "sombrero", "en": "hat", "fr": "chapeau", "note": "ユニット4で Diego が買った帽子" },
+      "enorme": { "lemma": "enorme", "en": "enormous", "fr": "énorme" },
+      "rastro": { "lemma": "Rastro", "en": "the Rastro", "fr": "le Rastro" },
+      "plaza": { "lemma": "plaza", "en": "square", "fr": "place" },
+      "mayor": { "lemma": "mayor", "en": "main", "fr": "principal", "note": "Plaza Mayor = 中央広場" },
+      "fue": { "lemma": "ser", "en": "was", "fr": "a été", "note": "3人称単数・点過去（受身の助動詞）" },
+      "construida": { "lemma": "construir", "en": "built", "fr": "construite", "note": "過去分詞・女性形" },
+      "siglo": { "lemma": "siglo", "en": "century", "fr": "siècle" },
+      "xvii": { "lemma": "XVII (diecisiete)", "en": "17th", "fr": "XVIIe", "note": "世紀はローマ数字で書き、siglo diecisiete と読む" },
+      "usada": { "lemma": "usar", "en": "used", "fr": "utilisée", "note": "過去分詞・女性形" },
+      "mercados": { "lemma": "mercado", "en": "market", "fr": "marché", "note": "複数形" },
+      "fiestas": { "lemma": "fiesta", "en": "festival", "fr": "fête", "note": "複数形" },
+      "corridas": { "lemma": "corrida", "en": "bullfight (corrida de toros)", "fr": "corrida", "note": "複数形" },
+      "toros": { "lemma": "toro", "en": "bull", "fr": "taureau", "note": "複数形" },
+      "venden": { "lemma": "vender", "en": "to sell", "fr": "vendre", "note": "3人称複数・現在（se venden = 売られている）" },
+      "famosos": { "lemma": "famoso", "en": "famous", "fr": "célèbre", "note": "男性複数" },
+      "bocadillos": { "lemma": "bocadillo", "en": "sandwich", "fr": "sandwich", "note": "複数形" },
+      "calamares": { "lemma": "calamar", "en": "squid", "fr": "calamar", "note": "複数形。イカフライのバゲットサンドはマドリード名物" },
+      "padre": { "lemma": "padre", "en": "father", "fr": "père" },
+      "saca": { "lemma": "sacar", "en": "to take (photos)", "fr": "prendre (des photos)", "note": "3人称単数・現在" },
+      "madre": { "lemma": "madre", "en": "mother", "fr": "mère" },
+      "prueba": { "lemma": "probar", "en": "to taste, to try", "fr": "goûter", "note": "3人称単数・現在" },
+      "bocadillo": { "lemma": "bocadillo", "en": "sandwich", "fr": "sandwich" },
+      "oishii": { "lemma": "oishii", "en": "delicious (Japanese)", "fr": "délicieux (japonais)", "note": "日本語「おいしい」" },
+      "aquel": { "lemma": "aquel", "en": "that (over there)", "fr": "ce ... -là" },
+      "edificio": { "lemma": "edificio", "en": "building", "fr": "bâtiment" },
+      "palacio": { "lemma": "palacio", "en": "palace", "fr": "palais" },
+      "real": { "lemma": "real", "en": "royal", "fr": "royal" },
+      "sigue": { "lemma": "seguir", "en": "to go on", "fr": "continuer", "note": "3人称単数・現在" },
+      "construido": { "lemma": "construir", "en": "built", "fr": "construit", "note": "過去分詞・男性形" },
+      "xviii": { "lemma": "XVIII (dieciocho)", "en": "18th", "fr": "XVIIIe", "note": "siglo dieciocho と読む" },
+      "tiene": { "lemma": "tener", "en": "to have", "fr": "avoir" },
+      "habitaciones": { "lemma": "habitación", "en": "room", "fr": "pièce, chambre", "note": "複数形" },
+      "abierto": { "lemma": "abrir", "en": "open", "fr": "ouvert", "note": "過去分詞（estar abierto = 開いている）" },
+      "mira": { "lemma": "mirar", "en": "to look at", "fr": "regarder" },
+      "cartel": { "lemma": "cartel", "en": "sign, poster", "fr": "panneau, affiche" },
+      "cerrado": { "lemma": "cerrar", "en": "closed", "fr": "fermé", "note": "過去分詞" },
+      "visita": { "lemma": "visita", "en": "visit", "fr": "visite" },
+      "oficial": { "lemma": "oficial", "en": "official", "fr": "officiel" },
+      "bueno": { "lemma": "bueno", "en": "well...", "fr": "bon..." },
+      "fuera": { "lemma": "fuera", "en": "outside", "fr": "dehors", "note": "desde fuera = 外から" },
+      "ve": { "lemma": "ver", "en": "to see", "fr": "voir", "note": "se ve = 〜に見える" },
+      "ríen": { "lemma": "reírse", "en": "to laugh", "fr": "rire", "note": "3人称複数・現在" },
+      "lo": { "lemma": "lo", "en": "the (neuter)", "fr": "le", "note": "中性の定冠詞。lo mejor = 最もよいこと" },
+      "mejor": { "lemma": "mejor", "en": "best", "fr": "meilleur" },
+      "viaje": { "lemma": "viaje", "en": "trip", "fr": "voyage" },
+      "cosa": { "lemma": "cosa", "en": "thing", "fr": "chose" },
+      "hija": { "lemma": "hija", "en": "daughter", "fr": "fille" },
+      "habla": { "lemma": "hablar", "en": "to speak", "fr": "parler", "note": "3人称単数・現在" },
+      "español": { "lemma": "español", "en": "Spanish", "fr": "espagnol" }
+    },
+    "quiz": [
+      { "q": "¿Cuándo fue construida la Plaza Mayor?", "options": ["En el siglo XVII", "En el siglo XX", "En el siglo XVIII"], "answer": "En el siglo XVII" },
+      { "q": "¿Qué se vende en la Plaza Mayor?", "options": ["Bocadillos de calamares", "Abanicos", "Sombreros"], "answer": "Bocadillos de calamares" },
+      { "q": "¿Por qué no entran en el Palacio Real?", "options": ["Porque está cerrado", "Porque es muy caro", "Porque hay mucha gente"], "answer": "Porque está cerrado" }
+    ]
+  }
+}

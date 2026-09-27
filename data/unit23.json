@@ -1,0 +1,125 @@
+{
+  "id": 23,
+  "title": "命令法（usted・否定命令）",
+  "explain": {
+    "sections": [
+      {
+        "title": "usted・ustedes・nosotros の命令",
+        "body": "<p><b>接続法現在と同じ形</b>を使う。</p><table><tr><th></th><th>usted</th><th>ustedes</th><th>nosotros（〜しよう）</th></tr><tr><td>hablar</td><td>hable</td><td>hablen</td><td>hablemos</td></tr><tr><td>comer</td><td>coma</td><td>coman</td><td>comamos</td></tr><tr><td>venir</td><td>venga</td><td>vengan</td><td>vengamos</td></tr><tr><td>ir</td><td>vaya</td><td>vayan</td><td><b>vamos</b></td></tr></table><p>vosotros の肯定命令は不定詞の <b>-r → -d</b>：<span class='es'>hablad, comed, venid</span></p>"
+      },
+      {
+        "title": "否定命令：no ＋ 接続法",
+        "body": "<p><b>すべての人称</b>で <b>no ＋ 接続法現在</b>。tú の肯定命令（habla）とは形が違うので注意。</p><table><tr><th></th><th>肯定</th><th>否定</th></tr><tr><td>tú</td><td>habla</td><td>no <b>hables</b></td></tr><tr><td>usted</td><td>hable</td><td>no <b>hable</b></td></tr><tr><td>vosotros</td><td>hablad</td><td>no <b>habléis</b></td></tr><tr><td>ustedes</td><td>hablen</td><td>no <b>hablen</b></td></tr></table>"
+      },
+      {
+        "title": "代名詞の位置",
+        "body": "<ul><li><b>肯定命令</b>：後ろにつなげる（アクセント記号）<br><span class='es'>Siéntese. Dígamelo. Cómanlo.</span></li><li><b>否定命令</b>：no と動詞の間に置く<br><span class='es'>No se siente. No me lo diga. No lo coman.</span></li></ul>"
+      }
+    ],
+    "french": "<ul><li>仏語の vous の命令は直説法と同形（<b>Parlez</b>）だが、西語の usted の命令は<b>接続法</b>（<span class='es'>Hable</span>）。</li><li>否定命令も仏語は命令形のまま（<b>Ne parle pas</b>）、西語は<b>接続法</b>に変わる（<span class='es'>No hables</span>）。</li><li>代名詞の位置は仏語と同じ発想：肯定は後ろ（<b>Dites-le-moi</b> → <span class='es'>Dígamelo</span>）、否定は前（<b>Ne me le dites pas</b> → <span class='es'>No me lo diga</span>）。</li><li><span class='es'>hablemos</span> ＝ <b>parlons</b>、<span class='es'>vamos</span> ＝ <b>allons</b>。</li></ul>",
+    "examples": [
+      { "es": "Pase, por favor, y siéntese.", "en": "Come in, please, and sit down.", "fr": "Entrez, je vous en prie, et asseyez-vous." },
+      { "es": "No hables tan alto, el bebé está durmiendo.", "en": "Don't talk so loudly, the baby is sleeping.", "fr": "Ne parle pas si fort, le bébé dort." },
+      { "es": "Tome la primera calle a la derecha.", "en": "Take the first street on the right.", "fr": "Prenez la première rue à droite." },
+      { "es": "No se preocupe, señora.", "en": "Don't worry, madam.", "fr": "Ne vous inquiétez pas, madame." },
+      { "es": "¡Churro, no toques eso!", "en": "Churro, don't touch that!", "fr": "Churro, ne touche pas à ça !" },
+      { "es": "Niños, no corráis por la casa.", "en": "Children, don't run around the house.", "fr": "Les enfants, ne courez pas dans la maison." },
+      { "es": "¿El secreto? No me lo digas.", "en": "The secret? Don't tell me.", "fr": "Le secret ? Ne me le dis pas." },
+      { "es": "Hablemos en español.", "en": "Let's speak Spanish.", "fr": "Parlons en espagnol." }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "conj", "verb": "hablar", "person": "usted", "tense": "肯定命令", "sentence": "___ más despacio, por favor.", "answer": ["Hable"], "explain": "usted の命令＝接続法：<b>hable</b>。" },
+    { "id": "q02", "type": "conj", "verb": "venir", "person": "ustedes", "tense": "肯定命令", "sentence": "___ conmigo, por favor.", "answer": ["Vengan"], "explain": "ustedes の命令＝接続法：<b>vengan</b>。" },
+    { "id": "q03", "type": "conj", "verb": "hacer", "person": "usted", "tense": "肯定命令", "sentence": "___ el favor de esperar aquí.", "answer": ["Haga"], "explain": "hacer → <b>haga</b>。<span class='es'>Haga el favor de…</span>＝〜してください。" },
+    { "id": "q04", "type": "conj", "verb": "ir", "person": "nosotros", "tense": "肯定命令", "sentence": "¡___ a la playa!", "answer": ["Vamos"], "explain": "ir の nosotros の命令は <b>vamos</b>（vayamos ではない）。" },
+    { "id": "q05", "type": "fill", "prompt": "comer の vosotros の肯定命令を入れよう", "sentence": "Niños, ___ la fruta.", "answer": ["comed"], "explain": "vosotros の肯定命令：不定詞の r → <b>d</b>。" },
+    { "id": "q06", "type": "conj", "verb": "hablar", "person": "tú", "tense": "否定命令", "sentence": "No ___ tan alto.", "answer": ["hables"], "explain": "否定命令は no ＋ <b>接続法</b>：no hables（×no habla）。" },
+    { "id": "q07", "type": "conj", "verb": "tocar", "person": "tú", "tense": "否定命令", "sentence": "¡Churro, no ___ eso!", "answer": ["toques"], "explain": "tocar の接続法：-car → <b>-que</b>：toques。" },
+    { "id": "q08", "type": "conj", "verb": "correr", "person": "vosotros", "tense": "否定命令", "sentence": "No ___ por la casa.", "answer": ["corráis"], "explain": "vosotros の否定命令＝接続法：<b>corráis</b>。" },
+    { "id": "q09", "type": "conj", "verb": "preocuparse", "person": "usted", "tense": "否定命令", "sentence": "No ___, señora.", "answer": ["se preocupe"], "explain": "否定命令では代名詞は動詞の前：<b>no se preocupe</b>。" },
+    { "id": "q10", "type": "conj", "verb": "decir", "person": "tú", "tense": "否定命令", "sentence": "No ___ nada a Lucía.", "answer": ["digas"], "explain": "decir の接続法：<b>digas</b>（肯定命令 di とは違う）。" },
+    { "id": "q11", "type": "conj", "verb": "ir", "person": "ustedes", "tense": "否定命令", "sentence": "No ___ por esa calle.", "answer": ["vayan"], "explain": "ir の接続法：<b>vayan</b>。" },
+    { "id": "q12", "type": "choice", "prompt": "usted の肯定命令（sentarse）", "sentence": "Pase y ___.", "options": ["siéntese", "se siente", "siéntate"], "answer": "siéntese", "explain": "siente ＋ se を1語に：<b>siéntese</b>。siéntate は tú。" },
+    { "id": "q13", "type": "choice", "prompt": "「それを私に言わないで」（tú）", "sentence": "¿El secreto? No ___.", "options": ["me lo digas", "dímelo", "me lo dices"], "answer": "me lo digas", "explain": "否定命令は <b>no ＋ 代名詞 ＋ 接続法</b>。" },
+    { "id": "q14", "type": "choice", "prompt": "usted の肯定命令（tomar）", "sentence": "___ la primera calle a la derecha.", "options": ["Tome", "Toma", "Tomes"], "answer": "Tome", "explain": "usted → 接続法 <b>tome</b>。toma は tú。" },
+    { "id": "q15", "type": "choice", "prompt": "「〜しよう」（nosotros）", "sentence": "___ en español.", "options": ["Hablemos", "Hablamos", "Hablad"], "answer": "Hablemos", "explain": "nosotros の命令＝接続法：<b>hablemos</b>。" },
+    { "id": "q16", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["No", "me", "lo", "digas"], "answer": ["No me lo digas"], "en": "Don't tell me.", "fr": "Ne me le dis pas.", "explain": "no ＋ 間接 ＋ 直接 ＋ 接続法。" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Pase", "y", "siéntese", "por", "favor"], "answer": ["Pase y siéntese por favor", "Pase por favor y siéntese"], "en": "Come in and sit down, please.", "fr": "Entrez et asseyez-vous, je vous en prie.", "explain": "usted の肯定命令。代名詞は後ろにつなげる。" },
+    { "id": "q18", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["No", "se", "preocupe", "señora"], "answer": ["No se preocupe señora"], "en": "Don't worry, madam.", "fr": "Ne vous inquiétez pas, madame.", "explain": "否定命令は代名詞が前。" }
+  ],
+  "reading": {
+    "title": "Gazpacho con Churro",
+    "sentences": [
+      { "p": true, "es": "Lucía ha abierto un canal de cocina en internet. La estrella es la abuela Carmen.", "en": "Lucía has started an online cooking channel. The star is Grandma Carmen.", "fr": "Lucía a créé une chaîne de cuisine sur internet. La star, c'est grand-mère Carmen." },
+      { "es": "Hoy graban la receta del gazpacho. Yuki sostiene el móvil y Diego ayuda.", "en": "Today they're filming the gazpacho recipe. Yuki holds the phone and Diego helps.", "fr": "Aujourd'hui, ils filment la recette du gazpacho. Yuki tient le portable et Diego aide." },
+      { "p": true, "es": "—Buenas tardes. Primero, lave bien los tomates, el pepino y el pimiento.", "en": "\"Good afternoon. First, wash the tomatoes, the cucumber and the pepper well.\"", "fr": "« Bonjour. D'abord, lavez bien les tomates, le concombre et le poivron." },
+      { "es": "Córtelos en trozos y póngalos en la batidora con un poco de pan, ajo, aceite y sal.", "en": "\"Cut them into pieces and put them in the blender with a little bread, garlic, oil and salt.\"", "fr": "Coupez-les en morceaux et mettez-les dans le mixeur avec un peu de pain, d'ail, d'huile et de sel." },
+      { "es": "No ponga mucho ajo: el gazpacho no debe ser más fuerte que usted.", "en": "\"Don't put in too much garlic: the gazpacho shouldn't be stronger than you.\"", "fr": "Ne mettez pas trop d'ail : le gazpacho ne doit pas être plus fort que vous. »" },
+      { "p": true, "es": "En ese momento, Churro salta a la mesa.", "en": "At that moment, Churro jumps onto the table.", "fr": "À ce moment-là, Churro saute sur la table." },
+      { "es": "—¡Churro, no toques el pepino! ¡No te acerques a la batidora!", "en": "\"Churro, don't touch the cucumber! Don't go near the blender!\"", "fr": "« Churro, ne touche pas au concombre ! Ne t'approche pas du mixeur ! »" },
+      { "es": "—Yuki, no dejes de grabar —dice Lucía—. ¡Esto es oro!", "en": "\"Yuki, don't stop filming,\" says Lucía. \"This is gold!\"", "fr": "« Yuki, n'arrête pas de filmer, dit Lucía. C'est de l'or ! »" },
+      { "es": "La abuela sigue, muy tranquila:", "en": "Grandma carries on, very calm:", "fr": "La grand-mère continue, très calme :" },
+      { "es": "—Y por último, métanlo en la nevera dos horas y sírvanlo muy frío. ¡Y no se lo den al gato!", "en": "\"And finally, put it in the fridge for two hours and serve it very cold. And don't give it to the cat!\"", "fr": "« Et enfin, mettez-le au frigo pendant deux heures et servez-le bien frais. Et ne le donnez pas au chat ! »" },
+      { "p": true, "es": "Una semana después, el vídeo tiene cincuenta mil visitas.", "en": "A week later, the video has fifty thousand views.", "fr": "Une semaine plus tard, la vidéo a cinquante mille vues." },
+      { "es": "Casi todas son por Churro.", "en": "Almost all of them are because of Churro.", "fr": "Presque toutes grâce à Churro." }
+    ],
+    "glossary": {
+      "gazpacho": { "lemma": "gazpacho", "en": "gazpacho (cold soup)", "fr": "gaspacho", "note": "アンダルシアの冷たいトマトスープ" },
+      "ha": { "lemma": "haber", "en": "has (auxiliary)", "fr": "a (auxiliaire)" },
+      "abierto": { "lemma": "abrir", "en": "opened, started", "fr": "ouvert, créé", "note": "過去分詞（不規則）" },
+      "canal": { "lemma": "canal", "en": "channel", "fr": "chaîne" },
+      "internet": { "lemma": "internet", "en": "internet", "fr": "internet" },
+      "estrella": { "lemma": "estrella", "en": "star", "fr": "star, étoile" },
+      "graban": { "lemma": "grabar", "en": "to record, to film", "fr": "filmer, enregistrer", "note": "3人称複数・現在" },
+      "receta": { "lemma": "receta", "en": "recipe", "fr": "recette" },
+      "sostiene": { "lemma": "sostener", "en": "to hold", "fr": "tenir", "note": "3人称単数・現在（tener と同じ活用）" },
+      "móvil": { "lemma": "móvil", "en": "mobile phone", "fr": "portable" },
+      "ayuda": { "lemma": "ayudar", "en": "to help", "fr": "aider", "note": "3人称単数・現在" },
+      "buenas": { "lemma": "bueno", "en": "good", "fr": "bon", "note": "Buenas tardes = こんにちは" },
+      "primero": { "lemma": "primero", "en": "first", "fr": "d'abord" },
+      "lave": { "lemma": "lavar", "en": "to wash", "fr": "laver", "note": "usted の肯定命令" },
+      "tomates": { "lemma": "tomate", "en": "tomato", "fr": "tomate", "note": "複数形" },
+      "pepino": { "lemma": "pepino", "en": "cucumber", "fr": "concombre" },
+      "pimiento": { "lemma": "pimiento", "en": "pepper", "fr": "poivron" },
+      "córtelos": { "lemma": "cortar", "en": "to cut", "fr": "couper", "note": "usted の肯定命令 corte ＋ los" },
+      "trozos": { "lemma": "trozo", "en": "piece", "fr": "morceau", "note": "複数形" },
+      "póngalos": { "lemma": "poner", "en": "to put", "fr": "mettre", "note": "usted の肯定命令 ponga ＋ los" },
+      "batidora": { "lemma": "batidora", "en": "blender", "fr": "mixeur" },
+      "pan": { "lemma": "pan", "en": "bread", "fr": "pain" },
+      "ajo": { "lemma": "ajo", "en": "garlic", "fr": "ail" },
+      "aceite": { "lemma": "aceite", "en": "oil", "fr": "huile", "note": "スペイン料理はオリーブオイル（aceite de oliva）" },
+      "sal": { "lemma": "sal", "en": "salt", "fr": "sel", "note": "女性名詞。salir の命令形 sal と同じ綴り" },
+      "ponga": { "lemma": "poner", "en": "to put", "fr": "mettre", "note": "usted の命令（接続法）" },
+      "debe": { "lemma": "deber", "en": "must, should", "fr": "devoir", "note": "3人称単数・現在" },
+      "fuerte": { "lemma": "fuerte", "en": "strong", "fr": "fort" },
+      "momento": { "lemma": "momento", "en": "moment", "fr": "moment" },
+      "salta": { "lemma": "saltar", "en": "to jump", "fr": "sauter", "note": "3人称単数・現在" },
+      "toques": { "lemma": "tocar", "en": "to touch", "fr": "toucher", "note": "tú の否定命令（接続法）" },
+      "acerques": { "lemma": "acercarse", "en": "to approach, to go near", "fr": "s'approcher", "note": "tú の否定命令（接続法）" },
+      "dejes": { "lemma": "dejar", "en": "to stop (dejar de)", "fr": "arrêter de", "note": "tú の否定命令。dejar de + 不定詞 = 〜するのをやめる" },
+      "grabar": { "lemma": "grabar", "en": "to film, to record", "fr": "filmer" },
+      "oro": { "lemma": "oro", "en": "gold", "fr": "or" },
+      "sigue": { "lemma": "seguir", "en": "to carry on", "fr": "continuer", "note": "3人称単数・現在（e → i）" },
+      "tranquila": { "lemma": "tranquilo", "en": "calm", "fr": "calme", "note": "女性形" },
+      "último": { "lemma": "último", "en": "last", "fr": "dernier", "note": "por último = 最後に" },
+      "métanlo": { "lemma": "meter", "en": "to put in", "fr": "mettre (dans)", "note": "ustedes の肯定命令 metan ＋ lo" },
+      "nevera": { "lemma": "nevera", "en": "fridge", "fr": "frigo" },
+      "horas": { "lemma": "hora", "en": "hour", "fr": "heure", "note": "複数形" },
+      "sírvanlo": { "lemma": "servir", "en": "to serve", "fr": "servir", "note": "ustedes の肯定命令 sirvan ＋ lo" },
+      "frío": { "lemma": "frío", "en": "cold", "fr": "froid, frais" },
+      "den": { "lemma": "dar", "en": "to give", "fr": "donner", "note": "ustedes の否定命令（接続法）" },
+      "semana": { "lemma": "semana", "en": "week", "fr": "semaine" },
+      "vídeo": { "lemma": "vídeo", "en": "video", "fr": "vidéo" },
+      "cincuenta": { "lemma": "cincuenta", "en": "fifty", "fr": "cinquante" },
+      "mil": { "lemma": "mil", "en": "thousand", "fr": "mille" },
+      "visitas": { "lemma": "visita", "en": "view, visit", "fr": "vue, visite", "note": "複数形" },
+      "casi": { "lemma": "casi", "en": "almost", "fr": "presque" }
+    },
+    "quiz": [
+      { "q": "¿Quién es la estrella del canal?", "options": ["La abuela Carmen", "Lucía", "Diego"], "answer": "La abuela Carmen" },
+      { "q": "Según la abuela, ¿qué no hay que poner mucho?", "options": ["Ajo", "Sal", "Pan"], "answer": "Ajo" },
+      { "q": "¿Por qué tiene el vídeo tantas visitas?", "options": ["Por Churro", "Por la receta", "Por Diego"], "answer": "Por Churro" }
+    ]
+  }
+}

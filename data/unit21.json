@@ -1,0 +1,124 @@
+{
+  "id": 21,
+  "title": "接続法現在の活用",
+  "explain": {
+    "sections": [
+      {
+        "title": "規則動詞：母音を入れ替える",
+        "body": "<p>直説法現在の <b>yo の形</b>から -o を取り、<b>-ar は e</b>、<b>-er / -ir は a</b> の語尾をつける。</p><table><tr><th></th><th>hablar</th><th>comer</th><th>vivir</th></tr><tr><td>yo</td><td>habl<b>e</b></td><td>com<b>a</b></td><td>viv<b>a</b></td></tr><tr><td>tú</td><td>habl<b>es</b></td><td>com<b>as</b></td><td>viv<b>as</b></td></tr><tr><td>él / usted</td><td>habl<b>e</b></td><td>com<b>a</b></td><td>viv<b>a</b></td></tr><tr><td>nosotros</td><td>habl<b>emos</b></td><td>com<b>amos</b></td><td>viv<b>amos</b></td></tr><tr><td>vosotros</td><td>habl<b>éis</b></td><td>com<b>áis</b></td><td>viv<b>áis</b></td></tr><tr><td>ellos / ustedes</td><td>habl<b>en</b></td><td>com<b>an</b></td><td>viv<b>an</b></td></tr></table><p>綴りの調整：buscar → bus<b>que</b>、llegar → lle<b>gue</b>、empezar → empie<b>ce</b></p>"
+      },
+      {
+        "title": "yo の不規則形がそのまま語幹になる",
+        "body": "<table><tr><td>tengo → <b>tenga</b></td><td>hago → <b>haga</b></td><td>salgo → <b>salga</b></td></tr><tr><td>pongo → <b>ponga</b></td><td>digo → <b>diga</b></td><td>vengo → <b>venga</b></td></tr><tr><td>conozco → <b>conozca</b></td><td>traigo → <b>traiga</b></td><td>veo → <b>vea</b></td></tr></table><p>語幹母音変化：-ar・-er は直説法と同じ長靴型（<span class='es'>quiera … queramos</span>）。<b>-ir は nosotros・vosotros も変わる</b>：<span class='es'>pida, pidamos</span>／<span class='es'>duerma, durmamos</span>／<span class='es'>sienta, sintamos</span></p>"
+      },
+      {
+        "title": "完全不規則の6つ ＋ ojalá",
+        "body": "<table><tr><td>ser → <b>sea</b></td><td>estar → <b>esté</b></td><td>ir → <b>vaya</b></td></tr><tr><td>haber → <b>haya</b></td><td>saber → <b>sepa</b></td><td>dar → <b>dé</b></td></tr></table><p><b>ojalá ＋ 接続法</b>：「〜しますように」<span class='es'>Ojalá haga sol mañana.</span></p><p><b>que ＋ 接続法</b>：あいさつの願い <span class='es'>¡Que tengas buen viaje!</span>　使い方の詳細はユニット22。</p>"
+      }
+    ],
+    "french": "<ul><li>接続法は仏語の<b>接続法</b>（subjonctif）と同じ役割。</li><li>作り方の出発点が違う：仏語は3人称複数（ils parl<b>ent</b> → que je parle）、西語は<b>1人称単数</b>（hab<b>lo</b> → hable、<b>tengo</b> → tenga）。</li><li>不規則形は語源が共通で似ている：<span class='es'>sea</span>（sois）、<span class='es'>vaya</span>（aille）、<span class='es'>sepa</span>（sache）、<span class='es'>haya</span>（aie）、<span class='es'>pueda</span>（puisse）、<span class='es'>haga</span>（fasse）、<span class='es'>quiera</span>（veuille）。</li><li><span class='es'>Ojalá</span>（アラビア語起源）＋接続法は、仏語の <b>Pourvu que</b> ＋ subjonctif。</li></ul>",
+    "examples": [
+      { "es": "Ojalá haga buen tiempo mañana.", "en": "I hope the weather is nice tomorrow.", "fr": "Pourvu qu'il fasse beau demain." },
+      { "es": "Ojalá Diego venga a la fiesta.", "en": "I hope Diego comes to the party.", "fr": "Pourvu que Diego vienne à la fête." },
+      { "es": "Quiero que hables más despacio.", "en": "I want you to speak more slowly.", "fr": "Je veux que tu parles plus lentement." },
+      { "es": "Ojalá aprobemos el examen.", "en": "I hope we pass the exam.", "fr": "Pourvu que nous réussissions l'examen." },
+      { "es": "Ojalá no llueva el sábado.", "en": "Let's hope it doesn't rain on Saturday.", "fr": "Pourvu qu'il ne pleuve pas samedi." },
+      { "es": "Mis padres quieren que vuelva a Japón.", "en": "My parents want me to go back to Japan.", "fr": "Mes parents veulent que je rentre au Japon." },
+      { "es": "Ojalá sea verdad.", "en": "I hope it's true.", "fr": "Pourvu que ce soit vrai." },
+      { "es": "¡Que tengas buen viaje!", "en": "Have a good trip!", "fr": "Bon voyage !" }
+    ]
+  },
+  "drill": [
+    { "id": "q01", "type": "conj", "verb": "hablar", "person": "yo", "tense": "接続法現在", "sentence": "Ojalá ___ bien en la entrevista.", "answer": ["hable"], "explain": "-ar → <b>e</b>：hable。" },
+    { "id": "q02", "type": "conj", "verb": "comer", "person": "tú", "tense": "接続法現在", "sentence": "Quiero que ___ más verdura.", "answer": ["comas"], "explain": "-er → <b>a</b>：comas。" },
+    { "id": "q03", "type": "conj", "verb": "vivir", "person": "él", "tense": "接続法現在", "sentence": "Ojalá Diego ___ cerca de aquí.", "answer": ["viva"], "explain": "-ir → <b>a</b>：viva。" },
+    { "id": "q04", "type": "conj", "verb": "tener", "person": "nosotros", "tense": "接続法現在", "sentence": "Ojalá ___ suerte.", "answer": ["tengamos"], "explain": "yo の形 tengo → <b>teng</b>-：tengamos。" },
+    { "id": "q05", "type": "conj", "verb": "hacer", "person": "él", "tense": "接続法現在", "sentence": "Ojalá ___ sol mañana.", "answer": ["haga"], "explain": "hago → <b>haga</b>。天候の hacer は3人称単数。" },
+    { "id": "q06", "type": "conj", "verb": "venir", "person": "vosotros", "tense": "接続法現在", "sentence": "Quiero que ___ a mi fiesta.", "answer": ["vengáis"], "explain": "vengo → <b>veng</b>-：vengáis。" },
+    { "id": "q07", "type": "conj", "verb": "ser", "person": "él", "tense": "接続法現在", "sentence": "Ojalá ___ verdad.", "answer": ["sea"], "explain": "ser の接続法は <b>sea</b>（完全不規則）。" },
+    { "id": "q08", "type": "conj", "verb": "ir", "person": "tú", "tense": "接続法現在", "sentence": "Mi madre no quiere que ___ sola.", "answer": ["vayas"], "explain": "ir の接続法は <b>vaya</b>, vayas…（完全不規則）。" },
+    { "id": "q09", "type": "conj", "verb": "pedir", "person": "nosotros", "tense": "接続法現在", "sentence": "Ojalá ___ una paella para todos.", "answer": ["pidamos"], "explain": "-ir の語幹母音変化は nosotros も <b>i</b>：pidamos。" },
+    { "id": "q10", "type": "conj", "verb": "dormir", "person": "vosotros", "tense": "接続法現在", "sentence": "Ojalá ___ bien esta noche.", "answer": ["durmáis"], "explain": "dormir は nosotros・vosotros で <b>u</b>：durmáis。" },
+    { "id": "q11", "type": "conj", "verb": "llegar", "person": "él", "tense": "接続法現在", "sentence": "Ojalá el tren ___ a tiempo.", "answer": ["llegue"], "explain": "-gar → <b>-gue</b>：llegue（g の音を保つ）。" },
+    { "id": "q12", "type": "conj", "verb": "saber", "person": "yo", "tense": "接続法現在", "sentence": "Ojalá ___ la respuesta.", "answer": ["sepa"], "explain": "saber の接続法は <b>sepa</b>（完全不規則）。" },
+    { "id": "q13", "type": "choice", "prompt": "正しい形を選ぼう", "sentence": "Ojalá ___ buen tiempo.", "options": ["haga", "hace", "hará"], "answer": "haga", "explain": "<b>ojalá</b> の後は接続法。" },
+    { "id": "q14", "type": "choice", "prompt": "estar の接続法", "sentence": "Ojalá Lucía ___ en casa.", "options": ["esté", "está", "este"], "answer": "esté", "explain": "estar の接続法は <b>esté</b>（アクセント記号つき。este は「この」）。" },
+    { "id": "q15", "type": "choice", "prompt": "dar の接続法", "sentence": "Ojalá me ___ el trabajo.", "options": ["dé", "de", "da"], "answer": "dé", "explain": "dar の接続法は <b>dé</b>（前置詞 de と区別するアクセント記号）。" },
+    { "id": "q16", "type": "fill", "prompt": "buscar（yo）の接続法を入れよう", "sentence": "Mis padres quieren que ___ un piso más grande.", "answer": ["busque"], "explain": "-car → <b>-que</b>：busque。" },
+    { "id": "q17", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Ojalá", "venga", "Diego", "a", "la", "fiesta"], "answer": ["Ojalá venga Diego a la fiesta", "Ojalá Diego venga a la fiesta"], "en": "I hope Diego comes to the party.", "fr": "Pourvu que Diego vienne à la fête.", "explain": "ojalá ＋ 接続法（venga）。" },
+    { "id": "q18", "type": "order", "prompt": "並べ替えて文を作ろう", "words": ["Quiero", "que", "hables", "más", "despacio"], "answer": ["Quiero que hables más despacio"], "en": "I want you to speak more slowly.", "fr": "Je veux que tu parles plus lentement.", "explain": "querer que ＋ 接続法。" }
+  ],
+  "reading": {
+    "title": "La fuente de los deseos",
+    "sentences": [
+      { "p": true, "es": "En el parque del Retiro hay una fuente pequeña.", "en": "In Retiro Park there's a small fountain.", "fr": "Dans le parc du Retiro, il y a une petite fontaine." },
+      { "es": "Según Lucía, si tiras una moneda y pides un deseo, el deseo se cumple.", "en": "According to Lucía, if you throw in a coin and make a wish, the wish comes true.", "fr": "Selon Lucía, si tu jettes une pièce et que tu fais un vœu, le vœu se réalise." },
+      { "es": "—Es verdad. Lo dice mi abuela —explica.", "en": "\"It's true. My grandma says so,\" she explains.", "fr": "« C'est vrai. C'est ma grand-mère qui le dit », explique-t-elle." },
+      { "p": true, "es": "Diego tira la primera moneda.", "en": "Diego throws the first coin.", "fr": "Diego lance la première pièce." },
+      { "es": "—Ojalá el Barça gane la liga... y ojalá mi madre no me llame todos los días.", "en": "\"I hope Barça wins the league... and I hope my mom doesn't call me every day.\"", "fr": "« Pourvu que le Barça gagne le championnat... et pourvu que ma mère ne m'appelle pas tous les jours. »" },
+      { "es": "Lucía cierra los ojos.", "en": "Lucía closes her eyes.", "fr": "Lucía ferme les yeux." },
+      { "es": "—Ojalá encuentre un piso con terraza. Y ojalá la abuela viva cien años.", "en": "\"I hope I find a flat with a terrace. And I hope Grandma lives to a hundred.\"", "fr": "« Pourvu que je trouve un appartement avec terrasse. Et pourvu que la grand-mère vive cent ans. »" },
+      { "p": true, "es": "Yuki piensa mucho. Tiene muchos deseos, pero solo una moneda.", "en": "Yuki thinks hard. She has lots of wishes, but only one coin.", "fr": "Yuki réfléchit longtemps. Elle a beaucoup de vœux, mais une seule pièce." },
+      { "es": "—Ojalá apruebe el examen de junio. Ojalá mis padres puedan venir a Madrid. Ojalá...", "en": "\"I hope I pass the June exam. I hope my parents can come to Madrid. I hope...\"", "fr": "« Pourvu que je réussisse l'examen de juin. Pourvu que mes parents puissent venir à Madrid. Pourvu que... »" },
+      { "es": "—¡Yuki! Es una moneda, no una lista —ríe Lucía.", "en": "\"Yuki! It's a coin, not a list!\" laughs Lucía.", "fr": "« Yuki ! C'est une pièce, pas une liste ! » rit Lucía." },
+      { "es": "Al final, Yuki pide un solo deseo, en voz baja: «Ojalá sigamos juntos mucho tiempo».", "en": "In the end, Yuki makes just one wish, quietly: \"I hope we stay together for a long time.\"", "fr": "Finalement, Yuki fait un seul vœu, à voix basse : « Pourvu que nous restions ensemble longtemps. »" },
+      { "p": true, "es": "En casa, Churro también tiene un deseo: que alguien abra la nevera.", "en": "At home, Churro has a wish too: that someone opens the fridge.", "fr": "À la maison, Churro aussi a un vœu : que quelqu'un ouvre le frigo." }
+    ],
+    "glossary": {
+      "fuente": { "lemma": "fuente", "en": "fountain", "fr": "fontaine" },
+      "deseos": { "lemma": "deseo", "en": "wish", "fr": "vœu, souhait", "note": "複数形" },
+      "parque": { "lemma": "parque", "en": "park", "fr": "parc" },
+      "retiro": { "lemma": "Retiro", "en": "Retiro (park)", "fr": "Retiro (parc)", "note": "マドリード中心の大きな公園" },
+      "pequeña": { "lemma": "pequeño", "en": "small", "fr": "petit", "note": "女性形" },
+      "según": { "lemma": "según", "en": "according to", "fr": "selon" },
+      "tiras": { "lemma": "tirar", "en": "to throw", "fr": "jeter, lancer", "note": "2人称単数・現在（一般的な「君」）" },
+      "moneda": { "lemma": "moneda", "en": "coin", "fr": "pièce (de monnaie)" },
+      "pides": { "lemma": "pedir", "en": "to ask for", "fr": "demander", "note": "2人称単数・現在。pedir un deseo = 願い事をする" },
+      "deseo": { "lemma": "deseo", "en": "wish", "fr": "vœu" },
+      "cumple": { "lemma": "cumplirse", "en": "to come true", "fr": "se réaliser", "note": "3人称単数・現在" },
+      "verdad": { "lemma": "verdad", "en": "truth", "fr": "vérité", "note": "Es verdad = 本当だ" },
+      "explica": { "lemma": "explicar", "en": "to explain", "fr": "expliquer", "note": "3人称単数・現在" },
+      "tira": { "lemma": "tirar", "en": "to throw", "fr": "lancer", "note": "3人称単数・現在" },
+      "primera": { "lemma": "primero", "en": "first", "fr": "premier", "note": "女性形" },
+      "ojalá": { "lemma": "ojalá", "en": "I hope, if only", "fr": "pourvu que", "note": "後ろは接続法。アラビア語「神が望めば」から" },
+      "barça": { "lemma": "Barça", "en": "Barça", "fr": "le Barça" },
+      "gane": { "lemma": "ganar", "en": "to win", "fr": "gagner", "note": "3人称単数・接続法現在" },
+      "liga": { "lemma": "liga", "en": "league", "fr": "championnat" },
+      "madre": { "lemma": "madre", "en": "mother", "fr": "mère" },
+      "llame": { "lemma": "llamar", "en": "to call", "fr": "appeler", "note": "3人称単数・接続法現在" },
+      "días": { "lemma": "día", "en": "day", "fr": "jour", "note": "todos los días = 毎日" },
+      "cierra": { "lemma": "cerrar", "en": "to close", "fr": "fermer", "note": "3人称単数・現在" },
+      "ojos": { "lemma": "ojo", "en": "eye", "fr": "œil", "note": "複数形" },
+      "encuentre": { "lemma": "encontrar", "en": "to find", "fr": "trouver", "note": "1人称単数・接続法現在（o → ue）" },
+      "terraza": { "lemma": "terraza", "en": "terrace", "fr": "terrasse" },
+      "viva": { "lemma": "vivir", "en": "to live", "fr": "vivre", "note": "3人称単数・接続法現在" },
+      "cien": { "lemma": "cien", "en": "a hundred", "fr": "cent" },
+      "piensa": { "lemma": "pensar", "en": "to think", "fr": "penser, réfléchir", "note": "3人称単数・現在" },
+      "tiene": { "lemma": "tener", "en": "to have", "fr": "avoir", "note": "3人称単数・現在" },
+      "solo": { "lemma": "solo", "en": "only; single", "fr": "seulement ; seul" },
+      "apruebe": { "lemma": "aprobar", "en": "to pass (an exam)", "fr": "réussir (un examen)", "note": "1人称単数・接続法現在（o → ue）" },
+      "examen": { "lemma": "examen", "en": "exam", "fr": "examen" },
+      "junio": { "lemma": "junio", "en": "June", "fr": "juin" },
+      "padres": { "lemma": "padre", "en": "parents", "fr": "parents", "note": "複数形で「両親」" },
+      "puedan": { "lemma": "poder", "en": "can", "fr": "pouvoir", "note": "3人称複数・接続法現在" },
+      "venir": { "lemma": "venir", "en": "to come", "fr": "venir" },
+      "lista": { "lemma": "lista", "en": "list", "fr": "liste" },
+      "ríe": { "lemma": "reír", "en": "to laugh", "fr": "rire", "note": "3人称単数・現在" },
+      "final": { "lemma": "final", "en": "end", "fr": "fin", "note": "al final = 結局" },
+      "pide": { "lemma": "pedir", "en": "to ask for", "fr": "demander", "note": "3人称単数・現在" },
+      "voz": { "lemma": "voz", "en": "voice", "fr": "voix", "note": "en voz baja = 小声で" },
+      "baja": { "lemma": "bajo", "en": "low", "fr": "bas", "note": "女性形" },
+      "sigamos": { "lemma": "seguir", "en": "to continue, to stay", "fr": "continuer, rester", "note": "1人称複数・接続法現在（e → i）" },
+      "juntos": { "lemma": "junto", "en": "together", "fr": "ensemble", "note": "男性複数" },
+      "tiempo": { "lemma": "tiempo", "en": "time", "fr": "temps" },
+      "alguien": { "lemma": "alguien", "en": "someone", "fr": "quelqu'un" },
+      "abra": { "lemma": "abrir", "en": "to open", "fr": "ouvrir", "note": "3人称単数・接続法現在" },
+      "nevera": { "lemma": "nevera", "en": "fridge", "fr": "frigo" }
+    },
+    "quiz": [
+      { "q": "¿Qué desea Diego?", "options": ["Que el Barça gane la liga", "Encontrar un piso", "Aprobar el examen"], "answer": "Que el Barça gane la liga" },
+      { "q": "¿Qué desea Lucía para su abuela?", "options": ["Que viva cien años", "Que venga a Madrid", "Que abra la nevera"], "answer": "Que viva cien años" },
+      { "q": "¿Cuántos deseos pide Yuki al final?", "options": ["Uno", "Tres", "Ninguno"], "answer": "Uno" }
+    ]
+  }
+}

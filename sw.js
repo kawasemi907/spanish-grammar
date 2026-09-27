@@ -1,7 +1,7 @@
 // Service Worker：ネットワーク優先（最新データを取得）、オフライン時はキャッシュを使う。
 // ユニットを追加したら CACHE の番号を上げ、PRECACHE に data/unitNN.json を足すこと。
 // GitHub Pages は max-age=600 を返すので、ブラウザのHTTPキャッシュを通さず必ずサーバーに確認する。
-const CACHE = 'esp4-v5';
+const CACHE = 'esp4-v6';
 const PRECACHE = [
   './',
   'index.html',
@@ -34,6 +34,11 @@ const PRECACHE = [
   'data/unit18.json',
   'data/unit19.json',
   'data/unit20.json',
+  'data/unit21.json',
+  'data/unit22.json',
+  'data/unit23.json',
+  'data/unit24.json',
+  'data/unit25.json',
 ];
 const TIMEOUT_MS = 4000;
 

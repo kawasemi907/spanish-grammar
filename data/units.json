@@ -103,27 +103,27 @@
   {
    "id": 21,
    "title": "接続法現在の活用",
-   "available": false
+   "available": true
   },
   {
    "id": 22,
    "title": "接続法の用法",
-   "available": false
+   "available": true
   },
   {
    "id": 23,
    "title": "命令法（usted・否定命令）",
-   "available": false
+   "available": true
   },
   {
    "id": 24,
    "title": "受身",
-   "available": false
+   "available": true
   },
   {
    "id": 25,
    "title": "関係詞と大きな数字（100万まで）",
-   "available": false
+   "available": true
   }
  ]
 }

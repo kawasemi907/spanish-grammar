@@ -984,5 +984,58 @@
   "en": "Guadalajara",
   "fr": "Guadalajara",
   "note": "Diegoの故郷（メキシコ）"
+ },
+ "solo": {
+  "lemma": "solo",
+  "en": "only; alone",
+  "fr": "seulement ; seul"
+ },
+ "ser": {
+  "lemma": "ser",
+  "en": "to be",
+  "fr": "être",
+  "note": "本質・性質の「〜である」"
+ },
+ "estar": {
+  "lemma": "estar",
+  "en": "to be",
+  "fr": "être",
+  "note": "所在・状態の「〜である」"
+ },
+ "mil": {
+  "lemma": "mil",
+  "en": "thousand",
+  "fr": "mille",
+  "note": "複数形にしない：tres mil"
+ },
+ "cien": {
+  "lemma": "cien",
+  "en": "a hundred",
+  "fr": "cent"
+ },
+ "hacer": {
+  "lemma": "hacer",
+  "en": "to do, to make",
+  "fr": "faire"
+ },
+ "tener": {
+  "lemma": "tener",
+  "en": "to have",
+  "fr": "avoir"
+ },
+ "ir": {
+  "lemma": "ir",
+  "en": "to go",
+  "fr": "aller"
+ },
+ "ver": {
+  "lemma": "ver",
+  "en": "to see",
+  "fr": "voir"
+ },
+ "decir": {
+  "lemma": "decir",
+  "en": "to say",
+  "fr": "dire"
  }
 }
